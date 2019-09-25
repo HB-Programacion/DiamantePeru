@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
     return(
-        <div className="mt-5">
+        <div className="mt-4">
             <footer className=" bd-top bd-bottom">
-                <form className="mt-4 mb-4 center">
+                <form className="mt-4 mb-4 center h198px">
                     <label className="text-size14 spacing3"><strong>SUSCRIBETE A NUESTRO BOLETIN</strong></label>
                     <div>
                         <input className="w25" type="email" placeholder="correo electronico"/>
@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                 </form>
             </footer>
-            <div className="mt-4 mb-4 center text-size12">
+            <div className="mt-2 mb-2 center text-size12">
             &copy; 2019 DIAMANTE PERU
             </div>
         </div>

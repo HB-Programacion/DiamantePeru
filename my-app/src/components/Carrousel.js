@@ -14,10 +14,10 @@ const Carrousel = () => {
     
 <div id="carousel-with-lb" className="carousel slide carousel-multi-item" data-ride="carousel">
 
-  <div className="controls-top center m-5">
+  <div className="controls-top center mt-5 mb-3">
     <a className="btn-floating color-black" href="#carousel-with-lb" data-slide="prev"><i
         className="fas fa-chevron-left"></i></a>
-        <label classNameName="pl-4 pr-4 spacing4 text-size14" >SORTIJAS</label>
+        <label classNameName="pl-4 pr-4 spacing4 text-size27" >SORTIJAS</label>
     <a className="btn-floating color-black" href="#carousel-with-lb" data-slide="next"><i
         className="fas fa-chevron-right"></i></a>
   </div>

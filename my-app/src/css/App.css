@@ -6,12 +6,6 @@ body{
     font-family: 'GeosansLight';
     font-size: 20px;
 }
-.spacing4{
-    letter-spacing: 4px;
-}
-.spacing3{
-    letter-spacing: 3px
-}
 @font-face {
     font-family: 'GeosansLight';
     font-style: normal;
@@ -20,13 +14,36 @@ body{
 }
 nav{
     font-family: 'Raleway-Bold';
-    font-size: 9px;
+    font-size: 12px;
+}
+.tab{
+    font-family: 'Raleway-Bold';
 }
 @font-face {
     font-family:'Raleway-Bold';
     font-style: normal;
     font-weight: normal;
     src: local('../fonts/Raleway-Bold_0.ttf'), url('../fonts/Raleway-Bold_0.ttf') format('woff');
+}
+header{
+    font-family: 'Raleway-Light';
+    font-size: 13px
+}
+@font-face {
+    font-family:'Raleway-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../fonts/Raleway-Light_0.ttf'), url('../fonts/Raleway-Light_0.ttf') format('woff');
+}
+label{
+    margin-left: 1em;
+    margin-right: 1em
+}
+.flex{
+    display: flex
+}
+.between{
+    justify-content: space-between
 }
 .center{
     text-align: center;
@@ -35,8 +52,8 @@ nav{
     display: flex;
     justify-content: flex-end
 }
-.w5{
-    width: 5%;
+.w40{
+    width: 40%;
 }
 .w30{
     width: 30%
@@ -46,6 +63,12 @@ nav{
 }
 .w25{
     width: 25%
+}
+.h13px{
+    height: 13px;
+}
+.h120px{
+    height: 120px;
 }
 .black{
     background-color: black
@@ -71,13 +94,13 @@ nav{
 .fndo-img1{
     background-image: url("../img/Fondo-Diamantes.png");
     background-repeat: no-repeat;
-    height:300px;
+    height:348px;
     background-size: 150% 106%;
 }
 .fndo-img2{
     background-image: url("../img/INTERIOR01.jpg");
     background-repeat: no-repeat;
-    height:300px;
+    height:324px;
     background-size: 65% 106%;
 }
 .interline{
@@ -91,6 +114,18 @@ nav{
 .text-size12{
     font-size: 12px
 }
+.text-size13{
+    font-size: 13px
+}
 .text-size14{
     font-size: 14px
+}
+.text-size27{
+    font-size: 27px
+}
+.spacing4{
+    letter-spacing: 4px;
+}
+.spacing3{
+    letter-spacing: 3px
 }

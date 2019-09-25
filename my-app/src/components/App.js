@@ -5,11 +5,13 @@ import  Header  from "./Header";
 import Nav from "./Nav";
 import Home from "./Home"
 import Footer from './Footer';
+import TabBar from './TabBar';
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      {/* <TabBar/> */}
       <Nav/>
       <Home/>
       <Footer/>
