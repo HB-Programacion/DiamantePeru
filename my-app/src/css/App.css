@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    font-family: 'GeosansLight';
+    font-size: 20px;
+}
+.spacing4{
+    letter-spacing: 4px;
+}
+.spacing3{
+    letter-spacing: 3px
+}
+@font-face {
+    font-family: 'GeosansLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../fonts/GeosansLight.woff'), url('../fonts/GeosansLight.woff') format('woff');   
+}
+nav{
+    font-family: 'Raleway-Bold';
+    font-size: 9px;
+}
+@font-face {
+    font-family:'Raleway-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../fonts/Raleway-Bold_0.ttf'), url('../fonts/Raleway-Bold_0.ttf') format('woff');
+}
+.center{
+    text-align: center;
+}
+.rigth{
+    display: flex;
+    justify-content: flex-end
+}
+.w5{
+    width: 5%;
+}
+.w30{
+    width: 30%
+}
+.w70{
+    width: 65%
+}
+.w25{
+    width: 25%
+}
+.black{
+    background-color: black
+}
+.gray{
+    background-color: gray
+}
+.bd-bottom{ 
+    border-bottom: 1px solid #b4b0b0; 
+}
+.bd-top{ 
+    border-top: 1px solid #b4b0b0; 
+}
+.content-center{
+    justify-content: center
+}
+.color-black{
+    color: black
+}
+.color-white{
+    color: white;
+}
+.fndo-img1{
+    background-image: url("../img/Fondo-Diamantes.png");
+    background-repeat: no-repeat;
+    height:300px;
+    background-size: 150% 106%;
+}
+.fndo-img2{
+    background-image: url("../img/INTERIOR01.jpg");
+    background-repeat: no-repeat;
+    height:300px;
+    background-size: 65% 106%;
+}
+.interline{
+    font-size: 14px;
+    line-height: 1em;
+}
+.input-suscribete{
+    font-size: 10px;
+    margin: 1em
+}
+.text-size12{
+    font-size: 12px
+}
+.text-size14{
+    font-size: 14px
+}
