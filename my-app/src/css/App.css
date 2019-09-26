@@ -41,6 +41,9 @@ label{
 .flex{
     display: flex
 }
+.inline-flex{
+    display: inline-flex
+}
 .between{
     justify-content: space-between
 }
@@ -88,7 +91,7 @@ label{
     background-color: white
 }
 .gray{
-    background-color: rgb(202, 199, 199)
+    background-color: #F1F1F1
 }
 .red{
     background-color: pink;
@@ -162,19 +165,29 @@ label{
     justify-content: center;
     text-align: center;
 }
+.contCenter{
+    display: flex;
+    justify-content: center
+}
 .vh100{
     height: 100vh;
 }
+.vhw50{
+    height: 50vh;
+    width: 50vh
+}
 /* MOTIVOS */
 .grid2x2 {
-    min-height: 100%;
+    height: 300px;
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    border: 0.1px solid rgb(105, 104, 104) 
   }
   .grid2x2 > div {
     display: flex; 
-    flex-basis: calc(50% - 20px);  
+    flex-basis: 50%;  
     justify-content: center;
     flex-direction: column;
   }
@@ -183,6 +196,19 @@ label{
     justify-content: center;
     flex-direction: row;
   }
-  .box { margin: 10px; }
- 
+  .box { 
+      margin: 0px;
+      border: 0.1px solid rgb(105, 104, 104) 
+    }
+.logoPremios{
+    background-color: rgb(243, 221, 160);
+    height: 258px;
+    width: 276px;
+}
+.logoCic{
+    /* background-color: rgb(170, 242, 245);
+    height: 258px;
+    width: 258px; */
+    border-radius: 50%;
+}
   /* MOTIVOS */

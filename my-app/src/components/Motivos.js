@@ -7,18 +7,21 @@ const Motivos = () =>{
                 <div className="">
                     <span className="" >MOTIVOS</span>
                     <div class="grid2x2">
-                        <div class="box white">
+                        <div class="box">
+                            <div className="">
+                                oneabv
+                            </div>
                             <div>
                                 oneabv
-                                </div>
+                            </div>
                         </div>
-                        <div class="box white">
+                        <div class="box">
                             <div>two</div>
                         </div>
-                        <div class="box white">
+                        <div class="box">
                             <div>three</div>
                         </div>
-                        <div class="box white">
+                        <div class="box">
                             <div>four</div>
                         </div>
                     </div>
