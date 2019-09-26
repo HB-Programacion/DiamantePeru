@@ -5,16 +5,20 @@ import  Header  from "./Header";
 import Nav from "./Nav";
 import Home from "./Home"
 import Footer from './Footer';
-import TabBar from './TabBar';
+import Historia from './Historia';
+import Motivos from './Motivos';
 
 function App() {
   return (
     <div className="App">
+    <div className="vh100">
       <Header/>
-      {/* <TabBar/> */}
       <Nav/>
-      <Home/>
+      {/* <Home/> */}
+      {/* <Historia/> */}
+      <Motivos/>
       <Footer/>
+      </div>
     </div>
   );
 }

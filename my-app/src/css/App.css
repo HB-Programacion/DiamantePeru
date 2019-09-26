@@ -6,28 +6,20 @@ body{
     font-family: 'GeosansLight';
     font-size: 20px;
 }
-@font-face {
-    font-family: 'GeosansLight';
-    font-style: normal;
-    font-weight: normal;
-    src: local('../fonts/GeosansLight.woff'), url('../fonts/GeosansLight.woff') format('woff');   
-}
 nav{
     font-family: 'Raleway-Bold';
     font-size: 12px;
 }
-.tab{
-    font-family: 'Raleway-Bold';
+header{
+    font-family: 'Raleway-Light';
+    font-size: 13px
 }
+/* FONTS */
 @font-face {
     font-family:'Raleway-Bold';
     font-style: normal;
     font-weight: normal;
     src: local('../fonts/Raleway-Bold_0.ttf'), url('../fonts/Raleway-Bold_0.ttf') format('woff');
-}
-header{
-    font-family: 'Raleway-Light';
-    font-size: 13px
 }
 @font-face {
     font-family:'Raleway-Light';
@@ -35,6 +27,13 @@ header{
     font-weight: normal;
     src: local('../fonts/Raleway-Light_0.ttf'), url('../fonts/Raleway-Light_0.ttf') format('woff');
 }
+@font-face {
+    font-family: 'GeosansLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../fonts/GeosansLight.woff'), url('../fonts/GeosansLight.woff') format('woff');   
+}
+/* FONTS */
 label{
     margin-left: 1em;
     margin-right: 1em
@@ -48,6 +47,9 @@ label{
 .center{
     text-align: center;
 }
+.justify{
+    text-align: justify
+}
 .rigth{
     display: flex;
     justify-content: flex-end
@@ -57,6 +59,12 @@ label{
 }
 .w30{
     width: 30%
+}
+.w45{
+    width: 45%
+}
+.w50{
+    width: 50%
 }
 .w70{
     width: 65%
@@ -70,11 +78,20 @@ label{
 .h120px{
     height: 120px;
 }
+.h500px{
+    height: 500px;
+}
 .black{
     background-color: black
 }
+.white{
+    background-color: white
+}
 .gray{
-    background-color: gray
+    background-color: rgb(202, 199, 199)
+}
+.red{
+    background-color: pink;
 }
 .bd-bottom{ 
     border-bottom: 1px solid #b4b0b0; 
@@ -107,6 +124,13 @@ label{
     font-size: 14px;
     line-height: 1em;
 }
+.interline2{
+    line-height: 1.5em;
+}
+.mL-R-15{
+    margin-left: 15%;
+    margin-right: 15%;
+}
 .input-suscribete{
     font-size: 10px;
     margin: 1em
@@ -120,6 +144,9 @@ label{
 .text-size14{
     font-size: 14px
 }
+.text-size18{
+    font-size: 18px
+}
 .text-size27{
     font-size: 27px
 }
@@ -129,3 +156,33 @@ label{
 .spacing3{
     letter-spacing: 3px
 }
+.allCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.vh100{
+    height: 100vh;
+}
+/* MOTIVOS */
+.grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 20px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .box { margin: 10px; }
+ 
+  /* MOTIVOS */

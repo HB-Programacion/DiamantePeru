@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Historia from "./Historia"
 
 const Nav = () => {
+  const[home, setHome ] = useState();
   return (
+    <>
       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="collapse navbar-collapse content-center" id="navbarNavDropdown">
           <ul class="navbar-nav" >
@@ -11,8 +13,9 @@ const Nav = () => {
                 HOME
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#HISTORIA">HISTORIA</a>
-                <a class="dropdown-item" href="#DIMANATE PERU">DIMANATE PERU</a>
+                <a class="dropdown-item" href="#HISTORIA" type="button" onClickonClick={() => {
+          setHome("historia")}}>HISTORIA</a>
+                <a class="dropdown-item" href="#DIMANATE PERU">DIAMANTE PERU</a>
                 <a class="dropdown-item" href="#DIAMANTE">DIAMANTE</a>
                 <a class="dropdown-item" href="#NOVIOS">NOVIOS</a>
                 <a class="dropdown-item" href="#JOYAS">JOYAS</a>
@@ -61,7 +64,13 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
-
+      <div>
+        {home == "historia" && (
+          <div><Historia/></div>
+          
+        )}
+      </div>
+</>
   )
 }
 export default Nav;
