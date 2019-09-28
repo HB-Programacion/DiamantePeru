@@ -11,6 +11,8 @@ import Historia from './Historia';
 import Motivos from './Motivos';
 import Premios from './Premios';
 import ConveniosTab from './ConveniosTab';
+import Eleccion from "./Eleccion"
+import Cs from "./Cs"
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
       {/* <Historia/> */}
       {/* <Motivos/> */}
         {/* <Premios/> */}
-        <ConveniosTab/>
+        {/* <ConveniosTab/> */}
+        {/* <Eleccion/> */}
+        <Cs/>
         <Footer/>
       </div>
     </div>

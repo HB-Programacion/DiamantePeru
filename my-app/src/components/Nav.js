@@ -54,10 +54,10 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
-      <div>
-      {/* <Route path="/" exact component={Home} /> */}
+      {/* <div>
+      <Route path="/" exact component={Home} />
       
-      </div>
+      </div> */}
     </Route>
       
   )

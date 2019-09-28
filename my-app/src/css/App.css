@@ -41,11 +41,17 @@ label{
 .flex{
     display: flex
 }
+.flexCenter{
+    justify-content: center
+}
 .inline-flex{
     display: inline-flex
 }
 .between{
     justify-content: space-between
+}
+.around{
+    justify-content: space-around;
 }
 .center{
     text-align: center;
@@ -56,6 +62,9 @@ label{
 .rigth{
     display: flex;
     justify-content: flex-end
+}
+.w10{
+    width: 10%
 }
 .w40{
     width: 40%;
@@ -69,11 +78,20 @@ label{
 .w50{
     width: 50%
 }
-.w70{
+.w65{
     width: 65%
 }
 .w25{
     width: 25%
+}
+.w70{
+    width: 70%
+}
+.w80{
+    width: 80%
+}
+.h100{
+    height: 100%;
 }
 .h13px{
     height: 13px;
@@ -147,6 +165,9 @@ label{
 .text-size14{
     font-size: 14px
 }
+.text-size16{
+    font-size: 16px
+}
 .text-size18{
     font-size: 18px
 }
@@ -196,19 +217,42 @@ label{
     justify-content: center;
     flex-direction: row;
   }
+
+  /* MOTIVOS */
   .box { 
-      margin: 0px;
-      border: 0.1px solid rgb(105, 104, 104) 
-    }
+    margin: 0px;
+    border: 0.1px solid rgb(105, 104, 104) 
+  }
 .logoPremios{
-    background-color: rgb(243, 221, 160);
-    height: 258px;
-    width: 276px;
+  background-color: rgb(243, 221, 160);
+  height: 258px;
+  width: 276px;
 }
 .logoCic{
-    /* background-color: rgb(170, 242, 245);
-    height: 258px;
-    width: 258px; */
-    border-radius: 50%;
+  /* background-color: rgb(170, 242, 245);
+  height: 258px;
+  width: 258px; */
+  border-radius: 50%;
 }
-  /* MOTIVOS */
+.mL-R15{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1em
+}
+.flexWrap{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.fndo-5cs{
+    background-image: url("../img/5cs.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom;
+    background-position-x: left;
+}
+.b-all{
+    border: 0.1px solid rgb(105, 104, 104) 
+}

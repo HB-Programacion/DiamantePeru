@@ -34,129 +34,85 @@ const Carrousel = () => {
     <div className=" carousel-item active text-center">
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img1}
-          data-size="1600x1067">
           <img src={img1}
             className="img-fluid"/>
-        </a>
+        
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img2}
-          data-size="1600x1067">
           <img src={img2}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img3}
-          data-size="1600x1067">
           <img src={img3}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img3}
-          data-size="1600x1067">
           <img src={img3}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img1}
-          data-size="1600x1067">
           <img src={img1}
             className="img-fluid"/>
-        </a>
       </figure>
     </div>
   
     <div className="carousel-item text-center">
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img4}
-          data-size="1600x1067">
           <img src={img4}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img5}
-          data-size="1600x1067">
           <img src={img5}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img6}
-          data-size="1600x1067">
           <img src={img6}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img6}
-          data-size="1600x1067">
           <img src={img6}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img4}
-          data-size="1600x1067">
           <img src={img4}
             className="img-fluid"/>
-        </a>
       </figure>
     </div>
 
     <div className="carousel-item text-center">
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img7}
-          data-size="1600x1067">
           <img src={img7}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img8}
-          data-size="1600x1067">
           <img src={img8}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img9}
-          data-size="1600x1067">
           <img src={img9}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img9}
-          data-size="1600x1067">
           <img src={img9}
             className="img-fluid"/>
-        </a>
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">
-        <a href={img9}
-          data-size="1600x1067">
           <img src={img9}
             className="img-fluid"/>
-        </a>
       </figure>
 
     </div>
