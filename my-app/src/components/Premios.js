@@ -4,7 +4,7 @@ const Premios = () => {
     return(
         <>
         <div className="gray vh100">
-            <div className="vh100 allCenter">
+            <div className="vh100 allCenter startItem Pd20">
                 <div className="allcenter" >
                     <span>PREMIOS</span>
                     <figure className="contCenter mt-3">

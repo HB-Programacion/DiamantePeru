@@ -256,3 +256,33 @@ label{
 .b-all{
     border: 0.1px solid rgb(105, 104, 104) 
 }
+.buttonOfNavStyleGray{
+    border:none;
+    padding: 0.7% !important;
+    padding-right: 3% !important ;
+    padding-left: 3% !important; 
+    font-size: 0.7em;
+    background-color:#E6E6E6; 
+}
+.grayNav{
+    background-color:#E6E6E6; 
+}
+
+.buttonOfNavStyle{
+    border:none;
+    padding: 0.7% !important;
+    padding-right: 3% !important ;
+    padding-left: 3% !important; 
+    font-size: 0.7em;
+    background-color:#Fff; 
+}
+.buttonOfNavStyle:focus,.buttonOfNavStyle:active,.buttonOfNavStyleGray:focus,.buttonOfNavStyleGray:active{
+    outline:none;
+}
+.plusSize{
+    font-size: 1.5em;
+}
+.startItem{align-items: start;}
+.Pd20{
+    padding-top: 6%;
+}

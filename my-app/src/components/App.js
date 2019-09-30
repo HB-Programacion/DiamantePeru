@@ -30,7 +30,7 @@ function App() {
         {/* <Premios/> */}
         {/* <ConveniosTab/> */}
         {/* <Eleccion/> */}
-        <Cs/>
+        {/* <Cs/> */}
         <Footer/>
       </div>
     </div>
