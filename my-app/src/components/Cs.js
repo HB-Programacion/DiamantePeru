@@ -2,7 +2,7 @@ import React from "react";
 
 const Cs = () => {
     return (
-        <div className="w100 fndo-5cs">
+        <div className="w100 fndo-5cs animated fadeIn">
             <div className=" w70 mL-R15">
                 <div>
                 <span className="mb-2 flex flexCenter text-size27" >5Cs</span>

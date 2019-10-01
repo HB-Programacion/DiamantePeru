@@ -6,8 +6,8 @@ import Carrousel from "./Carrousel";
 
 const ConveniosTab = () => {
     return(
-        <>
-        <div className="gray vh100">
+       
+        <div className="gray vh100 animated fadeIn">
             <div className="vh100 allCenter">
                 <div className="" >
                     <span>CONVENIOS</span>
@@ -20,7 +20,7 @@ const ConveniosTab = () => {
                 </div>
             </div>
         </div>
-        </>
+        
     )
 };
 export default ConveniosTab;

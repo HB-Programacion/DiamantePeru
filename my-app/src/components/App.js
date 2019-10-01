@@ -14,7 +14,7 @@ import ConveniosTab from './ConveniosTab';
 import Eleccion from "./Eleccion"
 import Cs from "./Cs"
 
-function App() {
+const App = () => {
   return (
     <Router>
     <div className="App">

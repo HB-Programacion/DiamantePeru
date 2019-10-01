@@ -72,6 +72,9 @@ label{
 .w30{
     width: 30%
 }
+.w35{
+    width: 35%;
+}
 .w45{
     width: 45%
 }
@@ -90,6 +93,15 @@ label{
 .w80{
     width: 80%
 }
+.w100{
+    width: 100%
+}
+.h80{
+    height: 80%;
+}
+.h90{
+    height: 90%;
+}
 .h100{
     height: 100%;
 }
@@ -101,6 +113,9 @@ label{
 }
 .h500px{
     height: 500px;
+}
+.h300px{
+    height: 300px;
 }
 .black{
     background-color: black
@@ -130,16 +145,22 @@ label{
     color: white;
 }
 .fndo-img1{
-    background-image: url("../img/Fondo-Diamantes.png");
+    background-image: url("../img/fondo-celeste.svg");
     background-repeat: no-repeat;
-    height:348px;
-    background-size: 150% 106%;
+    height:350px;
+    background-size: 100%;
 }
 .fndo-img2{
     background-image: url("../img/INTERIOR01.jpg");
     background-repeat: no-repeat;
-    height:324px;
-    background-size: 65% 106%;
+    height:350px;
+    background-size: 58%;
+}
+.fndo-img3{
+    background-image: url("../img/Fondo-Certificaciones.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
 }
 .interline{
     font-size: 14px;
@@ -148,9 +169,9 @@ label{
 .interline2{
     line-height: 1.5em;
 }
-.mL-R-15{
-    margin-left: 15%;
-    margin-right: 15%;
+.mL-R-10{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .input-suscribete{
     font-size: 10px;
@@ -285,4 +306,28 @@ label{
 .startItem{align-items: start;}
 .Pd20{
     padding-top: 6%;
+}
+
+.animated{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+.fast{
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.fadeIn{
+    animation-name: fadeIn;
 }

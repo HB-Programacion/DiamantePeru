@@ -2,7 +2,7 @@ import React from "react";
 
 const Motivos = () =>{
     return (
-        <div className="gray vh100">
+        <div className="gray vh100 animated fadeIn">
             <div className="vh100 allCenter">
                 <div className="">
                     <span className="" >MOTIVOS</span>

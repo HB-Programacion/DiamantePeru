@@ -22,21 +22,20 @@ const Carrousel = () => {
         className="fas fa-chevron-right"></i></a>
   </div>
  
-  <ol className="carousel-indicators">
+  {/* <ol className="carousel-indicators">
     <li data-target="#carousel-with-lb" data-slide-to="0" className="active secondary-color"></li>
     <li data-target="#carousel-with-lb" data-slide-to="1" className="secondary-color"></li>
     <li data-target="#carousel-with-lb" data-slide-to="2" className="secondary-color"></li>
-  </ol>
+  </ol> */}
   
   <div className="carousel-inner mdb-lightbox" role="listbox">
     <div id="mdb-lightbox-ui"></div>
  
     <div className=" carousel-item active text-center">
 
-      <figure className="col-md-2 d-md-inline-block">
+      <figure className="col-md-2 d-md-inline-block ">
           <img src={img1}
             className="img-fluid"/>
-        
       </figure>
 
       <figure className="col-md-2 d-md-inline-block">

@@ -3,7 +3,7 @@ import React from "react";
 const Premios = () => {
     return(
         <>
-        <div className="gray vh100">
+        <div className="gray vh100 animated fadeIn">
             <div className="vh100 allCenter startItem Pd20">
                 <div className="allcenter" >
                     <span>PREMIOS</span>

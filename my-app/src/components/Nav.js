@@ -75,6 +75,8 @@ import Motivos from './Motivos';
 import Premios from './Premios';
 import ConveniosTab from './ConveniosTab';
 import Eleccion from './Eleccion'
+import Cs from './Cs';
+import Certificaciones from './Certificaciones';
 
 const Nav= () => {
   return(
@@ -113,8 +115,8 @@ const Nav= () => {
 
         </div>
         <Panel><Eleccion/></Panel>
-        <Panel><Motivos/></Panel>
-        <Panel><Premios/></Panel>
+        <Panel><Cs/></Panel>
+        <Panel><Certificaciones/></Panel>
         <Panel><ConveniosTab/></Panel>
       </Tabs>
     </Panel>

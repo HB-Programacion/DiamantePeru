@@ -3,7 +3,7 @@ import eleccion1 from "../img/Pagas-por-Diamante.svg"
 
 const Eleccion = () => {
     return (
-        <div className="w100">
+        <div className="w100 animated fadeIn">
             <div className="w70 mL-R15">
                 <div className="">
                     <span className="mb-2 flex flexCenter text-size27">ELECCION</span>
