@@ -12,7 +12,7 @@ import img9 from "../img/9.png"
 const Carrousel = () => {
   return (
     
-<div id="carousel-with-lb" className="carousel slide carousel-multi-item" data-ride="carousel">
+<div id="carousel-with-lb" className="carousel slide" data-ride="carousel">
 
   <div className="controls-top center mt-5 mb-3">
     <a className="btn-floating color-black" href="#carousel-with-lb" data-slide="prev"><i
@@ -33,7 +33,7 @@ const Carrousel = () => {
  
     <div className=" carousel-item active text-center">
 
-      <figure className="col-md-2 d-md-inline-block ">
+      <figure className="col-md-2 d-md-inline-block">
           <img src={img1}
             className="img-fluid"/>
       </figure>
@@ -122,3 +122,149 @@ const Carrousel = () => {
   )
 };
 export default Carrousel;
+
+
+
+
+
+// import React from "react";
+// import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardImage,
+// MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from "mdbreact";
+
+// const Carrousel = () => {
+//   return (
+//     <MDBContainer>
+//       <MDBCarousel activeItem={1} length={5} slide={false} showControls={true} showIndicators={true} multiItem>
+//         <MDBCarouselInner>
+//           <MDBRow>
+//             <MDBCarouselItem itemId="1">
+//               <MDBCol md="4">
+//                 <MDBCard className="mb-2">
+//                   <MDBCardImage className="img-fluid" src={img1} />
+//                   <MDBCardBody>
+//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
+//                     <MDBCardText>
+//                       Some quick example text to build on the card title and
+//                       make up the bulk of the card's content.
+//                     </MDBCardText>
+//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
+//                   </MDBCardBody>
+//                 </MDBCard>
+//               </MDBCol>
+//               <MDBCol md="4">
+//                 <MDBCard className="mb-2">
+//                   <MDBCardImage className="img-fluid" src={img2} />
+//                   <MDBCardBody>
+//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
+//                     <MDBCardText>
+//                       Some quick example text to build on the card title and
+//                       make up the bulk of the card's content.
+//                     </MDBCardText>
+//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
+//                   </MDBCardBody>
+//                 </MDBCard>
+//               </MDBCol>
+//               <MDBCol md="4">
+//                 <MDBCard className="mb-2">
+//                   <MDBCardImage className="img-fluid" src={img1} />
+//                   <MDBCardBody>
+//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
+//                     <MDBCardText>
+//                       Some quick example text to build on the card title and
+//                       make up the bulk of the card's content.
+//                     </MDBCardText>
+//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
+//                   </MDBCardBody>
+//                 </MDBCard>
+//               </MDBCol>
+//             </MDBCarouselItem>
+//             <MDBCarouselItem itemId="2">
+//               <MDBCol md="4">
+//                 <MDBCard className="mb-2">
+//                   <MDBCardImage className="img-fluid" src={img1} />
+//                   <MDBCardBody>
+//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
+//                     <MDBCardText>
+//                       Some quick example text to build on the card title and
+//                       make up the bulk of the card's content.
+//                     </MDBCardText>
+//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
+//                   </MDBCardBody>
+//                 </MDBCard>
+//               </MDBCol>
+//               <MDBCol md="4">
+//                 <MDBCard className="mb-2">
+//                   <MDBCardImage className="img-fluid" src={img1} />
+//                   <MDBCardBody>
+//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
+//                     <MDBCardText>
+//                       Some quick example text to build on the card title and
+//                       make up the bulk of the card's content.
+//                     </MDBCardText>
+//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
+//                   </MDBCardBody>
+//                 </MDBCard>
+//               </MDBCol>
+//               <MDBCol md="4">
+//                 <MDBCard className="mb-2">
+//                   <MDBCardImage className="img-fluid" src={img1} />
+//                   <MDBCardBody>
+//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
+//                     <MDBCardText>
+//                       Some quick example text to build on the card title and
+//                       make up the bulk of the card's content.
+//                     </MDBCardText>
+//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
+//                   </MDBCardBody>
+//                 </MDBCard>
+//               </MDBCol>
+//             </MDBCarouselItem>
+//             <MDBCarouselItem itemId="3">
+//               <MDBCol md="4">
+//                 <MDBCard className="mb-2">
+//                   <MDBCardImage className="img-fluid" src={img1} />
+//                   <MDBCardBody>
+//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
+//                     <MDBCardText>
+//                       Some quick example text to build on the card title and
+//                       make up the bulk of the card's content.
+//                     </MDBCardText>
+//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
+//                   </MDBCardBody>
+//                 </MDBCard>
+//               </MDBCol>
+//               <MDBCol md="4">
+//                 <MDBCard className="mb-2">
+//                   <MDBCardImage className="img-fluid" src={img1} />
+//                   <MDBCardBody>
+//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
+//                     <MDBCardText>
+//                       Some quick example text to build on the card title and
+//                       make up the bulk of the card's content.
+//                     </MDBCardText>
+//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
+//                   </MDBCardBody>
+//                 </MDBCard>
+//               </MDBCol>
+//               <MDBCol md="4">
+//                 <MDBCard className="mb-2">
+//                   <MDBCardImage className="img-fluid" src={img1} />
+//                   <MDBCardBody>
+//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
+//                     <MDBCardText>
+//                       Some quick example text to build on the card title and
+//                       make up the bulk of the card's content.
+//                     </MDBCardText>
+//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
+//                   </MDBCardBody>
+//                 </MDBCard>
+//               </MDBCol>
+//             </MDBCarouselItem>
+//           </MDBRow>
+//         </MDBCarouselInner>
+//       </MDBCarousel>
+//     </MDBContainer>
+//   );
+// }
+
+// export default Carrousel;

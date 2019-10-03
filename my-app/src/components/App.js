@@ -14,12 +14,14 @@ import ConveniosTab from './ConveniosTab';
 import Eleccion from "./Eleccion"
 import Cs from "./Cs"
 
+
 const App = () => {
   return (
     <Router>
-    <div className="App">
-      <div className="vh100">
+    <div className="">
+      <div className="App">
         <Header/>
+        <div className="Content">
         <Nav/>
       {/* <Route exact path="/" component={Nav} /> */}
       
@@ -31,8 +33,11 @@ const App = () => {
         {/* <ConveniosTab/> */}
         {/* <Eleccion/> */}
         {/* <Cs/> */}
+     
         <Footer/>
+        </div>
       </div>
+     
     </div>
     </Router>
   );

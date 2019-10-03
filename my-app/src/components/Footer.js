@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="">
                         <input className="w25 p-1 text-size14" type="email" placeholder="correo electronico"/>
                         <input className="black p-1 text-size14 color-white" type="button" value="Suscribete"/>
-                        <p className="interline mt-1 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> sed do eiusmod tempor</p>
+                        <p className="interline mt-1 mb-1 center">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/> sed do eiusmod tempor</p>
                     </div>
                 </form>
             </footer>

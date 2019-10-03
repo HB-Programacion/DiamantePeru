@@ -6,14 +6,14 @@ const Cs = () => {
             <div className=" w70 mL-R15">
                 <div>
                 <span className="mb-2 flex flexCenter text-size27" >5Cs</span>
-                <div className="mt-1 mL-R15 interline text-size16 w70 center">
-                        <p>En DIAMANTE PERÚ trabajamos con las mejores calidades, elegidas rigurosamente por profesionales en la ciencia.
+                {/* <div className="mt-1 mL-R15 interline text-size16 w70 center"> */}
+                        <p className="">En DIAMANTE PERÚ trabajamos con las mejores calidades, elegidas rigurosamente por profesionales en la ciencia.
                             El valor del diamante está determinado por 4 factores, no interesando el orden de éstos; que
                             son: Corte, Color, Claridad, Carat (unidad de peso). A continuación te explicamos sobre estos
                             factores:</p>
-                        </div>
+                        {/* </div> */}
                 <div className="flexWrap mb-5">
-                    <div className="w30 p-4  m-1 b-all interline text-size16">
+                    <div  id="" className="w30 p-4  m-1 b-all interline text-size16 div-5cs">
                         <span className="text-size18">Carats<br/>(Quilates)</span>
                         <hr className="w10"></hr>
                         <div>
@@ -21,7 +21,7 @@ const Cs = () => {
                         </div>
                         <a>Leer más</a>
                     </div>
-                    <div className="w30 p-4 m-1 b-all interline text-size16">
+                    <div className="w30 p-4 m-1 b-all interline text-size16 div-5cs">
                         <span className="text-size18">Carats<br/>(Quilates)</span>
                         <hr className="w10"></hr>                        
                         <div>
@@ -29,7 +29,7 @@ const Cs = () => {
                         </div>
                         <a>Leer más</a>
                     </div>
-                    <div className="w30 p-4 m-1 b-all interline text-size16">
+                    <div className="w30 p-4 m-1 b-all interline text-size16 div-5cs">
                         <span className="text-size18">Carats<br/>(Quilates)</span>
                         <hr className="w10"></hr>
                         <div>
@@ -37,7 +37,7 @@ const Cs = () => {
                         </div>
                         <a>Leer más</a>
                     </div>
-                    <div className="w30 p-4 m-1 b-all interline text-size16">
+                    <div className="w30 p-4 m-1 b-all interline text-size16 div-5cs">
                         <span className="text-size18">Carats<br/>(Quilates)</span>
                         <hr className="w10"></hr>
                         <div>
@@ -45,7 +45,7 @@ const Cs = () => {
                         </div>
                         <a>Leer más</a>
                     </div>
-                    <div className="w30 p-4 m-1 b-all interline text-size16">
+                    <div className="w30 p-4 m-1 b-all interline text-size16 div-5cs">
                         <span className="text-size18">Carats<br/>(Quilates)</span>
                         <hr className="w10"></hr>
                         <div>
