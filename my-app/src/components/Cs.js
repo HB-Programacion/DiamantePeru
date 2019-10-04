@@ -3,11 +3,11 @@ import React from "react";
 const Cs = () => {
     return (
         <div className="w100 fndo-5cs animated fadeIn">
-            <div className=" w70 mL-R15">
+            <div className=" w80 mL-R10">
                 <div>
                 <span className="mb-2 flex flexCenter text-size27" >5Cs</span>
                 {/* <div className="mt-1 mL-R15 interline text-size16 w70 center"> */}
-                        <p className="">En DIAMANTE PERÚ trabajamos con las mejores calidades, elegidas rigurosamente por profesionales en la ciencia.
+                        <p className="interline1">En DIAMANTE PERÚ trabajamos con las mejores calidades, elegidas rigurosamente por profesionales en la ciencia.
                             El valor del diamante está determinado por 4 factores, no interesando el orden de éstos; que
                             son: Corte, Color, Claridad, Carat (unidad de peso). A continuación te explicamos sobre estos
                             factores:</p>
