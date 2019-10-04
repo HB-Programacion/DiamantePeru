@@ -20,12 +20,12 @@ const App = () => {
     <Router>
     <div className="">
       <div className="App">
-        <Header/>
+        {/* <Header/> */}
         <div className="Content">
         <Nav/>
       {/* <Route exact path="/" component={Nav} /> */}
       
-      <Route exact path="/" component={Home} />
+      {/* <Route exact path="/" component={Home} /> */}
       {/* <Route exact path="/" component={Home} /> */}
       {/* <Historia/> */}
       {/* <Motivos/> */}
@@ -34,8 +34,9 @@ const App = () => {
         {/* <Eleccion/> */}
         {/* <Cs/> */}
      
-        <Footer/>
+       
         </div>
+        <Footer/>
       </div>
      
     </div>

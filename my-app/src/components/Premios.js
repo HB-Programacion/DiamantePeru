@@ -4,9 +4,10 @@ const Premios = () => {
     return(
         <>
         <div className="gray w100 animated fadeIn">
-            <div className=" allCenter startItem Pd20">
+        <span className="p-4 flex flexCenter text-size27"><b>PREMIOS</b></span>
+            <div className=" allCenter startItem ">
                 <div className="allcenter" >
-                    <span>PREMIOS</span>
+                
                     <figure className="contCenter mt-3">
                         <div className="logoPremios ">
                         </div>
