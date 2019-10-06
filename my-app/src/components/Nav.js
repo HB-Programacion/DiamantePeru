@@ -100,6 +100,19 @@
 //   )
 // }
 // export default Nav;
+//<div className="container-fluid">
+          
+//<div className="row">
+ //<div className="col-1"></div> 
+ //<div className="col-1 cel"> { <a><img src={buscar} className="h13px" /> BUSCAR</a>}</div> 
+//<div className="col-1 cel"><a className="ml-2"><img src={ubicacion} className="h13px" /> CONTACTO</a></div> 
+ //<div className="col-6  ml-5 mr-5"> <img src={logo} alt="logo"  className=" logo center pb-2 pt-1 img-logo m-auto w40" /></div> 
+ //<div className="col-1 cel"><a>TESTIMONIOS</a></div> 
+ //<div className="col-1 cel"><a className="ml-2">BLOG</a></div> 
+ //<div className="col-1"> <img src={menu} className="imgMenu"/></div> 
+//</div>
+
+//</div>
 
 
 
@@ -124,59 +137,64 @@ import ConveniosTab from './ConveniosTab';
 import Eleccion from './Eleccion'
 import Cs from './Cs';
 import Certificaciones from './Certificaciones';
+import menu from "../img/menu.svg";
+import logo from '../img/LogoDiamante.svg'
+import buscar from '../img/LupaBuscar.svg'
+import ubicacion from '../img/Ubication.svg'
 
 const Nav= () => {
   return(
     <Route>
-  <Tabs className="">
-    <div className="center">
-      <Tab><button className="buttonOfNavStyle">HOME <span className="plusSize"> +</span> </button></Tab>
-      <Tab><button className="buttonOfNavStyle" >DIAMANTE PERU<span className="plusSize"> +</span> </button></Tab>
-      <Tab><button className="buttonOfNavStyle" >DIAMANTES<span className="plusSize"> +</span> </button></Tab>
-      <Tab><button className="buttonOfNavStyle" >NOVIOS<span className="plusSize"> +</span> </button></Tab>
-      <Tab><button className="buttonOfNavStyle" >JOYAS<span className="plusSize"> +</span> </button></Tab>
-    </div>
- 
-    <Panel><Home/></Panel>
-    <Panel>
-      <Tabs>
-        <div className="center grayNav">
-          <Tab><button className="buttonOfNavStyleGray">Historia</button></Tab>
-          <Tab><button className="buttonOfNavStyleGray">Motivos</button></Tab>
-          <Tab><button className="buttonOfNavStyleGray" >Premios</button></Tab>
-          <Tab><button className="buttonOfNavStyleGray">Convenios</button></Tab>
-        </div>
-        <Panel><Historia/></Panel>
-        <Panel><Motivos/></Panel>
-        <Panel><Premios/></Panel>
-        <Panel><ConveniosTab/></Panel>
-      </Tabs>
-    </Panel>
-    <Panel>
-      <Tabs>
-        <div className="center grayNav ">
-          <Tab><button className="buttonOfNavStyleGray" >Elección</button></Tab>
-          <Tab><button className="buttonOfNavStyleGray" >5Cs</button></Tab>
-          <Tab><button className="buttonOfNavStyleGray" >Certificaciones</button></Tab>
-          <Tab><button className="buttonOfNavStyleGray" >Mantenimiento</button></Tab>
+      <header>
+       <div data-testid="header" className='w100 flexWrap'>
+      <div className="allCenter text-size12 mr-5 cel">
+        <a className="ml-5"><img src={ubicacion} className="h13px" /> CONTACTO</a>
+      </div>
+      <div className="flex ml-5 mr-5">
+        <img src={logo} alt="logo" className="center pb-2 pt-1 img-logo m-auto w40" />
+      </div>
+      <div className="allCenter text-size12 ml-5 cel">
+        <a>TESTIMONIOS</a>
+        <a className="ml-5">BLOG</a>
+      </div>
+      </div>
+      <img src={menu} className="imgMenu"/>
+      <input type='checkbox' id="btn-menu"/>
+      <nav className="menu center">
+        <ul className="mainMenu">
+          <li><a href="#" className="">HOME + </a></li>
+          <li><a href="#" id='diamantesPeru' className="">DIAMANTES PERU + </a>
+          <ul  className="center celVert">
+            <li><a href="#" className="" >Historia</a></li>
+            <li><a href="#" className="" >Motivos</a></li>
+            <li><a href="#" className="" >Premios</a></li>
+            <li><a href="#" className="" >Convenios</a></li>
+          </ul>
+          </li>
+          <li><a href="" className="">DIAMANTES + </a>
+          <ul className="center celVert">
+            <li><a href="#" className="" >Elección</a></li>
+            <li><a href="#" className="">5Cs</a></li>
+            <li><a href="#" className="" >Certificaciones</a></li>
+            <li><a href="#" className="" >Mantenimientos</a></li>
+          </ul>
+          </li>
+          <li><a href="#" className="">NOVIOS + </a>
+          <ul  className="center celVert">
+            <li><a href="#" className="" >Compromiso</a></li>
+            <li><a href="#"className="" >Novios</a></li>
+          </ul>
+          </li>
+          <li><a href="#" className="raya">JOYAS + </a></li>
+          <li  className="dest"><a href="#">BLOG</a></li>
+          <li  className="dest"><a href="#" >TESTIMONIO</a></li>
+          <li  className="dest"><a href="#" >CONTACTO</a></li>
+          <li  className="dest"><a href="#">BUSCAR</a></li>
+        </ul>
 
-        </div>
-        <Panel><Eleccion/></Panel>
-        <Panel><Cs/></Panel>
-        <Panel><Certificaciones/></Panel>
-        <Panel><ConveniosTab/></Panel>
-      </Tabs>
-    </Panel>
-    <Panel>
-      <Tabs>
-        <div className="center grayNav " >
-          <Tab><button className="buttonOfNavStyleGray" >Compromiso</button> </Tab>
-          <Tab><button className="buttonOfNavStyleGray">Novios</button> </Tab>
-        </div>
-      </Tabs>
-    </Panel>
-    <Panel><p>JOYAS</p></Panel>
-  </Tabs>
+      </nav>
+  </header>
+  
   </Route>
 )};
 export default Nav;
