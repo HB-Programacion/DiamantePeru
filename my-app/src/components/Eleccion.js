@@ -3,7 +3,7 @@ import eleccion1 from "../img/Pagas-por-Diamante.svg"
 
 const Eleccion = () => {
     return (
-        <div className="w100 animated fadeIn">
+        <div className="vh100 animated fadeIn vhEleccion">
         <span className="p-4 flex flexCenter text-size27"><b>ELECCION</b></span>
             <div className="w80 mL-R10">
                 <div className="">
@@ -13,25 +13,25 @@ const Eleccion = () => {
                         <p className="interline1">En primer lugar siempre pedir que su diamante venga acompañado de un certificado emitido por un laboratorio de reconocimiento mundial. La autoridad máxima en lo que a investigación y certificación de diamantes se refiere es el Gemological Institute of America o GIA. Así como el European Gemological Laboratory (EGL), el World Gemological Laboratory (WGL), el Integrity Diamond Laboratory (IDL), entre otros.</p>
                         <p className="interline1">Los fraudes comunes de los que debe cuidarse al adquirir un Diamante son los siguientes:</p>
                     {/* </div> */}
-                    <div className="flexWrap mt-2 mb-2">
-                        <div className="ml-4 mr-4">
+                    <div className="flexWrap mt-5 mb-5">
+                        <div className="ml-5 mr-5">
                             <img src={eleccion1}/>
                         </div>
-                        <div className="ml-4 mr-4">
+                        <div className="ml-5 mr-5">
                             <img src={eleccion1}/>
                         </div>
-                        <div className="ml-4 mr-4">
+                        <div className="ml-5 mr-5">
                             <img src={eleccion1}/>
                         </div>
                     {/* </div> */}
                     {/* <div className="flex flexCenter"> */}
-                        <div className="ml-4 mr-4">
+                        <div className="ml-5 mr-5">
                             <img src={eleccion1}/>
                         </div>
-                        <div className="ml-4 mr-4">
+                        <div className="ml-5 mr-5">
                             <img src={eleccion1}/>
                         </div>
-                        <div className="ml-4 mr-4">
+                        <div className="ml-5 mr-5">
                             <img src={eleccion1}/>
                         </div>
                     </div>

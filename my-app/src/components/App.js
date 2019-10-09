@@ -13,16 +13,19 @@ import Premios from './Premios';
 import ConveniosTab from './ConveniosTab';
 import Eleccion from "./Eleccion"
 import Cs from "./Cs"
+import TabBar from './TabBar';
 
 
 const App = () => {
   return (
     <Router>
     <div className="">
-      <div className="App">
+      <div className="App vh100">
         {/* <Header/> */}
+        
         <div className="Content">
-        <Nav/>
+        {/* <Nav/> */}
+        <TabBar/>
       {/* <Route exact path="/" component={Nav} /> */}
       
       {/* <Route exact path="/" component={Home} /> */}

@@ -11,260 +11,226 @@ import img9 from "../img/9.png"
 
 const Carrousel = () => {
   return (
-    
-<div id="carousel-with-lb" className="carousel slide" data-ride="carousel">
+  <>
+    <div class="container my-4">
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
-  <div className="controls-top center mt-5 mb-3">
-    <a className="btn-floating color-black" href="#carousel-with-lb" data-slide="prev"><i
-        className="fas fa-chevron-left"></i></a>
-        <label classNameName="pl-4 pr-4 spacing4 text-size27" >SORTIJAS</label>
-    <a className="btn-floating color-black" href="#carousel-with-lb" data-slide="next"><i
-        className="fas fa-chevron-right"></i></a>
+      <div class="controls-top center">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
+        <label className="">SORTIJAS</label>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
+      </div>
+
+      {/* <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        <li data-target="#multi-item-example" data-slide-to="2"></li>
+      </ol> */}
+
+      <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active">
+
+          <div class="row allCenter">
+            <div class="col-md-2">
+              <div class="mb-2">
+                <img class="card-img-top" src={img1}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img2}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img3}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img4}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            {/* <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div> */}
+
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="row allCenter">
+            <div class="col-md-2">
+              <div class="mb-2">
+                <img class="card-img-top" src={img6}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img7}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img8}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            {/* <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img9}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div> */}
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img1}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <div class="row allCenter">
+            <div class="col-md-2">
+              <div class="mb-2">
+                <img class="card-img-top" src={img2}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img3}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            {/* <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img4}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div> */}
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img6}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
- 
-  {/* <ol className="carousel-indicators">
-    <li data-target="#carousel-with-lb" data-slide-to="0" className="active secondary-color"></li>
-    <li data-target="#carousel-with-lb" data-slide-to="1" className="secondary-color"></li>
-    <li data-target="#carousel-with-lb" data-slide-to="2" className="secondary-color"></li>
-  </ol> */}
-  
-  <div className="carousel-inner mdb-lightbox" role="listbox">
-    <div id="mdb-lightbox-ui"></div>
- 
-    <div className=" carousel-item active text-center">
 
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img1}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img2}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img3}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img3}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img1}
-            className="img-fluid"/>
-      </figure>
-    </div>
-  
-    <div className="carousel-item text-center">
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img4}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img5}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img6}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img6}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img4}
-            className="img-fluid"/>
-      </figure>
-    </div>
-
-    <div className="carousel-item text-center">
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img7}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img8}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img9}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img9}
-            className="img-fluid"/>
-      </figure>
-
-      <figure className="col-md-2 d-md-inline-block">
-          <img src={img9}
-            className="img-fluid"/>
-      </figure>
-
-    </div>
-
-  </div>
-
-</div>
+  </>
   )
-};
-export default Carrousel;
-
-
-
-
-
-// import React from "react";
-// import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardImage,
-// MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from "mdbreact";
-
-// const Carrousel = () => {
-//   return (
-//     <MDBContainer>
-//       <MDBCarousel activeItem={1} length={5} slide={false} showControls={true} showIndicators={true} multiItem>
-//         <MDBCarouselInner>
-//           <MDBRow>
-//             <MDBCarouselItem itemId="1">
-//               <MDBCol md="4">
-//                 <MDBCard className="mb-2">
-//                   <MDBCardImage className="img-fluid" src={img1} />
-//                   <MDBCardBody>
-//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
-//                     <MDBCardText>
-//                       Some quick example text to build on the card title and
-//                       make up the bulk of the card's content.
-//                     </MDBCardText>
-//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
-//                   </MDBCardBody>
-//                 </MDBCard>
-//               </MDBCol>
-//               <MDBCol md="4">
-//                 <MDBCard className="mb-2">
-//                   <MDBCardImage className="img-fluid" src={img2} />
-//                   <MDBCardBody>
-//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
-//                     <MDBCardText>
-//                       Some quick example text to build on the card title and
-//                       make up the bulk of the card's content.
-//                     </MDBCardText>
-//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
-//                   </MDBCardBody>
-//                 </MDBCard>
-//               </MDBCol>
-//               <MDBCol md="4">
-//                 <MDBCard className="mb-2">
-//                   <MDBCardImage className="img-fluid" src={img1} />
-//                   <MDBCardBody>
-//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
-//                     <MDBCardText>
-//                       Some quick example text to build on the card title and
-//                       make up the bulk of the card's content.
-//                     </MDBCardText>
-//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
-//                   </MDBCardBody>
-//                 </MDBCard>
-//               </MDBCol>
-//             </MDBCarouselItem>
-//             <MDBCarouselItem itemId="2">
-//               <MDBCol md="4">
-//                 <MDBCard className="mb-2">
-//                   <MDBCardImage className="img-fluid" src={img1} />
-//                   <MDBCardBody>
-//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
-//                     <MDBCardText>
-//                       Some quick example text to build on the card title and
-//                       make up the bulk of the card's content.
-//                     </MDBCardText>
-//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
-//                   </MDBCardBody>
-//                 </MDBCard>
-//               </MDBCol>
-//               <MDBCol md="4">
-//                 <MDBCard className="mb-2">
-//                   <MDBCardImage className="img-fluid" src={img1} />
-//                   <MDBCardBody>
-//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
-//                     <MDBCardText>
-//                       Some quick example text to build on the card title and
-//                       make up the bulk of the card's content.
-//                     </MDBCardText>
-//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
-//                   </MDBCardBody>
-//                 </MDBCard>
-//               </MDBCol>
-//               <MDBCol md="4">
-//                 <MDBCard className="mb-2">
-//                   <MDBCardImage className="img-fluid" src={img1} />
-//                   <MDBCardBody>
-//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
-//                     <MDBCardText>
-//                       Some quick example text to build on the card title and
-//                       make up the bulk of the card's content.
-//                     </MDBCardText>
-//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
-//                   </MDBCardBody>
-//                 </MDBCard>
-//               </MDBCol>
-//             </MDBCarouselItem>
-//             <MDBCarouselItem itemId="3">
-//               <MDBCol md="4">
-//                 <MDBCard className="mb-2">
-//                   <MDBCardImage className="img-fluid" src={img1} />
-//                   <MDBCardBody>
-//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
-//                     <MDBCardText>
-//                       Some quick example text to build on the card title and
-//                       make up the bulk of the card's content.
-//                     </MDBCardText>
-//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
-//                   </MDBCardBody>
-//                 </MDBCard>
-//               </MDBCol>
-//               <MDBCol md="4">
-//                 <MDBCard className="mb-2">
-//                   <MDBCardImage className="img-fluid" src={img1} />
-//                   <MDBCardBody>
-//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
-//                     <MDBCardText>
-//                       Some quick example text to build on the card title and
-//                       make up the bulk of the card's content.
-//                     </MDBCardText>
-//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
-//                   </MDBCardBody>
-//                 </MDBCard>
-//               </MDBCol>
-//               <MDBCol md="4">
-//                 <MDBCard className="mb-2">
-//                   <MDBCardImage className="img-fluid" src={img1} />
-//                   <MDBCardBody>
-//                     <MDBCardTitle>MDBCard title</MDBCardTitle>
-//                     <MDBCardText>
-//                       Some quick example text to build on the card title and
-//                       make up the bulk of the card's content.
-//                     </MDBCardText>
-//                     <MDBBtn color="primary">MDBBtn</MDBBtn>
-//                   </MDBCardBody>
-//                 </MDBCard>
-//               </MDBCol>
-//             </MDBCarouselItem>
-//           </MDBRow>
-//         </MDBCarouselInner>
-//       </MDBCarousel>
-//     </MDBContainer>
-//   );
-// }
-
-// export default Carrousel;
+}
+export default Carrousel

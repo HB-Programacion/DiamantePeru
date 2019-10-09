@@ -24,7 +24,7 @@ body{
 }
 nav{
     font-family: 'Raleway-Bold';
-    font-size: 12px;
+    font-size: 1em;
 }
 header{
     font-family: 'Raleway-Light';
@@ -37,6 +37,12 @@ header{
     font-style: normal;
     font-weight: normal;
     src: local('../fonts/Raleway-Bold_0.ttf'), url('../fonts/Raleway-Bold_0.ttf') format('woff');
+}
+@font-face{
+    font-family:'Raleway-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../fonts/Raleway-Medium_0.ttf'), url('../fonts/Raleway-Medium_0.ttf') format('woff');
 }
 @font-face {
     font-family:'Raleway-Light';
@@ -55,6 +61,10 @@ header{
     margin-left: 1em;
     margin-right: 1em
 } */
+.card-title{
+    font-family:'Raleway-Medium';
+    font-size: 100%
+}
 .flex{
     display: flex
 }
@@ -69,6 +79,9 @@ header{
 }
 .around{
     justify-content: space-around;
+}
+.flex-end{
+    justify-content: flex-end
 }
 .flex-column{
     flex-direction: column
@@ -89,6 +102,9 @@ header{
 .w10{
     width: 10%
 }
+.w20{
+    width: 20%
+}
 .w40{
     width: 40%;
 }
@@ -103,6 +119,9 @@ header{
 }
 .w50{
     width: 50%
+}
+.w60{
+    width: 60%
 }
 .w65{
     width: 65%
@@ -244,8 +263,12 @@ header{
     height: 50vh;
     width: 50vw
 }
-.pad-l-8{
+.pad-lr-8{
     padding-left: 8%;
+    padding-right: 8%
+}
+.pad-l-15{
+    padding-left: 15%;
 }
 /* MOTIVOS */
 
@@ -318,7 +341,7 @@ header{
     background-color:#E6E6E6; 
 }
 
-.imgMenu{
+/* .imgMenu{
     height: 20px;
     width: 20px;
     float: right;
@@ -333,9 +356,9 @@ header{
      background: white;
     
  }
- 
+  */
 
- .menu ul {
+ /* .menu ul {
 
      display: flex;
      list-style: none;
@@ -349,31 +372,14 @@ header{
     margin: 0 auto;
     left: 0;
     right: 0;
- }
+ } */
 
- .menu ul ul {
-     display: none;
-     border:none;
-    padding: 0.7% ;
-    padding-right: 5% ;
-    padding-left: 5% ; 
-    font-size: 18px;
-    background-color:#E6E6E6; 
- }
-
- .menu a{
-     display: block;
-     padding: 15px 20px;
-     color:black;
-     text-decoration: none
-
- }
 
  /*.menu a:hover{
      background: whitesmoke
  }*/
 
-.menu ul li:hover ul{
+/* .menu ul li:hover ul{
     display: block;
     background: whitesmoke;
     display: flex;
@@ -391,10 +397,12 @@ header{
 
 #btn-menu{
     display:none
-}
+} */
 .dest{
     display:none
 }
+
+
 
  @media (max-width:768px){
      .cel{
@@ -405,16 +413,13 @@ header{
      }
      .imgMenu{
         height: 40px;
-    width: 40px;
-    float: right;
-    margin-right: 7px;
-    margin-top:0px;
-    cursor: pointer;
-    display: block}
+        width: 40px;
+        float: right;
+        margin-right: 7px;
+        margin-top:0px;
+        cursor: pointer;
+        display: block}
         
- .raya{
-    border-bottom: 1px solid #C00;
- }
     .menu{
         position: absolute;
         top:50px;
@@ -516,10 +521,15 @@ header{
     color: black;
     margin: 0.5em;
 }
+.mr-auto{
+    margin-right: auto
+}
 
-
-@media screen and (max-width:480px){
-	body {
+@media screen and (max-width:1023px){
+    .mr-auto{
+        margin-right: 0
+    }
+    body {
 		font-size:80%;
     } 
     .div-5cs{
@@ -562,4 +572,114 @@ header{
     /* padding-left: 20%; */
     margin-bottom: 4%;
    }
+   .card-img-top{
+       width: 40%;
+       margin-left: 30%;
+       margin-right: 30%;
+   }
+   .card-title{
+       text-align: center
+   }
+   .vhEleccion{
+       height: 100%
+   }
+   .none{
+       display: none;
+   }
+   .burger-text-right{
+       width: 100%;
+       text-align: right
+   }
+   .burger-rigth{
+    text-align: right;
+    width: 50%;
+    background: #a9a9a9d4;
+    padding: 1em;
+    margin-left: auto;
+    }
+    .cel{
+        display:none
+    }
+    .dest{
+        display:block
+    }
+    .menuRigth{
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        height: 100vh;
+    }
+    .img-logo{
+        margin: 0;
+        justify-content: flex-start
+    }
 }
+/* @media screen and (max-width:480px){
+	body {
+		font-size:80%;
+    } 
+    .div-5cs{
+        width: 100%;
+    }
+    p{
+        font-size: 100%;
+        text-align: justify
+    }
+    span{
+        font-size: 100% !important
+    }
+    #div-premios{
+        width: 100%
+    }
+    .responsive-certificacion{
+        width: 100%;
+        flex-direction: column;
+    }
+    .pad-l-responsive{
+        padding-left: 0%;
+    }
+    .wResponsive100{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .flexWrap .item{
+        margin: 0.1rem;
+    }
+    .flex-Wrap-Responsive {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+   .p-motivos{
+       text-align: center
+   }
+   .w50 .pad-l-8{
+    padding-left: 0;
+    margin-bottom: 4%;
+   }
+   .card-img-top{
+       width: 40%;
+       margin-left: 30%;
+       margin-right: 30%;
+   }
+   .card-title{
+       text-align: center
+   }
+   .vhEleccion{
+       height: 100%
+   }
+   .none{
+       display: none;
+   }
+   .burger-text-right{
+       width: 100%;
+       text-align: right
+   }
+   .burger-rigth{
+       text-align: right;
+       width: 50%;
+       background: darkgrey;
+       padding: 1em;
+       margin-left: auto;
+   }
+} */

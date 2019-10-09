@@ -6,10 +6,10 @@ import historia from "../img/historia.svg"
 
 const Historia = () =>{
     return (
-        <div className="flex gray responsive-certificacion animated fadeIn">
+        <div className="vh100 flex gray responsive-certificacion animated fadeIn">
             <div className="w50 allCenter wResponsive100">
                 <div className="mt-3">
-                    <span className=" tex-size18"> <b>HISTORIA <br/>DIAMANTE PERU</b></span>
+                    <span className=" tex-size18 mt-0"> <b>HISTORIA <br/>DIAMANTE PERU</b></span>
                     <div class="container">
                         <div id="carouselContent" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner" role="listbox">
@@ -19,7 +19,9 @@ const Historia = () =>{
                                         America (GIA). A lo largo de sus 14 años de instituida, la empresa siempre tuvo como objetivo principal
                                         el educar a las personas sobre este fascinante mundo de los diamantes para de esta forma evitar que
                                         pasen experiencias negativas.
-                                        El Sr. Zela se inició en el mundo de la joyería</p>
+                                        El Sr. Zela se inició en el mundo de la joyería influenciado por la relación comercial que tuvo su padre
+                                        por muchos años con una joyería muy importante en nuestro país. Junto con su padre en el año 1976
+                                        </p>
                                 </div>
                                 <div class="interline1 carousel-item text-center p-2 ">
                                     <p>inició un negocio familiar donde se desempeñó como gerente general y gemólogo hasta 1992,
