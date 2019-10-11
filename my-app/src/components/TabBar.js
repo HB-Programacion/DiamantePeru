@@ -11,6 +11,7 @@ import Eleccion from './Eleccion'
 import Cs from './Cs';
 import Certificaciones from './Certificaciones';
 import Compromiso from './Compromiso'
+import Mantenimiento from './Mantenimiento'
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg'
@@ -97,7 +98,7 @@ const TabBar= () => {
       <Route path="/eleccion" exact component={Eleccion} />
       <Route path="/5cs" exact component={Cs} />
       <Route path="/certificaciones" exact component={Certificaciones} />
-      {/* <Route path="/mantenimiento" exact component={Mantenimiento} /> */}
+      <Route path="/mantenimiento" exact component={Mantenimiento} />
       <Route path="/compromiso" exact component={Compromiso} />
       {/* <Route path="/matrimonio" exact component={Matrimonio} /> */}
       {/* {/* <Route path="/joyas" exact component={joyas} /> */}
