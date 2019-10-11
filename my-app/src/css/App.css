@@ -56,6 +56,9 @@ header{
     font-weight: normal;
     src: local('../fonts/GeosansLight.woff'), url('../fonts/GeosansLight.woff') format('woff');   
 }
+.raleway-light{
+    font-family: 'Raleway-Light';
+}
 /* FONTS */
 /* label{
     margin-left: 1em;
@@ -135,8 +138,14 @@ header{
 .w80{
     width: 80%
 }
+.w95{
+    width: 95%
+}
 .w100{
     width: 100%
+}
+.h50{
+    height: 50%;
 }
 .h80{
     height: 80%;
@@ -205,11 +214,13 @@ header{
     background-size: 100%;
 } */
 .interline{
-    font-size: 14px;
+    font-size: 1.2em;
     line-height: 1em;
+    
 }
 .interline1{
     line-height: 1.2em;
+    font-size: 1.2em
 }
 .interline2{
     line-height: 1.5em;
@@ -290,12 +301,26 @@ header{
     margin-bottom: 0;
     text-align: left
 }
+.logoCenter{
+    padding-left: 20em;
+    width: 75%
+}
 
   /* MOTIVOS */
   .box { 
     margin: 0px;
-    border: 0.1px solid rgb(105, 104, 104) 
+    border: 0.1em solid 
   }
+.centered {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  /* .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  } */
 .logoPremios{
   background-color: rgb(243, 221, 160);
   height: 258px;
@@ -312,11 +337,11 @@ header{
     margin-right: 10%;
 
 }
-.logo{
+/* .logo{
     margin-right: 0;
     height: 80px;
     width: 80px;
-}
+} */
 
 
 .fndo-5cs{
@@ -338,7 +363,8 @@ header{
     background-color:#E6E6E6; 
 }
 .grayNav{
-    background-color:#E6E6E6; 
+    background-color:#E6E6E6;
+    font-size: 1em
 }
 
 /* .imgMenu{
@@ -404,7 +430,7 @@ header{
 
 
 
- @media (max-width:768px){
+ /* @media (max-width:768px){
      .cel{
          display:none
      }
@@ -428,8 +454,6 @@ header{
         float:right;
         right: 0;
         padding-right: 0;
-        /*transition:  all 0.3s;
-        transform:translateX(-150%)*/
         
  }
     .menu ul {
@@ -463,11 +487,9 @@ header{
     .menu a{
         right: 0;
     }
-    /*#btn-menu:checked ~ .menu {
-        transform:translateX(0%)
-        }*/
+    
    
-}
+} */
 .buttonOfNavStyle{
     border:none;
     padding: 0.7% !important;
@@ -524,8 +546,49 @@ header{
 .mr-auto{
     margin-right: auto
 }
+.card-img-top{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.borderBold{
+    border:1em solid #d2cbbd;
+    position: relative;
+}
+.joya{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 1 solid white;
+    cursor: pointer;
+    text-align: center;
+    width: 50%
+  
+}
 
-@media screen and (max-width:1023px){
+@media screen and (max-width:768px){
+    .cel{
+        display:none
+    }
+    .dest{
+        display:block
+    }
+    .bd-bottom{
+        border-bottom: none
+    }
+    .grayNav{
+        text-align: left;
+        background-color:rgba(255,255,255,0.9)
+    }
+}
+
+@media screen and (max-width:767px){
     .mr-auto{
         margin-right: 0
     }
@@ -572,11 +635,7 @@ header{
     /* padding-left: 20%; */
     margin-bottom: 4%;
    }
-   .card-img-top{
-       width: 40%;
-       margin-left: 30%;
-       margin-right: 30%;
-   }
+   
    .card-title{
        text-align: center
    }
@@ -592,9 +651,9 @@ header{
    }
    .burger-rigth{
     text-align: right;
-    width: 50%;
-    background: #a9a9a9d4;
-    padding: 1em;
+    width: 80%;
+    background: rgba(255,255,255,0.9);
+    padding: 2em;
     margin-left: auto;
     }
     .cel{
@@ -611,7 +670,26 @@ header{
     }
     .img-logo{
         margin: 0;
-        justify-content: flex-start
+        padding: 0;
+        justify-content: flex-start;
+    }
+    .logo{
+        /* width: 100%; */
+        margin: 0 !important;
+        padding-left: 0 !important
+    }
+    .bd-bottom{
+        border-bottom:none;
+
+    }
+    .card-img-top{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .grayNav{
+        text-align: right;
+        background-color:rgba(255,255,255,0.9);
     }
 }
 /* @media screen and (max-width:480px){

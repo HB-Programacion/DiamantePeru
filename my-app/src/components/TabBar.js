@@ -10,6 +10,7 @@ import ConveniosTab from './ConveniosTab';
 import Eleccion from './Eleccion'
 import Cs from './Cs';
 import Certificaciones from './Certificaciones';
+import Compromiso from './Compromiso'
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg'
@@ -19,21 +20,19 @@ const TabBar= () => {
   return (
  <Route>
     <header>
-      
-      
-      <nav class="navbar navbar-expand-lg p-0 navbar-light bg-light d-block">
+      <nav class="navbar navbar-expand-lg p-0 navbar-light d-block">
       <div class="d-flex flex-grow-1">
-      <div className='flexWrap'>
-      <div className="allCenter text-size12 mr-5 cel">
-        <a className="ml-5"><img src={ubicacion} className="h13px" /> CONTACTO
+      <div className='w100 flex around pt-1 pb-1 raleway-light bd-bottom'>
+      <div className="allCenter cel">
+      <a className=""><img src={ubicacion} className="h13px" /> CONTACTO
         </a>
       </div>
       <div className="flex ml-5 mr-5 img-logo">
-        <img src={logo} alt="logo" className="center pb-2 pt-1 m-auto w50" />
+      <Link to="/"><img src={logo} alt="logo" className="center m-auto w50 pt-2 pb-2 logoCenter logo" /></Link>
       </div>
-      <div className="allCenter text-size12 ml-5 cel">
-        <a>TESTIMONIOS</a>
-        <a className="ml-5">BLOG</a>
+      <div className="allCenter cel">
+        <a className="pr-4">TESTIMONIOS</a>
+        <a className="pl-4">BLOG</a>
       </div>
       </div>
       {/* <hr class="my-1 d-block"/> */}
@@ -44,48 +43,48 @@ const TabBar= () => {
       </div>
       </div>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav burger-rigth menuRigth">
-            <li class="nav-item ">
+          <ul class="navbar-nav burger-rigth menuRigth raleway-light ">
+            <li class="nav-item pl-3 pr-3">
               <Link to="/" class="nav-link">HOME <span class="sr-only">(current)</span></Link>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown pl-3 pr-3">
               <a class="nav-link dropdown-toggle" href="#diamantePeru" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               DIAMANTE PERU
             </a>
             <div class="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown">
-              <Link to="historia" class="dropdown-item buttonOfNavStyleGray">Historia</Link>
-              <Link to="motivos" class="dropdown-item buttonOfNavStyleGray">Motivos</Link>
-              <Link to="premios" class="dropdown-item buttonOfNavStyleGray">Premios</Link>
-              <Link to="convenios" class="dropdown-item buttonOfNavStyleGray">Convenios</Link>
+              <Link to="historia" class="dropdown-item">Historia</Link>
+              <Link to="motivos" class="dropdown-item">Motivos</Link>
+              <Link to="premios" class="dropdown-item">Premios</Link>
+              <Link to="convenios" class="dropdown-item">Convenios</Link>
             </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown pl-3 pr-3">
               <a class="nav-link dropdown-toggle" href="#diamantes" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               DIAMANTES
             </a>
             <div class="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown">
-              <Link to="eleccion" class="dropdown-item buttonOfNavStyleGray">ELECCION</Link>
-              <Link to="5cs" class="dropdown-item buttonOfNavStyleGray">5CS</Link>
-              <Link to="certificaciones" class="dropdown-item buttonOfNavStyleGray">CERTIFICACIONES</Link>
-              <Link to="mantenimiento" class="dropdown-item buttonOfNavStyleGray">MANTENIMIENTO</Link>
+              <Link to="eleccion" class="dropdown-item ">ELECCION</Link>
+              <Link to="5cs" class="dropdown-item">5CS</Link>
+              <Link to="certificaciones" class="dropdown-item">CERTIFICACIONES</Link>
+              <Link to="mantenimiento" class="dropdown-item">MANTENIMIENTO</Link>
             </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown pl-3 pr-3">
               <a class="nav-link dropdown-toggle" href="#novios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               NOVIOS
             </a>
             <div class="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown">
-              <Link to="compromiso" class="dropdown-item buttonOfNavStyleGray">COMPROMISO</Link>
-              <Link to="matrimonio" class="dropdown-item buttonOfNavStyleGray">MATRIMONIO</Link>
+              <Link to="compromiso" class="dropdown-item">COMPROMISO</Link>
+              <Link to="matrimonio" class="dropdown-item">MATRIMONIO</Link>
             </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mb-4 pl-3 pr-3">
               <Link to="joyas" class="nav-link">JOYAS<span class="sr-only">(current)</span></Link>
             </li>
             <hr class="my-2"/>
-            <li  className="dest"><Link to="blog" class="nav-link">BLOG</Link></li>
-            <li  className="dest"><Link to="testimonio" class="nav-link">TESTIMONIO</Link></li>
-            <li  className="dest"><Link to="contacto" class="nav-link">CONTACTO</Link></li>
+            <li  className="dest mt-4 mb-2 pl-3 pr-3"><Link to="blog" class="nav-link">BLOG</Link></li>
+            <li  className="dest mb-2 pl-3 pr-3" ><Link to="testimonio" class="nav-link">TESTIMONIO</Link></li>
+            <li  className="dest mb-2 pl-3 pr-3"><Link to="contacto" class="nav-link">CONTACTO</Link></li>
           </ul>
         </div>
       </nav>
@@ -98,10 +97,10 @@ const TabBar= () => {
       <Route path="/eleccion" exact component={Eleccion} />
       <Route path="/5cs" exact component={Cs} />
       <Route path="/certificaciones" exact component={Certificaciones} />
-      {/* <Route path="/mantenimiento" exact component={Mantenimiento} />
+      {/* <Route path="/mantenimiento" exact component={Mantenimiento} /> */}
       <Route path="/compromiso" exact component={Compromiso} />
-      <Route path="/matrimonio" exact component={Matrimonio} /> */}
-      {/* <Route path="/joyas" exact component={joyas} /> */}
+      {/* <Route path="/matrimonio" exact component={Matrimonio} /> */}
+      {/* {/* <Route path="/joyas" exact component={joyas} /> */}
       </div>
     </header>
 </Route>

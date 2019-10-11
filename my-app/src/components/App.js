@@ -23,7 +23,7 @@ const App = () => {
       <div className="App vh100">
         {/* <Header/> */}
         
-        <div className="Content">
+        <div className=" ">
         {/* <Nav/> */}
         <TabBar/>
       {/* <Route exact path="/" component={Nav} /> */}

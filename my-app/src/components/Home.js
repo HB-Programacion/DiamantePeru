@@ -18,7 +18,7 @@ import img9 from "../img/9.png"
 
 const Home = () => {
     return(
-        <div className="animated fadeIn">
+        <div className="h100 animated fadeIn">
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div class="carousel-item active">
@@ -32,62 +32,224 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel"> */}
-                {/* <div className="controls-top center mt-5 mb-3">
-                    <a className="btn-floating color-black" href="#carousel-with-lb" data-slide="prev"><i
-                        className="fas fa-chevron-left"></i></a>
-                    <label classNameName="pl-4 pr-4 spacing4 text-size27" >SORTIJAS</label>
-                    <a className="btn-floating color-black" href="#carousel-with-lb" data-slide="next"><i
-                        className="fas fa-chevron-right"></i></a>
-                </div> */}
-                {/* <div className="container">
-                    <div className="carousel slide" data-ride="carousel">
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <div className="row">
-                                    <div class="col-sm ">
-                                        <img src={img1} class="d-block w-100 slide"/>
-                                    </div>
-                                    <div class="col-sm">
-                                        <img src={img2} class="d-block w-100 slide"/>
-                                    </div>
-                                    <div class="col-sm">
-                                        <img src={img3} class="d-block w-100  slide"/>
-                                    </div>
-                                    <div class="col-sm">
-                                        <img src={img4} class="d-block w-100 slide"/>
-                                    </div>
-                                    <div class="col-sm">
-                                        <img src={img5} class="d-block w-100 slide"/>
-                                    </div>
-                                </div>
-                                <div className="carousel-item">
-                                    <div className="row">
-                                        <div class="col-sm">
-                                            <img src={img6} class="d-block w-100 slide"/>
-                                        </div>
-                                        <div class="col-sm">
-                                            <img src={img7} class="d-block w-100 slide"/>
-                                        </div>
-                                        <div class="col-sm">
-                                            <img src={img8} class="d-block w-100  slide"/>
-                                        </div>
-                                        <div class="col-sm">
-                                            <img src={img9} class="d-block w-100 slide"/>
-                                        </div>
-                                        <div class="col-sm">
-                                            <img src={img1} class="d-block w-100 slide"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-            <Carrousel/>
-        {/* <Convenio/> */}
+            <div class="container my-4">
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
+      <div class="controls-top center">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
+        <label className="">SORTIJAS</label>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
+      </div>
+
+      {/* <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        <li data-target="#multi-item-example" data-slide-to="2"></li>
+      </ol> */}
+
+      <div class="carousel-inner" role="listbox">
+
+        <div class="carousel-item active">
+
+          <div class="row allCenter">
+            <div class="col-md-2">
+              <div class="mb-2">
+                <img class="card-img-top" src={img1}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img2}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img3}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img4}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            {/* <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div> */}
+
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="row allCenter">
+            <div class="col-md-2">
+              <div class="mb-2">
+                <img class="card-img-top" src={img6}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img7}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img8}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            {/* <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img9}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div> */}
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img1}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <div class="row allCenter">
+            <div class="col-md-2">
+              <div class="mb-2">
+                <img class="card-img-top" src={img2}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img3}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            {/* <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img4}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div> */}
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img5}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 clearfix d-none d-md-block">
+              <div class="mb-2">
+                <img class="card-img-top" src={img6}
+                  alt="Card image cap"/>
+                <div class="card-body center">
+                  <p class="card-title">Codigo</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            
 
 
 

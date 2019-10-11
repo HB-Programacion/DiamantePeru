@@ -6,7 +6,7 @@ import imgconvenio from "../img/img-convenio.svg";
 
 const ConveniosTab = () => {
     return(
-        <div className="vh100 animated fadeIn">
+        <div className="w100 animated fadeIn">
             <span className="p-4 flex flexCenter text-size27"><b>CONVENIOS</b></span>
             <div class="container my-4">
             <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
@@ -40,7 +40,7 @@ const ConveniosTab = () => {
                           <li>15% de dscto en ternos a medida para caballeros</li>
                       </ul>
                       <hr class="my-4"/>
-                      <p className="interline justify">
+                      <p className="interline1 text-size12 justify">
                         Términos y Condiciones:
                         Descuentos exclusivos para clientes de DIAMANTE PERU,
                         La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERU. Para acceder al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERU. Promoción no acumulable con otros descuentos, vales, cupones y/o promociones vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta promoción es válida con pago en efectivo o depósito en cuenta. Local ubicado en: Av. Javier Prado Este 2456, 3er. Piso - San Borja. Horario de atención*: De Lunes a Viernes de 10am a 7pm / Sábados: 10am a 1pm. Teléfono de contacto: 2268364 / PÁGINA WEB: www.carmenseminario.com
