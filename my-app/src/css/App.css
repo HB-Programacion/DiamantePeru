@@ -66,7 +66,7 @@ header{
 } */
 .card-title{
     font-family:'Raleway-Medium';
-    font-size: 100%
+    font-size: 1em
 }
 .flex{
     display: flex
@@ -202,7 +202,7 @@ header{
     background-image: url("../img/fondo-celeste.svg");
     background-repeat: no-repeat;
     height: auto;
-    background-size: 100%;
+    background-size: cover;
 }
 .fndo-img2{
     background-image: url("../img/INTERIOR01.jpg");
@@ -579,6 +579,16 @@ header{
     font-size: 1em;
     border-radius: 0;
 }
+.top10{
+    top:10em
+}
+.right5{
+    right: 5em;
+}
+.left5{
+    left: 5em
+}
+
 @media screen and (max-width:768px){
     .cel{
         display:none
@@ -592,6 +602,9 @@ header{
     .grayNav{
         text-align: left;
         background-color:rgba(255,255,255,0.9)
+    }
+    .convenioRes{
+        width: 100%;
     }
 }
 
@@ -644,7 +657,8 @@ header{
    }
    
    .card-title{
-       text-align: center
+       text-align: center;
+       font-size: 1em
    }
    .vhEleccion{
        height: 100%
@@ -697,6 +711,12 @@ header{
     .grayNav{
         text-align: right;
         background-color:rgba(255,255,255,0.9);
+    }
+    .convenioResImg{
+        width: 60%;
+    }
+    .convenioRes{
+        width: 100%;
     }
 }
 /* @media screen and (max-width:480px){
