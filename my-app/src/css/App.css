@@ -86,10 +86,9 @@ header {
     margin-right: 1em
 } */
 
-.card-title{
-    font-family:'Raleway-Medium';
+.card-title {
+    font-family: 'Raleway-Medium';
     font-size: 1em
-
 }
 
 .flex {
@@ -268,23 +267,19 @@ header {
 .fndo-img1 {
     background-image: url("../img/fondo-celeste.svg");
     background-repeat: no-repeat;
-
     height: auto;
     background-position: center;
     background-size: cover;
-    padding: 2em;
-
+    padding: 5em;
 }
 
 .fndo-img2 {
     background-image: url("../img/INTERIOR01.jpg");
     background-repeat: no-repeat;
-
     height: auto;
-    background-size: 58%;
+    background-size: 58% 100%;
     background-position: left;
     padding: 5em;
-
 }
 
 
@@ -698,7 +693,6 @@ header {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -55%);
-    
     background-color: black;
     color: #fff;
     font-size: 1em;
@@ -720,7 +714,6 @@ header {
     font-size: 1em;
     border-radius: 0;
 }
-
 
 .navbar-horizontal {
     display: flex !important;
@@ -797,29 +790,29 @@ header {
     border: solid #A9A9A9 1px;
 }
 
-.pad-2 {
-    padding: 2em;
-}
-
 .text-centered {
-    text-align: justify;
+    text-align: left;
 }
 
 .gray-text-centered {
     text-align: center;
     padding: 3%;
 }
-.top10{
-    top:10em
+
+.top10 {
+    top: 10em
 }
-.right3{
+
+.right3 {
     right: 3em;
     z-index: 1;
 }
-.left3{
+
+.left3 {
     left: 3em;
     z-index: 1;
 }
+
 
 /* @media screen and (max-width:768px) {
     .flex-wrap-xs {
@@ -840,19 +833,27 @@ header {
     z-index: 1;
 }
 } */
-@media screen and (max-width:768px){
-    
+
+
+.pad-2 {
+    padding: 2em;
+}
+
+.fnt-w-bold {
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+
     .flex-wrap-xs {
         flex-wrap: wrap;
     }
-    .cel{
-        display:none
-
+    .cel {
+        display: none
     }
     .dest {
         display: block
     }
-    
     .bd-bottom {
         border-bottom: none
     }
@@ -908,8 +909,11 @@ header {
     .fndo-img1 {
         padding: 0
     }
+    .pad-5-xs {
+        padding: 5em;
+    }
     .fndo-img2 {
-        padding: 3em;
+        padding: 5em;
         background-size: cover;
         background-position: center;
         padding-right: 0;
@@ -921,28 +925,26 @@ header {
         text-align: center;
     }
     .pad-14 {
-        padding: 14%;
-        padding-right: 0%;
+        padding: 8%;
+        padding-right: 7%;
     }
-    .convenioRes{
+    .convenioRes {
         width: 100%;
     }
-    .right3{
+    .right3 {
         right: .3em;
     }
-    .left3{
+    .left3 {
         left: .3em;
     }
-    .joya{
+    .joya {
         width: 60%;
         height: 10%;
     }
-    
-
 }
 
 @media screen and (max-width:767px) {
-    .m4-xs{
+    .m4-xs {
         margin-left: 2em !important;
         margin-right: 2em !important;
         margin-top: 1em !important;
@@ -965,6 +967,10 @@ header {
     }
     span {
         font-size: 100% !important
+    }
+    .arrow-see-more {
+        font-size: 1.3em !important;
+        padding-left: .5em;
     }
     #div-premios {
         width: 100%
@@ -1053,7 +1059,7 @@ header {
     .w100-xs {
         width: 100%;
     }
-    .m4-xs{
+    .m4-xs {
         margin: 2em
     }
     .noPortada{
