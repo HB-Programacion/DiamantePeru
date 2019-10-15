@@ -19,7 +19,9 @@ import img9 from "../img/9.png"
 const Home = () => {
     return(
         <div className="h100 animated fadeIn">
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+        <div className="portada"></div>
+        
+            <div id="carouselExampleSlidesOnly" className="carousel slide noPortada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div class="carousel-item active">
                         <img src={foto1} class="d-block w-100" alt="chica"/>
