@@ -4,7 +4,7 @@ const Mantenimiento = () => {
     return(
         <>
         <div className="gray w100 animated fadeIn pb-4">
-        <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">MANTENIMIENTO</b></span>
+        <span className="p-4 flex flexCenter text-size27"><b>MANTENIMIENTO</b></span>
         <hr class="my-4 w10 m-auto"/>
             <div className=" allCenter startItem ">
                 <div className="allcenter" >

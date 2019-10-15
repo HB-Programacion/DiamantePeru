@@ -11,18 +11,15 @@ import img9 from "../img/9.png"
 
 const Carrousel = () => {
   return (
-  <div className="w100 animated fadeIn">
-   <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">DIAMANTE</b></span>
-   <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
-  <div class="controls-top center position-relative">
-        <a class="btn-floating btn-left" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
-       
-        <a class="btn-floating btn-right" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
-      </div>
+  <>
     <div class="container my-4">
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
-      
+      <div class="controls-top center">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
+        <label className="">SORTIJAS</label>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
+      </div>
 
       {/* <ol class="carousel-indicators">
         <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
@@ -233,7 +230,7 @@ const Carrousel = () => {
     </div>
   </div>
 
-  </div>
+  </>
   )
 }
 export default Carrousel

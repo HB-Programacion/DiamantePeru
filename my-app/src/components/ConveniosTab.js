@@ -11,7 +11,7 @@ const ConveniosTab = () => {
                 <a class="btn-floating position-absolute top10 left3" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
                 <a class="btn-floating position-absolute top10 right3" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
             </div>
-            <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">CONVENIOS</b></span>
+            <span className="p-4 flex flexCenter text-size27"><b>CONVENIOS</b></span>
             
             <div class="container my-4">
             <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
