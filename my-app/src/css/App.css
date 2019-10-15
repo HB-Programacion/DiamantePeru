@@ -313,6 +313,9 @@ header {
     font-size: 10px;
     margin: 1em
 }
+.text-size-em{
+    font-size: 1.5em
+}
 
 .text-size12 {
     font-size: 12px
@@ -401,8 +404,8 @@ header {
 }
 
 .logoCenter {
-    padding-left: 20em;
-    width: 75%
+    padding-left: 14em;
+    width: 68%;
 }
 
 
@@ -780,8 +783,8 @@ header {
 }
 
 .pad-txt-19 {
-    padding-left: 19%;
-    padding-right: 19%;
+    padding-left: 22%;
+    padding-right: 22%;
     text-align: center;
 }
 
@@ -811,6 +814,16 @@ header {
 .left3 {
     left: 3em;
     z-index: 1;
+}
+.btn-left{
+    position: absolute;
+    left: -5em;
+    top: 12em;
+}
+.btn-right{
+    position: absolute;
+    top: 12em;
+    right: -5em;
 }
 
 
@@ -895,7 +908,7 @@ header {
         text-align: center;
     }
     .blue-background {
-        background-color: #435b76;
+        background-color: rgb(58, 99, 120);;
     }
     .text-centered {
         text-align: center;

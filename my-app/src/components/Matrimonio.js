@@ -9,10 +9,10 @@ import img7 from "../img/7.png"
 import img8 from "../img/8.png"
 import img9 from "../img/9.png"
 
-const Carrousel = () => {
+const Matrimonio = () => {
   return (
   <div className="w100 animated fadeIn">
-   <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">DIAMANTE</b></span>
+   <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">MATRIMONIO</b></span>
    <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
   <div class="controls-top center position-relative">
         <a class="btn-floating btn-left" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
@@ -236,4 +236,4 @@ const Carrousel = () => {
   </div>
   )
 }
-export default Carrousel
+export default Matrimonio

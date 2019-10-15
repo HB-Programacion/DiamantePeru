@@ -3,7 +3,7 @@ import React from "react";
 const Cs = () => {
     return (
         <div className="w100 fndo-5cs animated fadeIn">
-        <span className="p-4 flex flexCenter text-size27"><b>5Cs</b></span>
+        <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">5Cs</b></span>
             <div className=" w80 mL-R10">
                 <div>
                 {/* <span className="mb-2 flex flexCenter text-size27" >5Cs</span> */}

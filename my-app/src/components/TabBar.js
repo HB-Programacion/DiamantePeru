@@ -11,7 +11,8 @@ import Eleccion from './Eleccion'
 import Cs from './Cs';
 import Certificaciones from './Certificaciones';
 import Compromiso from './Compromiso'
-import Mantenimiento from './Mantenimiento'
+import Mantenimiento from './Mantenimiento';
+import Matrimonio from './Matrimonio'
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg'
@@ -37,7 +38,7 @@ const TabBar= () => {
 
   return (
  <Route>
-    <header>
+    <header className="100vh">
       <nav className={"navbar navbar-expand-lg p-0 navbar-light d-block"}>
       <div className={"d-flex flex-grow-1"}>
       <div className={'w100 flex around pt-1 pb-1 raleway-light bd-bottom'}>
@@ -63,7 +64,7 @@ const TabBar= () => {
         <div className={"collapse navbar-collapse justify-content-center"} id="navbarSupportedContent">
           <ul className={"navbar-nav burger-rigth menuRigth raleway-light "}>
             <li className={"nav-item pl-3 pr-3"}>
-              <Link to="/" className={"nav-link"}>HOME <span className={"sr-only"}>(current)</span></Link>
+              <Link to="/" className={"nav-link"}>HOME<span className={"sr-only"}>(current)</span></Link>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3"} onClick={toggle1}>
               <a className={"nav-link dropdown-toggle"} href="#diamantePeru" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   >
@@ -107,7 +108,7 @@ const TabBar= () => {
           </ul>
         </div>
       </nav>
-      <div>
+      <div className="">
       <Route path="/" exact component={Home} />
       <Route path="/historia" exact component={Historia} />
       <Route path="/motivos" exact component={Motivos} />
@@ -118,7 +119,7 @@ const TabBar= () => {
       <Route path="/certificaciones" exact component={Certificaciones} />
       <Route path="/mantenimiento" exact component={Mantenimiento} />
       <Route path="/compromiso" exact component={Compromiso} />
-      {/* <Route path="/matrimonio" exact component={Matrimonio} /> */}
+      <Route path="/matrimonio" exact component={Matrimonio} />
       {/* {/* <Route path="/joyas" exact component={joyas} /> */}
       </div>
     </header>
