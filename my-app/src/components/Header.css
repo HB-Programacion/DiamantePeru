@@ -1,15 +1,15 @@
-.Header {
-    /* position: fixed; */
-    top: 0; /* Stick it to the top */
+/* .Header {
+ 
+    top: 0;
     max-height: 70px;
     width: 100vw;
   
     display: grid;
     grid-template-areas: "logo nav";
   
-    /* Cosmetics */
+
     background-color: white;
-    /* box-shadow: 0 4px 8px 0 rgba(202, 28, 28, 0.2); */
+ 
   }
   
   .Logo {
@@ -113,4 +113,4 @@
     transform: scale(0.5);
     transition: opacity 350ms, transform 350ms;
   }
-  
+   */

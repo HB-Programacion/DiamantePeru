@@ -698,20 +698,20 @@ header {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -55%);
-    -ms-transform: translate(-50%, -50%);
+    
     background-color: black;
     color: #fff;
-    font-size: 14px;
+    font-size: 1em;
     padding: 0.2em 2em;
     cursor: pointer;
     text-align: center;
     width: 50%;
     box-sizing: content-box;
-    border: solid 1px #000;
-    padding: 3px;
+    border: solid 0.1em #000;
+    padding: 0.1em;
     background-clip: content-box;
     background-color: #0f0f0f;
-    height: 6%;
+    height: 7%;
 }
 
 .btn {
@@ -767,18 +767,18 @@ header {
 }
 
 .btn-flat {
-    padding: 1.5%;
+    padding: .7em;
     padding-left: 3.5%;
     padding-right: 3.5%;
     font-weight: bold;
 }
 
 .border-gray-3 {
-    border-top: 2px solid #b4b0b0;
-    border-left: 2px solid #b4b0b0;
-    border-bottom: 2px solid #b4b0b0;
+    border-top: 0.1em solid #b4b0b0;
+    border-left: 0.1em solid #b4b0b0;
+    border-bottom: 0.1em solid #b4b0b0;
     border-right: none;
-    padding: 0.63rem !important;
+    padding: 0.5rem !important;
     width: 40%;
 }
 
@@ -809,14 +809,6 @@ header {
     text-align: center;
     padding: 3%;
 }
-
-@media screen and (max-width:768px) {
-    .flex-wrap-xs {
-        flex-wrap: wrap;
-    }
-    .cel {
-        display: none
-
 .top10{
     top:10em
 }
@@ -829,7 +821,29 @@ header {
     z-index: 1;
 }
 
+/* @media screen and (max-width:768px) {
+    .flex-wrap-xs {
+        flex-wrap: wrap;
+    }
+    .cel {
+        display: none
+    }
+.top10{
+    top:10em
+}
+.right3{
+    right: 3em;
+    z-index: 1;
+}
+.left3{
+    left: 3em;
+    z-index: 1;
+}
+} */
 @media screen and (max-width:768px){
+    .flex-wrap-xs {
+        flex-wrap: wrap;
+    }
     .cel{
         display:none
 
@@ -837,6 +851,7 @@ header {
     .dest {
         display: block
     }
+    
     .bd-bottom {
         border-bottom: none
     }
@@ -857,10 +872,11 @@ header {
         width: 100%;
     }
     .btn-flat {
-        padding: 4.5%;
+        padding: 3.5%;
     }
     .border-gray-3 {
-        border: none;
+        border: 0.1px solid;
+        margin-bottom: 0.5em;
         padding: 0.63rem !important;
         width: 100%;
         text-align: center;
@@ -910,15 +926,26 @@ header {
     .convenioRes{
         width: 100%;
     }
-    /* .right3{
+    .right3{
         right: .3em;
     }
     .left3{
         left: .3em;
-    } */
+    }
+    .joya{
+        width: 60%;
+        height: 10%;
+    }
+    
+
 }
 
 @media screen and (max-width:767px) {
+    .m4-xs{
+        margin-left: 2em !important;
+        margin-right: 2em !important;
+        margin-top: 1em !important;
+    }
     .gray-text-centered {
         text-align: right;
     }
@@ -1024,6 +1051,9 @@ header {
     }
     .w100-xs {
         width: 100%;
+    }
+    .m4-xs{
+        margin: 2em
     }
 }
 
