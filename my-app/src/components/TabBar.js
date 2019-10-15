@@ -17,7 +17,9 @@ import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg'
 
 
-const TabBar= () => { 
+const TabBar= () => {
+
+ 
     const [toggleState1, setToggleState1] = useState("off");
     const [toggleState2, setToggleState2] = useState("off");
     const [toggleState3, setToggleState3] = useState("off");
