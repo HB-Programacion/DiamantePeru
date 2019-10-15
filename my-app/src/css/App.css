@@ -201,14 +201,15 @@ header{
 .fndo-img1{
     background-image: url("../img/fondo-celeste.svg");
     background-repeat: no-repeat;
-    height: auto;
+    height: 380px;
     background-size: cover;
 }
 .fndo-img2{
     background-image: url("../img/INTERIOR01.jpg");
     background-repeat: no-repeat;
-    height: auto;
-    background-size: 58%;
+    height: 380px;
+    width: 58%;
+    background-size: cover;
 }
 /* .fndo-img3{
     background-image: url("../img/Fondo-Certificaciones.svg");
@@ -582,11 +583,13 @@ header{
 .top10{
     top:10em
 }
-.right5{
-    right: 5em;
+.right3{
+    right: 3em;
+    z-index: 1;
 }
-.left5{
-    left: 5em
+.left3{
+    left: 3em;
+    z-index: 1;
 }
 
 @media screen and (max-width:768px){
@@ -606,6 +609,12 @@ header{
     .convenioRes{
         width: 100%;
     }
+    /* .right3{
+        right: .3em;
+    }
+    .left3{
+        left: .3em;
+    } */
 }
 
 @media screen and (max-width:767px){
@@ -717,6 +726,12 @@ header{
     }
     .convenioRes{
         width: 100%;
+    }
+    .right3{
+        right: .3em;
+    }
+    .left3{
+        left: .3em;
     }
 }
 /* @media screen and (max-width:480px){
