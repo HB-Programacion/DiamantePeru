@@ -5,7 +5,7 @@ const Convenio = () => {
         <div className="animated fadeIn">
             <div className="fndo-img1 mb-0">
                 <div className="w100 pad-5-xs pad-2 blue-background">
-                    <div className="w45 w100-xs center color-white text-centered"> <label className="spacing4 ">CONVENIO</label>
+                    <div className="w45 w100-xs center color-white text-centered"> <label className="spacing4 text-1-5 bolder-xs ">CONVENIO</label>
                     <p className="text-centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
                     <a className="text-centered" >Leer mas</a></div>
                    
@@ -14,7 +14,7 @@ const Convenio = () => {
             <div className="gray"> 
                 <div className="fndo-img2 rigth">
                     <div className="w35 gray-xs w87-xs gray-text-centered  pad-14">
-                        <label className="spacing4"> <span className="fnt-w-bold">DIAMANTE</span><br/> PERÚ</label>
+                        <label className="spacing4 text-1-5"> <span className="fnt-w-bold">DIAMANTE</span><br/> PERÚ</label>
                         <p className="gray-text-centered ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                         <a className="" >Leer mas <span className="arrow-see-more">></span></a> 
                     </div>
