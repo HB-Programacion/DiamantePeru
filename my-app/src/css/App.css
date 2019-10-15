@@ -268,7 +268,9 @@ header {
     background-image: url("../img/fondo-celeste.svg");
     background-repeat: no-repeat;
     height: auto;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 2em;
 }
 
 .fndo-img2 {
@@ -276,6 +278,8 @@ header {
     background-repeat: no-repeat;
     height: auto;
     background-size: 58%;
+    background-position: left;
+    padding: 5em;
 }
 
 
@@ -787,6 +791,19 @@ header {
     border: solid #A9A9A9 1px;
 }
 
+.pad-2 {
+    padding: 2em;
+}
+
+.text-centered {
+    text-align: justify;
+}
+
+.gray-text-centered {
+    text-align: center;
+    padding: 3%;
+}
+
 @media screen and (max-width:768px) {
     .flex-wrap-xs {
         flex-wrap: wrap;
@@ -836,9 +853,43 @@ header {
         padding-right: 0%;
         text-align: center;
     }
+    .blue-background {
+        background-color: #435b76;
+    }
+    .text-centered {
+        text-align: center;
+    }
+    .gray-xs {
+        background-color: #F1F1F1;
+    }
+    .w87-xs {
+        width: 87%;
+    }
+    .fndo-img1 {
+        padding: 0
+    }
+    .fndo-img2 {
+        padding: 3em;
+        background-size: cover;
+        background-position: center;
+        padding-right: 0;
+    }
+    .pad-3 {
+        padding: 3%;
+    }
+    .gray-text-centered {
+        text-align: center;
+    }
+    .pad-14 {
+        padding: 14%;
+        padding-right: 0%;
+    }
 }
 
 @media screen and (max-width:767px) {
+    .gray-text-centered {
+        text-align: right;
+    }
     .mr-auto {
         margin-right: 0
     }
@@ -938,6 +989,9 @@ header {
     .grayNav {
         text-align: right;
         background-color: rgba(255, 255, 255, 0.9);
+    }
+    .w100-xs {
+        width: 100%;
     }
 }
 
