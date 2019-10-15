@@ -841,6 +841,7 @@ header {
 }
 } */
 @media screen and (max-width:768px){
+    
     .flex-wrap-xs {
         flex-wrap: wrap;
     }
@@ -1054,6 +1055,16 @@ header {
     }
     .m4-xs{
         margin: 2em
+    }
+    .noPortada{
+        display: none
+    }
+    .portada{
+        background-image: url('../img/PORTADA.png');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 126% 100%,cover;
+        background-position-x: center;
     }
 }
 
