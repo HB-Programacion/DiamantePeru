@@ -86,9 +86,10 @@ header {
     margin-right: 1em
 } */
 
-.card-title {
-    font-family: 'Raleway-Medium';
-    font-size: 100%
+.card-title{
+    font-family:'Raleway-Medium';
+    font-size: 1em
+
 }
 
 .flex {
@@ -267,19 +268,23 @@ header {
 .fndo-img1 {
     background-image: url("../img/fondo-celeste.svg");
     background-repeat: no-repeat;
+
     height: auto;
     background-position: center;
     background-size: cover;
     padding: 2em;
+
 }
 
 .fndo-img2 {
     background-image: url("../img/INTERIOR01.jpg");
     background-repeat: no-repeat;
+
     height: auto;
     background-size: 58%;
     background-position: left;
     padding: 5em;
+
 }
 
 
@@ -716,6 +721,7 @@ header {
     border-radius: 0;
 }
 
+
 .navbar-horizontal {
     display: flex !important;
     width: 100vw !important;
@@ -810,6 +816,23 @@ header {
     }
     .cel {
         display: none
+
+.top10{
+    top:10em
+}
+.right3{
+    right: 3em;
+    z-index: 1;
+}
+.left3{
+    left: 3em;
+    z-index: 1;
+}
+
+@media screen and (max-width:768px){
+    .cel{
+        display:none
+
     }
     .dest {
         display: block
@@ -884,6 +907,15 @@ header {
         padding: 14%;
         padding-right: 0%;
     }
+    .convenioRes{
+        width: 100%;
+    }
+    /* .right3{
+        right: .3em;
+    }
+    .left3{
+        left: .3em;
+    } */
 }
 
 @media screen and (max-width:767px) {
