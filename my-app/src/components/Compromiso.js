@@ -1,21 +1,43 @@
-import React from "react";
 
+import React, { useState } from "react";
+import Carrousel from './Carrousel'
 import oneDiamante from '../img/one-diamante.png'
 import moreDiamante from '../img/more-diamante.png'
 
 const Compromiso = () => {
+    const [state, setState] = useState("viewTwo");
     return (
         <div className="w100 flex flexCenter animated fadeIn">
-            <div className="w95 flex flexCenter">
-                <div className="w-auto borderBold m-5">
-                    <img src={oneDiamante} className="w100 box"/>
-                    <button className="joya">DIAMANTE</button>
-                </div>
-                <div className="w-auto borderBold m-5">
-                    <img src={moreDiamante} className="w100 box"/>
-                    <button className="joya">+ DIAMANTES</button>
-                </div>
-            </div>
+            {state === "viewTwo" && (
+         
+         <div className="w95 flex-wrap-xs flex flexCenter">
+         <div className="w-auto borderBold m-5"  onClick={() => {
+           setState("diamante");
+         }}>
+             <img src={oneDiamante} className="w100 box"/>
+             <button className="joya">DIAMANTE</button>
+         </div>
+         <div className="w-auto borderBold m-5"  onClick={() => {
+           setState("diamantes");
+         }} >
+             <img src={moreDiamante} className="w100 box"/>
+             <button className="joya" >+ DIAMANTES</button>
+         </div>
+     </div>
+        )}
+
+        {state === "diamante" && (
+          <div>
+           <Carrousel></Carrousel>
+          </div>
+        )}
+
+{state === "diamantes" && (
+          <div>
+          <h2>hola estoy en diamantes</h2>
+          <Carrousel></Carrousel>
+          </div>
+        )}
         </div>
     )
 }

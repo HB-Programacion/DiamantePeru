@@ -38,6 +38,10 @@ header {
     font-size: 13px;
 }
 
+.border-none {
+    border: none;
+}
+
 
 /* FONTS */
 
@@ -684,16 +688,21 @@ header {
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
     -ms-transform: translate(-50%, -50%);
     background-color: black;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: 1 solid white;
+    color: #fff;
+    font-size: 14px;
+    padding: 0.2em 2em;
     cursor: pointer;
     text-align: center;
-    width: 50%
+    width: 50%;
+    box-sizing: content-box;
+    border: solid 1px #000;
+    padding: 3px;
+    background-clip: content-box;
+    background-color: #0f0f0f;
+    height: 6%;
 }
 
 .btn {
@@ -729,7 +738,59 @@ header {
     display: none !important;
 }
 
+.contact-us {
+    height: 45px;
+}
+
+.pad-l-t-3 {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.container-contact {
+    align-items: center;
+    justify-content: center;
+}
+
+.w62 {
+    width: 62%;
+}
+
+.btn-flat {
+    padding: 1.5%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    font-weight: bold;
+}
+
+.border-gray-3 {
+    border-top: 2px solid #b4b0b0;
+    border-left: 2px solid #b4b0b0;
+    border-bottom: 2px solid #b4b0b0;
+    border-right: none;
+    padding: 0.63rem !important;
+    width: 40%;
+}
+
+.flex-column-reverse1 {
+    flex-direction: ;
+}
+
+.pad-txt-19 {
+    padding-left: 19%;
+    padding-right: 19%;
+    text-align: center;
+}
+
+.background-carrousel-ring {
+    background-color: #fafafa;
+    border: solid #A9A9A9 1px;
+}
+
 @media screen and (max-width:768px) {
+    .flex-wrap-xs {
+        flex-wrap: wrap;
+    }
     .cel {
         display: none
     }
@@ -748,6 +809,32 @@ header {
         width: 100%;
         left: 0;
         top: 0
+    }
+    .flex-column-reverse1 {
+        flex-direction: column-reverse;
+    }
+    .w100-xs {
+        width: 100%;
+    }
+    .btn-flat {
+        padding: 4.5%;
+    }
+    .border-gray-3 {
+        border: none;
+        padding: 0.63rem !important;
+        width: 100%;
+        text-align: center;
+    }
+    .form-xs {
+        display: flex;
+        flex-flow: column;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .pad-txt-19 {
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
     }
 }
 
