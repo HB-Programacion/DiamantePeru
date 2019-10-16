@@ -194,6 +194,14 @@
         height: 50%;
     }
     
+    .vh40 {
+        height: 47vh;
+        width: 100vw;
+        background-color: black;
+        object-fit: cover;
+        object-position: inherit;
+    }
+    
     .h80 {
         height: 80%;
     }
@@ -816,6 +824,12 @@
     
     .text-1-5 {
         font-size: 1.5em;
+    }
+    
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 0px;
     }
     
     @media screen and (max-width:768px) {

@@ -35,6 +35,9 @@ const TabBar= () => {
       setToggleState3(toggleState3 === "off" ? "navbar-horizontal3" : "off");
     }
     useEffect(() => {
+      return ()=>{
+        
+      }
      }, [toggleState1])
 
   return (
