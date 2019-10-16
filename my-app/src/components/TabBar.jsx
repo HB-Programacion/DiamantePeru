@@ -18,30 +18,10 @@ import ubicacion from '../img/Ubication.svg'
 
 
 const TabBar= () => { 
-    const [toggleState1, setToggleState1] = useState("off");
-    const [toggleState2, setToggleState2] = useState("off");
-    const [toggleState3, setToggleState3] = useState("off");
-
-    function toggle1() {
-    const stateTabVar =  toggleState1 === "off" ? "navbar-horizontal" : "off" ;
-    setToggleState1({stateTabVar})
-    }
-  
-    function toggle2() {
-      setToggleState2(toggleState2 === "off" ? "navbar-horizontal2" : "off");
-    }
-    function toggle3() {
-      setToggleState3(toggleState3 === "off" ? "navbar-horizontal3" : "off");
-    }
-    useEffect(() => {
-      return ()=>{
-        
-      }
-     }, [toggleState1])
-
+    
   return (
  <Route>
-    <header>
+    <header className="vh20">
       <nav className={"navbar navbar-expand-lg p-0 navbar-light d-block"}>
       <div className={"d-flex flex-grow-1"}>
       <div className={'w100 flex around pt-1 pb-1 raleway-light bd-bottom'}>
@@ -69,11 +49,11 @@ const TabBar= () => {
             <li className={"nav-item pl-3 pr-3"}>
               <Link to="/" className={"nav-link"}>HOME <span className={"sr-only"}>(current)</span></Link>
             </li>
-            <li className={"nav-item dropdown pl-3 pr-3"} onClick={toggle1}>
+            <li className={"nav-item dropdown pl-3 pr-3"} >
               <a className={"nav-link dropdown-toggle"} href="#diamantePeru" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   >
               DIAMANTE PERU
             </a>
-            <div className={`dropdown-menu center grayNav border-0 rounded-0 ${toggleState1}`} aria-labelledby="navbarDropdown"
+            <div className="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown"
           >
               <Link to="historia" className={"dropdown-item"}>Historia</Link>
               <Link to="motivos" className={"dropdown-item"}>Motivos</Link>
@@ -81,22 +61,22 @@ const TabBar= () => {
               <Link to="convenios" className={"dropdown-item"}>Convenios</Link>
             </div>
             </li>
-            <li className={"nav-item dropdown pl-3 pr-3"}onClick={toggle2}>
-              <a  className={"nav-link dropdown-toggle"}  href="#diamantes" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={toggle2}>
+            <li className={"nav-item dropdown pl-3 pr-3"}>
+              <a  className={"nav-link dropdown-toggle"}  href="#diamantes" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
               DIAMANTES 
             </a>
-            <div className={`dropdown-menu center grayNav border-0 rounded-0 ${toggleState2}`}  aria-labelledby="navbarDropdown">
+            <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
               <Link to="eleccion" className={"dropdown-item "}>ELECCION</Link>
               <Link to="5cs" className={"dropdown-item"}>5CS</Link>
               <Link to="certificaciones" className={"dropdown-item"}>CERTIFICACIONES</Link>
               <Link to="mantenimiento" className={"dropdown-item"}>MANTENIMIENTO</Link>
             </div>
             </li>
-            <li onClick={toggle3} className={"nav-item dropdown pl-3 pr-3"}>
-              <a   className={"nav-link dropdown-toggle"} href="#novios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={toggle3}>
+            <li className={"nav-item dropdown pl-3 pr-3"}>
+              <a   className={"nav-link dropdown-toggle"} href="#novios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               NOVIOS
             </a>
-            <div className={`dropdown-menu center grayNav border-0 rounded-0 ${toggleState3}`}   aria-labelledby="navbarDropdown">
+            <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
               <Link to="compromiso" className={"dropdown-item"}>COMPROMISO</Link>
               <Link to="matrimonio" className={"dropdown-item"}>MATRIMONIO</Link>
             </div>

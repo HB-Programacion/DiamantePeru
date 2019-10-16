@@ -448,15 +448,6 @@
         border: 0.1px solid rgb(105, 104, 104)
     }
     
-    .buttonOfNavStyleGray {
-        border: none;
-        padding: 0.7% !important;
-        padding-right: 3% !important;
-        padding-left: 3% !important;
-        font-size: 0.7em;
-        background-color: #E6E6E6;
-    }
-    
     .grayNav {
         background-color: #E6E6E6;
         font-size: 1em
@@ -824,7 +815,31 @@
         padding: 0px;
     }
     
+    .dropdown-menu.show {
+        display: inline-flex;
+    }
+    
+    .dropdown {
+        position: unset !important;
+    }
+    
+    .dropdown-menu {
+        width: 100vw;
+    }
+    
+    @media screen and (min-width :769px) {
+        .dropdown-item {
+            text-align: left;
+        }
+        .dropdown-menu {
+            width: 100%;
+        }
+    }
+    
     @media screen and (max-width:768px) {
+        .dropdown-item {
+            text-align: right;
+        }
         .bolder-xs {
             font-weight: bolder;
         }
@@ -939,11 +954,9 @@
             right: -2em;
             top: 6em;
         } */
-    
     }
     
     @media screen and (max-width:767px) {
-        
         .m4-xs {
             margin-left: 2em !important;
             margin-right: 2em !important;
@@ -1078,13 +1091,6 @@
             top: 6em;
         }
     }
-    
-    @media (min-width :769px) and (max-width:1002px) {
-        .container-contact {
-            align-items: center;
-            justify-content: right;
-        }
-    }
     /* @media screen and (max-width:480px){
 	body {
 		font-size:80%;
@@ -1159,5 +1165,12 @@
         .container-contact {
             align-items: center;
             justify-content: right;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .dropdown-menu.show {
+            display: block;
+            background-color: #fff0;
         }
     }
