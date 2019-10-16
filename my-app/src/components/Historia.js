@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./Header"
-import Footer from "./Footer";
-import Nav from "./Nav";
+
 import historia from "../img/historia.svg"
+import Footer from "./Footer"
 
 const Historia = () =>{
     return (
+        <>
         <div className="w100 flex gray responsive-certificacion animated fadeIn">
             <div className="w50 allCenter wResponsive100">
                 <div className="mt-3">
@@ -58,6 +58,8 @@ const Historia = () =>{
                 <img  className="w100" src={historia} />
             </div>
         </div>
+        {/* <Footer></Footer> */}
+        </>
     )
 }
 export default Historia;

@@ -2,6 +2,7 @@ import React from "react";
 import Slide from "./Slide";
 import Carrousel from "./Carrousel";
 import Convenio from "./Convenio";
+import Footer from "./Footer";
 
 import foto1 from "../img/Clip.png";
 import foto2 from "../img/foto2.png";
@@ -18,17 +19,18 @@ import img9 from "../img/9.png"
 
 const Home = () => {
     return(
-        <div className=" animated fadeIn">
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+        <div className="w100 animated fadeIn vh80">
+        <div className="portada"></div>
+            <div id="carouselExampleSlidesOnly" className="carousel slide noPortada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div class="carousel-item active">
-                        <img src={foto1} class="d-block w100" alt="chica"/>
+                        <img src={foto1} class="d-block vw100 vh50" alt="chica"/>
                     </div>
                     <div class="carousel-item">
-                        <img src={foto2} class="d-block w100" alt="..."/>
+                        <img src={foto2} class="d-block vw100 vh50" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                        <img src={foto3} class="d-block w100" alt="..."/>
+                        <img src={foto3} class="d-block vw100 vh50" alt="..."/>
                     </div>
                 </div>
             </div>
@@ -250,10 +252,8 @@ const Home = () => {
     </div>
   </div>
 <Convenio/>
-
-
-        
-        </div>
+<Footer></Footer>
+</div>
     )
 }
 export default Home;

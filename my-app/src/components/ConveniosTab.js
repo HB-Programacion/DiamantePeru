@@ -1,6 +1,5 @@
 import React from "react";
 
-// import CarouselConvenios from "./CarouselConvenios"
 import imgconvenio from "../img/img-convenio.svg";
 
 

@@ -40,7 +40,7 @@ const TabBar= () => {
 
   return (
  <Route>
-    <header>
+    <header className="">
       <nav className={"navbar navbar-expand-lg p-0 navbar-light d-block"}>
       <div className={"d-flex flex-grow-1"}>
       <div className={'w100 flex around pt-1 pb-1 raleway-light bd-bottom'}>
