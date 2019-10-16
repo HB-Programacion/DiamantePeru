@@ -194,14 +194,6 @@
         height: 50%;
     }
     
-    .vh40 {
-        height: 35vh;
-        width: 100vw;
-        background-color: black;
-        object-fit: cover;
-        object-position: inherit;
-    }
-    
     .h80 {
         height: 80%;
     }
@@ -947,20 +939,11 @@
             right: -2em;
             top: 6em;
         } */
-        .portada-carousel-xs {
-            background-color: green;
-            height: 35.5vh;
-        }
-        .portada-carousel-hide-xs {
-            display: none;
-        }
+    
     }
     
     @media screen and (max-width:767px) {
-        .portada-carousel-xs {
-            background-color: green;
-            height: 40vh;
-        }
+        
         .m4-xs {
             margin-left: 2em !important;
             margin-right: 2em !important;
