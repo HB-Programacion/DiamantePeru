@@ -195,7 +195,7 @@
     }
     
     .vh40 {
-        height: 47vh;
+        height: 35vh;
         width: 100vw;
         background-color: black;
         object-fit: cover;
@@ -932,7 +932,7 @@
             width: 60%;
             height: 10%;
         }
-        .diamantes-xs{
+        .diamantes-xs {
             width: 80%
         }
         /* .left-xs{
@@ -947,9 +947,20 @@
             right: -2em;
             top: 6em;
         } */
+        .portada-carousel-xs {
+            background-color: green;
+            height: 35.5vh;
+        }
+        .portada-carousel-hide-xs {
+            display: none;
+        }
     }
     
     @media screen and (max-width:767px) {
+        .portada-carousel-xs {
+            background-color: green;
+            height: 40vh;
+        }
         .m4-xs {
             margin-left: 2em !important;
             margin-right: 2em !important;
@@ -1068,16 +1079,16 @@
         .m4-xs {
             margin: 2em
         }
-        .diamante-xs{
+        .diamante-xs {
             width: 80%
         }
-        .left-xs{
+        .left-xs {
             z-index: 1;
             position: absolute;
             left: -2em;
             top: 6em;
         }
-        .right-xs{
+        .right-xs {
             z-index: 1;
             position: absolute;
             right: -2em;
