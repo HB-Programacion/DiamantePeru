@@ -932,6 +932,21 @@
             width: 60%;
             height: 10%;
         }
+        .diamantes-xs{
+            width: 80%
+        }
+        /* .left-xs{
+            z-index: 1;
+            position: absolute;
+            left: -2em;
+            top: 6em;
+        }
+        .right-xs{
+            z-index: 1;
+            position: absolute;
+            right: -2em;
+            top: 6em;
+        } */
     }
     
     @media screen and (max-width:767px) {
@@ -1052,6 +1067,21 @@
         }
         .m4-xs {
             margin: 2em
+        }
+        .diamante-xs{
+            width: 80%
+        }
+        .left-xs{
+            z-index: 1;
+            position: absolute;
+            left: -2em;
+            top: 6em;
+        }
+        .right-xs{
+            z-index: 1;
+            position: absolute;
+            right: -2em;
+            top: 6em;
         }
     }
     
