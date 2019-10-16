@@ -75,7 +75,7 @@
         font-family: 'Raleway-Light';
     }
     /* FONTS */
-
+    
     .card-title {
         font-family: 'Raleway-Medium';
         font-size: 1em
@@ -271,7 +271,6 @@
         background-position: left;
         padding: 5em;
     }
-
     
     .interline {
         font-size: 1.2em;
@@ -344,22 +343,28 @@
     .vh100 {
         height: 100vh;
     }
-    .vw100{
+    
+    .vw100 {
         width: 100vw
     }
-    .vh20{
+    
+    .vh20 {
         height: 20vh;
     }
-    .vh80{
+    
+    .vh80 {
         height: 80vh;
     }
+    
     .vhw50 {
         height: 50vh;
         width: 50vw
     }
-    .vh50{
+    
+    .vh50 {
         height: 50vh;
     }
+    
     .pad-lr-8 {
         padding-left: 8%;
         padding-right: 8%
@@ -408,7 +413,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
+    
     .logoPremios {
         background-color: rgb(243, 221, 160);
         height: 258px;
@@ -423,7 +428,6 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-
     
     .fndo-5cs {
         background-image: url("../img/5cs.svg");
@@ -437,23 +441,14 @@
         border: 0.1px solid rgb(105, 104, 104)
     }
     
-    .buttonOfNavStyleGray {
-        border: none;
-        padding: 0.7% !important;
-        padding-right: 3% !important;
-        padding-left: 3% !important;
-        font-size: 0.7em;
-        background-color: #E6E6E6;
-    }
-    
     .grayNav {
         background-color: #E6E6E6;
         font-size: 1em
     }
+    
     .dest {
         display: none
     }
-    
     
     .buttonOfNavStyle {
         border: none;
@@ -681,12 +676,32 @@
         padding: 0px;
     }
     
-    @media screen and (max-width:768px) {
+    .dropdown-menu.show {
+        display: inline-flex;
+    }
     
-        .vh20{
+    .dropdown {
+        position: unset !important;
+    }
+    
+    .dropdown-menu {
+        width: 100vw;
+    }
+    
+    @media screen and (min-width :769px) {
+        .dropdown-item {
+            text-align: left;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .dropdown-item {
+            text-align: right;
+        }
+        .vh20 {
             height: 20vh;
         }
-        .vh80{
+        .vh80 {
             height: 80vh;
         }
         .bolder-xs {
@@ -803,19 +818,17 @@
             right: -2em;
             top: 6em;
         } */
-    
     }
     
     @media screen and (max-width:767px) {
-        
-        .noPortada{
+        .noPortada {
             display: none
         }
-        .portada{
+        .portada {
             background-image: url('../img/PORTADA.png');
             background-repeat: no-repeat;
             height: 100vh;
-            background-size: 100% 100%,cover;
+            background-size: 100% 100%, cover;
             background-position-x: center;
         }
         .m4-xs {
@@ -951,12 +964,8 @@
             right: -2em;
             top: 6em;
         }
-    }
-    
-    @media (min-width :769px) and (max-width:1002px) {
-        .container-contact {
-            align-items: center;
-            justify-content: right;
+        .dropdown-menu {
+            width: 100% !important;
         }
     }
     /* @media screen and (max-width:480px){
@@ -1033,5 +1042,12 @@
         .container-contact {
             align-items: center;
             justify-content: right;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .dropdown-menu.show {
+            display: block;
+            background-color: #fff0;
         }
     }
