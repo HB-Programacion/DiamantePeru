@@ -25,7 +25,8 @@ const TabBar= () => {
     const [toggleState3, setToggleState3] = useState("off");
 
     function toggle1() {
-      setToggleState1(toggleState1 === "off" ? "navbar-horizontal" : "off" );
+    const stateTabVar =  toggleState1 === "off" ? "navbar-horizontal" : "off" ;
+    setToggleState1({stateTabVar})
     }
   
     function toggle2() {
