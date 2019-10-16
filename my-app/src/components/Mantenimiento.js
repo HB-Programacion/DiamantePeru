@@ -3,7 +3,7 @@ import React from "react";
 const Mantenimiento = () => {
     return(
         <>
-        <div className="gray w100 animated fadeIn pb-4">
+        <div className="w100 animated fadeIn pb-4">
         <span className="p-4 flex flexCenter text-size27"><b>MANTENIMIENTO</b></span>
         <hr class="my-4 w10 m-auto"/>
             <div className=" allCenter startItem ">
