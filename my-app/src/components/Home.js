@@ -18,17 +18,17 @@ import img9 from "../img/9.png"
 
 const Home = () => {
     return(
-        <div className="h100 animated fadeIn">
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
+        <div className=" animated fadeIn">
+            <div id="carouselExampleSlidesOnly" className="carousel slide portada-carousel-xs " data-ride="carousel">
+                <div className="carousel-inner portada-carousel-hide-xs">
                     <div class="carousel-item active">
-                        <img src={foto1} class="d-block w-100" alt="chica"/>
+                        <img src={foto1} class="d-block  vh40" alt="chica"/>
                     </div>
                     <div class="carousel-item">
-                        <img src={foto2} class="d-block w-100" alt="..."/>
+                        <img src={foto2} class="d-block  vh40" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                        <img src={foto3} class="d-block w-100" alt="..."/>
+                        <img src={foto3} class="d-block vh40" alt="..."/>
                     </div>
                 </div>
             </div>

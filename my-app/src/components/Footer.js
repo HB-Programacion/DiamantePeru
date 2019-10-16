@@ -15,11 +15,11 @@ const Footer = () => {
                        <img  className="contact-us" src={instagram}></img>
                     </a>
                 </div>
-                <form className="mt-4 mb-4 center h198px w62 w100-xs">
+                <form  action="https://script.google.com/macros/s/AKfycbzRfqgcriO4sdDB4bDlbD7gRMzZo7szb7QFzZUJbUiiCGSZJp4/exec" className="mt-4 mb-4 center h198px w62 w100-xs">
                     <label className="text-size14 spacing3 "><strong>SUSCRIBETE A NUESTRO BOLETIN</strong></label>
                     <div className="form-xs">
-                        <input className="w25 p-1 text-size14 border-gray-3" type="email" placeholder="Correo Electronico"/>
-                        <input className="black  text-size14 color-white btn-flat border-none" type="button" value="SUSCRÍBETE"/>
+                        <input className="w25 p-1 text-size14 border-gray-3" name="inputOne" type="email" placeholder="Correo Electronico"/>
+                        <input className="black  text-size14 color-white btn-flat border-none" type="submit" value="SUSCRÍBETE"/>
                         <p className="interline1 pad-txt-19 text-size12 mt-1 mb-1 center justify ">Al suscribirse a nuestro boletín, acepta que le enviemos correos electrónicos de marketing 
 según nuestra Política de privacidad.</p>
                     </div>
