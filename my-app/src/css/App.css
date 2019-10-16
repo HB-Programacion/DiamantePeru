@@ -692,9 +692,6 @@
         .dropdown-item {
             text-align: left;
         }
-        .dropdown-menu {
-            width: 100%;
-        }
     }
     
     @media screen and (max-width:768px) {
@@ -966,6 +963,9 @@
             position: absolute;
             right: -2em;
             top: 6em;
+        }
+        .dropdown-menu {
+            width: 100% !important;
         }
     }
     /* @media screen and (max-width:480px){
