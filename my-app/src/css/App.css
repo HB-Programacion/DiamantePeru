@@ -686,10 +686,25 @@
     
     .dropdown-menu {
         width: 100vw;
-        justify-content: center
+        top: auto;
+        margin-top: 0px;
+        justify-content: center;
     }
-    .dropdown-item{
-        width: auto !important
+    
+    .dropdown-item {
+        width: auto;
+        text-align: center;
+    }
+    
+    .principal-text-navbar {
+        height: -moz-fit-content;
+        height: fit-content;
+        margin-bottom: 0rem !important;
+    }
+    
+    .dropdown-item:hover {
+        background-color: transparent;
+        color: black;
     }
     
     @media screen and (min-width :769px) {
