@@ -6,7 +6,7 @@ import Footer from "./Footer"
 const Historia = () =>{
     return (
         <>
-        <div className="w100 flex gray responsive-certificacion animated fadeIn">
+        <div className="w100 flex responsive-certificacion animated fadeIn">
             <div className="w50 allCenter wResponsive100">
                 <div className="mt-3">
                     <span className=" tex-size18 mt-0"> <b>HISTORIA <br/>DIAMANTE PERU</b></span>
