@@ -686,6 +686,10 @@
     
     .dropdown-menu {
         width: 100vw;
+        justify-content: center
+    }
+    .dropdown-item{
+        width: auto !important
     }
     
     @media screen and (min-width :769px) {
