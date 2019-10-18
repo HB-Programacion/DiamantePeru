@@ -13,6 +13,8 @@ import Certificaciones from './Certificaciones';
 import Compromiso from './Compromiso'
 import Mantenimiento from './Mantenimiento'
 import blogPrueba from './prueba'
+import Blog from './Blog'
+
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg'
@@ -106,7 +108,7 @@ const TabBar= () => {
       <Route path="/compromiso" exact component={Compromiso} />
       {/* <Route path="/matrimonio" exact component={Matrimonio} /> */}
       {/* {/* <Route path="/joyas" exact component={joyas} /> */}
-      <Route path="/blogprueba" exact component={blogPrueba} />
+      <Route path="/blogprueba" exact component={Blog} />
       </div>
     </header>
 </Route>
