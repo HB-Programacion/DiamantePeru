@@ -4,7 +4,7 @@ import diamante from '../img/fondo-certificacion.svg'
 
 const Certificaciones = () => {
     return (
-        <div className=" vh100 fndo-certificaciones animated fadeIn">
+        <div className="w100 fndo-certificaciones animated fadeIn">
             <div className="flex p-4 responsive-certificacion">
                 <div className="w50 flex flex-column alignSelCenter wResponsive100">
                     <img src={gia} className="w50 pad-l-15"/>

@@ -11,7 +11,7 @@ import img9 from "../img/9.png"
 
 const Matrimonio = () => {
   return (
-  <div className="w100 animated fadeIn">
+  <div className="w100 pt-5 animated fadeIn">
    <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">MATRIMONIO</b></span>
    <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
   <div class="controls-top center position-relative">

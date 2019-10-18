@@ -7,7 +7,7 @@ import moreDiamante from '../img/more-diamante.png'
 const Compromiso = () => {
     const [state, setState] = useState("viewTwo");
     return (
-        <div className="w100 flex flexCenter animated fadeIn">
+        <div className="w100 pt-5 flex flexCenter animated fadeIn">
             {state === "viewTwo" && (
          
          <div className="w95 flex-wrap-xs flex flexCenter">
