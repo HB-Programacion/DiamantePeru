@@ -54,7 +54,7 @@ const Historia = () =>{
                     </div>
                 </div>
             </div>
-            <div className="w50 bg-b1b6ba pt-3 pb-3 allCenter wResponsive100">
+            <div className="w50 pt-3 pb-3 allCenter wResponsive100">
                 <img  className="w100" src={historia} />
             </div>
         </div>

@@ -655,6 +655,10 @@
         top: 10em
     }
     
+    .top50vh {
+        top: 50vh;
+    }
+    
     .right3 {
         right: 3em;
         z-index: 1;
@@ -713,7 +717,8 @@
         background-color: transparent;
         color: black;
     }
-    .cuadro{
+    
+    .cuadro {
         position: absolute;
         left: 3%;
         top: 7em;
@@ -722,14 +727,17 @@
         color: #fff;
         font-size: 1.5em
     }
-    .img-blog-principal{
+    
+    .img-blog-principal {
         right: 0;
         position: absolute;
         height: auto;
     }
-    .leer-mas-blog{
+    
+    .leer-mas-blog {
         margin-left: 80%
     }
+    
     @media screen and (min-width :769px) {
         .dropdown-item {
             text-align: left;
@@ -737,19 +745,19 @@
     }
     
     @media screen and (max-width:768px) {
-        .img-blog-principal{
+        .img-blog-principal {
             position: relative;
             width: 100%;
             padding-bottom: 25%
         }
-        .cuadro{
+        .cuadro {
             width: 80%;
             left: 0;
             margin-left: 7%;
             padding: 1em !important;
             font-size: 1em;
         }
-        .leer-mas-blog{
+        .leer-mas-blog {
             margin-left: 50%
         }
         .dropdown-item {
@@ -901,19 +909,19 @@
     }
     
     @media screen and (max-width:767px) {
-        .img-blog-principal{
+        .img-blog-principal {
             position: relative;
             width: 100%;
             padding-bottom: 25%
         }
-        .cuadro{
+        .cuadro {
             width: 80%;
             left: 0;
             margin-left: 7%;
             padding: 1em !important;
             font-size: 1em;
         }
-        .leer-mas-blog{
+        .leer-mas-blog {
             margin-left: 50%
         }
         .noPortada {
