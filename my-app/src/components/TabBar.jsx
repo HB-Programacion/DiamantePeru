@@ -47,7 +47,7 @@ const TabBar= () => {
         </button>
       </div>
       </div>
-        <div className={"collapse navbar-collapse justify-content-center"} id="navbarSupportedContent">
+        <div className={"collapse navbar-collapse justify-content-center  bd-bottom"} id="navbarSupportedContent">
           <ul className={"navbar-nav burger-rigth menuRigth raleway-light "}>
             <li className={"nav-item pl-3 pr-3 principal-text-navbar"}>
               <Link to="/" className={"nav-link"}>HOME <span className={"sr-only"}>(current)</span></Link>
