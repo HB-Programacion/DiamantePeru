@@ -915,6 +915,10 @@
         margin-bottom: 0;
     }
     
+    .pt-3em {
+        padding-top: 3em;
+    }
+    
     .container-article {
         position: relative;
         top: -25vh;
@@ -1163,6 +1167,7 @@
     @media screen and (max-width:991px) {
         .dropdown-menu.show {
             display: block;
+            height: 3.5em;
             background-color: #fff0;
         }
     }

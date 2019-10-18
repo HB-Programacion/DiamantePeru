@@ -94,7 +94,7 @@ const TabBar= () => {
           </ul>
         </div>
       </nav>
-      <div className="h100">
+      <div className="">
 
       <Route path="/" exact component={Home} />
       <Route path="/historia" exact component={Historia} />
