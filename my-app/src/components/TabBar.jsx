@@ -12,7 +12,7 @@ import Cs from './Cs';
 import Certificaciones from './Certificaciones';
 import Compromiso from './Compromiso'
 import Mantenimiento from './Mantenimiento'
-import blogPrueba from './prueba'
+// import blogPrueba from './prueba'
 import Blog from './Blog'
 
 import menu from "../img/menu.svg";

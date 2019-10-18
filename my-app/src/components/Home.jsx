@@ -254,7 +254,7 @@ const Home = () => {
   </div>
     <div class="w100">
 <Convenio />
-
+<Footer></Footer>
 </div></>
     )
 }

@@ -13,6 +13,7 @@ const App = () => {
       <div className="App">
         <div className="">
           <TabBar/>
+          
         </div>
       <Footer/>
 
