@@ -10,8 +10,8 @@ const App = () => {
   return (
     <Router>
     <div className="">
-      <div className="App vh100">
-        <div className="vh100">
+      <div className="App">
+        <div className="">
           <TabBar/>
         </div>
       <Footer/>
