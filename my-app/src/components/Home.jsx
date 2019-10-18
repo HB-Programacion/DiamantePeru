@@ -19,10 +19,9 @@ import img9 from "../img/9.png"
 
 const Home = () => {
     return(
-      <>
-        <div className="w100 h80 animated fadeIn ">
-        <div className="portada "></div>
-            <div id="carouselExampleSlidesOnly" className="carousel slide noPortada" data-ride="carousel">
+        <div className="w100 animated fadeIn h80">
+        <div className="portada"></div>
+            <div id="carouselExampleSlidesOnly" className="carousel noPortada slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div class="carousel-item active">
                         <img src={foto1} class="d-block vw100 vh50" alt="chica"/>
