@@ -20,7 +20,7 @@ import img9 from "../img/9.png"
 const Home = () => {
     return(
       <>
-        <div className="w100 h80 animated fadeIn ">
+        <div className="w100 h100 animated fadeIn ">
         <div className="portada "></div>
             <div id="carouselExampleSlidesOnly" className="carousel noPortada slide " data-ride="carousel">
                 <div className="carousel-inner">
