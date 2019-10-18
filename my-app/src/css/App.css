@@ -361,6 +361,14 @@
         width: 50vw
     }
     
+    .vw60 {
+        width: 60vw;
+    }
+    
+    .vw40 {
+        width: 40vw;
+    }
+    
     .vh50 {
         height: 50vh;
     }
@@ -837,6 +845,29 @@
             right: -2em;
             top: 6em;
         } */
+    }
+    
+    .img-art-rel {
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .text-each-rel-art {
+        display: flex;
+        align-items: center;
+    }
+    
+    .each-article-container {
+        padding: .5em;
+    }
+    
+    .mb0 {
+        margin-bottom: 0;
+    }
+    
+    .container-article {
+        position: relative;
+        top: -25vh;
     }
     
     @media screen and (max-width:767px) {
