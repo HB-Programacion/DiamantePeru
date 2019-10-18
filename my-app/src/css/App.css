@@ -714,7 +714,23 @@
         background-color: transparent;
         color: black;
     }
-    
+    .cuadro{
+        position: absolute;
+        left: 3%;
+        top: 7em;
+        z-index: 1;
+        background-color: #2C2C2C;
+        color: #fff;
+        font-size: 1.5em
+    }
+    .img-blog-principal{
+        right: 0;
+        position: absolute;
+        height: auto;
+    }
+    .leer-mas-blog{
+        margin-left: 80%
+    }
     @media screen and (min-width :769px) {
         .dropdown-item {
             text-align: left;
@@ -722,6 +738,21 @@
     }
     
     @media screen and (max-width:768px) {
+        .img-blog-principal{
+            position: relative;
+            width: 100%;
+            padding-bottom: 25%
+        }
+        .cuadro{
+            width: 80%;
+            left: 0;
+            margin-left: 7%;
+            padding: 1em !important;
+            font-size: 1em;
+        }
+        .leer-mas-blog{
+            margin-left: 50%
+        }
         .dropdown-item {
             text-align: right;
         }
@@ -871,6 +902,21 @@
     }
     
     @media screen and (max-width:767px) {
+        .img-blog-principal{
+            position: relative;
+            width: 100%;
+            padding-bottom: 25%
+        }
+        .cuadro{
+            width: 80%;
+            left: 0;
+            margin-left: 7%;
+            padding: 1em !important;
+            font-size: 1em;
+        }
+        .leer-mas-blog{
+            margin-left: 50%
+        }
         .noPortada {
             display: none
         }
