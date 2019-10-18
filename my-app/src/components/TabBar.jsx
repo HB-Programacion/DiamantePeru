@@ -52,7 +52,7 @@ const TabBar= () => {
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar" } >
               <a className={"nav-link dropdown-toggle"} href="#diamantePeru" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   >
-              DIAMANTE PERU
+              DIAMANTE PERÚ
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown"
           >
