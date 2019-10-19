@@ -10,7 +10,7 @@ const App = () => {
   return (
     <Router>
     <div className="">
-      <div className="App">
+      <div className="App vh100">
        
           <TabBar/>
         
