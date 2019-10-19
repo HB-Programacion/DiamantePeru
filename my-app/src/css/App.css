@@ -946,7 +946,7 @@
         .portada {
             background-image: url('../img/PORTADA.png');
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 34em;
             background-size: 100% 100%, cover;
             background-position-x: center;
         }

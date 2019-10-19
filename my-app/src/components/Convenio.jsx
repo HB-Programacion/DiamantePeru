@@ -2,7 +2,7 @@ import React from "react";
 
 const Convenio = () => {
     return (
-        <div className="animated fadeIn vh20">
+   <>
             <div className="fndo-img1 mb-0">
                 <div className="w100 pad-5-xs pad-2 blue-background">
                     <div className="w45 w100-xs center color-white text-centered"> <label className="spacing4 text-1-5 bolder-xs ">CONVENIO</label>
@@ -20,7 +20,7 @@ const Convenio = () => {
                     </div>
                 </div>
             </div>
-        </div>
+    </>
 
     )
 }
