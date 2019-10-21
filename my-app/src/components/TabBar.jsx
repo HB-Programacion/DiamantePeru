@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import logo from './../img/LogoDiamante.svg';
@@ -19,6 +19,7 @@ import Joyas from './Joyas'
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg'
+
 
 
 const TabBar= () => { 
