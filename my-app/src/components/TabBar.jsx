@@ -10,12 +10,14 @@ import ConveniosTab from './ConveniosTab';
 import Eleccion from './Eleccion'
 import Cs from './Cs';
 import Certificaciones from './Certificaciones';
-import Compromiso from './Compromiso'
-import Mantenimiento from './Mantenimiento'
-import blogPrueba from './prueba'
+import Compromiso from './Compromiso';
+import Mantenimiento from './Mantenimiento';
+import blogPrueba from './prueba';
+import Joyas from './Joyas';
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg'
+
 
 
 const TabBar= () => { 
@@ -105,7 +107,7 @@ const TabBar= () => {
       <Route path="/mantenimiento" exact component={Mantenimiento} />
       <Route path="/compromiso" exact component={Compromiso} />
       {/* <Route path="/matrimonio" exact component={Matrimonio} /> */}
-      {/* {/* <Route path="/joyas" exact component={joyas} /> */}
+       <Route path="/joyas" exact component={Joyas} />
       <Route path="/blogprueba" exact component={blogPrueba} />
       </div>
     </header>
