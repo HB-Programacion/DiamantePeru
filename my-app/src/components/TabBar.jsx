@@ -28,8 +28,8 @@ const TabBar= () => {
  <Route>
     <header className="">
       <nav className={"navbar navbar-expand-lg p-0 navbar-light d-block"}>
-      <div className={"d-flex flex-grow-1"}>
-      <div className={'w100 flex around pt-1 pb-1 raleway-light bd-bottom'}>
+      <div className={"d-flex flex-grow-1 bd-bottom"}>
+      <div className={'w100 flex around pt-1 pb-1 raleway-light'}>
       <div className={"allCenter cel"}>
       <a className={""}><img src={ubicacion} className="h13px" /> CONTACTO
         </a>

@@ -189,8 +189,8 @@
         width: 80%
     }
     
-    .w95 {
-        width: 95%
+    .w90 {
+        width: 90%
     }
     
     .w100 {
@@ -737,7 +737,7 @@
         z-index: 1;
         background-color: #2C2C2C;
         color: #fff;
-        font-size: 1.5em
+        font-size: 1.3em
     }
     
     .img-blog-principal {
@@ -747,14 +747,23 @@
     }
     
     .leer-mas-blog {
-        margin-left: 80%
+        margin-left: 72%;
+        cursor: pointer;
+        text-decoration-line: underline;
+        background-color: transparent;
+        
+    }
+    .leer-mas-blog:hover {
+       
+        color: #A9A9A9
+        
     }
     
-    @media screen and (min-width :769px) {
+    /* @media screen and (min-width :769px) {
         .dropdown-item {
             text-align: left;
         }
-    }
+    } */
     
     @media screen and (max-width:768px) {
         .img-blog-principal {
@@ -764,7 +773,7 @@
         }
         .cuadro {
             width: 80%;
-            left: 0;
+            top: 50%;
             margin-left: 7%;
             padding: 1em !important;
             font-size: 1em;
@@ -773,7 +782,7 @@
             margin-left: 50%
         }
         .dropdown-item {
-            text-align: right;
+            text-align: left;
         }
         .vh20 {
             height: 20vh;
@@ -793,9 +802,7 @@
         .dest {
             display: block
         }
-        .bd-bottom {
-            border-bottom: none
-        }
+       
         .grayNav {
             text-align: left;
             background-color: rgba(255, 255, 255, 0.9)
@@ -925,6 +932,9 @@
     }
     
     @media screen and (max-width:767px) {
+        .pt-5-xs{
+            padding-top: 1em !important
+        }
         .img-blog-principal {
             position: relative;
             width: 100%;
@@ -933,9 +943,10 @@
         .cuadro {
             width: 80%;
             left: 0;
-            margin-left: 7%;
+            margin-left: 10%;
             padding: 1em !important;
             font-size: 1em;
+            text-align: center
         }
         .leer-mas-blog {
             margin-left: 50%
@@ -946,7 +957,7 @@
         .portada {
             background-image: url('../img/PORTADA.png');
             background-repeat: no-repeat;
-            height: 34em;
+            height: 100vh;
             background-size: 100% 100%, cover;
             background-position-x: center;
         }
@@ -1050,9 +1061,7 @@
             margin: 0 !important;
             padding-left: 0 !important
         }
-        .bd-bottom {
-            border-bottom: none;
-        }
+        
         .card-img-top {
             width: 50%;
             margin-left: 25%;
@@ -1086,88 +1095,44 @@
         .dropdown-menu {
             width: 100% !important;
         }
+        .dropdown-item {
+            text-align: right;
+            padding-right: 0
+        }
+        .container-contact{
+            padding-bottom: 1em
+        }
     }
-    /* @media screen and (max-width:480px){
-	body {
-		font-size:80%;
-    } 
-    .div-5cs{
-        width: 100%;
-    }
-    p{
-        font-size: 100%;
-        text-align: justify
-    }
-    span{
-        font-size: 100% !important
-    }
-    #div-premios{
-        width: 100%
-    }
-    .responsive-certificacion{
-        width: 100%;
-        flex-direction: column;
-    }
-    .pad-l-responsive{
-        padding-left: 0%;
-    }
-    .wResponsive100{
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-    .flexWrap .item{
-        margin: 0.1rem;
-    }
-    .flex-Wrap-Responsive {
-        flex-wrap: wrap;
-        justify-content: center
-    }
-   .p-motivos{
-       text-align: center
-   }
-   .w50 .pad-l-8{
-    padding-left: 0;
-    margin-bottom: 4%;
-   }
-   .card-img-top{
-       width: 40%;
-       margin-left: 30%;
-       margin-right: 30%;
-   }
-   .card-title{
-       text-align: center
-   }
-   .vhEleccion{
-       height: 100%
-   }
-   .none{
-       display: none;
-   }
-   .burger-text-right{
-       width: 100%;
-       text-align: right
-   }
-   .burger-rigth{
-       text-align: right;
-       width: 50%;
-       background: darkgrey;
-       padding: 1em;
-       margin-left: auto;
-   }
-} */
-    
+
     @media (min-width :769px) and (max-width:1002px) {
         .container-contact {
             align-items: center;
             justify-content: right;
+            
         }
+        
     }
     
     @media screen and (max-width:991px) {
         .dropdown-menu.show {
             display: block;
-            height: 3.5em;
             background-color: #fff0;
+        }
+        .leer-mas-blog {
+            margin-left: 70%
+        }
+        .img-blog-principal {
+            position: relative;
+            width: 100%;
+            padding-bottom: 25%
+        }
+        .cuadro {
+            width: 80%;
+            left: 0;
+            top: 50%;
+            margin-left: 10%;
+            padding: 1em !important;
+            font-size: 1em;
+            text-align: center
         }
     }
