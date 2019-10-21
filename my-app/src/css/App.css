@@ -1,3 +1,8 @@
+    .body,
+    html {
+        height: 100%;
+    }
+    
     * {
         margin: 0;
         padding: 0
@@ -19,7 +24,6 @@
     
     .App {
         height: 100vh;
-        width: 100vw;
         background-color: #fff;
     }
     
@@ -69,6 +73,13 @@
         font-style: normal;
         font-weight: normal;
         src: local('../fonts/GeosansLight.woff'), url('../fonts/GeosansLight.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Snell-Roundhand';
+        font-style: 'normal';
+        font-weight: normal;
+        src: local('../fonts/SnellRoundhand-BoldScript.otf'), url('../fonts/SnellRoundhand-BoldScript.otf') format('woff');
     }
     
     .raleway-light {
@@ -405,8 +416,8 @@
     }
     
     .logoCenter {
-        padding-left: 20em;
-        width: 75%
+        padding-left: 7em;
+        width: 12em;
     }
     /* MOTIVOS */
     
@@ -531,7 +542,7 @@
     }
     
     .card-img-top {
-        width: 90%;
+        width: 73%;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -656,6 +667,10 @@
         top: 10em
     }
     
+    .top50vh {
+        top: 50vh;
+    }
+    
     .right3 {
         right: 3em;
         z-index: 1;
@@ -715,6 +730,26 @@
         color: black;
     }
     
+    .cuadro {
+        position: absolute;
+        left: 3%;
+        top: 7em;
+        z-index: 1;
+        background-color: #2C2C2C;
+        color: #fff;
+        font-size: 1.5em
+    }
+    
+    .img-blog-principal {
+        right: 0;
+        position: absolute;
+        height: auto;
+    }
+    
+    .leer-mas-blog {
+        margin-left: 80%
+    }
+    
     @media screen and (min-width :769px) {
         .dropdown-item {
             text-align: left;
@@ -722,6 +757,21 @@
     }
     
     @media screen and (max-width:768px) {
+        .img-blog-principal {
+            position: relative;
+            width: 100%;
+            padding-bottom: 25%
+        }
+        .cuadro {
+            width: 80%;
+            left: 0;
+            margin-left: 7%;
+            padding: 1em !important;
+            font-size: 1em;
+        }
+        .leer-mas-blog {
+            margin-left: 50%
+        }
         .dropdown-item {
             text-align: right;
         }
@@ -865,19 +915,38 @@
         margin-bottom: 0;
     }
     
+    .pt-3em {
+        padding-top: 3em;
+    }
+    
     .container-article {
         position: relative;
         top: -25vh;
     }
     
     @media screen and (max-width:767px) {
+        .img-blog-principal {
+            position: relative;
+            width: 100%;
+            padding-bottom: 25%
+        }
+        .cuadro {
+            width: 80%;
+            left: 0;
+            margin-left: 7%;
+            padding: 1em !important;
+            font-size: 1em;
+        }
+        .leer-mas-blog {
+            margin-left: 50%
+        }
         .noPortada {
             display: none
         }
         .portada {
             background-image: url('../img/PORTADA.png');
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 34em;
             background-size: 100% 100%, cover;
             background-position-x: center;
         }
@@ -977,7 +1046,7 @@
             justify-content: flex-start;
         }
         .logo {
-            /* width: 100%; */
+            width: 6em;
             margin: 0 !important;
             padding-left: 0 !important
         }
@@ -1098,6 +1167,7 @@
     @media screen and (max-width:991px) {
         .dropdown-menu.show {
             display: block;
+            height: 3.5em;
             background-color: #fff0;
         }
     }

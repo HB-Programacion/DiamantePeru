@@ -5,10 +5,10 @@ import imgconvenio from "../img/img-convenio.svg";
 
 const ConveniosTab = () => {
     return(
-        <div className="w100 animated fadeIn">
+        <div className="w100 pt-5 animated fadeIn">
         <div class="flex around position-relative">
-                <a class="btn-floating position-absolute top10 left3" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
-                <a class="btn-floating position-absolute top10 right3" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
+                <a class="btn-floating position-absolute top50vh left3" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
+                <a class="btn-floating position-absolute top50vh right3" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
             </div>
             <span className="p-4 flex flexCenter text-size27"><b>CONVENIOS</b></span>
             

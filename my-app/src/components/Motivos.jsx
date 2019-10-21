@@ -3,7 +3,7 @@ import fndo from "../img/motivos-img.svg"
 
 const Motivos = () =>{
     return (
-        <div className=" w100 animated fadeIn">
+        <div className=" w100 pt-5 animated fadeIn">
             <span className="p-4 flex flexCenter text-size27"><b>MOTIVOS</b></span>
             <div className="flexWrap pad-lr-8 pb-5 pt-3">
                     <div className="item b-all">

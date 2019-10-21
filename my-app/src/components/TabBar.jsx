@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import logo from './../img/LogoDiamante.svg';
@@ -10,10 +10,12 @@ import ConveniosTab from './ConveniosTab';
 import Eleccion from './Eleccion'
 import Cs from './Cs';
 import Certificaciones from './Certificaciones';
-import Compromiso from './Compromiso';
-import Mantenimiento from './Mantenimiento';
-import blogPrueba from './prueba';
-import Joyas from './Joyas';
+import Compromiso from './Compromiso'
+import Mantenimiento from './Mantenimiento'
+// import blogPrueba from './prueba'
+import Blog from './Blog'
+import Joyas from './Joyas'
+
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg'
@@ -47,7 +49,7 @@ const TabBar= () => {
         </button>
       </div>
       </div>
-        <div className={"collapse navbar-collapse justify-content-center"} id="navbarSupportedContent">
+        <div className={"collapse navbar-collapse justify-content-center  bd-bottom"} id="navbarSupportedContent">
           <ul className={"navbar-nav burger-rigth menuRigth raleway-light "}>
             <li className={"nav-item pl-3 pr-3 principal-text-navbar"}>
               <Link to="/" className={"nav-link"}>HOME <span className={"sr-only"}>(current)</span></Link>
@@ -94,7 +96,7 @@ const TabBar= () => {
           </ul>
         </div>
       </nav>
-      <div>
+      <div className="">
 
       <Route path="/" exact component={Home} />
       <Route path="/historia" exact component={Historia} />
@@ -107,8 +109,8 @@ const TabBar= () => {
       <Route path="/mantenimiento" exact component={Mantenimiento} />
       <Route path="/compromiso" exact component={Compromiso} />
       {/* <Route path="/matrimonio" exact component={Matrimonio} /> */}
-       <Route path="/joyas" exact component={Joyas} />
-      <Route path="/blogprueba" exact component={blogPrueba} />
+      <Route path="/joyas" exact component={Joyas} />
+      <Route path="/blogprueba" exact component={Blog} />
       </div>
     </header>
 </Route>

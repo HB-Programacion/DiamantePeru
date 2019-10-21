@@ -19,8 +19,9 @@ import img9 from "../img/9.png"
 
 const Home = () => {
     return(
-        <div className="w100 animated fadeIn vh80">
-        <div className="portada"></div>
+      <>
+        <div className="w100 animated fadeIn ">
+        <div className="portada "></div>
             <div id="carouselExampleSlidesOnly" className="carousel slide noPortada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div class="carousel-item active">
@@ -34,7 +35,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div class="container my-4">
+          
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
       <div class="controls-top center">
@@ -250,10 +251,12 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <Convenio />
   </div>
-<Convenio/>
-<Footer></Footer>
-</div>
+   
+
+
+</>
     )
 }
 export default Home;
