@@ -15,7 +15,7 @@ import Mantenimiento from './Mantenimiento'
 // import blogPrueba from './prueba'
 import Blog from './Blog'
 import Joyas from './Joyas'
-
+import ItemPlus from './ItemPlus';
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg'
@@ -25,7 +25,7 @@ import ubicacion from '../img/Ubication.svg'
 const TabBar= () => { 
     
   return (
- <Route>
+ <Router>
     <header className="">
       <nav className={"navbar navbar-expand-lg p-0 navbar-light d-block"}>
       <div className={"d-flex flex-grow-1"}>
@@ -60,10 +60,10 @@ const TabBar= () => {
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown"
           >
-              <Link to="historia" className={"dropdown-item"}>Historia</Link>
-              <Link to="motivos" className={"dropdown-item"}>Motivos</Link>
-              <Link to="premios" className={"dropdown-item"}>Premios</Link>
-              <Link to="convenios" className={"dropdown-item"}>Convenios</Link>
+              <Link to="/historia" className={"dropdown-item"}>Historia</Link>
+              <Link to="/motivos" className={"dropdown-item"}>Motivos</Link>
+              <Link to="/premios" className={"dropdown-item"}>Premios</Link>
+              <Link to="/convenios" className={"dropdown-item"}>Convenios</Link>
             </div>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar"}>
@@ -71,10 +71,10 @@ const TabBar= () => {
               DIAMANTES 
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
-              <Link to="eleccion" className={"dropdown-item "}>Elección</Link>
-              <Link to="5cs" className={"dropdown-item"}>5CS</Link>
-              <Link to="certificaciones" className={"dropdown-item"}>Certificaciones</Link>
-              <Link to="mantenimiento" className={"dropdown-item"}>Mantenimiento</Link>
+              <Link to="/eleccion" className={"dropdown-item "}>Elección</Link>
+              <Link to="/5cs" className={"dropdown-item"}>5CS</Link>
+              <Link to="/certificaciones" className={"dropdown-item"}>Certificaciones</Link>
+              <Link to="/mantenimiento" className={"dropdown-item"}>Mantenimiento</Link>
             </div>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar"}>
@@ -82,12 +82,12 @@ const TabBar= () => {
               NOVIOS
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
-              <Link to="compromiso" className={"dropdown-item"}>Compromiso</Link>
-              <Link to="matrimonio" className={"dropdown-item"}>Matrimonio</Link>
+              <Link to="/compromiso" className={"dropdown-item"}>Compromiso</Link>
+              <Link to="/matrimonio" className={"dropdown-item"}>Matrimonio</Link>
             </div>
             </li>
             <li className={"nav-item mb-4 pl-3 pr-3 principal-text-navbar"}>
-              <Link to="joyas" className={"nav-link"}>JOYAS<span className={"sr-only"}>(current)</span></Link>
+              <Link to="/joyas" className={"nav-link"}>JOYAS<span className={"sr-only"}>(current)</span></Link>
             </li>
             <hr className={"my-2"}/>
             <li  className={"dest mt-4 mb-2 pl-3 pr-3"}><Link to="/blogprueba" className={"nav-link"}>BLOG</Link></li>
@@ -111,9 +111,10 @@ const TabBar= () => {
       {/* <Route path="/matrimonio" exact component={Matrimonio} /> */}
       <Route path="/joyas" exact component={Joyas} />
       <Route path="/blogprueba" exact component={Blog} />
+      <Route path="/items/:tipo/:numero/:dsc"  component={ItemPlus} />
       </div>
     </header>
-</Route>
+</Router>
   );
 }
 export default TabBar;

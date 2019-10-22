@@ -1,11 +1,14 @@
 import React from "react";
 import img from '../img/1.png'
-
-const Item = ({nro,tipo,color}) =>{
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import ItemPlus from './ItemPlus'
+const Item = ({nro,tipo,color,dsc}) =>{
 
     return (
 <>
-<div className="col-12 col-sm-4  mb-2">
+
+  <Link class="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 " to={ `/items/${tipo}/${nro}/${dsc}`}>
+
     
 <div class="card itemCard" key={nro}>
 <img src={img} class="card-img-top cardImgItem" alt="..."/>
@@ -16,9 +19,15 @@ const Item = ({nro,tipo,color}) =>{
         <a href="#" class="btn btn-primary">{tipo}</a>
       </div>
     </div>
+</Link>
 
-</div>
+
 </>
+
+      
+      
+
+
     )};
 
     export default Item

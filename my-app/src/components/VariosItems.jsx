@@ -7,6 +7,7 @@ const Varios= ({arrofJoyas})=>{
           {arrofJoyas.map(prod => (
         <Item
      key={prod.codigo}
+     dsc={prod.descripcion}
           nro={prod.codigo}
           tipo={prod.tipo}
           color={prod.color}
