@@ -956,8 +956,17 @@
         margin-bottom: 0;
     }
     
+
     .pt-3em {
-        padding-top: 3em;
+      padding-top: 3em;}
+
+    .leer-mas-blog {
+        margin-left: 72%;
+        cursor: pointer;
+        text-decoration-line: underline;
+        
+        
+
     }
     
     .container-article {
