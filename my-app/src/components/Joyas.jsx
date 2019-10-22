@@ -1,14 +1,16 @@
 import React ,{useState,useEffect} from "react";
 
-import Varios from './VariosItems'
+import Varios from './VariosItems';
+import img from '../img/1.png';
+
 const Joyas = () =>{
 
-    const arrJoyas = [   {tipo :"anillo",color:"blanco",corte:"medio",codigo:"6"},
-     {tipo :"anillo",color:"rosa",corte:"medio",codigo:"5"},
-     {tipo:"anillo",color:"oro",corte:"malo",codigo:"4"},
-    {tipo :"aretes",color:"plata",corte:"malo",codigo:"3",tono:"g-j"},
-    {tipo :"dije",color:"blanco",corte:"bueno",codigo:"2",tono:"d-f"},
-    {tipo :"dije",color:"blanco",corte:"bueno",codigo:"7",tono:"d-f"},
+    const arrJoyas = [   {tipo :"anillo",color:"blanco",corte:"medio",codigo:"6",imagen:`${img}`},
+     {tipo :"anillo",color:"rosa",corte:"medio",codigo:"5",imagen:`${img}`},
+     {tipo:"anillo",color:"oro",corte:"malo",codigo:"4",imagen:`${img}`},
+    {tipo :"aretes",color:"plata",corte:"malo",codigo:"3",tono:"g-j",imagen:`${img}`},
+    {tipo :"dije",color:"blanco",corte:"bueno",codigo:"2",tono:"d-f",imagen:`${img}`},
+    {tipo :"dije",color:"blanco",corte:"bueno",codigo:"7",tono:"d-f",imagen:`${img}`},
     {tipo :"anillo",color:"plata",corte:"medio",codigo:"1",descripcion:"Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)"}];
     const [product, setProduct] = useState([...arrJoyas]);
     const [stateRadio,setStateRadio] = useState([" "]);
@@ -82,7 +84,11 @@ const clearFilter = () =>{
   
     };
   
-    
+    useEffect(() => {
+      return () => {
+        setInputValue()
+      };
+    }, [inputValue])
 
     return (
 <>

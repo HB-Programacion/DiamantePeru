@@ -155,10 +155,6 @@
         width: 90%
     }
     
-    .blue-background {
-        background-color: #435b76;
-    }
-    
     .w25 {
         width: 25%
     }
@@ -772,7 +768,7 @@
     }
     
     .cardImgItem {
-        width: 90% !important;
+        width: 90%;
     }
     
     .text-inputs-radio {
@@ -795,6 +791,12 @@
     }
     
     @media screen and (max-width:768px) {
+        .blue-background {
+            background-color: #3d697f;
+        }
+        .h-sm-50 {
+            height: 50% !important;
+        }
         .img-blog-principal {
             position: relative;
             width: 100%;
@@ -956,17 +958,14 @@
         margin-bottom: 0;
     }
     
-
     .pt-3em {
-      padding-top: 3em;}
-
+        padding-top: 3em;
+    }
+    
     .leer-mas-blog {
         margin-left: 72%;
         cursor: pointer;
         text-decoration-line: underline;
-        
-        
-
     }
     
     .container-article {
