@@ -15,10 +15,10 @@ const Blog = () =>{
                         <a className="leer-mas-blog mt-4">Leer más ></a>
                     </div>
             {/* </div> */}
-            <div class="container p-5">
+            <div class="container p-5 mt-3">
                 <div class="row">
                     <div class="col-sm-5 col-md-6 mb-5">
-                        <div class="card" style={{width: "18 rem"}}>
+                        <div class="card" style={{width: "15 rem"}}>
                             <img src={foto1} class="w100" alt="..."/>
                             <div class="card-body pb-3">
                                 <h5 class="card-title mt-4 pl-5 ">CLUB DIAMANTE</h5>
