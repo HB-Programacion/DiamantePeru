@@ -15,7 +15,7 @@ const Footer = () => {
                        <img  className="contact-us" src={instagram}></img>
                     </a>
                 </div>
-                <form  action="https://script.google.com/macros/s/AKfycbzRfqgcriO4sdDB4bDlbD7gRMzZo7szb7QFzZUJbUiiCGSZJp4/exec" className="mt-4 mb-4 center h198px w62 w100-xs">
+                <form  action="" className="mt-4 mb-4 center h198px w62 w100-xs">
                     <label className="text-size14 spacing3 "><strong>SUSCRIBETE A NUESTRO BOLETIN</strong></label>
                     <div className="form-xs">
                         <input className="w25 p-1 text-size14 border-gray-3" name="inputOne" type="email" placeholder="Correo Electronico"/>
