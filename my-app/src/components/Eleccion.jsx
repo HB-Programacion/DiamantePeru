@@ -3,10 +3,10 @@ import eleccion1 from "../img/Pagas-por-Diamante.svg"
 
 const Eleccion = () => {
     return (
-        <div className="h100 pt-5 animated fadeIn vhEleccion">
+        <div className="h100 pt-5 pt-5-xs animated fadeIn vhEleccion">
         <span className="p-4 flex flexCenter text-size27"><b>ELECCION</b></span>
             <div className="w80 mL-R10">
-                <div className="">
+                <div className="pb-3">
                     {/* <span className="mb-2 flex flexCenter text-size27"><b>ELECCION</b></span> */}
                      {/* <div className="mt-3 interline text-size18"> */}
                         <p className="interline1">Para protegerse contra las estafas comunes en el comercio de los Diamantes se recomienda hacer lo siguiente:</p>

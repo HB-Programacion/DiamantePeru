@@ -36,7 +36,7 @@ const Home = () => {
                 </div>
             </div>
           
-    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+    <div id="multi-item-example" class="carousel slide carousel-multi-item mt-4 mb-4" data-ride="carousel">
 
       <div class="controls-top center">
         <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>

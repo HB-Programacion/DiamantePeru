@@ -9,7 +9,7 @@ const Historia = () =>{
         <div className="w100 flex responsive-certificacion animated fadeIn">
             <div className="w50 allCenter wResponsive100">
                 <div className="mt-3">
-                    <span className=" tex-size18 mt-0"> <b>HISTORIA <br/>DIAMANTE PERU</b></span>
+                    <span className=" text-1-5 mt-0"> <b>HISTORIA <br/>DIAMANTE PERU</b></span>
                     <div class="container ">
                         <div id="carouselContent" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner" role="listbox">
