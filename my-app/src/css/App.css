@@ -849,8 +849,15 @@
         position: relative;
         display: block;
     }
+    .m-auto-premios{
+        margin: 0 auto;
+        width: 80%
+    }
     
     @media screen and (max-width:768px) {
+        .flexWrap-xs{
+            flex-wrap: wrap
+        }
         .img-blog-principal {
             position: relative;
             width: 100%;
@@ -1008,6 +1015,9 @@
     }
     
     @media screen and (max-width:767px) {
+        .flexWrap-xs{
+            flex-wrap: wrap
+        }
         .mt4-xs{
             margin-top: 3em !important
         }
@@ -1069,9 +1079,7 @@
             font-size: 1.3em !important;
             padding-left: .5em;
         }
-        #div-premios {
-            width: 100%
-        }
+        
         .responsive-certificacion {
             width: 100%;
             flex-direction: column;
@@ -1190,6 +1198,7 @@
     }
     
     @media screen and (max-width:991px) {
+        
         .dropdown-menu.show {
             display: block;
             background-color: #fff0;
@@ -1216,6 +1225,11 @@
             font-size: 1em;
             text-align: center
         } 
+    }
+    @media screen and (max-width:1120px){
+        .flexWrap-xs{
+            flex-wrap: wrap
+        }
     }
     /* radio */
     
