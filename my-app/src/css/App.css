@@ -788,10 +788,11 @@
         .img-blog-principal {
             position: relative;
             width: 100%;
+            margin-left: 0;
         }
         .cuadro {
             width: 80%;
-            top: 50%;
+            top: 47%;
             margin-left: 7%;
             padding: 1em !important;
             font-size: 1em;
@@ -907,6 +908,10 @@
         .diamantes-xs {
             width: 80%
         }
+        .dropdown-menu.show {
+            display: block;
+            background-color: #fff0;
+        }
     }
     
     .img-art-rel {
@@ -943,11 +948,13 @@
         .img-blog-principal {
             position: relative;
             width: 100%;
+            margin-left: 0;
         }
         .cuadro {
             width: 80%;
             left: 0;
             margin-left: 10%;
+            top: 15%;
             padding: 1em !important;
             font-size: 1em;
             text-align: center
@@ -1118,7 +1125,10 @@
             display: block;
             background-color: #fff0;
         }
-        .leer-mas-blog {
+        .dropdown-item {
+            text-align: left;
+        }
+        /* .leer-mas-blog {
             margin-left: 70%
         }
         .img-blog-principal {
@@ -1128,11 +1138,11 @@
         .cuadro {
             width: 80%;
             left: 0;
-            top: 25%;
+            top: 50%;
             margin-left: 10%;
             padding: 1em !important;
             font-size: 1em;
             text-align: center
-        }
+        } */
         
     }

@@ -15,16 +15,16 @@ const Blog = () =>{
                         <a className="leer-mas-blog mt-4">Leer más ></a>
                     </div>
             {/* </div> */}
-            <div class="container p-5 mt-3">
+            <div class="container p-5 mt-4">
                 <div class="row">
                     <div class="col-sm-5 col-md-6 mb-5">
                         <div class="card" style={{width: "15 rem"}}>
                             <img src={foto1} class="w100" alt="..."/>
                             <div class="card-body pb-3">
-                                <h5 class="card-title mt-4 pl-5 ">CLUB DIAMANTE</h5>
-                                <p class="card-text pl-5 pr-5">Agradecemos tu confianza en nosotros y decidimos premiar esa confianza con diversos beneficios para brindarte que sean perfectos para ti.</p>
+                                <h5 class="card-title mt-4 ">CLUB DIAMANTE</h5>
+                                <p class="card-text">Agradecemos tu confianza en nosotros y decidimos premiar esa confianza con diversos beneficios para brindarte que sean perfectos para ti.</p>
                                 <hr class="my-3"/>
-                                <a className="pl-5">LEER MAS<i class="fas fa-chevron-right arrow"></i></a>
+                                <a className="">LEER MAS<i class="fas fa-chevron-right arrow"></i></a>
                             </div>
                         </div>
                     </div>
