@@ -6,7 +6,7 @@ import Footer from "./Footer"
 
 import foto1 from "../img/Clip.png";
 
-const blogPrueba= () => { 
+const Blog1= () => { 
     
     
 return (
@@ -107,9 +107,9 @@ Forma: La forma de tallado tradicional de un diamante hoy en día es el corte br
 
 </div>
 </div>  
-<Footer></Footer>
+
  </>
 
     )};
 
-export default blogPrueba;
+export default Blog1;

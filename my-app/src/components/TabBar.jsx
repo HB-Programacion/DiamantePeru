@@ -13,15 +13,13 @@ import Certificaciones from './Certificaciones';
 import Compromiso from './Compromiso'
 import Mantenimiento from './Mantenimiento'
 import Matrimonio from './Matrimonio'
-// import blogPrueba from './prueba'
-import Blog from './Blog'
+import Blog from './Blog';
+import Blog1 from './Blog1'
 import Joyas from './Joyas'
 import ItemPlus from './ItemPlus';
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
-import ubicacion from '../img/Ubication.svg'
-
-
+import ubicacion from '../img/Ubication.svg';
 
 const TabBar= () => { 
     
@@ -40,7 +38,7 @@ const TabBar= () => {
       </div>
       <div className="allCenter cel">
         <a className="pr-4">TESTIMONIOS</a>
-        <Link to="/blogprueba" className="pl-4">BLOG</Link>
+        <Link to="/blog" className="pl-4">BLOG</Link>
       </div>
       </div>
       {/* <hr className={"my-1 d-block"/> */}
@@ -91,7 +89,7 @@ const TabBar= () => {
               <Link to="/joyas" className={"nav-link"}>JOYAS<span className={"sr-only"}>(current)</span></Link>
             </li>
             <hr className={"my-2"}/>
-            <li  className={"dest mt-4 mb-2 pl-3 pr-3"}><Link to="/blogprueba" className={"nav-link"}>BLOG</Link></li>
+            <li  className={"dest mt-4 mb-2 pl-3 pr-3"}><Link to="/blog" className={"nav-link"}>BLOG</Link></li>
             <li  className={"dest mb-2 pl-3 pr-3"} ><Link to="testimonio" className={"nav-link"}>TESTIMONIO</Link></li>
             <li  className={"dest mb-2 pl-3 pr-3"}><Link to="contacto" className={"nav-link"}>CONTACTO</Link></li>
           </ul>
@@ -111,9 +109,10 @@ const TabBar= () => {
       <Route path="/compromiso" exact component={Compromiso} />
       <Route path="/matrimonio" exact component={Matrimonio} />
       <Route path="/joyas" exact component={Joyas} />
-      <Route path="/blogprueba" exact component={Blog} />
+      <Route path="/blog" exact component={Blog} />
       <Route path="/producto/:tipo/:numero"  component={ItemPlus} />
       <Route path="/novios/:tipo/:numero" component={ItemPlus}></Route>
+      <Route path="/blog1" exact component={Blog1} />
       </div>
     </header>
 </Router>

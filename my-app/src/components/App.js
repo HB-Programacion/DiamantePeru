@@ -11,10 +11,8 @@ const App = () => {
     <Router>
     <div className="">
       <div className="App vh100">
-       
-          <TabBar/>
-        
-      <Footer/>
+        <TabBar/>
+        <Footer/>
 
       </div>
 

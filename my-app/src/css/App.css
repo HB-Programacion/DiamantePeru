@@ -1174,7 +1174,7 @@
             width: 100% !important;
         }
         .dropdown-item {
-            text-align: right;
+            text-align: right !important;
             padding-right: 0
         }
         .container-contact {
