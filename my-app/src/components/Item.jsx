@@ -1,7 +1,7 @@
 import React from "react";
 import img from '../img/1.png'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import ItemPlus from './ItemPlus'
+
 const Item = ({nro,tipo,color,dsc}) =>{
 
     return (

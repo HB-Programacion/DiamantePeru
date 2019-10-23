@@ -8,11 +8,12 @@ import img6 from "../img/6.png"
 import img7 from "../img/7.png"
 import img8 from "../img/8.png"
 import img9 from "../img/9.png"
+import ItemOfCarrousel from './ItemOfCarrousel'
 
-const Carrousel = () => {
+const Carrousel = ({arrofJoyas,title}) => {
   return (
   <div className="w100 animated fadeIn">
-    <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">DIAMANTES</b></span>
+    <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">{title}</b></span>
    <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
     <div class="container my-4 diamantes-xs">
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
@@ -22,78 +23,23 @@ const Carrousel = () => {
         <a class="btn-floating right-xs" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
       </div>
 
-      {/* <ol class="carousel-indicators">
-        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-        <li data-target="#multi-item-example" data-slide-to="1"></li>
-        <li data-target="#multi-item-example" data-slide-to="2"></li>
-      </ol> */}
-
       <div class="carousel-inner" role="listbox">
 
         <div class="carousel-item active">
 
           <div class="row allCenter">
-            {/* <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="mb-2">
-                <img class="card-img-top" src={img1}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div>
 
-            <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="mb-2">
-                <img class="card-img-top" src={img2}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div>
+          {arrofJoyas.map(prod => (
+        <ItemOfCarrousel
+     key={prod.codigo}
+     dsc={prod.descripcion}
+          nro={prod.codigo}
+          tipo={prod.tipo}
+          color={prod.color}
+        />
+           )) }
 
-            */} <div class="col-md-4 ">
-              <div class="mb-2 background-carrousel-ring ">
-                <img class="card-img-top" src={img3}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="mb-2 background-carrousel-ring ">
-                <img class="card-img-top" src={img4}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div>
-
-             <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="mb-2 background-carrousel-ring ">
-                <img class="card-img-top" src={img5}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div>
-
-            {/* <div class="col-md-2 clearfix d-none d-md-block">
-              <div class="mb-2">
-                <img class="card-img-top" src={img5}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div> */}
-
-          </div>
+        </div>
 
         </div>
         <div class="carousel-item">
@@ -129,33 +75,7 @@ const Carrousel = () => {
               </div>
             </div>
 
-           {/* <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="mb-2">
-                <img class="card-img-top" src={img5}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div>
-
-             <div class="col-md-2 clearfix d-none d-md-block">
-              <div class="mb-2">
-                <img class="card-img-top" src={img9}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div> <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="mb-2">
-                <img class="card-img-top" src={img1}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div> */}
+          
 
            
           </div>
@@ -185,35 +105,7 @@ const Carrousel = () => {
               </div>
             </div>
 
-            {/* <div class="col-md-2 clearfix d-none d-md-block">
-              <div class="mb-2">
-                <img class="card-img-top" src={img4}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div> <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="mb-2">
-                <img class="card-img-top" src={img5}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div> 
-            <div class="col-md-4 clearfix d-none d-md-block">
-              <div class="mb-2">
-                <img class="card-img-top" src={img5}
-                  alt="Card image cap"/>
-                <div class="card-body center">
-                  <p class="card-title">Codigo</p>
-                </div>
-              </div>
-            </div>*/}
-
-           
-
+          
 
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="mb-2 background-carrousel-ring ">
