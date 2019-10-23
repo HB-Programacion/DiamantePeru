@@ -15,6 +15,7 @@ import Mantenimiento from './Mantenimiento'
 import Matrimonio from './Matrimonio'
 import Blog from './Blog';
 import Blog1 from './Blog1'
+import Testimonio from './Testimonio'
 import Joyas from './Joyas'
 import ItemPlus from './ItemPlus';
 import menu from "../img/menu.svg";
@@ -37,7 +38,7 @@ const TabBar= () => {
       <Link to="/"><img src={logo} alt="logo" className="center m-auto w50 pt-2 pb-2 logoCenter logo" /></Link>
       </div>
       <div className="allCenter cel">
-        <a className="pr-4">TESTIMONIOS</a>
+        <Link to="/testimonio" className="pr-4">TESTIMONIOS</Link>
         <Link to="/blog" className="pl-4">BLOG</Link>
       </div>
       </div>
@@ -90,8 +91,8 @@ const TabBar= () => {
             </li>
             <hr className={"my-2"}/>
             <li  className={"dest mt-4 mb-2 pl-3 pr-3"}><Link to="/blog" className={"nav-link"}>BLOG</Link></li>
-            <li  className={"dest mb-2 pl-3 pr-3"} ><Link to="testimonio" className={"nav-link"}>TESTIMONIO</Link></li>
-            <li  className={"dest mb-2 pl-3 pr-3"}><Link to="contacto" className={"nav-link"}>CONTACTO</Link></li>
+            <li  className={"dest mb-2 pl-3 pr-3"} ><Link to="/testimonio" className={"nav-link"}>TESTIMONIO</Link></li>
+            <li  className={"dest mb-2 pl-3 pr-3"}><Link to="/contacto" className={"nav-link"}>CONTACTO</Link></li>
           </ul>
         </div>
       </nav>
@@ -113,6 +114,8 @@ const TabBar= () => {
       <Route path="/producto/:tipo/:numero"  component={ItemPlus} />
       <Route path="/novios/:tipo/:numero" component={ItemPlus}></Route>
       <Route path="/blog1" exact component={Blog1} />
+      <Route path="/testimonio" exact component={Testimonio} />
+
       </div>
     </header>
 </Router>

@@ -81,8 +81,8 @@ const Joyas = () =>{
         <div className="container-text-joyas  col align-self-center">
           <div className="container">
             <div className="row">
-              <div className="col align-self-center w50 ">
-                <h1 class="center">JOYAS</h1>
+              <div className="col align-self-center w50 pt-5 pt-5-xs pb-3">
+                <h1 class="center text-size27"><b>JOYAS</b></h1>
                 <p class="center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam mollitia sit excepturi quos, doloremque eum maiores vitae dicta nihil animi expedita officia sequi ducimus molestias neque necessitatibus amet. Harum, reiciendis.
                 </p>
               </div>
