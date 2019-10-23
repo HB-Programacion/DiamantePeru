@@ -746,7 +746,7 @@
     .cuadro {
         position: absolute;
         left: 3%;
-        top: 12em;
+        top: 25%;
         z-index: 1;
         background-color: #2C2C2C;
         color: #fff;
@@ -858,7 +858,7 @@
         }
         .cuadro {
             width: 80%;
-            top: 47%;
+            top: 42%;
             margin-left: 7%;
             padding: 1em !important;
             font-size: 1em;
@@ -1008,6 +1008,9 @@
     }
     
     @media screen and (max-width:767px) {
+        .mt4-xs{
+            margin-top: 3em !important
+        }
         .pt-5-xs {
             padding-top: 1em !important
         }
@@ -1020,7 +1023,7 @@
             width: 80%;
             left: 0;
             margin-left: 10%;
-            top: 15%;
+            top: 10em !important;
             padding: 1em !important;
             font-size: 1em;
             text-align: center
@@ -1194,23 +1197,25 @@
         .dropdown-item {
             text-align: left;
         }
-    }
-        /* .leer-mas-blog {
+    
+     /* .leer-mas-blog {
             margin-left: 70%
-        }
+        }*/
         .img-blog-principal {
             position: relative;
             width: 100%;
+            margin-left: 0;
+
         }
         .cuadro {
             width: 80%;
             left: 0;
-            top: 50%;
+            top: 42%;
             margin-left: 10%;
             padding: 1em !important;
             font-size: 1em;
             text-align: center
-        }
+        } 
     }
     /* radio */
     

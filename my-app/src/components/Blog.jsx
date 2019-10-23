@@ -11,47 +11,53 @@ const Blog = () =>{
                 <img className="w80 img-blog-principal" src={foto1} alt=""/>
                     <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5">
                         <span className="">SORTEO APERTURA CLUB DIAMANTE:</span>
-                        <p className="mt-4">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
+                        <p className="mt-3">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
                         <a className="leer-mas-blog mt-4">Leer más ></a>
                     </div>
             {/* </div> */}
-            <div class="container p-5 mt-4">
+            <div class="container p-4 mt-3 mt4-xs">
                 <div class="row">
-                    <div class="col-sm-5 col-md-6 mb-5">
-                        <div class="card" style={{width: "15 rem"}}>
+                    <div class="col-sm-6 col-md-6 mb-5">
+                        <div class="card" style={{width: "18 rem"}}>
                             <img src={foto1} class="w100" alt="..."/>
-                            <div class="card-body pb-3">
-                                <h5 class="card-title mt-4 ">CLUB DIAMANTE</h5>
+                            <div class="card-body p-3">
+                                <h5 class="card-title"><b>CLUB DIAMANTE</b></h5>
                                 <p class="card-text">Agradecemos tu confianza en nosotros y decidimos premiar esa confianza con diversos beneficios para brindarte que sean perfectos para ti.</p>
                                 <hr class="my-3"/>
                                 <a className="">LEER MAS<i class="fas fa-chevron-right arrow"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-5 col-md-6 mb-5">
+                    <div class="col-sm-6 col-md-6 mb-5">
                         <div class="card" style={{width: "18 rem"}}>
                             <img src={foto1} class="w100" alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="card-body p-3">
+                                <h5 class="card-title"><b>CLUB DIAMANTE</b></h5>
+                                <p class="card-text">Agradecemos tu confianza en nosotros y decidimos premiar esa confianza con diversos beneficios para brindarte que sean perfectos para ti.</p>
+                                <hr class="my-3"/>
+                                <a className="">LEER MAS<i class="fas fa-chevron-right arrow"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-5 col-md-6 mb-5">
+                    <div class="col-sm-6 col-md-6 mb-5">
                         <div class="card" style={{width: "18 rem"}}>
                             <img src={foto1} class="w100" alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="card-body p-3">
+                                <h5 class="card-title"><b>CLUB DIAMANTE</b></h5>
+                                <p class="card-text">Agradecemos tu confianza en nosotros y decidimos premiar esa confianza con diversos beneficios para brindarte que sean perfectos para ti.</p>
+                                <hr class="my-3"/>
+                                <a className="">LEER MAS<i class="fas fa-chevron-right arrow"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-5 col-md-6 mb-5">
+                    <div class="col-sm-6 col-md-6 mb-5">
                         <div class="card" style={{width: "18 rem"}}>
                             <img src={foto1} class="w100" alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="card-body p-3">
+                                <h5 class="card-title"><b>CLUB DIAMANTE</b></h5>
+                                <p class="card-text">Agradecemos tu confianza en nosotros y decidimos premiar esa confianza con diversos beneficios para brindarte que sean perfectos para ti.</p>
+                                <hr class="my-3"/>
+                                <a className="">LEER MAS<i class="fas fa-chevron-right arrow"></i></a>
                             </div>
                         </div>
                     </div>
