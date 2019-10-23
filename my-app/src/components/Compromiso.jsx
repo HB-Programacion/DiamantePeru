@@ -28,14 +28,14 @@ const Compromiso = () => {
 
         {state === "diamante" && (
           <div>
-           <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="solo" || e.ocasion === "compromiso")}></Carrousel>
+           <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="solo" || e.ocasion === "compromiso")}  title={"DIAMANTE"}></Carrousel>
           </div>
         )}
 
 {state === "diamantes" && (
           <div>
-          <h2>hola estoy en diamantes</h2>
-          <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="varios" || e.ocasion === "compromiso")}></Carrousel>
+     
+          <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="varios" || e.ocasion === "compromiso")}  title={"DIAMANTES"}></Carrousel>
           </div>
         )}
         </div>

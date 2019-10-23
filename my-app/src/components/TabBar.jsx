@@ -12,6 +12,7 @@ import Cs from './Cs';
 import Certificaciones from './Certificaciones';
 import Compromiso from './Compromiso'
 import Mantenimiento from './Mantenimiento'
+import Matrimonio from './Matrimonio'
 // import blogPrueba from './prueba'
 import Blog from './Blog'
 import Joyas from './Joyas'
@@ -108,11 +109,11 @@ const TabBar= () => {
       <Route path="/certificaciones" exact component={Certificaciones} />
       <Route path="/mantenimiento" exact component={Mantenimiento} />
       <Route path="/compromiso" exact component={Compromiso} />
-      {/* <Route path="/matrimonio" exact component={Matrimonio} /> */}
+      <Route path="/matrimonio" exact component={Matrimonio} />
       <Route path="/joyas" exact component={Joyas} />
       <Route path="/blogprueba" exact component={Blog} />
-      <Route path="/items/:tipo/:numero"  component={ItemPlus} />
-      <Route path="/compromiso/diamante/:tipo/:numero" component={ItemPlus}></Route>
+      <Route path="/producto/:tipo/:numero"  component={ItemPlus} />
+      <Route path="/novios/:tipo/:numero" component={ItemPlus}></Route>
       </div>
     </header>
 </Router>

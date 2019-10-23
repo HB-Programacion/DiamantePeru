@@ -10,10 +10,10 @@ import img8 from "../img/8.png"
 import img9 from "../img/9.png"
 import ItemOfCarrousel from './ItemOfCarrousel'
 
-const Carrousel = ({arrofJoyas}) => {
+const Carrousel = ({arrofJoyas,title}) => {
   return (
   <div className="w100 animated fadeIn">
-    <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">DIAMANTES</b></span>
+    <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">{title}</b></span>
    <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
     <div class="container my-4 diamantes-xs">
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
