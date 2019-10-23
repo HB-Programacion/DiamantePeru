@@ -111,7 +111,7 @@ const TabBar= () => {
       {/* <Route path="/matrimonio" exact component={Matrimonio} /> */}
       <Route path="/joyas" exact component={Joyas} />
       <Route path="/blogprueba" exact component={Blog} />
-      <Route path="/items/:tipo/:numero/:dsc"  component={ItemPlus} />
+      <Route path="/items/:tipo/:numero"  component={ItemPlus} />
       </div>
     </header>
 </Router>
