@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Carrousel from './Carrousel'
 import oneDiamante from '../img/one-diamante.png'
 import moreDiamante from '../img/more-diamante.png'
-
+import arrJoyas from '../data';
 const Compromiso = () => {
     const [state, setState] = useState("viewTwo");
     return (
@@ -28,14 +28,14 @@ const Compromiso = () => {
 
         {state === "diamante" && (
           <div>
-           <Carrousel></Carrousel>
+           <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="solo" || e.ocasion === "compromiso")}></Carrousel>
           </div>
         )}
 
 {state === "diamantes" && (
           <div>
           <h2>hola estoy en diamantes</h2>
-          <Carrousel></Carrousel>
+          <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="varios" || e.ocasion === "compromiso")}></Carrousel>
           </div>
         )}
         </div>

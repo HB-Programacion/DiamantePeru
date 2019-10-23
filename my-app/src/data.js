@@ -1,56 +1,89 @@
 import img from './img/1.png';
 
-export default [{
+export default [
+
+    {
+        id: 1,
+        codigo: "1",
+        descripcion: "Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)",
+        tipo: "anillo",
+        color: "plata",
+        corte: "medio",
+        tono: "d-f",
+        ocasion: "compromiso",
+        diamante: "solo",
+        imagen: `${img}`,
+    },
+    {
+        id: 2,
+        codigo: "2",
+        descripcion: "Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)",
+        tipo: "anillo",
+        color: "oro",
+        corte: "medio",
+        tono: "g-j",
+        ocasion: "matrimonio",
+        diamante: "solo",
+        imagen: `${img}`,
+    },
+    {
+        id: 3,
+        codigo: "3",
+        descripcion: "Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)",
         tipo: "anillo",
         color: "blanco",
         corte: "medio",
-        codigo: "6",
-        imagen: `${img}`
+        tono: "k-m",
+        ocasion: "compromiso",
+        diamante: "solo",
+        imagen: `${img}`,
     },
     {
+        id: 4,
+        codigo: "4",
+        descripcion: "Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)",
+        tipo: "aretes",
+        color: "blanco",
+        corte: "medio",
+        tono: "n-r",
+        ocasion: "toda-ocasion",
+        diamante: "solo",
+        imagen: `${img}`,
+    },
+    {
+        id: 5,
+        codigo: "5",
+        descripcion: "Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)",
+        tipo: "aretes",
+        color: "rosa",
+        corte: "medio",
+        tono: "s-z",
+        ocasion: "toda-ocasion",
+        diamante: "solo",
+        imagen: `${img}`,
+    },
+    {
+        id: 6,
+        codigo: "6",
+        descripcion: "Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)",
+        tipo: "dije",
+        color: "rosa",
+        corte: "medio",
+        tono: "s-z",
+        ocasion: "toda-ocasion",
+        diamante: "solo",
+        imagen: `${img}`,
+    },
+    {
+        id: 7,
+        codigo: "7",
+        descripcion: "Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)",
         tipo: "anillo",
         color: "rosa",
         corte: "medio",
-        codigo: "5",
-        imagen: `${img}`
-    },
-    {
-        tipo: "anillo",
-        color: "oro",
-        corte: "malo",
-        codigo: "4",
-        imagen: `${img}`
-    },
-    {
-        tipo: "aretes",
-        color: "plata",
-        corte: "malo",
-        codigo: "3",
-        tono: "g-j",
-        imagen: `${img}`
-    },
-    {
-        tipo: "dije",
-        color: "blanco",
-        corte: "bueno",
-        codigo: "12",
-        tono: "d-f",
-        imagen: `${img}`
-    },
-    {
-        tipo: "dije",
-        color: "blanco",
-        corte: "bueno",
-        codigo: "7",
-        tono: "d-f",
-        imagen: `${img}`
-    },
-    {
-        tipo: "anillo",
-        color: "plata",
-        corte: "medio",
-        codigo: "1",
+        tono: "s-z",
+        ocasion: "compromiso",
+        diamante: "varios",
         imagen: `${img}`,
-        descripcion: "Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)"
-    }
+    },
 ];
