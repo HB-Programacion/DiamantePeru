@@ -21,7 +21,7 @@ const Footer = () => {
                         <input className="w25 p-1 text-size14 border-gray-3" name="inputOne" type="email" placeholder="Correo Electronico"/>
                         <input className="black  text-size14 color-white btn-flat border-none" type="submit" value="SUSCRÍBETE"/>
                         <p className="interline1 pad-txt-19 text-size12 mt-1 mb-1 center justify ">Al suscribirse a nuestro boletín, acepta que le enviemos correos electrónicos de marketing 
-según nuestra Política de privacidad.</p>
+                            según nuestra Política de privacidad.</p>
                     </div>
                 </form>
             </footer>
