@@ -1,22 +1,16 @@
 import React ,{useState,useEffect} from "react";
 
 import Varios from './VariosItems';
-import img from '../img/1.png';
+
+import arrJoyas from '../data';
 
 const Joyas = () =>{
 
-    const arrJoyas = [   {tipo :"anillo",color:"blanco",corte:"medio",codigo:"6",imagen:`${img}`},
-     {tipo :"anillo",color:"rosa",corte:"medio",codigo:"5",imagen:`${img}`},
-     {tipo:"anillo",color:"oro",corte:"malo",codigo:"4",imagen:`${img}`},
-    {tipo :"aretes",color:"plata",corte:"malo",codigo:"3",tono:"g-j",imagen:`${img}`},
-    {tipo :"dije",color:"blanco",corte:"bueno",codigo:"2",tono:"d-f",imagen:`${img}`},
-    {tipo :"dije",color:"blanco",corte:"bueno",codigo:"7",tono:"d-f",imagen:`${img}`},
-    {tipo :"anillo",color:"plata",corte:"medio",codigo:"1",descripcion:"Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.(Todas las joyas se pueden personalizar a tu gusto)"}];
-    const [product, setProduct] = useState([...arrJoyas]);
+   const [product, setProduct] = useState([...arrJoyas]);
     const [stateRadio,setStateRadio] = useState([" "]);
     const [stateRadioTonalidad,setStateRadioTonlidad] = useState([" "]);
     const [stateRadioTipo,setStateRadioTipo] = useState([" "])
-    const [inputValue,setInputValue] =useState("");
+    const [inputValue, setInputValue] = useState("");
 
 const clearFilter = () =>{
     setProduct(arrJoyas);
@@ -83,12 +77,9 @@ const clearFilter = () =>{
     functionVar(arrayOfProducts,text);
   
     };
-  
-    useEffect(() => {
-      return () => {
-        setInputValue()
-      };
-    }, [inputValue])
+    // if(inputValue!==""){
+    //   filterCode = (arrJoyas,inputValue)
+    // }
 
     return (
 <>
@@ -115,7 +106,11 @@ const clearFilter = () =>{
    <div className="filterAndSearch col">
        <div className=" input-group-lg">
  <label  className="title-radio w100"> Buscar por
-     <input class="form-control inputOfCode mt-1 " onKeyUp={(e)=>{handleOptionChange(e,filterCode,arrJoyas,inputValue,setInputValue)}}  type="text" id="NameOfJewerly" name="Name" /></label>
+     <input class="form-control inputOfCode mt-1 " onInputCapture={(e)=>{
+        //handleOptionChange(e,filterCode,arrJoyas,inputValue,setInputValue)
+        setInputValue(e.target.value)
+       }} 
+       type="text" id="NameOfJewerly" name="Name" /></label>
   
        </div>
    
@@ -123,8 +118,8 @@ const clearFilter = () =>{
 <span className="title-radio">Tipo</span>
     <div    class="form-check">
        
-  <input checked={stateRadio === 'optionanillo'} onChange={(e)=>{handleOptionChange(e,filterTipo,product,"anillo",setStateRadioTipo)}}   class="form-check-input" type="radio" name="exampleRadios" id="anillo" value="optionanillo" />
-  <label class="form-check-label raleway-light" for="anillo">
+  <input checked={stateRadioTipo === 'optionanillo'} onChange={(e)=>{handleOptionChange(e,filterTipo,product,"anillo",setStateRadioTipo)}}   class="form-check-input" type="radio" name="exampleRadios" id="anillo1" value="optionanillo" />
+  <label class="form-check-label raleway-light" for="anillo1">
   Sortija
   </label>
 </div>
@@ -133,8 +128,8 @@ const clearFilter = () =>{
 
 <div    class="form-check">
        
-  <input checked={stateRadio === 'optionarete'} onChange={(e)=>{handleOptionChange(e,filterTipo,product,"aretes",setStateRadioTipo)}}   class="form-check-input" type="radio" name="exampleRadios" id="arete" value="optionarete" />
-  <label class="form-check-label raleway-light" for="arete">
+  <input checked={stateRadioTipo === 'optionarete'} onChange={(e)=>{handleOptionChange(e,filterTipo,product,"aretes",setStateRadioTipo)}}   class="form-check-input" type="radio" name="exampleRadios" id="aretes1" value="optionarete" />
+  <label class="form-check-label raleway-light" for="aretes1">
 Arete  </label>
 </div>
 
@@ -142,8 +137,8 @@ Arete  </label>
 
 <div    class="form-check">
        
-  <input checked={stateRadio === 'optionDije'} onChange={(e)=>{handleOptionChange(e,filterTipo,product,"dije",setStateRadioTipo)}}   class="form-check-input" type="radio" name="exampleRadios" id="dije" value="optionDije" />
-  <label class="form-check-label raleway-light" for="dije">
+  <input checked={stateRadioTipo === 'optionDije'} onChange={(e)=>{handleOptionChange(e,filterTipo,product,"dije",setStateRadioTipo)}}   class="form-check-input" type="radio" name="exampleRadios" id="dije1" value="optionDije" />
+  <label class="form-check-label raleway-light" for="dije1">
 Dije  </label>
 </div>
 
@@ -231,7 +226,7 @@ Dije  </label>
 <button onClick={()=>{clearFilter()}} className="btn-block">Limpiar</button>
     </div>
     <div className="col-sm-9">
-    <Varios arrofJoyas={product}></Varios>
+    <Varios arrofJoyas={product.filter(e => !inputValue || e.codigo === inputValue)}></Varios>
 
     </div>
   
