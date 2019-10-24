@@ -14,37 +14,30 @@ const Carrousel = ({arrofJoyas,title}) => {
   return (
   <div className="w100 animated fadeIn">
     <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">{title}</b></span>
-   <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
+    <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
     <div class="container my-4 diamantes-xs">
-    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
- 
-      <div class="controls-top center position-relative">
-        <a class="btn-floating left-xs" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
-        <a class="btn-floating right-xs" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
-      </div>
-
-      <div class="carousel-inner" role="listbox">
-
-        <div class="carousel-item active">
-
-          <div class="row allCenter">
-
-          {arrofJoyas.map(prod => (
-        <ItemOfCarrousel
-     key={prod.codigo}
-     dsc={prod.descripcion}
-          nro={prod.codigo}
-          tipo={prod.tipo}
-          color={prod.color}
-        />
-           )) }
-
+      <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+        <div class="controls-top center position-relative">
+          <a class="btn-floating left-xs" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
+          <a class="btn-floating right-xs" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
         </div>
-
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="row allCenter">
+            {arrofJoyas.map(prod => (
+              <ItemOfCarrousel
+                key={prod.codigo}
+                dsc={prod.descripcion}
+                nro={prod.codigo}
+                tipo={prod.tipo}
+                color={prod.color}
+              />
+            )) }
+          </div>
         </div>
         <div class="carousel-item">
-
           <div class="row allCenter">
+
             <div class="col-md-4">
               <div class="mb-2 background-carrousel-ring ">
                 <img class="card-img-top" src={img6}
@@ -75,15 +68,10 @@ const Carrousel = ({arrofJoyas,title}) => {
               </div>
             </div>
 
-          
-
-           
           </div>
-
         </div>
 
         <div class="carousel-item">
-
           <div class="row allCenter">
             <div class="col-md-4">
               <div class="mb-2 background-carrousel-ring ">
@@ -104,9 +92,7 @@ const Carrousel = ({arrofJoyas,title}) => {
                 </div>
               </div>
             </div>
-
-          
-
+            
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="mb-2 background-carrousel-ring ">
                 <img class="card-img-top" src={img6}

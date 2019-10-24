@@ -1,4 +1,7 @@
 import React from "react";
+
+import arrJoyas from '../data';
+import Carrousel from './Carrousel'
 import img1 from "../img/1.png";
 import img2 from "../img/2.png";
 import img3 from "../img/3.png";
@@ -14,7 +17,10 @@ import { Helmet } from "react-helmet";
 
 const Matrimonio = () => {
   return (
-    <Carrousel arrofJoyas={arrJoyas.filter(e =>  e.ocasion === "matrimonio")}  title={"MATRIMONIO"}></Carrousel>
+    <Carrousel 
+      arrofJoyas={arrJoyas.filter(e =>  e.ocasion === "matrimonio")}  
+      title={"MATRIMONIO"}>
+    </Carrousel>
   )
 }
 export default Matrimonio
