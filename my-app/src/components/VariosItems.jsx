@@ -8,7 +8,7 @@ const Varios= ({arrofJoyas})=>{
         <div className="row">
           {arrofJoyas.map(prod => (
             <Item
-              key={prod.codigo}
+              key={prod.id}
               dsc={prod.descripcion}
               nro={prod.codigo}
               tipo={prod.tipo}

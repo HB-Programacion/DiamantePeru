@@ -1,8 +1,13 @@
 import React from "react";
-
+import { Helmet } from "react-helmet";
 const Testimonio = () => {
     return (
         <>
+           <Helmet>
+    <title>Testimonios - Diamante Perú</title>
+    <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+    <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Testimonios,novios" />
+  </Helmet>
         <div className="w100 pt-5 pt-5-xs mb-5 mt-5 animated fadeIn ">
             <div class="flex around position-relative">
               <a class="btn-floating position-absolute left3" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>

@@ -63,7 +63,7 @@ const TabBar= () => {
               <Link to="/historia" className={"dropdown-item"}>Historia</Link>
               <Link to="/motivos" className={"dropdown-item"}>Motivos</Link>
               <Link to="/premios" className={"dropdown-item"}>Premios</Link>
-              <Link to="/convenios" className={"dropdown-item"}>Convenios</Link>
+              <Link to="/beneficios" className={"dropdown-item"}>Beneficios</Link>
             </div>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar"}>
@@ -73,7 +73,7 @@ const TabBar= () => {
             <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
               <Link to="/eleccion" className={"dropdown-item "}>Elección</Link>
               <Link to="/5cs" className={"dropdown-item"}>5CS</Link>
-              <Link to="/certificaciones" className={"dropdown-item"}>Certificaciones</Link>
+              <Link to="/certificación" className={"dropdown-item"}>Certificación</Link>
               <Link to="/mantenimiento" className={"dropdown-item"}>Mantenimiento</Link>
             </div>
             </li>
@@ -102,10 +102,10 @@ const TabBar= () => {
       <Route path="/historia" exact component={Historia} />
       <Route path="/motivos" exact component={Motivos} />
       <Route path="/premios" exact component={Premios} />
-      <Route path="/convenios" exact component={ConveniosTab} />
+      <Route path="/beneficios" exact component={ConveniosTab} />
       <Route path="/eleccion" exact component={Eleccion} />
       <Route path="/5cs" exact component={Cs} />
-      <Route path="/certificaciones" exact component={Certificaciones} />
+      <Route path="/certificación" exact component={Certificaciones} />
       <Route path="/mantenimiento" exact component={Mantenimiento} />
       <Route path="/compromiso" exact component={Compromiso} />
       <Route path="/matrimonio" exact component={Matrimonio} />

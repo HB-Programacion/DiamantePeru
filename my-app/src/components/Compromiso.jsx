@@ -1,5 +1,7 @@
 
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
+
 import Carrousel from './Carrousel'
 import oneDiamante from '../img/one-diamante.png'
 import moreDiamante from '../img/more-diamante.png'
@@ -28,12 +30,12 @@ const Compromiso = () => {
             )}
             {state === "diamante" && (
             <div>
-                <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="solo" || e.ocasion === "compromiso")}  title={"DIAMANTE"}></Carrousel>
+                <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="solo" && e.ocasion === "compromiso")}  title={"DIAMANTE"}></Carrousel>
             </div>
             )}
             {state === "diamantes" && (
             <div>
-                <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="varios" || e.ocasion === "compromiso")}  title={"DIAMANTES"}></Carrousel>
+                <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="varios" && e.ocasion === "compromiso")}  title={"DIAMANTES"}></Carrousel>
             </div>
             )}
         </div>
