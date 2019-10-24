@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+
 import gia from "../img/gia.svg"
 import diamante from '../img/fondo-certificacion.svg'
 

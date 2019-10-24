@@ -1,5 +1,5 @@
 import React ,{useState,useEffect} from "react";
-
+import { Helmet } from "react-helmet";
 import Varios from './VariosItems';
 import arrJoyas from '../data';
 
@@ -77,6 +77,12 @@ const Joyas = () =>{
   return (
     <>
     <div className="container w100">
+    <Helmet>
+        <title>Joyas - Diamante Perú</title>
+        <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+        <meta name="keywords" cpntent="Diamante,diamante,joyas,diamante peru,diamante perú,aretes,sortijas,anillos" />
+      </Helmet>
+
       <div className="row">
         <div className="container-text-joyas  col align-self-center">
           <div className="container">

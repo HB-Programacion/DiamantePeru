@@ -9,7 +9,9 @@ import img7 from "../img/7.png";
 import img8 from "../img/8.png";
 import img9 from "../img/9.png";
 import arrJoyas from '../data';
-import Carrousel from './Carrousel'
+import Carrousel from './Carrousel';
+import { Helmet } from "react-helmet";
+
 const Matrimonio = () => {
   return (
     <Carrousel arrofJoyas={arrJoyas.filter(e =>  e.ocasion === "matrimonio")}  title={"MATRIMONIO"}></Carrousel>

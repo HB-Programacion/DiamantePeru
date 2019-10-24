@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import historia from "../img/historia.svg"
 import Footer from "./Footer"
