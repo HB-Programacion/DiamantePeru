@@ -7,7 +7,7 @@ const Mantenimiento = () => {
            <Helmet>
         <title>Mantenimiento - Diamante Perú</title>
         <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
-        <meta name="keywords" cpntent="Diamante,diamante,joyas,diamante peru,diamante perú,aretes,sortijas,anillos" />
+        <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
       </Helmet>
         <div className="w100 pt-5 pt-5-xs animated fadeIn pb-4 mt-5">
             <span className="p-4 flex flexCenter text-size27"><b>MANTENIMIENTO</b></span>

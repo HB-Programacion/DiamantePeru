@@ -7,6 +7,11 @@ import Footer from "./Footer"
 const Historia = () =>{
     return (
         <>
+   <Helmet>
+    <title>Testimonios - Diamante Perú</title>
+    <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+    <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Testimonios,novios" />
+  </Helmet>
         <div className="w100 flex responsive-certificacion animated fadeIn">
             <div className="w50 allCenter wResponsive100">
                 <div className="mt-3">
