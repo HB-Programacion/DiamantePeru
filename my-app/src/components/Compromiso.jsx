@@ -8,6 +8,8 @@ import moreDiamante from '../img/more-diamante.png'
 import arrJoyas from '../data';
 const Compromiso = () => {
     const [state, setState] = useState("viewTwo");
+    const CompromisoSolo = arrJoyas.filter(e => e.Categoría==="Solitario" && e.Sección === "Novios/Anillo de Compromiso");
+    const CompromisoVarios = arrJoyas.filter(e => e.Categoría==="Con más Diamantes ó Laterales" && e.Sección === "Novios/Anillo de Compromiso");
     return (
         <div className="w100 pt-5 pb-5 flex flexCenter animated fadeIn">
             {state === "viewTwo" && (
@@ -30,12 +32,13 @@ const Compromiso = () => {
             )}
             {state === "diamante" && (
             <div>
-                <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="solo" && e.ocasion === "compromiso")}  title={"DIAMANTE"}></Carrousel>
+                
+                <Carrousel arrofJoyas={CompromisoSolo}  title={"DIAMANTE"}></Carrousel>
             </div>
             )}
             {state === "diamantes" && (
             <div>
-                <Carrousel arrofJoyas={arrJoyas.filter(e => e.diamante==="varios" && e.ocasion === "compromiso")}  title={"DIAMANTES"}></Carrousel>
+                <Carrousel arrofJoyas={CompromisoVarios}  title={"DIAMANTES"}></Carrousel>
             </div>
             )}
         </div>

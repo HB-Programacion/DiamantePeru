@@ -26,11 +26,12 @@ const Carrousel = ({arrofJoyas,title}) => {
           <div class="row allCenter">
             {arrofJoyas.map(prod => (
               <ItemOfCarrousel
-                key={prod.codigo}
-                dsc={prod.descripcion}
-                nro={prod.codigo}
-                tipo={prod.tipo}
-                color={prod.color}
+                // key={prod.CÓDIGO}
+                imagen={prod.imagen}
+                nro={prod.CÓDIGO}
+                tipo={prod.Categoría}
+            
+              
               />
             )) }
           </div>
