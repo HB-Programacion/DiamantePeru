@@ -8,11 +8,12 @@ const Varios= ({arrofJoyas})=>{
         <div className="row">
           {arrofJoyas.map(prod => (
             <Item
-              key={prod.id}
-              dsc={prod.descripcion}
-              nro={prod.codigo}
-              tipo={prod.tipo}
-              color={prod.color}
+              // key={prod.id}
+              dsc={prod.DESCRIPCIÓN}
+              nro={prod.CÓDIGO}
+              tipo={prod.Categoría}
+              color={prod.Color}
+              img={prod.imagen}
             />
           ))}
         </div>

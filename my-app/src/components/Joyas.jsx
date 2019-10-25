@@ -2,7 +2,7 @@ import React ,{useState,useEffect} from "react";
 import { Helmet } from "react-helmet";
 import Varios from './VariosItems';
 import arrJoyas from '../data';
-let arrayFilter =  arrJoyas.filter(e => e.ocasion === "toda-ocasion");
+let arrayFilter =  arrJoyas.filter(e => e.Sección === "Joyas");
 
 const Joyas = () =>{
 
@@ -23,7 +23,7 @@ const Joyas = () =>{
   const filterColor = (products,color) => {
     let newArray = [];
       products.filter(element => {
-        if (element.color === color) {
+        if (element.Color === color) {
           newArray.push(element);
         }
         return newArray;
@@ -35,7 +35,7 @@ const Joyas = () =>{
     setProduct([...arrayFilter]);
     let newArray = [];
       products.filter(element => {
-        if (element.tipo === tipo) {
+        if (element.Categoría === tipo) {
           newArray.push(element);
         }
         return newArray;
@@ -47,7 +47,7 @@ const Joyas = () =>{
     setProduct([...arrayFilter]);
     let newArray = [];
       products.filter(element => {
-        if (element.tono === tono) {
+        if (element.TonalidadDeDiamante === tono) {
           newArray.push(element);
         }
         return newArray;
@@ -55,17 +55,28 @@ const Joyas = () =>{
       return setProduct(newArray);
       };
 
-  const filterCode = (productos,codigo) =>{
+  const filterShape = (productos,forma) =>{
     // setProduct(...productos);
     let newArray = [];
       productos.filter(element => {
-        if (element.codigo === codigo) {
+        if (element.FormaDeDiamante === forma) {
           newArray.push(element);
         }
         return newArray;
       });
       return setProduct(newArray);
     };
+
+    const filterMoreGems =(productos,otras)=>{
+      let newArray = [];
+      productos.filter(element => {
+        if (element.OtrasGemas === otras) {
+          newArray.push(element);
+        }
+        return newArray;
+      });
+      return setProduct(newArray);
+    }
 
      const handleOptionChange =(e,functionVar,arrayOfProducts,text,setStatevar)=> {
       console.log(e.target.value);  
@@ -113,75 +124,197 @@ const Joyas = () =>{
               />
             </label>
           </div>
+          
+{/*TIPO */}
           <div className="container-fluid container-tipo">
             <span className="title-radio">Tipo</span>
             <div className="form-check">
               <input 
-                checked={stateRadioTipo === 'anillo'} 
-                onChange={(e)=>{handleOptionChange(e,filterTipo,product,"anillo",setStateRadioTipo)}}   
+                checked={stateRadioTipo === "Sortija-toda-ocasión"} 
+                onChange={(e)=>{handleOptionChange(e,filterTipo,product,"Sortija-toda-ocasión",setStateRadioTipo)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="exampleRadios" 
-                id="anillo" 
-                value="anillo" 
+                id="Sortija-toda-ocasión" 
+                value="Sortija-toda-ocasión" 
               />
-              <label className="form-check-label raleway-light"  htmlFor="anillo">
-                Sortija
+              <label className="form-check-label raleway-light"  htmlFor="Sortija-toda-ocasión">
+              Sortija toda ocasión
               </label>
             </div>
             <div className="form-check">
               <input 
-                checked={stateRadioTipo === 'aretes'} 
-                onChange={(e)=>{handleOptionChange(e,filterTipo,product,"aretes",setStateRadioTipo)}}   
+                checked={stateRadioTipo === 'Arete'} 
+                onChange={(e)=>{handleOptionChange(e,filterTipo,product,"Arete",setStateRadioTipo)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="exampleRadios" 
-                id="aretes" 
-                value="aretes" 
+                id="Arete" 
+                value="Arete" 
               />
-              <label className="form-check-label raleway-light"  htmlFor="aretes">
+              <label className="form-check-label raleway-light"  htmlFor="Arete">
                 Arete
               </label>
             </div>
             <div className="form-check">      
               <input 
-                checked={stateRadioTipo === 'dije'} 
-                onChange={(e)=>{handleOptionChange(e,filterTipo,product,"dije",setStateRadioTipo)}}   
+                checked={stateRadioTipo === 'Dije'} 
+                onChange={(e)=>{handleOptionChange(e,filterTipo,product,"Dije",setStateRadioTipo)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="exampleRadios" 
-                id="dije" value="dije" />
-              <label className="form-check-label raleway-light"  htmlFor="dije">
+                id="Dije" value="Dije" />
+              <label className="form-check-label raleway-light"  htmlFor="Dije">
                 Dije  
               </label>
             </div>
           </div>
+         
+{/*COLOR DE ORO */}
           <div className="container-fluid container-color">
-            <span className="title-radio">Color</span>
+            <span className="title-radio">Color de Oro</span>
             <div className="form-check">
               <input 
-                checked={stateRadio === 'amarillo'} 
-                onChange={(e)=>{handleOptionChange(e,filterColor,product,"amarillo",setStateRadio)}}   
+                checked={stateRadio === 'Oro-Amarillo'} 
+                onChange={(e)=>{handleOptionChange(e,filterColor,product,"Oro-Amarillo",setStateRadio)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="exampleRadios" 
-                id="amarillo" 
-                value="optionoro" 
+                id="Oro-Amarillo" 
+                value="Oro-Amarillo" 
               />
-              <label className="form-check-label raleway-light" htmlFor="amarillo">
-                Amarillo
+              <label className="form-check-label raleway-light" htmlFor="Oro-Amarillo">
+                Oro Amarillo
               </label>
             </div>
             <div  className="form-check">
-              <input checked={stateRadio === 'blanco'} onChange={(e)=>{handleOptionChange(e,filterColor,product,"blanco",setStateRadio)}} 
-               className="form-check-input" type="radio" name="exampleRadios" id="blanco" value="blanco" />
-              <label className="form-check-label raleway-light" htmlFor="blanco" >
-             Blanco
+              <input checked={stateRadio ===  "Oro-Blanco"} onChange={(e)=>{handleOptionChange(e,filterColor,product, "Oro-Blanco",setStateRadio)}} 
+               className="form-check-input" type="radio" name="exampleRadios" id= "Oro-Blanco" value= "Oro-Blanco" />
+              <label className="form-check-label raleway-light" htmlFor= "Oro-Blanco" >
+              Oro Blanco
+              </label>
+            </div>
+
+
+            <div  className="form-check">
+              <input checked={stateRadio === "Oro-Amarillo-y-Oro Blanco"} onChange={(e)=>{handleOptionChange(e,filterColor,product, "Oro-Amarillo-y-Oro Blanco",setStateRadio)}} 
+               className="form-check-input" type="radio" name="exampleRadios" id= "Oro-Amarillo-y-Oro Blanco" value= "Oro-Amarillo-y-Oro Blanco" />
+              <label className="form-check-label raleway-light" htmlFor= "Oro-Amarillo-y-Oro Blanco" >
+               Oro Amarillo y Oro Blanco
               </label>
             </div>
          
           
           </div>
+
+
+{/*TONO DE DIAMANTE */}
+          <div className="container-fluid container-color">
+            <span className="title-radio">Tonalidad del Diamante</span>
+            <div className="form-check">
+              <input 
+                checked={stateRadio ==="Azul"} 
+                onChange={(e)=>{handleOptionChange(e,filterTone,product,"Azul",setStateRadio)}}   
+                className="form-check-input" 
+                type="radio" 
+                name="exampleRadios" 
+                id="Azul"
+                value="Azul"
+              />
+              <label className="form-check-label raleway-light" htmlFor="Azul">
+                Azul
+              </label>
+            </div>
+            <div  className="form-check">
+              <input checked={stateRadio === "Blanco"} onChange={(e)=>{handleOptionChange(e,filterTone,product,"Blanco",setStateRadio)}} 
+               className="form-check-input" type="radio" name="exampleRadios" id= "Blanco" value= "Blanco" />
+              <label className="form-check-label raleway-light" htmlFor= "Blanco" >
+         Blanco
+              </label>
+            </div>
+
+
+            <div  className="form-check">
+              <input checked={stateRadio === "Blanco y Amarillo Canario"} onChange={(e)=>{handleOptionChange(e,filterTone,product,"Blanco y Amarillo Canario",setStateRadio)}} 
+               className="form-check-input" type="radio" name="exampleRadios" id= "Blanco y Amarillo Canario" value="Blanco y Amarillo Canario" />
+              <label className="form-check-label raleway-light" htmlFor= "Blanco y Amarillo Canario" >
+              Blanco y Amarillo Canario
+              </label>
+            </div>
+         
+
+            <div  className="form-check">
+              <input checked={stateRadio === "Blanco y  Azul"} onChange={(e)=>{handleOptionChange(e,filterTone,product, "Blanco y  Azul",setStateRadio)}} 
+               className="form-check-input" type="radio" name="exampleRadios" id=  "Blanco y  Azul" value= "Blanco y  Azul" />
+              <label className="form-check-label raleway-light" htmlFor=  "Blanco y  Azul">
+              Blanco y  Azul
+              </label>
+            </div>
+          
+          </div>
+
+{/*FORMA DE DIAMANTE */}
+          <div className="container-fluid container-color">
+            <span className="title-radio">Forma de Diamante</span>
+            <div className="form-check">
+              <input 
+                checked={stateRadio === "Brillante-(Redondo)"} 
+                onChange={(e)=>{handleOptionChange(e,filterShape,product,"Brillante-(Redondo)",setStateRadio)}}   
+                className="form-check-input" 
+                type="radio" 
+                name="exampleRadios" 
+                id="Brillante-(Redondo)"
+                value="Brillante-(Redondo)"
+              />
+              <label className="form-check-label raleway-light" htmlFor="Brillante-(Redondo)">
+              Brillante (Redondo)
+              </label>
+            </div>
+            <div  className="form-check">
+              <input checked={stateRadio ===  "Brillante(Redondo) y Pera"} onChange={(e)=>{handleOptionChange(e,filterShape,product, "Brillante(Redondo) y Pera",setStateRadio)}} 
+               className="form-check-input" type="radio" name="exampleRadios" id=  "Brillante(Redondo) y Pera" value= "Brillante(Redondo) y Pera"/>
+              <label className="form-check-label raleway-light" htmlFor= "Brillante(Redondo) y Pera" >
+              "Brillante(Redondo) y Pera"
+              </label>
+            </div>
+
+
+            <div  className="form-check">
+              <input checked={stateRadio === "X"} onChange={(e)=>{handleOptionChange(e,filterShape,product, "X",setStateRadio)}} 
+               className="form-check-input" type="radio" name="exampleRadios" id= "X" value= "X" />
+              <label className="form-check-label raleway-light" htmlFor= "X" >
+              Sin Diamante
+              </label>
+            </div>
+         
+          
+          </div>
+
+          <div className="container-fluid container-color">
+            <span className="title-radio">Gemas Adicionales</span>
+            <div className="form-check">
+              <input 
+                checked={stateRadio ==="Amatista"} 
+                onChange={(e)=>{handleOptionChange(e,filterMoreGems,product,"Amatista",setStateRadio)}}   
+                className="form-check-input" 
+                type="radio" 
+                name="exampleRadios" 
+                id="Amatista"
+                value="Amatista"
+              />
+              <label className="form-check-label raleway-light" htmlFor="Amatista">
+              Amatista
+              </label>
+        
+         
+           
+              </div>
+  
+          </div>
+
+
+
+        
           {/* <div className="container-fluid container-tonalidad">
             <span  className="title-radio">Tonalidad</span>
             <div  className="form-check">
@@ -264,7 +397,7 @@ const Joyas = () =>{
           </div>
           <div className="col-sm-9">
             <Varios 
-              arrofJoyas={product.filter(e => !inputValue || e.codigo === inputValue )}>
+              arrofJoyas={product.filter(e => !inputValue || e.CÓDIGO === inputValue )}>
             </Varios>
           </div>
         </div>

@@ -279,6 +279,7 @@
         border-radius: 1px;
         border: none;
         background-color: #faf9f8;
+        /* #e6e6e6;*/
         box-shadow: #dae0e5 1px 1px;
     }
     
@@ -793,8 +794,8 @@
     
     .black-margin-btn {
         border: none;
-        background: black;
-        color: #fff;
+        background: #e6e6e6;
+        color: #000000;
         padding: .3rem;
         margin-bottom: 2.5em;
         margin-top: 2.5em;
@@ -986,6 +987,14 @@
     .img-min-blog {
         width: 100%;
         height: 50vh;
+    }
+    
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #495057;
+        outline: 0;
+        box-shadow: 0px 0px 0px 0.2rem rgba(73, 80, 87, 0.231);
     }
     
     @media screen and (max-width:767px) {
