@@ -1045,6 +1045,11 @@
         right: 2em;
     }
     
+    .style-z-index {
+        background: white;
+        z-index: 25;
+    }
+    
     @media screen and (max-width:767px) {
         .w60 {
             width: 100%
