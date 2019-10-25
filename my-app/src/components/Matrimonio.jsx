@@ -23,7 +23,7 @@ const Matrimonio = () => {
     <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Matrimonio,novios" />
   </Helmet>
     <Carrousel 
-      arrofJoyas={arrJoyas.filter(e =>  e.ocasion === "matrimonio")}  
+      arrofJoyas={arrJoyas.filter(e =>  e .Sección === "Novios / Matrimonio")}  
       title={"MATRIMONIO"}>
     </Carrousel>
     </>

@@ -1,14 +1,14 @@
 import React from 'react';
-import img2 from "../img/2.png";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-const ItemOfCarrousel = ({dsc,nro,tipo,color}) =>{
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import image from '../img/1.png';
+const ItemOfCarrousel = ({nro,tipo,imagen}) =>{
     return(
       <Link class="col-md-4 clearfix d-none d-md-block " to={ `/novios/${tipo}/${nro}`}>
         <div class="mb-2 background-carrousel-ring ">
           <img 
             class="card-img-top" 
-            src={img2}
+            src={imagen}
             alt="Card image cap"
           />
           <div class="card-body center">

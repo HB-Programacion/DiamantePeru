@@ -1,8 +1,8 @@
 import React from "react";
-import img from '../img/1.png'
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-const Item = ({nro,tipo,color,dsc}) =>{
+const Item = ({nro,tipo,color,dsc,img}) =>{
   return (
       <>
       <Link 

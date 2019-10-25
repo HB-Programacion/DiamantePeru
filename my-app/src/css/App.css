@@ -7,14 +7,16 @@
         margin: 0;
         padding: 0
     }
-    .option-menu{
+    
+    .option-menu {
         color: #272727 !important;
-       
     }
-    .option-menu :hover{
-        color:#888383;
+    
+    .option-menu :hover {
+        color: #888383;
         cursor: pointer
     }
+    
     .col-2 {
         width: 16.666;
     }
@@ -88,16 +90,20 @@
         font-weight: normal;
         src: local('../fonts/SnellRoundhand-BoldScript.otf'), url('../fonts/SnellRoundhand-BoldScript.otf') format('woff');
     }
-    .snell-Roundhand{
+    
+    .snell-Roundhand {
         font-family: "Snell-Roundhand";
     }
-    .geosansLight{
+    
+    .geosansLight {
         font-family: 'GeosansLight';
     }
+    
     .raleway-light {
         font-family: 'Raleway-Light';
     }
-    .raleway-Bold{
+    
+    .raleway-Bold {
         font-family: Raleway-Bold;
     }
     /* FONTS */
@@ -118,9 +124,11 @@
     .inline-flex {
         display: inline-flex
     }
-    .color-p-cs{
+    
+    .color-p-cs {
         color: #403f3f;
     }
+    
     .between {
         justify-content: space-between
     }
@@ -144,7 +152,8 @@
     .justify {
         text-align: justify
     }
-    .text-left{
+    
+    .text-left {
         text-align: left
     }
     
@@ -299,6 +308,7 @@
         border-radius: 1px;
         border: none;
         background-color: #faf9f8;
+        /* #e6e6e6;*/
         box-shadow: #dae0e5 1px 1px;
     }
     
@@ -371,7 +381,8 @@
     .spacing4 {
         letter-spacing: 4px;
     }
-    .font-size-1{
+    
+    .font-size-1 {
         font-size: 1.3em
     }
     
@@ -818,8 +829,8 @@
     
     .black-margin-btn {
         border: none;
-        background: black;
-        color: #fff;
+        background: #e6e6e6;
+        color: #000000;
         padding: .3rem;
         margin-bottom: 2.5em;
         margin-top: 2.5em;
@@ -1012,19 +1023,35 @@
         width: 100%;
         height: 50vh;
     }
-    .hr-cs{
+    
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #495057;
+        outline: 0;
+        box-shadow: 0px 0px 0px 0.2rem rgba(73, 80, 87, 0.231);
+    }
+    
+    .hr-cs {
         background-color: rgb(10, 10, 10);
         height: 1px;
         border: 0;
         margin: 1em auto;
     }
-    .leer-5cs{
+    
+    .leer-5cs {
         position: absolute;
         bottom: 1em;
         right: 2em;
     }
+    
+    .style-z-index {
+        background: white;
+        z-index: 25;
+    }
+    
     @media screen and (max-width:767px) {
-        .w60{
+        .w60 {
             width: 100%
         }
         .popular-art {
