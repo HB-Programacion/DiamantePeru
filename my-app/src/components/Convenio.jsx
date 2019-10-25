@@ -5,8 +5,8 @@ const Convenio = () => {
     return (
         <>
         <div className="fndo-img1 mb-0">
-            <div className="w100 pad-5-xs pad-2 blue-background">
-                <div className="w45 w100-xs center color-white text-centered"> <label className="spacing4 text-1-5 bolder-xs ">Beneficios</label>
+            <div className="w100 pad-5-xs pad-2">
+                <div className="w45 w100-xs center text-centered"> <label className="spacing4 text-1-5 bolder-xs ">BENEFICIOS</label>
                     <p className="text-centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
                     <a className="text-centered" >Leer mas</a>
                 </div>
