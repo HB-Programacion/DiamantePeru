@@ -801,6 +801,29 @@
     }
     
     @media screen and (max-width:768px) {
+        .p-0-xs {
+            padding: 0px !important;
+        }
+        .text-each-rel-art {
+            margin: 0px !important;
+        }
+        .each-article-container {
+            padding: .5em;
+            margin: 0px !important;
+        }
+        .container-another-articles {
+            width: 100vw;
+        }
+        .d-block-xs {
+            display: block;
+        }
+        .xs-100 {
+            width: 100vw;
+        }
+        .m-0-xs {
+            margin: 0rem!important;
+            padding: 2em;
+        }
         .flexWrap-xs {
             flex-wrap: wrap
         }
@@ -960,7 +983,18 @@
         top: -25vh;
     }
     
+    .img-min-blog {
+        width: 100%;
+        height: 50vh;
+    }
+    
     @media screen and (max-width:767px) {
+        .popular-art {
+            margin-left: 2.5rem !important;
+        }
+        .container-article {
+            top: 0px;
+        }
         .flexWrap-xs {
             flex-wrap: wrap
         }
