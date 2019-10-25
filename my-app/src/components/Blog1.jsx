@@ -12,16 +12,16 @@ const Blog1= () => {
 return (
 
 <>
-        <div className="gray vw100 animated fadeIn pb-4">
+        <div className="gray div-5cs animated fadeIn pb-4">
      
          
            <div >
-                <img className="vw100  vh50" src={foto1} alt="" srcset=""/>
+                <img className="img-min-blog " src={foto1} alt="" srcset=""/>
            </div>
 
-<div className="vw100 flex">
-<article className="container-article vw60 ">
-<div className="m-5">
+<div className="div-5cs  flex d-block-xs">
+<article className="container-article vw60 xs-100 ">
+<div className="m-5 m-0-xs">
     <div className="container-title mb-5 text-white black">
     <div className="p-3">
     <h1>LAS 5 C DE DIAMANTE </h1>
@@ -43,14 +43,14 @@ Forma: La forma de tallado tradicional de un diamante hoy en día es el corte br
 
 
 <hr/>
-<div className="contact">
+{/* <div className="contact">
 <a href="" className="">
                 <img className="" src=""></img>
              </a>
              <a href=""  className="">
                  
                 <img  className="" src=""></img>
-             </a></div>
+             </a></div> */}
            
 </div>
 
@@ -88,7 +88,7 @@ Forma: La forma de tallado tradicional de un diamante hoy en día es el corte br
      </div>
                                             <div class="popular-art m-3">
                                                 <h2>POPULARES</h2>
-                                                <ul class="pl-3 pr-5">
+                                                <ul class="pl-3 pr-5 p-0-xs">
                                                     <li class="pt-2 pr-5">
                                                         <a class="pr-5 " href="/">El Perú : Nuevo mercado para los Diamantes </a>
                                                         </li>
