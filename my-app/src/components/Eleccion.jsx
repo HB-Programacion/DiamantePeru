@@ -3,9 +3,9 @@ import eleccion1 from "../img/Pagas-por-Diamante.svg"
 
 const Eleccion = () => {
     return (
-        <div className="h100 pt-5 pt-5-xs animated fadeIn vhEleccion">
-        <span className="p-3 flex flexCenter text-size27"><b>ELECCIÓN</b></span>
-            <div className="w80 mL-R10">
+        <div className="h100 pt-5 pt-5-xs animated fadeIn vhEleccion geosansLight">
+        <span className="p-3 flex flexCenter text-size27 "><b>ELECCIÓN</b></span>
+            <div className="w80 mL-R10 font-size-1">
                 <div className="pb-3">
                     {/* <span className="mb-2 flex flexCenter text-size27"><b>ELECCION</b></span> */}
                      {/* <div className="mt-3 interline text-size18"> */}

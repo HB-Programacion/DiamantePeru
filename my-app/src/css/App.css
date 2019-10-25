@@ -7,7 +7,14 @@
         margin: 0;
         padding: 0
     }
-    
+    .option-menu{
+        color: #272727 !important;
+       
+    }
+    .option-menu :hover{
+        color:#888383;
+        cursor: pointer
+    }
     .col-2 {
         width: 16.666;
     }
@@ -81,9 +88,17 @@
         font-weight: normal;
         src: local('../fonts/SnellRoundhand-BoldScript.otf'), url('../fonts/SnellRoundhand-BoldScript.otf') format('woff');
     }
-    
+    .snell-Roundhand{
+        font-family: "Snell-Roundhand";
+    }
+    .geosansLight{
+        font-family: 'GeosansLight';
+    }
     .raleway-light {
         font-family: 'Raleway-Light';
+    }
+    .raleway-Bold{
+        font-family: Raleway-Bold;
     }
     /* FONTS */
     
@@ -103,7 +118,9 @@
     .inline-flex {
         display: inline-flex
     }
-    
+    .color-p-cs{
+        color: #403f3f;
+    }
     .between {
         justify-content: space-between
     }
@@ -126,6 +143,9 @@
     
     .justify {
         text-align: justify
+    }
+    .text-left{
+        text-align: left
     }
     
     .alignSelCenter {
@@ -306,7 +326,7 @@
     }
     
     .interline1 {
-        line-height: 1.2em;
+        line-height: 1.3em;
         font-size: 1.2em
     }
     
@@ -350,6 +370,9 @@
     
     .spacing4 {
         letter-spacing: 4px;
+    }
+    .font-size-1{
+        font-size: 1.3em
     }
     
     .spacing3 {
@@ -423,13 +446,15 @@
         flex: 1 0 50%;
         box-sizing: border-box;
         color: #171e42;
-        padding: 4%;
+        padding-left: 3%;
+        padding-right: 2%;
     }
     
     .p-motivos {
-        margin: 1em;
+        margin-left: 3%;
         margin-bottom: 0;
-        text-align: left
+        text-align: left;
+        font-size: 1.3em;
     }
     
     .logoCenter {
@@ -987,8 +1012,21 @@
         width: 100%;
         height: 50vh;
     }
-    
+    .hr-cs{
+        background-color: rgb(10, 10, 10);
+        height: 1px;
+        border: 0;
+        margin: 1em auto;
+    }
+    .leer-5cs{
+        position: absolute;
+        bottom: 1em;
+        right: 2em;
+    }
     @media screen and (max-width:767px) {
+        .w60{
+            width: 100%
+        }
         .popular-art {
             margin-left: 2.5rem !important;
         }
@@ -1079,7 +1117,8 @@
             justify-content: center
         }
         .p-motivos {
-            text-align: center
+            text-align: center;
+            margin-bottom: 5%;
         }
         .w50 .pad-l-8 {
             padding-left: 0;

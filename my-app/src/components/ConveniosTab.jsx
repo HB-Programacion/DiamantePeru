@@ -24,10 +24,10 @@ const ConveniosTab = () => {
                           <figure className="w50 allCenter convenioResImg">
                             <img class=" w70" src={imgconvenio} alt="Card image cap"/>
                           </figure>
-                          <div class="card-body w50 pl-3 convenioRes">
+                          <div class="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 class="card-title">CARMEN SEMINARIO ATELIER</h4>
-                            <p class="card-text">Por tu compra en Diamante Perú obtienes:</p>
-                            <ul className="interline1 ml-4">
+                            <p class="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
+                            <ul className="interline1 ml-4 font-size-1">
                               <li>10% de dscto en vestidos de novia a medida.</li>
                               <li>15% de dscto en vestidos de fiesta a medida.</li>
                               <li>15% de dscto en accesorios a pedido (zapatos, vanites, velo de novia)</li>
@@ -53,10 +53,10 @@ const ConveniosTab = () => {
                           <figure className="w50 allCenter convenioResImg">
                             <img class=" w70" src={imgconvenio} alt="Card image cap"/>
                           </figure>
-                          <div class="card-body w50 pl-3 convenioRes">
+                          <div class="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 class="card-title">CARMEN SEMINARIO ATELIER</h4>
-                            <p class="card-text">Por tu compra en Diamante Perú obtienes:</p>
-                            <ul className="interline1">
+                            <p class="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
+                            <ul className="interline1 font-size-1">
                               <li>10% de dscto en vestidos de novia a medida.</li>
                               <li>15% de dscto en vestidos de fiesta a medida.</li>
                               <li>15% de dscto en accesorios a pedido (zapatos, vanites, velo de novia)</li>

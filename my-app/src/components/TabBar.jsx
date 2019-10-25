@@ -31,15 +31,15 @@ const TabBar= () => {
       <div className={"d-flex flex-grow-1 bd-bottom"}>
       <div className={'w100 flex around pt-1 pb-1 raleway-light'}>
       <div className={"allCenter cel"}>
-      <a className={""}><img src={ubicacion} className="h13px" /> CONTACTO
+      <a className={"option-menu"}><img src={ubicacion} className="h13px" /> <b>CONTACTO</b>
         </a>
       </div>
       <div className="flex ml-5 mr-5 img-logo">
       <Link to="/"><img src={logo} alt="logo" className="center m-auto w50 pt-2 pb-2 logoCenter logo" /></Link>
       </div>
       <div className="allCenter cel">
-        <Link to="/testimonio" className="pr-4">TESTIMONIOS</Link>
-        <Link to="/blog" className="pl-4">BLOG</Link>
+        <Link to="/testimonio" className="pr-4 option-menu"><b>TESTIMONIOS</b></Link>
+        <Link to="/blog" className="pl-4 option-menu"><b>BLOG</b></Link>
       </div>
       </div>
       {/* <hr className={"my-1 d-block"/> */}
@@ -52,11 +52,11 @@ const TabBar= () => {
         <div className={"collapse navbar-collapse justify-content-center  bd-bottom"} id="navbarSupportedContent">
           <ul className={"navbar-nav burger-rigth menuRigth raleway-light "}>
             <li className={"nav-item pl-3 pr-3 principal-text-navbar"}>
-              <Link to="/" className={"nav-link"}>HOME <span className={"sr-only"}>(current)</span></Link>
+              <Link to="/" className={"nav-link option-menu"}><b>HOME</b><span className={"sr-only"}>(current)</span></Link>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar" } >
-              <a className={"nav-link dropdown-toggle"} href="#diamantePeru" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   >
-              DIAMANTE PERÚ
+              <a className={"nav-link dropdown-toggle option-menu"} href="#diamantePeru" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   >
+              <b>DIAMANTE PERÚ</b>
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown"
           >
@@ -67,8 +67,8 @@ const TabBar= () => {
             </div>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar"}>
-              <a  className={"nav-link dropdown-toggle"}  href="#diamantes" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-              DIAMANTES 
+              <a  className={"nav-link dropdown-toggle option-menu"}  href="#diamantes" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              <b>DIAMANTES </b>
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
               <Link to="/eleccion" className={"dropdown-item "}>Elección</Link>
@@ -78,8 +78,8 @@ const TabBar= () => {
             </div>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar"}>
-              <a   className={"nav-link dropdown-toggle"} href="#novios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              NOVIOS
+              <a   className={"nav-link dropdown-toggle option-menu"} href="#novios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <b>NOVIOS</b>
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
               <Link to="/compromiso" className={"dropdown-item"}>Compromiso</Link>
@@ -87,12 +87,12 @@ const TabBar= () => {
             </div>
             </li>
             <li className={"nav-item mb-4 pl-3 pr-3 principal-text-navbar"}>
-              <Link to="/joyas" className={"nav-link"}>JOYAS<span className={"sr-only"}>(current)</span></Link>
+              <Link to="/joyas" className={"nav-link option-menu"}><b>JOYAS</b><span className={"sr-only"}>(current)</span></Link>
             </li>
             <hr className={"my-2"}/>
-            <li  className={"dest mt-4 mb-2 pl-3 pr-3"}><Link to="/blog" className={"nav-link"}>BLOG</Link></li>
-            <li  className={"dest mb-2 pl-3 pr-3"} ><Link to="/testimonio" className={"nav-link"}>TESTIMONIO</Link></li>
-            <li  className={"dest mb-2 pl-3 pr-3"}><Link to="/contacto" className={"nav-link"}>CONTACTO</Link></li>
+            <li  className={"dest mt-4 mb-2 pl-3 pr-3"}><Link to="/blog" className={"nav-link option-menu"}>BLOG</Link></li>
+            <li  className={"dest mb-2 pl-3 pr-3"} ><Link to="/testimonio" className={"nav-link option-menu"}>TESTIMONIO</Link></li>
+            <li  className={"dest mb-2 pl-3 pr-3"}><Link to="/contacto" className={"nav-link option-menu"}>CONTACTO</Link></li>
           </ul>
         </div>
       </nav>
