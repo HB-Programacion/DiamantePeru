@@ -7,7 +7,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante(Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "A320",
@@ -17,7 +18,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "X",
     "Forma de Diamante": "X",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "A312",
@@ -27,7 +29,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "A312",
@@ -37,7 +40,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "A326",
@@ -47,7 +51,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "A327",
@@ -57,7 +62,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco y Amarillo Canario",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "Amatista"
+    "Otras Gemas": "Amatista",
+    "imagen": ""
   },
   {
     "CÓDIGO": "A315",
@@ -67,7 +73,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "",
@@ -77,7 +84,8 @@
     "Color de Oro": "",
     "Tonalidad de Diamante": "",
     "Forma de Diamante": "",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": "A328",
@@ -87,7 +95,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "A308",
@@ -97,7 +106,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "A329",
@@ -107,7 +117,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "D426",
@@ -117,7 +128,8 @@
     "Color de Oro": "Oro Amarillo y Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "D427",
@@ -127,7 +139,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "D428",
@@ -137,7 +150,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "D407",
@@ -147,7 +161,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "D429",
@@ -157,7 +172,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante(Redondo) y Pera",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "D430",
@@ -167,7 +183,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Azul",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "S217",
@@ -177,7 +194,8 @@
     "Color de Oro": "Oro Amarillo y Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "S223",
@@ -187,7 +205,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "S223",
@@ -197,7 +216,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "S218",
@@ -207,7 +227,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "S227",
@@ -217,7 +238,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco y  Azul",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "S226",
@@ -227,7 +249,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco y  Azul",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "S223",
@@ -237,7 +260,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "S205",
@@ -247,7 +271,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "S221",
@@ -257,7 +282,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "AM001",
@@ -267,7 +293,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "X",
     "Forma de Diamante": "X",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "AM002",
@@ -277,7 +304,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "X",
     "Forma de Diamante": "X",
-    "Otras Gemas": "X"
+    "Otras Gemas": "X",
+    "imagen": ""
   },
   {
     "CÓDIGO": "AM003",
@@ -287,7 +315,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": "AM004",
@@ -297,7 +326,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 3009,
@@ -307,7 +337,8 @@
     "Color de Oro": "Oro Amarillo y Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4021,
@@ -317,7 +348,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 2503,
@@ -327,7 +359,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 2009,
@@ -337,7 +370,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4011,
@@ -347,7 +381,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4023,
@@ -357,7 +392,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Corazón",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4025,
@@ -367,7 +403,8 @@
     "Color de Oro": "Oro Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4013,
@@ -377,7 +414,8 @@
     "Color de Oro": "Oro Amarillo y Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 3010,
@@ -387,7 +425,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 1508,
@@ -397,7 +436,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4022,
@@ -407,7 +447,8 @@
     "Color de Oro": "Oro Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4014,
@@ -417,7 +458,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4002,
@@ -427,7 +469,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4012,
@@ -437,7 +480,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4024,
@@ -447,7 +491,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4026,
@@ -457,7 +502,8 @@
     "Color de Oro": "Oro  Blanco y Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4028,
@@ -467,7 +513,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Azul y Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4030,
@@ -477,7 +524,8 @@
     "Color de Oro": "Oro  Blanco y Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4032,
@@ -487,7 +535,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 5014,
@@ -497,7 +546,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 3102,
@@ -507,7 +557,8 @@
     "Color de Oro": "Oro  Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4027,
@@ -517,7 +568,8 @@
     "Color de Oro": "Oro  Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4029,
@@ -527,7 +579,8 @@
     "Color de Oro": "Oro  Amarillo y Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 3107,
@@ -537,7 +590,8 @@
     "Color de Oro": "Oro  Amarillo y Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 5007,
@@ -547,7 +601,8 @@
     "Color de Oro": "Oro  Amarillo y Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 3101,
@@ -557,7 +612,8 @@
     "Color de Oro": "Oro  Amarillo y Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 5011,
@@ -567,7 +623,8 @@
     "Color de Oro": "Oro  Amarillo y Blanco",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 1801,
@@ -577,7 +634,8 @@
     "Color de Oro": "Oro  Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   },
   {
     "CÓDIGO": 4031,
@@ -587,6 +645,7 @@
     "Color de Oro": "Oro  Amarillo",
     "Tonalidad de Diamante": "Blanco",
     "Forma de Diamante": "Brillante (Redondo)",
-    "Otras Gemas": ""
+    "Otras Gemas": "",
+    "imagen": ""
   }
 ]
