@@ -80,7 +80,6 @@ const Joyas = () =>{
 
      const handleOptionChange =(e,functionVar,arrayOfProducts,text,setStatevar)=> {
       console.log(e.target.value);  
-      
       setStatevar( e.target.value  );
       functionVar(arrayOfProducts,text);
     };
@@ -117,7 +116,7 @@ const Joyas = () =>{
               <input 
                 className="form-control inputOfCode mt-1 " 
                 onInputCapture={(e)=>{setInputValue(e.target.value)}} 
-            //handleOptionChange(e,filterCode,arrJoyas,inputValue,setInputValue)
+                //handleOptionChange(e,filterCode,arrJoyas,inputValue,setInputValue)
                 type="text" 
                 id="NameOfJewerly" 
                 name="Name" 
