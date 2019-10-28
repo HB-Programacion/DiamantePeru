@@ -378,7 +378,21 @@
         height: 37rem;
     }
     
-    .interline {
+    <<<<<<< HEAD=======.fndo-5cs {
+        background-image: url("../img/5cs.svg");
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: bottom;
+        background-position-x: left;
+    }
+    
+    .fondo-item-plus {
+        background-image: url("../img/fondo-item-plus.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    >>>>>>>6527fac403f03c3f87675d2e07c3586c8398c619 .interline {
         font-size: 1.2em;
         line-height: 1em;
     }
@@ -555,14 +569,6 @@
     .mL-R10 {
         margin-left: 10%;
         margin-right: 10%;
-    }
-    
-    .fndo-5cs {
-        background-image: url("../img/5cs.svg");
-        background-repeat: no-repeat;
-        background-size: 50%;
-        background-position: bottom;
-        background-position-x: left;
     }
     
     .b-all {
@@ -1206,6 +1212,9 @@
             height: 55%;
             width: 90%;
             padding: 2rem;
+        }
+        .vh80-xs {
+            height: auto !important;
         }
         .container-article {
             position: relative;

@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 
 import Carrousel from './Carrousel'
-import oneDiamante from '../img/one-diamante.png'
-import moreDiamante from '../img/more-diamante.png'
+import oneDiamante from '../img/diamante.png'
+import moreDiamante from '../img/diamantes.png'
 import arrJoyas from '../data';
 const Compromiso = () => {
     const [state, setState] = useState("viewTwo");

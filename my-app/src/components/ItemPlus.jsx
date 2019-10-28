@@ -9,8 +9,8 @@ const ItemPlus = () =>{
     console.log(elem)
 
     return(
-        <>
-        <div className="container mt-4 text-left vh80">
+        <div className="fondo-item-plus">
+        <div className="container  text-left vh80 vh80-xs">
             <div className="row align-items-center">
                 <img className="col-md-6 col-sm-12  img-fluid p-4 h-sm-50 h-100" src={elem.imagen} alt="joyas"/>
                 <div className="col-md-6  col-sm-12  h-100 h-sm-50 p-4 container-each-jewerly  allCenter">
@@ -23,7 +23,7 @@ const ItemPlus = () =>{
                 </div>
             </div>
         </div>
-        </>
+        </div>
     )
 };
 export default ItemPlus;
