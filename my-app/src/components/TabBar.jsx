@@ -14,13 +14,18 @@ import Compromiso from './Compromiso'
 import Mantenimiento from './Mantenimiento'
 import Matrimonio from './Matrimonio'
 import Blog from './Blog';
-import Blog1 from './Blog1'
+import Blog1 from './Blog-club-diamante'
 import Testimonio from './Testimonio'
 import Joyas from './Joyas'
 import ItemPlus from './ItemPlus';
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg';
+import Corte from "./Corte-5cs";
+import Carats from "./Carats-5cs";
+import Color from "./Color-5cs";
+import Claridad from "./Claridad-5cs";
+import Certificacion5cs from "./Certificacion-5cs"
 
 const TabBar= () => { 
     
@@ -110,11 +115,18 @@ const TabBar= () => {
       <Route path="/compromiso" exact component={Compromiso} />
       <Route path="/matrimonio" exact component={Matrimonio} />
       <Route path="/joyas" exact component={Joyas} />
-      <Route path="/blog" exact component={Blog} />
       <Route path="/producto/:tipo/:numero"  component={ItemPlus} />
       <Route path="/novios/:tipo/:numero" component={ItemPlus}></Route>
-      <Route path="/blog1" exact component={Blog1} />
       <Route path="/testimonio" exact component={Testimonio} />
+      <Route path="/corte" exact component={Corte} />
+      <Route path="/carats" exact component={Carats} />
+      <Route path="/color" exact component={Color} />
+      <Route path="/claridad" exact component={Claridad} />
+      <Route path="/certificacion-y-confianza" exact component={Certificacion5cs} />
+      <Route path="/blog" exact component={Blog} />
+      <Route path="/blog-club-diamante" exact component={Blog1} />
+
+
 
       </div>
     </header>
