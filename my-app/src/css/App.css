@@ -311,7 +311,12 @@
         /* #e6e6e6;*/
         box-shadow: #dae0e5 1px 1px;
     }
-    
+    .fondo-mantenimiento{
+        background-image: url("../img/mantenimiento.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 37rem;
+    }
     .fndo-img1 {
         background-image: url("../img/fondo1-convenios.png");
         background-repeat: no-repeat;
@@ -329,7 +334,13 @@
         background-position: left;
         padding: 5em;
     }
-    
+    .fondo-testimonios{
+        background-image: url("../img/testimonios-fondo.png");
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 37rem;
+    }
     .interline {
         font-size: 1.2em;
         line-height: 1em;
@@ -440,8 +451,8 @@
         padding-right: 8%
     }
     
-    .pad-l-15 {
-        padding-left: 15%;
+    .ml-15 {
+        margin-left: 15%;
     }
     /* MOTIVOS */
     
@@ -837,6 +848,7 @@
     }
     
     @media screen and (max-width:768px) {
+       
         .p-0-xs {
             padding: 0px !important;
         }
@@ -1051,6 +1063,22 @@
     }
     
     @media screen and (max-width:767px) {
+        .fondo-testimonios{
+            height: 25rem;
+            background-position-x: center; 
+        }
+        .fondo-mantenimiento{
+            background-size: contain;
+            background-position-y: bottom;
+            background-color: #eededf;
+            height: 25rem;
+        }
+        .w50-xs {
+            width: 100%;
+        }
+        .gia-logo-xs{
+            margin-left: 0;
+        }
         .w60 {
             width: 100%
         }
@@ -1129,7 +1157,7 @@
             flex-direction: column;
         }
         .pad-l-responsive {
-            padding-left: 0%;
+            margin-left: 0%;
         }
         .wResponsive100 {
             width: 100%;

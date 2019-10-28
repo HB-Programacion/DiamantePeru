@@ -6,7 +6,7 @@ import Historia from "./Historia"
 import Home from './Home';
 import Motivos from './Motivos';
 import Premios from './Premios';
-import ConveniosTab from './ConveniosTab';
+import Beneficios from './Beneficios';
 import Eleccion from './Eleccion'
 import Cs from './Cs';
 import Certificaciones from './Certificaciones';
@@ -102,7 +102,7 @@ const TabBar= () => {
       <Route path="/historia" exact component={Historia} />
       <Route path="/motivos" exact component={Motivos} />
       <Route path="/premios" exact component={Premios} />
-      <Route path="/beneficios" exact component={ConveniosTab} />
+      <Route path="/beneficios" exact component={Beneficios} />
       <Route path="/eleccion" exact component={Eleccion} />
       <Route path="/5cs" exact component={Cs} />
       <Route path="/certificación" exact component={Certificaciones} />
