@@ -4,6 +4,7 @@ import facebook from './../img/Facebook.svg';
 import instagram from '../img/Instagram.svg'
 import Footer from "./Footer"
 
+import blog5 from "../img/blog5.png";
 import foto1 from "../img/carats-fondo.png";
 import logoGia from "../img/GIA_logo.png"
 
@@ -13,7 +14,7 @@ return (
     <>
     <div className="gray div-5cs animated fadeIn pb-4">
         <div >
-            <img className="img-min-blog " src={foto1} alt="" srcset=""/>
+            <img className="img-min-blog " src={blog5} alt="" srcset=""/>
         </div>
         <div className="div-5cs  flex d-block-xs">
             <article className="container-article vw60 xs-100">
