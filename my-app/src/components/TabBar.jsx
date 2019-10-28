@@ -21,7 +21,7 @@ import ItemPlus from './ItemPlus';
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg';
-
+import Contacto from './Contacto';
 const TabBar= () => { 
     
   return (
@@ -115,6 +115,7 @@ const TabBar= () => {
       <Route path="/novios/:tipo/:numero" component={ItemPlus}></Route>
       <Route path="/blog1" exact component={Blog1} />
       <Route path="/testimonio" exact component={Testimonio} />
+      <Route path="/contacto" exact component={Contacto} />
 
       </div>
     </header>
