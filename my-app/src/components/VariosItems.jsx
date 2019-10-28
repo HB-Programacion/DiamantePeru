@@ -3,11 +3,13 @@ import React ,{useState,useEffect} from "react";
 import Item from './Item'
 
 const Varios= ({arrofJoyas})=>{
+  const [longitud,setlongitud]= useState([...arrofJoyas]);
+
     return (
       <div className="container">
-        <div className="row">
+        <div className="row" >
           {arrofJoyas.map(prod => (
-            <Item
+         <Item
               // key={prod.id}
               dsc={prod.DESCRIPCIÓN}
               nro={prod.CÓDIGO}
@@ -16,6 +18,9 @@ const Varios= ({arrofJoyas})=>{
               img={prod.imagen}
             />
           ))}
+              {longitud.lenght < 1  && (
+           <h1> vacio estoy</h1>
+                )}
         </div>
       </div>
     )
