@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Cs = () => {
     return (
@@ -21,7 +22,7 @@ const Cs = () => {
                         <div className="pb-3">
                             <p className="text-left">El peso o tamaño de la piedra se expresa en quilates 1 quilate equivale a 0,2 gr y se divide en 100 puntos (o 200 miligramos).</p>
                         </div>
-                        <a className="leer-5cs">Leer más</a>
+                        <Link to="/carats" className="leer-5cs">Leer más</Link>
                     </div>
                     <div className="w30 p-4 m-1 b-all interline text-size-1 div-5cs text-center position-relative">
                         <span className="text-size27 snell-Roundhand">Color</span>
@@ -29,7 +30,7 @@ const Cs = () => {
                         <div className="pb-2">
                             <p className="text-left">El color exacto de un diamante se determina mediante una paleta de colores aceptada internacionalmente, un patrón. El color va desde D, incoloro y el más codiciado, a Z, el más amarillo.</p>
                         </div>
-                        <a className="leer-5cs">Leer más</a>
+                        <Link to="/color" className="leer-5cs">Leer más</Link>
                     </div>
                     <div className="w30 p-4 m-1 b-all interline text-size-1 div-5cs text-center position-relative">
                         <span className="text-size27 snell-Roundhand">Clarity</span>
@@ -38,7 +39,7 @@ const Cs = () => {
                         <div className="pb-2">
                             <p className="text-left">La mayoría de los diamantes se originan con “marcas de nacimiento”, las cuales se conocen como “inclusiones”. Cuantas menos haya, mayor será la cantidad de luz que puede atravesar el diamante y más bello será su destello.</p>
                         </div>
-                        <a className="leer-5cs">Leer más</a>
+                        <Link to="/claridad"className="leer-5cs">Leer más</Link>
                     </div>
                     <div className="w30 p-4 m-1 b-all interline text-size-1 div-5cs text-center position-relative">
                         <span className="text-size27 snell-Roundhand">Cut</span>
@@ -47,7 +48,7 @@ const Cs = () => {
                         <div className="pb-2">
                             <p className="text-left">La calidad de la talla hace referencia a las proporciones, la simetría y el pulido de la gema. Si la profundidad del diamante es escasa o excesiva, permitirá que la luz se escape por los lados o la parte inferior de la joya.</p>
                         </div>
-                        <a className="leer-5cs">Leer más</a>
+                        <Link to="/corte" className="leer-5cs">Leer más</Link>
                     </div>
                     <div className="w30 p-4 m-1 b-all interline text-size-1 div-5cs text-center position-relative">
                         <span className="text-size27 snell-Roundhand">Certification</span>
@@ -56,7 +57,7 @@ const Cs = () => {
                         <div className="pb-2">
                             <p className="text-left">Los Diamantes no tienen marca, vienen en diferentes tamaños y calidades. Si el Diamante está certificado por un Laboratorio de prestigio mundial, como lo es el instituto GIA Garantizará cada propiedad indicada de su Diamante.</p>
                         </div>
-                        <a className="leer-5cs">Leer más</a>
+                        <Link to="/certificacion-y-confianza" className="leer-5cs">Leer más</Link>
                     </div>
                 </div>
                 </div>

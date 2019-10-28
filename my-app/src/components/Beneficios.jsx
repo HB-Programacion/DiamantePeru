@@ -1,8 +1,8 @@
 import React from "react";
 
-import imgconvenio from "../img/img-convenio.svg";
+import imgconvenio from "../img/logo-carmenSeminara.png";
 
-const ConveniosTab = () => {
+const Beneficios = () => {
     return(
         <div className="w100 pt-5 pt-5-xs animated fadeIn">
           <div class="flex around position-relative">
@@ -21,8 +21,8 @@ const ConveniosTab = () => {
                     <div class="row">
                       <div class="col-md-12">
                         <div class="mb-2 flexWrap">
-                          <figure className="w50 allCenter convenioResImg">
-                            <img class=" w70" src={imgconvenio} alt="Card image cap"/>
+                          <figure className="w50 allCenter">
+                            <img class=" w70 rounded-circle" src={imgconvenio} alt="Card image cap"/>
                           </figure>
                           <div class="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 class="card-title">CARMEN SEMINARIO ATELIER</h4>
@@ -51,7 +51,7 @@ const ConveniosTab = () => {
                       <div class="col-md-12">
                         <div class="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img class=" w70" src={imgconvenio} alt="Card image cap"/>
+                            <img class=" w70 rounded-circle" src={imgconvenio} alt="Card image cap"/>
                           </figure>
                           <div class="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 class="card-title">CARMEN SEMINARIO ATELIER</h4>
@@ -80,4 +80,4 @@ const ConveniosTab = () => {
             </div>
         </div>
       )};
-export default ConveniosTab;
+export default Beneficios;

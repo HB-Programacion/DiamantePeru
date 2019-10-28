@@ -4,7 +4,8 @@ import Carrousel from "./Carrousel";
 import Convenio from "./Convenio";
 import Footer from "./Footer";
 
-import foto1 from "../img/Clip.png";
+// import foto1 from "../img/Clip.png";
+import foto1 from "../img/foto01.png";
 import foto2 from "../img/foto2.png";
 import foto3 from "../img/foto3.png";
 import img1 from "../img/1.png"
@@ -28,10 +29,10 @@ const Home = () => {
                         <img src={foto1} class="d-block vw100 vh50" alt="chica"/>
                     </div>
                     <div class="carousel-item">
-                        <img src={foto2} class="d-block vw100 vh50" alt="..."/>
+                        <img src={foto1} class="d-block vw100 vh50" alt="..."/>
                     </div>
                     <div class="carousel-item">
-                        <img src={foto3} class="d-block vw100 vh50" alt="..."/>
+                        <img src={foto1} class="d-block vw100 vh50" alt="..."/>
                     </div>
                 </div>
             </div>

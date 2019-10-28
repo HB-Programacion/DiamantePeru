@@ -8,7 +8,7 @@ const Testimonio = () => {
     <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
     <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Testimonios,novios" />
   </Helmet>
-        <div className="w100 pt-5 pt-5-xs mb-5 mt-5 animated fadeIn ">
+        <div className="w100 pt-5 animated fadeIn fondo-testimonios ">
             <div class="flex around position-relative">
               <a class="btn-floating position-absolute left3" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
               <a class="btn-floating position-absolute  right3" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
@@ -22,7 +22,7 @@ const Testimonio = () => {
                       <div class="col-md-12">
                         <div class="mb-2 flexWrap">
                           <div class="card-body pl-3 center">
-                            <p class="card-text">Por tu compra en Diamante Perú obtienes:</p>
+                            <p class="card-text text-size18">Por tu compra en Diamante Perú obtienes:</p>
                             <p className="interline1 text-size12">
                               Luis Riva
                             </p>
@@ -36,7 +36,7 @@ const Testimonio = () => {
                       <div class="col-md-12">
                         <div class="mb-2  flex flexWrap">
                           <div class="card-body pl-3 center">
-                            <p class="card-text">Por tu compra en Diamante Perú obtienes:</p>
+                            <p class="card-text text-size18">Por tu compra en Diamante Perú obtienes:</p>
                             <p className="interline1 text-size12">
                                 Juan Soto
                             </p>

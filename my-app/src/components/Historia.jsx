@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import historia from "../img/historia.svg"
+import historia from "../img/foto-historia.png"
 import Footer from "./Footer"
 
 const Historia = () =>{
@@ -12,7 +12,7 @@ const Historia = () =>{
     <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
     <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Testimonios,novios" />
   </Helmet>
-        <div className="w100 flex responsive-certificacion animated fadeIn mb-5">
+        <div className="w100 gray flex responsive-certificacion animated fadeIn mb-5">
             <div className="w50 allCenter wResponsive100">
                 <div className="mt-3">
                     <span className=" text-1-5 mt-0 raleway-light"><b>HISTORIA <br/>DIAMANTE PERÚ</b></span>
@@ -77,7 +77,7 @@ const Historia = () =>{
                     </div>
                 </div>
             </div>
-            <div className="w50 pt-3 pb-3 allCenter wResponsive100">
+            <div className="w50 allCenter wResponsive100">
                 <img  className="w100" src={historia} />
             </div>
         </div>

@@ -64,6 +64,20 @@
     }
     
     @font-face {
+        font-family: 'Raleway-SemiBold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('../fonts/Raleway-SemiBold_0.ttf'), url('../fonts/Raleway-SemiBold_0.ttf') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Raleway-SemiBoldItalic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('../fonts/Raleway-SemiBoldItalic_0.ttf'), url('../fonts/Raleway-SemiBoldItalic_0.ttf') format('woff');
+    }
+    
+    @font-face {
         font-family: 'Raleway-Medium';
         font-style: normal;
         font-weight: normal;
@@ -75,6 +89,13 @@
         font-style: normal;
         font-weight: normal;
         src: local('../fonts/Raleway-Light_0.ttf'), url('../fonts/Raleway-Light_0.ttf') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Raleway-Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('../fonts/Raleway-Regular_0.ttf'), url('../fonts/Raleway-Regular_0.ttf') format('woff');
     }
     
     @font-face {
@@ -103,8 +124,20 @@
         font-family: 'Raleway-Light';
     }
     
-    .raleway-Bold {
-        font-family: Raleway-Bold;
+    .raleway-regular {
+        font-family: "Raleway-Regular"
+    }
+    
+    .raleway-bold {
+        font-family: "Raleway-Bold";
+    }
+    
+    .raleway-semibold {
+        font-family: 'Raleway-SemiBold';
+    }
+    
+    .raleway-semibold-italic {
+        font-family: 'Raleway-SemiBoldItalic';
     }
     /* FONTS */
     
@@ -269,7 +302,7 @@
     }
     
     .black {
-        background-color: black
+        background-color: #2C2C2C
     }
     
     .white {
@@ -312,8 +345,15 @@
         box-shadow: #dae0e5 1px 1px;
     }
     
+    .fondo-mantenimiento {
+        background-image: url("../img/mantenimiento.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 37rem;
+    }
+    
     .fndo-img1 {
-        background-image: url("../img/fondo-celeste.svg");
+        background-image: url("../img/fondo1-convenios.png");
         background-repeat: no-repeat;
         height: auto;
         background-position: center;
@@ -328,6 +368,14 @@
         background-size: 58% 100%;
         background-position: left;
         padding: 5em;
+    }
+    
+    .fondo-testimonios {
+        background-image: url("../img/testimonios-fondo.png");
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 37rem;
     }
     
     .interline {
@@ -386,6 +434,14 @@
         font-size: 1.3em
     }
     
+    .font-size-1em {
+        font-size: 1em
+    }
+    
+    .font-size-2em {
+        font-size: 2em
+    }
+    
     .spacing3 {
         letter-spacing: 3px
     }
@@ -440,8 +496,8 @@
         padding-right: 8%
     }
     
-    .pad-l-15 {
-        padding-left: 15%;
+    .ml-15 {
+        margin-left: 15%;
     }
     /* MOTIVOS */
     
@@ -836,6 +892,12 @@
         margin-top: 2.5em;
     }
     
+    .title-article {
+        padding: 3em;
+        padding-left: 3em;
+        padding-right: 4em;
+    }
+    
     @media screen and (max-width:768px) {
         .p-0-xs {
             padding: 0px !important;
@@ -858,7 +920,7 @@
         }
         .m-0-xs {
             margin: 0rem!important;
-            padding: 2em;
+            padding: 2em 2em 0 2em;
         }
         .flexWrap-xs {
             flex-wrap: wrap
@@ -993,8 +1055,8 @@
     }
     
     .img-art-rel {
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 4em;
     }
     
     .text-each-rel-art {
@@ -1021,7 +1083,6 @@
     
     .img-min-blog {
         width: 100%;
-        height: 50vh;
     }
     
     .form-control:focus {
@@ -1146,6 +1207,34 @@
             width: 90%;
             padding: 2rem;
         }
+        .container-article {
+            position: relative;
+            top: 0;
+        }
+        .mt-4-xs {
+            margin-top: 0!important
+        }
+        .title-article {
+            padding: 2em;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        .fondo-testimonios {
+            height: 25rem;
+            background-position-x: center;
+        }
+        .fondo-mantenimiento {
+            background-size: contain;
+            background-position-y: bottom;
+            background-color: #eededf;
+            height: 25rem;
+        }
+        .w50-xs {
+            width: 100%;
+        }
+        .gia-logo-xs {
+            margin-left: 0;
+        }
         .w60 {
             width: 100%
         }
@@ -1224,7 +1313,7 @@
             flex-direction: column;
         }
         .pad-l-responsive {
-            padding-left: 0%;
+            margin-left: 0%;
         }
         .wResponsive100 {
             width: 100%;
@@ -1346,6 +1435,10 @@
             align-items: center;
             margin-bottom: 1rem;
             margin-top: 1rem;
+        }
+        .container-article {
+            position: relative;
+            top: 0;
         }
         .dropdown-menu.show {
             display: block;
