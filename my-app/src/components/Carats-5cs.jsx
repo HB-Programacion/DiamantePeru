@@ -5,6 +5,7 @@ import instagram from '../img/Instagram.svg'
 import Footer from "./Footer"
 
 import foto1 from "../img/carats-fondo.png";
+import blog5 from "../img/blog5.png"
 
 const Carats= () => { 
 return (

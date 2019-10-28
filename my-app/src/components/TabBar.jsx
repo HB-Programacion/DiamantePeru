@@ -13,8 +13,6 @@ import Certificaciones from './Certificaciones';
 import Compromiso from './Compromiso'
 import Mantenimiento from './Mantenimiento'
 import Matrimonio from './Matrimonio'
-import Blog from './Blog';
-import Blog1 from './Blog-club-diamante'
 import Testimonio from './Testimonio'
 import Joyas from './Joyas'
 import ItemPlus from './ItemPlus';
@@ -26,7 +24,12 @@ import Corte from "./Corte-5cs";
 import Carats from "./Carats-5cs";
 import Color from "./Color-5cs";
 import Claridad from "./Claridad-5cs";
-import Certificacion5cs from "./Certificacion-5cs"
+import Certificacion5cs from "./Certificacion-5cs";
+import Blog from './Blog';
+import Blog1 from './Blog1-sorteo-club-diamante'
+import Blog2 from './Blog2-club-diamante'
+import Blog3 from './Blog3-evitar-estafa'
+import Blog4 from './Blog4-historia-sortija'
 
 const TabBar= () => { 
     
@@ -126,7 +129,11 @@ const TabBar= () => {
       <Route path="/claridad" exact component={Claridad} />
       <Route path="/certificacion-y-confianza" exact component={Certificacion5cs} />
       <Route path="/blog" exact component={Blog} />
-      <Route path="/blog-club-diamante" exact component={Blog1} />
+      <Route path="/blog-sorteo-club-diamante" exact component={Blog1} />
+      <Route path="/blog-club-diamante" exact component={Blog2} />
+      <Route path="/blog-evitar-estafa" exact component={Blog3} />
+      <Route path="/blog-historia-sortija" exact component={Blog4} />
+
 
 
 
