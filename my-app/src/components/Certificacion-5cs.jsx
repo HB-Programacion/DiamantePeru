@@ -7,12 +7,14 @@ import Footer from "./Footer"
 import blog5 from "../img/blog5.png";
 import foto1 from "../img/carats-fondo.png";
 import logoGia from "../img/GIA_logo.png"
-
+import claridad from "../img/claridad.png"
+import color from "../img/color.png"
+import corte from "../img/corte.png"
 
 const Certificacion5cs= () => { 
 return (
     <>
-    <div className="gray div-5cs animated fadeIn pb-4">
+    <div className="div-5cs animated fadeIn pb-4">
         <div >
             <img className="img-min-blog " src={blog5} alt="" srcset=""/>
         </div>
@@ -54,25 +56,25 @@ return (
                         </div>
                     </Link>
                     <Link to="/corte" class="each-article-container  flex mr-5">
-                        <img src="/static/media/Clip.9b01f968.png" alt="" class="img-art-rel"/>
+                        <img src={corte} alt="" class="img-art-rel"/>
                         <div class="text-each-rel-art">
                             <p class="mb0 ml-3">CORTE (TALLADO)</p>
                         </div>
                     </Link>
                     <Link to="/claridad" class="each-article-container  flex mr-5">
-                        <img src="/static/media/Clip.9b01f968.png" alt="" class="img-art-rel"/>
+                        <img src={claridad} alt="" class="img-art-rel"/>
                         <div class="text-each-rel-art">
                             <p class="mb0 ml-3">CLARIDAD</p>
                         </div>
                     </Link>
                     <Link to="/color" class="each-article-container  flex mr-5">
-                        <img src="/static/media/Clip.9b01f968.png" alt="" class="img-art-rel"/>
+                        <img src={color} alt="" class="img-art-rel"/>
                         <div class="text-each-rel-art">
                             <p class="mb0 ml-3">COLOR</p>
                         </div>
                     </Link>
                 </div>
-                <div class="popular-art m-3">
+                {/* <div class="popular-art m-3">
                     <h2 className="font-size-2em raleway-semibold-italic">POPULARES</h2>
                     <ul class="pl-3 pr-5 p-0-xs">
                         <li class="pt-2 pr-5">
@@ -88,7 +90,7 @@ return (
                             <a class="pr-5 " href="/">¿Diamante o Rubí? </a> 
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>  

@@ -31,6 +31,7 @@ import Blog2 from './Blog2-club-diamante'
 import Blog3 from './Blog3-evitar-estafa'
 import Blog4 from './Blog4-historia-sortija'
 
+
 const TabBar= () => { 
     
   return (
@@ -40,8 +41,7 @@ const TabBar= () => {
       <div className={"d-flex flex-grow-1 bd-bottom"}>
       <div className={'w100 flex around pt-1 pb-1 raleway-light'}>
       <div className={"allCenter cel"}>
-      <a className={"option-menu"}><img src={ubicacion} className="h13px" /> <b>CONTACTO</b>
-        </a>
+      <Link to="/contacto" className={"option-menu"}><img src={ubicacion} className="h13px" /> <b>CONTACTO</b></Link>
       </div>
       <div className="flex ml-5 mr-5 img-logo">
       <Link to="/"><img src={logo} alt="logo" className="center m-auto w50 pt-2 pb-2 logoCenter logo" /></Link>
@@ -133,9 +133,6 @@ const TabBar= () => {
       <Route path="/blog-club-diamante" exact component={Blog2} />
       <Route path="/blog-evitar-estafa" exact component={Blog3} />
       <Route path="/blog-historia-sortija" exact component={Blog4} />
-
-
-
 
       </div>
     </header>

@@ -16,7 +16,7 @@ import img9 from "../img/9.png";
 
 const Matrimonio = () => {
   return (
-    <>
+    <div className="fondo-item">
     <Helmet>
     <title>Matrimonio - Diamante Perú</title>
     <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
@@ -26,7 +26,7 @@ const Matrimonio = () => {
       arrofJoyas={arrJoyas.filter(e =>  e .Sección === "Novios / Matrimonio")}  
       title={"MATRIMONIO"}>
     </Carrousel>
-    </>
+    </div>
   )
 }
 export default Matrimonio

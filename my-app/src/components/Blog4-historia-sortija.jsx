@@ -13,7 +13,7 @@ import blog5 from "../img/blog5.png";
 const Blog4= () => { 
     return (
     <>
-    <div className="gray div-5cs animated fadeIn pb-4">
+    <div className="div-5cs animated fadeIn pb-4">
         <div >
             <img className="img-min-blog " src={foto1} alt="" srcset=""/>
         </div>
@@ -90,6 +90,9 @@ const Blog4= () => {
                         </li>
                         <li class="pt-2 pr-5"> 
                             <Link to="/corte"class="pr-5 " href="/">CORTE</Link> 
+                        </li>
+                        <li class="pt-2 pr-5"> 
+                            <Link to="/carats"class="pr-5 " href="/">CARATS</Link> 
                         </li>
                     </ul>
                 </div>

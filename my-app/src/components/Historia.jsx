@@ -20,7 +20,7 @@ const Historia = () =>{
                         <div id="carouselContent" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner mb-2" role="listbox">
                                 <div class="interline1 carousel-item active text-center p-2 pl-3 pr-3">
-                                    <p  className="geosansLight">DIAMANTE PERÚ E.I.R.L es un negocio familiar el cual fue fundado por el Sr. Gerardo Zela Salame
+                                    <p  className="geosansLight">DIAMANTE PERÚ E.I.R.L. es un negocio familiar el cual fue fundado por el Sr. Gerardo Zela Salame
                                     Córdova quién en 1982 se Graduó como primer Gemólogo Peruano en el Gemological Institute of
                                     America (GIA). A lo largo de sus 14 años de instituida, la empresa siempre tuvo como objetivo principal
                                     el educar a las personas sobre este fascinante mundo de los diamantes para de esta forma evitar que
