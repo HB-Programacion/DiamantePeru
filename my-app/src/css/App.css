@@ -1352,6 +1352,9 @@
         .div-5cs {
             width: 100%;
         }
+        .p-eleccion{
+            font-size: 95%
+        }
         p {
             font-size: 100%;
             text-align: justify

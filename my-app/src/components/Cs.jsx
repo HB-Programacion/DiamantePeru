@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const Cs = () => {
     return (
         <div className="w100 pt-5 pt-5-xs fndo-5cs animated fadeIn">
-        <span className="pb-3 flex flexCenter text-size27"><b>5Cs</b></span>
+        <span className="p-3 pb-3 flex flexCenter text-size27"><b>5Cs</b></span>
             <div className=" w80 mL-R10 geosansLight font-size-1">
                 <div>
                 {/* <span className="mb-2 flex flexCenter text-size27" >5Cs</span> */}
