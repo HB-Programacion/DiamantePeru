@@ -1,4 +1,25 @@
 import img from './img/1.png';
+import a308 from "./img/A308.png"
+import a312 from "./img/A312.png"
+import a312p from "./img/A312_.png"
+import a315 from "./img/A315.png"
+import a317 from "./img/A317.png"
+import a321 from "./img/A321.png"
+import a326 from "./img/A326.png"
+import a327 from "./img/A327.png"
+import a328 from "./img/A328.png"
+import a329 from "./img/A329.png"
+import am001 from "./img/AM001.png"
+import am002 from "./img/AM002.png"
+import am003 from "./img/AM003.png"
+import am004 from "./img/AM004.png"
+import d407 from "./img/D407.png"
+import d426 from "./img/D426.png"
+import d428 from "./img/D428.png"
+import d429 from "./img/D429.png"
+import d430 from "./img/D430.png"
+
+
 
 export default [{
         "CÓDIGO": "A317",
@@ -9,7 +30,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": a317,
     },
     {
         "CÓDIGO": "A320",
@@ -23,6 +44,18 @@ export default [{
         "imagen": img,
     },
     {
+        id: 2,
+        "CÓDIGO": "A321",
+        "DESCRIPCIÓN": "Aretes modelo solitario confeccionados en oro amarillo de 18k con dos diamantes centrales engastados en uñas, todos de corte excelente.                                                                                                          (Todas las joyas se pueden personalizar a tu gusto)",
+        "Categoría": "Arete",
+        "Sección": "Joyas",
+        "Color": "Oro-Amarillo",
+        "TonalidadDeDiamante": "X",
+        "FormaDeDiamante": "Brillante-(Redondo)",
+        "Otras Gemas": "X",
+        "imagen": a321,
+    },
+    {
         "CÓDIGO": "A312",
         "DESCRIPCIÓN": "Aretes modelo estrella poste confeccionados en oro blanco de 18k con ciento sesenta diamantes engastados al paveé , todos de corte excelente.                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Arete",
@@ -31,7 +64,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": a312p,
     },
     {
         "CÓDIGO": "A312",
@@ -42,7 +75,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": a312,
     },
     {
         "CÓDIGO": "A326",
@@ -53,7 +86,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": a326,
     },
     {
         "CÓDIGO": "A327",
@@ -64,7 +97,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco y Amarillo Canario",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "OtrasGemas": "Amatista",
-        "imagen": img,
+        "imagen": a327,
     },
     {
         "CÓDIGO": "A315",
@@ -75,7 +108,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": a315,
     },
     {
         "CÓDIGO": "A328",
@@ -86,7 +119,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": a328,
     },
     {
         "CÓDIGO": "A308",
@@ -97,7 +130,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": a308,
     },
     {
         "CÓDIGO": "A329",
@@ -108,7 +141,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": a329,
     },
     {
         "CÓDIGO": "D426",
@@ -119,7 +152,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": d426,
     },
     {
         "CÓDIGO": "D427",
@@ -141,7 +174,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": d428,
     },
     {
         "CÓDIGO": "D407",
@@ -152,7 +185,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": d407,
     },
     {
         "CÓDIGO": "D429",
@@ -163,7 +196,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante(Redondo) y Pera",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": d429,
     },
     {
         "CÓDIGO": "D430",
@@ -174,7 +207,7 @@ export default [{
         "TonalidadDeDiamante": "Azul",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": d430,
     },
     {
         "CÓDIGO": "S217",
@@ -284,7 +317,7 @@ export default [{
         "TonalidadDeDiamante": "X",
         "FormaDeDiamante": "X",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": am001,
     },
     {
         "CÓDIGO": "AM002",
@@ -295,7 +328,7 @@ export default [{
         "TonalidadDeDiamante": "X",
         "FormaDeDiamante": "X",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": am002,
     },
     {
         "CÓDIGO": "AM003",
@@ -306,7 +339,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": am003,
     },
     {
         "CÓDIGO": "AM004",
@@ -317,7 +350,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": am004,
     },
     {
         "CÓDIGO": 3009,

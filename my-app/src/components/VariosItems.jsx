@@ -21,9 +21,10 @@ const Varios= ({arrofJoyas})=>{
      
   </div>;
   } else {
-    contenido = <div className="row">
-      <h1>Para antender su pedido,sírvase a dejar su correo y nos pondremos en contacto a la brevedad</h1>
-      <Link to="/contacto"className="btn-flat black color-white border-none btn-contact text-size14 raleway-medium-italic"> IR A CONTACTO</Link>
+    contenido = 
+    <div className="row allCenter">
+      <h1 className="interline1 p-eleccion" >Para antender su pedido,sírvase a dejar su correo y nos pondremos en contacto a la brevedad</h1>
+      <Link to="/contacto"className="btn-flat border-none btn-contact text-size14 raleway-medium-italic"> IR A CONTACTO</Link>
     </div>;
   }
     return (
