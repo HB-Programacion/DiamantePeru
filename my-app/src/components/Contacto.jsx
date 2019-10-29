@@ -2,39 +2,35 @@
 
 const Contacto = () => {
     return (
-
-<div className="diamante">
-
-    <div className="white-background-text">
-       <div className="real-white">
-       <h1>CONTACTO</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa molestiae sapiente veritatis molestias temporibus, vel, accusamus eaque aut soluta consequuntur tempora pariatur dignissimos, dolorum eveniet debitis reprehenderit enim nesciunt quae!</p>
-  <div className="container-text-inputs">
-      <div className="flex-input">
-           
-
-   <input type="text" name="" id="" required className="contact-input-size" placeholder="Nombre"/>
-   <input type="text" name="" id=""   className="contact-input-size" placeholder="Apellido"/>
- 
-      </div>
-     <div className="flex-input">
-     <input type="number" name="" id=""  className="contact-input-size" placeholder="Telefono"/>  
-    <input type="email" name="" id=""   className="contact-input-size" placeholder="Correo Electrónico"/>
-     </div>
-   <textarea  className="contact-input-size textarea" placeholder="Mensaje" name="" id="" cols="30" rows="10"></textarea>
-  </div>
-  <button className="btn-flat black color-white border-none btn-contact"> Enviar</button>
-       </div>
-   <div className="container-more-contact">
-       <p className="text-contact">Av. reducto 1135 - Miraflores-Lima,Perú</p>
-       <p className="text-contact"><i class="fas fa-envelope p-right-05"></i>consultas@diamanteperu.com</p>
-       <p className="text-contact"><i class="fas fa-phone-alt  p-right-05"></i>01 242-8536</p>
-   </div>
+    <div className="diamante">
+        <div className="white-background-text">
+            <div className="real-white">
+                <h1 className="raleway-semibold font-size-2em" >CONTACTO</h1>
+                <p className="raleway-regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa molestiae sapiente veritatis molestias temporibus, vel, accusamus eaque aut soluta consequuntur tempora pariatur dignissimos, dolorum eveniet debitis reprehenderit enim nesciunt quae!</p>
+                <div className="container-text-inputs">
+                    <div className="flex-input raleway-regular">
+                        <input type="text" name="" id="" required className="contact-input-size" placeholder="Nombre*"/>
+                        <input type="text" name="" id=""   className="contact-input-size" placeholder="Apellido*"/>
+                    </div>
+                    <div className="flex-input raleway-regular">
+                        <input type="number" name="" id=""  className="contact-input-size" placeholder="Telefono*"/>  
+                        <input type="email" name="" id=""   className="contact-input-size" placeholder="Correo Electrónico*"/>
+                    </div>
+                    <textarea  className="contact-input-size textarea raleway-regular" placeholder="Mensaje" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button className="btn-flat black color-white border-none btn-contact text-size14 raleway-medium-italic"> ENVIAR</button>
+            </div>
+            <div className="container-more-contact raleway-medium">
+                <p className="text-contact">Av. reducto 1135 - Miraflores-Lima,Perú</p>
+                <p className="text-contact"><i class="fas fa-envelope p-right-05"></i>consultas@diamanteperu.com</p>
+                <p className="text-contact"><i class="fas fa-phone-alt  p-right-05"></i>01 242-8536</p>
+            </div>
+            <div className="center raleway-medium font-size-1em line-heigth-1">
+                <p className="text-contact ">Horarios de Atención: Lun – Vier: 10 am – 7 pm / Sáb: 10 am – 6 pm</p>
+                <p className="text-contact ">(Cierre por refrigerio de 2pm – 3pm).</p>
+            </div>
+        </div>  
     </div>
-    
-</div>
-
-
     )
 }
 

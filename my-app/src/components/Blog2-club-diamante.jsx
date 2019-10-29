@@ -14,7 +14,7 @@ import blog5 from "../img/blog5.png";
 const Blog2= () => { 
     return (
         <>
-        <div className="gray div-5cs animated fadeIn pb-4">
+        <div className="div-5cs animated fadeIn pb-4">
             <div >
                 <img className="img-min-blog " src={foto1} alt="" srcset=""/>
             </div>
@@ -88,7 +88,7 @@ const Blog2= () => {
                 <div class="container-another-articles vw40 mt-4 mt-4-xs mr-4 mb-4 p-2">
                     <div class="rel-art m-3 mb-4  ">
                         <h3 className="font-size-2em raleway-semibold-italic">ARTÍCULOS RELACIONADOS</h3>
-                        <Link to="/blog-club-diamante" class="each-article-container flex mr-5">
+                        <Link to="/blog-sorteo-club-diamante" class="each-article-container flex mr-5">
                             <img src={blog1} alt="" class="img-art-rel"/>
                             <div class="text-each-rel-art">
                                 <p class="mb0 ml-3">SORTEO APERTURA CLUB DIAMANTE</p>
@@ -127,6 +127,9 @@ const Blog2= () => {
                             </li>
                             <li class="pt-2 pr-5"> 
                                 <Link to="/corte"class="pr-5 " href="/">CORTE</Link> 
+                            </li>
+                            <li class="pt-2 pr-5"> 
+                                <Link to="/carats"class="pr-5 " href="/">CARATS</Link> 
                             </li>
                         </ul>
                     </div>

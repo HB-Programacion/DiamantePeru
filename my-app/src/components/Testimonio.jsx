@@ -21,9 +21,9 @@ const Testimonio = () => {
                     <div class="row">
                       <div class="col-md-12">
                         <div class="mb-2 flexWrap">
-                          <div class="card-body pl-3 center">
-                            <p class="card-text text-size18">Por tu compra en Diamante Perú obtienes:</p>
-                            <p className="interline1 text-size12">
+                          <div class="card-body pl-3 center p-eleccion">
+                            <p class="card-text interline1">Por tu compra en Diamante Perú obtienes:</p>
+                            <p className="interline1 ">
                               Luis Riva
                             </p>
                           </div>

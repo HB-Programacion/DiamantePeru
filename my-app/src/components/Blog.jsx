@@ -16,7 +16,7 @@ const Blog = () =>{
                 <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5">
                     <span className="card-title">SORTEO APERTURA CLUB DIAMANTE:</span>
                     <p className="mt-3">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
-                    <Link to="/blog-sorteo-club-diamante" className="leer-mas-blog mt-4">Leer más ></Link>
+                    <Link to="/blog-sorteo-club-diamante" className="leer-mas-blog mt-4">LEER MAS<i class="fas fa-chevron-right arrow"></i></Link>
                 </div>
                 <div class="container p-4 mt-3 mt4-xs">
                     <div class="row">
@@ -67,7 +67,7 @@ const Blog = () =>{
                                         factores:
                                     </p>
                                     <hr class="my-3"/>
-                                    <Link className="">LEER MAS<i class="fas fa-chevron-right arrow"></i></Link>
+                                    <Link to="/color"className="">LEER MAS<i class="fas fa-chevron-right arrow"></i></Link>
                                 </div>
                             </div>
                         </div>

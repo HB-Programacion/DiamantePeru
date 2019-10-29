@@ -31,13 +31,13 @@ const Compromiso = () => {
                 </div>
             )}
             {state === "diamante" && (
-            <div>
+            <div className="">
                 
                 <Carrousel arrofJoyas={CompromisoSolo}  title={"DIAMANTE"}></Carrousel>
             </div>
             )}
             {state === "diamantes" && (
-            <div>
+            <div className="">
                 <Carrousel arrofJoyas={CompromisoVarios}  title={"DIAMANTES"}></Carrousel>
             </div>
             )}

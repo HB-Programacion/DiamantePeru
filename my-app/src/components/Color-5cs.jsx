@@ -5,14 +5,17 @@ import instagram from '../img/Instagram.svg'
 import Footer from "./Footer"
 
 import foto1 from "../img/carats-fondo.png";
+import claridad from "../img/claridad.png"
+import color from "../img/color.png";
+import corte from "../img/corte.png"
 
 
 const Color= () => { 
 return (
     <>
-    <div className="gray div-5cs animated fadeIn pb-4">
+    <div className="div-5cs animated fadeIn pb-4">
         <div >
-            <img className="img-min-blog " src={foto1} alt="" srcset=""/>
+            <img className="img-min-blog " src={color} alt="" srcset=""/>
         </div>
         <div className="div-5cs  flex d-block-xs">
             <article className="container-article vw60 xs-100">
@@ -60,13 +63,13 @@ return (
                         </div>
                     </Link>
                     <Link to="/corte" class="each-article-container  flex mr-5">
-                        <img src="/static/media/Clip.9b01f968.png" alt="" class="img-art-rel"/>
+                        <img src={corte} alt="" class="img-art-rel"/>
                         <div class="text-each-rel-art">
                             <p class="mb0 ml-3">CORTE (TALLADO)</p>
                         </div>
                     </Link>
                     <Link to="/claridad" class="each-article-container  flex mr-5">
-                        <img src="/static/media/Clip.9b01f968.png" alt="" class="img-art-rel"/>
+                        <img src={claridad} alt="" class="img-art-rel"/>
                         <div class="text-each-rel-art">
                             <p class="mb0 ml-3">CLARIDAD</p>
                         </div>
@@ -78,7 +81,7 @@ return (
                         </div>
                     </Link>
                 </div>
-                <div class="popular-art m-3">
+                {/* <div class="popular-art m-3">
                     <h2 className="font-size-2em raleway-semibold-italic">POPULARES</h2>
                     <ul class="pl-3 pr-5 p-0-xs">
                         <li class="pt-2 pr-5">
@@ -94,7 +97,7 @@ return (
                             <a class="pr-5 " href="/">¿Diamante o Rubí? </a> 
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>  
