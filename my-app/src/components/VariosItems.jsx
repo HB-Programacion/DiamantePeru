@@ -3,8 +3,8 @@ import React ,{useState,useEffect} from "react";
 import Item from './Item'
 
 const Varios= ({arrofJoyas})=>{
-  const [longitud,setlongitud]= useState([...arrofJoyas]);
-
+  const [longitud,setlongitud]= useState([]);
+setlongitud([...arrofJoyas]);
     return (
       <div className="container">
         <div className="row" >
@@ -18,7 +18,7 @@ const Varios= ({arrofJoyas})=>{
               img={prod.imagen}
             />
           ))}
-              {longitud.lenght < 1  && (
+              {longitud.lenght === undefined  && (
            <h1> vacio estoy</h1>
                 )}
         </div>
