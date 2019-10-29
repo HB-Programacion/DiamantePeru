@@ -9,12 +9,12 @@ const Contacto = () => {
                 <p className="raleway-regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa molestiae sapiente veritatis molestias temporibus, vel, accusamus eaque aut soluta consequuntur tempora pariatur dignissimos, dolorum eveniet debitis reprehenderit enim nesciunt quae!</p>
                 <div className="container-text-inputs">
                     <div className="flex-input raleway-regular">
-                        <input type="text" name="" id="" required className="contact-input-size" placeholder="Nombre*"/>
-                        <input type="text" name="" id=""   className="contact-input-size" placeholder="Apellido*"/>
+                        <input type="text" name="" id="name" name="name" required className="contact-input-size" placeholder="Nombre*"/>
+                        <input type="text" name="" id="lastName" name="apellido"  className="contact-input-size" placeholder="Apellido*"/>
                     </div>
                     <div className="flex-input raleway-regular">
-                        <input type="number" name="" id=""  className="contact-input-size" placeholder="Telefono*"/>  
-                        <input type="email" name="" id=""   className="contact-input-size" placeholder="Correo Electrónico*"/>
+                        <input type="number" name="" id="phone"  name="telefono"  className="contact-input-size" placeholder="Telefono*"/>  
+                        <input type="email" name="" id="mail"  name="correo"  className="contact-input-size" placeholder="Correo Electrónico*"/>
                     </div>
                     <textarea  className="contact-input-size textarea raleway-regular" placeholder="Mensaje" name="" id="" cols="30" rows="10"></textarea>
                 </div>
