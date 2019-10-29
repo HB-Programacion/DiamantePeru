@@ -19,6 +19,7 @@ import ItemPlus from './ItemPlus';
 import menu from "../img/menu.svg";
 import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg';
+import Contacto from './Contacto';
 import Corte from "./Corte-5cs";
 import Carats from "./Carats-5cs";
 import Color from "./Color-5cs";
@@ -121,6 +122,7 @@ const TabBar= () => {
       <Route path="/producto/:tipo/:numero"  component={ItemPlus} />
       <Route path="/novios/:tipo/:numero" component={ItemPlus}></Route>
       <Route path="/testimonio" exact component={Testimonio} />
+      <Route path="/contacto" exact component={Contacto} />
       <Route path="/corte" exact component={Corte} />
       <Route path="/carats" exact component={Carats} />
       <Route path="/color" exact component={Color} />
