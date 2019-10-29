@@ -16,10 +16,13 @@ const Joyas = () =>{
 
   const clearFilter = () =>{
     setProduct(arrayFilter);
-    setStateRadioTonlidad([" "]);
-    setStateRadio([""]);
+    setStateOro(" ");  
+      setStateGems(" ");  
+     setStateRadioTonlidad(" ");
+
+    setStateRadio("");
     setInputValue("");
-    setStateRadioTipo([""])
+    setStateRadioTipo("")
   };
 // const onChangeHandler
   const filterColor = (products,color) => {
@@ -132,7 +135,7 @@ const Joyas = () =>{
             <div className="form-check">
               <input 
                 checked={stateRadioTipo === "Sortija-toda-ocasión"} 
-                onChange={(e)=>{handleOptionChange(e,filterTipo,product,"Sortija-toda-ocasión",setStateRadioTipo)}}   
+                onChange={(e)=>{handleOptionChange(e,filterTipo,arrayFilter,"Sortija-toda-ocasión",setStateRadioTipo)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="type" 
@@ -146,7 +149,7 @@ const Joyas = () =>{
             <div className="form-check">
               <input 
                 checked={stateRadioTipo === 'Arete'} 
-                onChange={(e)=>{handleOptionChange(e,filterTipo,product,"Arete",setStateRadioTipo)}}   
+                onChange={(e)=>{handleOptionChange(e,filterTipo,arrayFilter,"Arete",setStateRadioTipo)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="type" 
@@ -160,7 +163,7 @@ const Joyas = () =>{
             <div className="form-check">      
               <input 
                 checked={stateRadioTipo === 'Dije'} 
-                onChange={(e)=>{handleOptionChange(e,filterTipo,product,"Dije",setStateRadioTipo)}}   
+                onChange={(e)=>{handleOptionChange(e,filterTipo,arrayFilter,"Dije",setStateRadioTipo)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="type" 
