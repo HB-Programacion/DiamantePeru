@@ -10,14 +10,7 @@ import img8 from "../img/8.png"
 import img9 from "../img/9.png"
 import ItemOfCarrousel from './ItemOfCarrousel'
 
-const Carrousel = ({arrofJoyas,title}) => {
-
-  const oneTriplets = arrofJoyas.slice(0, 3);
-  const twoTriplets = arrofJoyas.slice(3, 6);
-  const threeTriplets = arrofJoyas.slice(6, 9);
-  const fourTriplets = arrofJoyas.slice(9,12);
-  const fiveTriplets = arrofJoyas.slice(12,14);
-
+const CarrouselMatri = ({arrofJoyas,title}) => {
   return (
   <div className="w100 animated fadeIn">
     <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">{title}</b></span>
@@ -32,7 +25,7 @@ const Carrousel = ({arrofJoyas,title}) => {
         <div class="carousel-item active">
           <div class="row allCenter">
       
-            {  oneTriplets.map(prod => (
+            {   ( arrofJoyas.filter(e =>  e.Color ===  "Oro-Amarillo" )).map(prod => (
               <ItemOfCarrousel
                 // key={prod.CÓDIGO}
                 imagen={prod.imagen}
@@ -44,27 +37,10 @@ const Carrousel = ({arrofJoyas,title}) => {
             )) }
           </div>
         </div>
-
         <div class="carousel-item">
           <div class="row allCenter">
-          {  twoTriplets.map(prod => (
-              <ItemOfCarrousel
-                // key={prod.CÓDIGO}
-                imagen={prod.imagen}
-                nro={prod.CÓDIGO}
-                tipo={prod.Categoría}
-            
-              
-              />
-            )) }
-        
 
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="row allCenter">
-          {  threeTriplets.map(prod => (
+          {   ( arrofJoyas.filter(e =>  e.Color ===  "Oro-Blanco" )).map(prod => (
               <ItemOfCarrousel
                 // key={prod.CÓDIGO}
                 imagen={prod.imagen}
@@ -78,45 +54,10 @@ const Carrousel = ({arrofJoyas,title}) => {
           </div>
         </div>
 
-        <div class="carousel-item">
-          <div class="row allCenter">
-          {  fourTriplets.map(prod => (
-              <ItemOfCarrousel
-                // key={prod.CÓDIGO}
-                imagen={prod.imagen}
-                nro={prod.CÓDIGO}
-                tipo={prod.Categoría}
-            
-              
-              />
-            )) }
-        
-
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="row allCenter">
-          {  fiveTriplets.map(prod => (
-              <ItemOfCarrousel
-                // key={prod.CÓDIGO}
-                imagen={prod.imagen}
-                nro={prod.CÓDIGO}
-                tipo={prod.Categoría}
-            
-              
-              />
-            )) }
-        
-
-          </div>
-        </div>
-
-      </div>
     </div>
   </div>
-
+  </div>
   </div>
   )
 }
-export default Carrousel
+export default CarrouselMatri;
