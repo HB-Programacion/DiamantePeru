@@ -942,6 +942,10 @@
     }
     
     @media screen and (max-width:768px) {
+        .w30-xs{
+            width: 50%;
+            font-size: 70%;
+        }
         .p-0-xs {
             padding: 0px !important;
         }
@@ -1226,7 +1230,8 @@
             width: 100%;
         }
         .w30-xs{
-            width: 40%
+            width: 40% !important;
+            font-size: 100% !important
         }
         .contact-input-size {
             margin: 0rem;
@@ -1485,6 +1490,10 @@
     }
     
     @media screen and (max-width:991px) {
+        .w30-xs{
+            width: 50%;
+            font-size: 80%;
+        }
         .container-more-contact {
             display: flex;
             font-size: 100%;
