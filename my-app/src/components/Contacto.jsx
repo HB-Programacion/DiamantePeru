@@ -22,8 +22,8 @@ const Contacto = () => {
           </form>
             <div className="container-more-contact raleway-medium">
                 <p className="text-contact">Av. reducto 1135 - Miraflores-Lima,Perú</p>
-                <p className="text-contact"><i class="fas fa-envelope p-right-05"></i>consultas@diamanteperu.com</p>
-                <p className="text-contact"><i class="fas fa-phone-alt  p-right-05"></i>01 242-8536</p>
+                <p className="text-contact"><i className="fas fa-envelope p-right-05"></i>consultas@diamanteperu.com</p>
+                <p className="text-contact"><i className="fas fa-phone-alt  p-right-05"></i>01 242-8536</p>
             </div>
             <div className="center raleway-medium font-size-1em line-heigth-1">
                 <p className="text-contact ">Horarios de Atención: Lun – Vier: 10 am – 7 pm / Sáb: 10 am – 6 pm</p>

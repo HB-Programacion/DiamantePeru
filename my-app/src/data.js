@@ -353,7 +353,7 @@ export default [{
         "imagen": am004,
     },
     {
-        "CÓDIGO": 3009,
+        "CÓDIGO": "3009",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo y oro blanco de 18k.  Se recomienda colocar diamantes desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -364,7 +364,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4021,
+        "CÓDIGO": "4021",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k.  Se recomienda colocar diamantes desde 0,20 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -375,7 +375,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 2503,
+        "CÓDIGO": "2503",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k.  Se recomienda colocar diamantes desde 0,20 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -386,7 +386,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 2009,
+        "CÓDIGO": "2009",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k. Se recomienda colocar diamantes desde 0,18 Carats. Diamantes de corte excelente y certificación GIA.(Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -397,7 +397,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4011,
+        "CÓDIGO": "4011",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k.  Se recomienda colocar diamantes desde 0,23 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -408,7 +408,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4023,
+        "CÓDIGO": "4023",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k con un Diamante central Heart Shape.  Se recomienda colocar diamantes desde 0,40 Carats. Diamantes de corte excelente y certificación GIA. (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -419,7 +419,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4025,
+        "CÓDIGO": "4025",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k.  Se recomienda colocar diamantes desde 0,30 Carats. Diamantes de corte excelente y certificación GIA. (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -430,7 +430,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4013,
+        "CÓDIGO": "4013",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k.  Se recomienda colocar diamantes desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.  (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -441,7 +441,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 3010,
+        "CÓDIGO": "3010",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro blanco de 18k.  Se recomienda colocar diamantes desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.  (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -452,7 +452,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 1508,
+        "CÓDIGO": "1508",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro blanco de 18k.  Se recomienda colocar diamantes desde 0,20 Carats. Diamantes de corte excelente y certificación GIA. (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -463,7 +463,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4022,
+        "CÓDIGO": "4022",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro blanco de 18k.  Se recomienda colocar diamantes desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -474,7 +474,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4014,
+        "CÓDIGO": "4014",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro blanco  de 18k.  Se recomienda colocar diamantes desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -485,7 +485,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4002,
+        "CÓDIGO": "4002",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k.  Se recomienda colocar diamantes desde 0,35 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -496,7 +496,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4012,
+        "CÓDIGO": "4012",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k.  Se recomienda colocar diamantes desde 0,23 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -507,7 +507,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4024,
+        "CÓDIGO": "4024",
         "DESCRIPCIÓN": "Anillo de compromiso solitario confeccionado en oro amarillo  de 18k.  Se recomienda colocar diamantes desde 0,20 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Solitario",
         "Sección": "Novios/Anillo de Compromiso",
@@ -518,7 +518,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4026,
+        "CÓDIGO": "4026",
         "DESCRIPCIÓN": "Anillo de compromiso Modelo Pure Elegance  confeccionado en oro blanco con detalles de oro amarillo de 18k.  La pieza cuenta con un total de veinte diamantes. Se recomienda colocar un diamante central desde 0,40 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -529,7 +529,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4028,
+        "CÓDIGO": "4028",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro blanco de 18k.  La pieza cuenta con un Diamante central azul acompañado por veinticuatro diamantes blancos. Se recomienda colocar un diamante central desde 0,40 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -540,7 +540,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4030,
+        "CÓDIGO": "4030",
         "DESCRIPCIÓN": "Anillo de compromiso Modelo Petite Elegance  confeccionado en oro blanco con detalles de oro amarillo de 18k.  La pieza cuenta con un total de once diamantes. Se recomienda colocar un diamante central desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                 (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -551,7 +551,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4032,
+        "CÓDIGO": " 4032",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro blanco de 18k.  La pieza cuenta con un total de cincuenta y cinco diamantes. Se recomienda colocar un diamante central desde 0,40 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -562,7 +562,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 5014,
+        "CÓDIGO": " 5014",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro blanco de 18k.  La pieza cuenta con un total de veinticinco diamantes. Se recomienda colocar un diamante central desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -573,7 +573,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 3102,
+        "CÓDIGO": " 3102",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro blanco de 18k.  La pieza cuenta con un total de trece diamantes. Se recomienda colocar un diamante central desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -584,7 +584,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4027,
+        "CÓDIGO": "4027",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro amarillo de 18k.  La pieza cuenta con un total de trece diamantes. Se recomienda colocar un diamante central desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -595,7 +595,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4029,
+        "CÓDIGO": "4029",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro amarillo y detalles de oro blanco de 18k .  La pieza cuenta con un total de doce diamantes. Se recomienda colocar un diamante central desde 0,50 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -606,7 +606,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 3107,
+        "CÓDIGO": "3107",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro amarillo y detalles de oro blanco de 18k .  La pieza cuenta con un total de once diamantes. Se recomienda colocar un diamante central desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -617,7 +617,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 5007,
+        "CÓDIGO": "5007",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro amarillo y detalles de oro blanco de 18k .  La pieza cuenta con un total de veinticinco diamantes. Se recomienda colocar un diamante central desde 0,35 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -628,7 +628,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 3101,
+        "CÓDIGO": "3101",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro amarillo y detalles de oro blanco de 18k .  La pieza cuenta con un total de once diamantes. Se recomienda colocar un diamante central desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -639,7 +639,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 5011,
+        "CÓDIGO": "5011",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro amarillo y detalles de oro blanco de 18k .  La pieza cuenta con un total de tres diamantes. Se recomienda colocar un diamante central desde 0,30 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -650,7 +650,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 1801,
+        "CÓDIGO": "1801",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro amarillo de 18k .  La pieza cuenta con un total de trece diamantes. Se recomienda colocar un diamante central desde 0,20 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",
@@ -661,7 +661,7 @@ export default [{
         "imagen": img,
     },
     {
-        "CÓDIGO": 4031,
+        "CÓDIGO": "4031",
         "DESCRIPCIÓN": "Anillo de compromiso  confeccionado en oro amarillo de 18k .  La pieza cuenta con un total de quince diamantes. Se recomienda colocar un diamante central desde 0,40 Carats. Diamantes de corte excelente y certificación GIA.                                                                                                                                               (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Con más Diamantes ó Laterales",
         "Sección": "Novios/Anillo de Compromiso",

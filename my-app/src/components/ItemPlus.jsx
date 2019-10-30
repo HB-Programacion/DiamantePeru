@@ -5,6 +5,8 @@ import arrJoyas from '../data';
 
 const ItemPlus = () =>{
     let { numero } = useParams();
+    console.log(numero);
+    
     const elem = arrJoyas.find(e => e.CÓDIGO === numero);
     console.log(elem)
 

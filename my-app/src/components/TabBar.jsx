@@ -120,7 +120,7 @@ const TabBar= () => {
       <Route path="/matrimonio" exact component={Matrimonio} />
       <Route path="/joyas" exact component={Joyas} />
       <Route path="/producto/:tipo/:numero"  component={ItemPlus} />
-      <Route path="/novios/:tipo/:numero" component={ItemPlus}/>
+      <Route path="/novios/:tipo/:numero" component={ItemPlus} />
       <Route path="/testimonio" exact component={Testimonio} />
       <Route path="/contacto" exact component={Contacto} />
       <Route path="/corte" exact component={Corte} />

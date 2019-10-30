@@ -15,19 +15,19 @@ const CarrouselMatri = ({arrofJoyas,title}) => {
   <div className="w100 animated fadeIn">
     <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">{title}</b></span>
     <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
-    <div class="container my-4 diamantes-xs">
-      <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-        <div class="controls-top center position-relative">
-          <a class="btn-floating left-xs" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
-          <a class="btn-floating right-xs" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
+    <div className="container my-4 diamantes-xs">
+      <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
+        <div className="controls-top center position-relative">
+          <a className="btn-floating left-xs" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
+          <a className="btn-floating right-xs" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>
         </div>
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <div class="row allCenter">
+      <div className="carousel-inner" role="listbox">
+        <div className="carousel-item active">
+          <div className="row allCenter">
       
             {   ( arrofJoyas.filter(e =>  e.Color ===  "Oro-Amarillo" )).map(prod => (
               <ItemOfCarrousel
-                // key={prod.CÓDIGO}
+             key={prod.CÓDIGO}
                 imagen={prod.imagen}
                 nro={prod.CÓDIGO}
                 tipo={prod.Categoría}
@@ -37,12 +37,12 @@ const CarrouselMatri = ({arrofJoyas,title}) => {
             )) }
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="row allCenter">
+        <div className="carousel-item">
+          <div className="row allCenter">
 
           {   ( arrofJoyas.filter(e =>  e.Color ===  "Oro-Blanco" )).map(prod => (
               <ItemOfCarrousel
-                // key={prod.CÓDIGO}
+               key={prod.CÓDIGO}
                 imagen={prod.imagen}
                 nro={prod.CÓDIGO}
                 tipo={prod.Categoría}

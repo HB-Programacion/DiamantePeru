@@ -58,48 +58,48 @@ return (
                     </div>
                 </div>
             </article>
-            <div class="container-another-articles vw40 mt-4 mt-4-xs mr-4 mb-4 p-2">
-                <div class="rel-art m-3 mb-4  ">
+            <div className="container-another-articles vw40 mt-4 mt-4-xs mr-4 mb-4 p-2">
+                <div className="rel-art m-3 mb-4  ">
                     <h3 className="font-size-2em raleway-semibold-italic">ARTÍCULOS RELACIONADOS</h3>
-                    <Link to="/blog-club-diamante" class="each-article-container flex mr-5">
-                        <img src={blog2} alt="" class="img-art-rel"/>
-                        <div class="text-each-rel-art">
-                            <p class="mb0 ml-3">CLUB DIAMANTE</p>
+                    <Link to="/blog-club-diamante" className="each-article-container flex mr-5">
+                        <img src={blog2} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">CLUB DIAMANTE</p>
                         </div>
                     </Link>
-                    <Link to="/blog-evitar-estafa"class="each-article-container  flex mr-5">
-                        <img src={blog3} alt="" class="img-art-rel"/>
-                        <div class="text-each-rel-art">
-                            <p class="mb0 ml-3">¿CÓMO EVITAR QUE LO ESTAFEN EN LA COMPRA DE UN DIAMANTE?</p>
+                    <Link to="/blog-evitar-estafa"className="each-article-container  flex mr-5">
+                        <img src={blog3} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">¿CÓMO EVITAR QUE LO ESTAFEN EN LA COMPRA DE UN DIAMANTE?</p>
                         </div>
                     </Link>
-                    <Link to="blog-historia-sortija"class="each-article-container  flex mr-5">
-                        <img src={blog4}  alt="" class="img-art-rel"/>
-                        <div class="text-each-rel-art">
-                            <p class="mb0 ml-3">HISTORIA DE LA SORTIJA DE COMPROMISO</p>
+                    <Link to="blog-historia-sortija"className="each-article-container  flex mr-5">
+                        <img src={blog4}  alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">HISTORIA DE LA SORTIJA DE COMPROMISO</p>
                         </div>
                     </Link>
-                    <Link to="/carats"class="each-article-container  flex mr-5">
-                        <img src={blog5}  alt="" class="img-art-rel"/>
-                        <div class="text-each-rel-art">
-                            <p class="mb0 ml-3">LAS 5CS DIAMANTE PERÚ</p>
+                    <Link to="/carats"className="each-article-container  flex mr-5">
+                        <img src={blog5}  alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">LAS 5CS DIAMANTE PERÚ</p>
                         </div>
                     </Link>
                 </div>
-                <div class="popular-art m-3">
+                <div className="popular-art m-3">
                     <h2 className="font-size-2em raleway-semibold-italic">POPULARES</h2>
-                    <ul class="pl-3 pr-5 p-0-xs">
-                        <li class="pt-2 pr-5">
-                            <Link to="/color"class="pr-5 " href="/">COLOR</Link>
+                    <ul className="pl-3 pr-5 p-0-xs">
+                        <li className="pt-2 pr-5">
+                            <Link to="/color"className="pr-5 " href="/">COLOR</Link>
                         </li>
-                        <li class="pt-2 pr-5">
-                            <Link to="/claridad"class="pr-5 "href="/">CLARIDAD</Link>
+                        <li className="pt-2 pr-5">
+                            <Link to="/claridad"className="pr-5 "href="/">CLARIDAD</Link>
                         </li>
-                        <li class="pt-2 pr-5"> 
+                        <li className="pt-2 pr-5"> 
                             <Link to="/certificacion-y-confianza">CERTIFICACIÓN Y CONFIANZA</Link> 
                         </li>
-                        <li class="pt-2 pr-5"> 
-                            <Link to="/corte"class="pr-5 " href="/">CORTE</Link> 
+                        <li className="pt-2 pr-5"> 
+                            <Link to="/corte"className="pr-5 " href="/">CORTE</Link> 
                         </li>
                     </ul>
                 </div>

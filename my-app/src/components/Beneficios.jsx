@@ -5,28 +5,28 @@ import imgconvenio from "../img/logo-carmenSeminara.png";
 const Beneficios = () => {
     return(
         <div className="w100 pt-5 pt-5-xs animated fadeIn gray fondo-icon">
-          <div class="flex around position-relative">
-              <a class="btn-floating position-absolute top50vh left3" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left arrow"></i></a>
-              <a class="btn-floating position-absolute top50vh right3" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right arrow"></i></a>
+          <div className="flex around position-relative">
+              <a className="btn-floating position-absolute top50vh left3" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
+              <a className="btn-floating position-absolute top50vh right3" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>
           </div>
           <span className="p-4 flex flexCenter text-size27"><b>BENEFICIOS</b></span>
-            <div class="container my-4">
-              <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <div className="container my-4">
+              <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
+                <ol className="carousel-indicators">
+                  <li data-target="#multi-item-example" data-slide-to="0" className="active"></li>
                   <li data-target="#multi-item-example" data-slide-to="1"></li>
                 </ol>
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="mb-2 flexWrap">
+                <div className="carousel-inner" role="listbox">
+                  <div className="carousel-item active">
+                    <div className="row">
+                      <div className="col-md-12">
+                        <div className="mb-2 flexWrap">
                           <figure className="w50 allCenter">
-                            <img class=" w70 rounded-circle" src={imgconvenio} alt="Card image cap"/>
+                            <img className=" w70 rounded-circle" src={imgconvenio} alt="Card image cap"/>
                           </figure>
-                          <div class="card-body w50 pl-3 convenioRes geosansLight">
-                            <h4 class="card-title">CARMEN SEMINARIO ATELIER</h4>
-                            <p class="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
+                          <div className="card-body w50 pl-3 convenioRes geosansLight">
+                            <h4 className="card-title">CARMEN SEMINARIO ATELIER</h4>
+                            <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
                             <ul className="interline1 ml-4 font-size-1">
                               <li>10% de dscto en vestidos de novia a medida.</li>
                               <li>15% de dscto en vestidos de fiesta a medida.</li>
@@ -34,7 +34,7 @@ const Beneficios = () => {
                               <li>15% de dscto en vestidos de stock seleccionados</li>
                               <li>15% de dscto en ternos a medida para caballeros</li>
                             </ul>
-                            <hr class="my-4"/>
+                            <hr className="my-4"/>
                             <p className="interline1 text-size12 justify">
                               Términos y Condiciones:
                               Descuentos exclusivos para clientes de DIAMANTE PERU,
@@ -46,16 +46,16 @@ const Beneficios = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="mb-2  flex flexWrap">
+                  <div className="carousel-item">
+                    <div className="row">
+                      <div className="col-md-12">
+                        <div className="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img class=" w70 rounded-circle" src={imgconvenio} alt="Card image cap"/>
+                            <img className=" w70 rounded-circle" src={imgconvenio} alt="Card image cap"/>
                           </figure>
-                          <div class="card-body w50 pl-3 convenioRes geosansLight">
-                            <h4 class="card-title">CARMEN SEMINARIO ATELIER</h4>
-                            <p class="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
+                          <div className="card-body w50 pl-3 convenioRes geosansLight">
+                            <h4 className="card-title">CARMEN SEMINARIO ATELIER</h4>
+                            <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
                             <ul className="interline1 font-size-1">
                               <li>10% de dscto en vestidos de novia a medida.</li>
                               <li>15% de dscto en vestidos de fiesta a medida.</li>
@@ -63,7 +63,7 @@ const Beneficios = () => {
                               <li>15% de dscto en vestidos de stock seleccionados</li>
                               <li>15% de dscto en ternos a medida para caballeros</li>
                             </ul>
-                            <hr class="my-4"/>
+                            <hr className="my-4"/>
                             <p className="interline1 text-size12 justify">
                                 Términos y Condiciones:
                                 Descuentos exclusivos para clientes de DIAMANTE PERU,
