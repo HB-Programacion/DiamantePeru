@@ -23,7 +23,7 @@ const Mantenimiento = () => {
                 </div>
             </div>
             <div className="flex content-center">
-            <button className="w25 p-1 btn">LEER MAS ></button>
+            <button className="w25 p-1 btn">LEER MÁS ></button>
             </div>
         </div>
         </>

@@ -47,8 +47,8 @@ const TabBar= () => {
       <Link to="/"><img src={logo} alt="logo" className="center m-auto w50 pt-2 pb-2 logoCenter logo" /></Link>
       </div>
       <div className="allCenter cel">
-        <Link to="/testimonio" className="pr-4 option-menu"><b>TESTIMONIOS</b></Link>
-        <Link to="/blog" className="pl-4 option-menu"><b>BLOG</b></Link>
+        <Link to="/testimonio" className="pr-4 option-menu nav-link "><b>TESTIMONIOS</b></Link>
+        <Link to="/blog" className="pl-4 option-menu nav-link"><b>BLOG</b></Link>
       </div>
       </div>
       {/* <hr className={"my-1 d-block"/> */}
