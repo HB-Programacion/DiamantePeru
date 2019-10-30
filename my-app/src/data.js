@@ -32,6 +32,10 @@ import a4012 from "./img/anillosCompromiso/4012.png"
 import a4013 from "./img/anillosCompromiso/4013.png"
 import a4014 from "./img/anillosCompromiso/4014.png"
 import a4021 from "./img/anillosCompromiso/4021.png"
+import a4022 from "./img/anillosCompromiso/4022.png"
+import a4023 from "./img/anillosCompromiso/4023.png"
+import a4024 from "./img/anillosCompromiso/4024.png"
+import a4025 from "./img/anillosCompromiso/4025.png"
 
 
 
@@ -430,7 +434,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Corazón",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4023,
     },
     {
         "CÓDIGO": "4025",
@@ -441,7 +445,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4025,
     },
     {
         "CÓDIGO": "4013",
@@ -485,7 +489,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4022,
     },
     {
         "CÓDIGO": "4014",
@@ -529,7 +533,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4024,
     },
     {
         "CÓDIGO": "4026",
