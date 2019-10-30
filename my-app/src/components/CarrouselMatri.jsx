@@ -18,8 +18,8 @@ const CarrouselMatri = ({arrofJoyas,title}) => {
     <div className="container my-4 diamantes-xs">
       <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
         <div className="controls-top center position-relative">
-          <a className="btn-floating left-xs" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
-          <a className="btn-floating right-xs" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>
+          <a className="btn-floating left-xs position-absolute top50vh left3" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
+          <a className="btn-floating right-xs position-absolute top50vh right3" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>
         </div>
       <div className="carousel-inner" role="listbox">
         <div className="carousel-item active">

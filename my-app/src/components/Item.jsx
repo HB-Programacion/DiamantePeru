@@ -13,8 +13,7 @@ const Item = ({nro,tipo,color,dsc,img}) =>{
           <img src={img} className="card-img-top cardImgItem" alt="..."/>
           <div className="card-body">
             <h5 className="card-title text-center p-2">COD : {nro}</h5>
-            <p className="card-text">{color}</p>
-            <a href="#" className="btn btn-primary">{tipo}</a>
+         
           </div>
         </div>
       </Link>
