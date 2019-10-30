@@ -117,7 +117,7 @@ const Joyas = () =>{
         <div className="filterAndSearch col">
           <div className=" input-group-lg">
             <label  className="title-radio w100">
-              Buscar por
+              Buscar por Código
               <input 
                 className="form-control inputOfCode mt-1 " 
                 onInputCapture={(e)=>{setInputValue((e.target.value).toUpperCase())}} 
