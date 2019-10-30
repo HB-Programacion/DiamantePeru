@@ -5,7 +5,7 @@ import image from '../img/1.png';
 
 const ItemOfCarrousel = ({nro,tipo,imagen}) =>{
     return(
-      <Link className="col-md-4 clearfix  d-md-block" to={ `/novios/${tipo}/${nro}`}>
+      <Link className="col-md-4 clearfix  d-md-block option-menu nav-link" to={ `/novios/${tipo}/${nro}`}>
         <div className="mb-2 background-carrousel-ring ">
           <img 
             className="card-img-top" 
@@ -13,7 +13,7 @@ const ItemOfCarrousel = ({nro,tipo,imagen}) =>{
             alt="Card image cap"
           />
           <div className="card-body center">
-            <p className="card-title">{nro}</p>
+            <p className="card-title">COD {nro}</p>
           </div>
         </div>
       </Link>
