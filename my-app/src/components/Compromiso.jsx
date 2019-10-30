@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 
 import Carrousel from './Carrousel'
+
+import CarrouselOne from './CarrouselOne'
 import oneDiamante from '../img/diamante.png'
 import moreDiamante from '../img/diamantes.png'
 import arrJoyas from '../data';
@@ -33,7 +35,7 @@ const Compromiso = () => {
             {state === "diamante" && (
             <div className="">
                 
-                <Carrousel arrofJoyas={CompromisoSolo}  title={"DIAMANTE"}></Carrousel>
+                <CarrouselOne arrofJoyas={CompromisoSolo}  title={"DIAMANTE"}></CarrouselOne>
             </div>
             )}
             {state === "diamantes" && (

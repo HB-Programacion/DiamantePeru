@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import arrJoyas from '../data';
-import Carrousel from './Carrousel'
+import CarrouselMatri from './CarrouselMatri'
 import img1 from "../img/1.png";
 import img2 from "../img/2.png";
 import img3 from "../img/3.png";
@@ -22,10 +22,10 @@ const Matrimonio = () => {
     <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
     <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Matrimonio,novios" />
   </Helmet>
-    <Carrousel 
+    <CarrouselMatri 
       arrofJoyas={arrJoyas.filter(e =>  e .Sección === "Novios / Matrimonio")}  
       title={"MATRIMONIO"}>
-    </Carrousel>
+    </CarrouselMatri>
     </div>
   )
 }

@@ -10,13 +10,13 @@ import img8 from "../img/8.png"
 import img9 from "../img/9.png"
 import ItemOfCarrousel from './ItemOfCarrousel'
 
-const Carrousel = ({arrofJoyas,title}) => {
+const CarrouselOne = ({arrofJoyas,title}) => {
 
   const oneTriplets = arrofJoyas.slice(0, 3);
   const twoTriplets = arrofJoyas.slice(3, 6);
   const threeTriplets = arrofJoyas.slice(6, 9);
   const fourTriplets = arrofJoyas.slice(9,12);
-  const fiveTriplets = arrofJoyas.slice(12,14);
+  const fiveTriplets = arrofJoyas.slice(12,15);
 
   return (
   <div className="w100 animated fadeIn">
@@ -119,4 +119,4 @@ const Carrousel = ({arrofJoyas,title}) => {
   </div>
   )
 }
-export default Carrousel
+export default CarrouselOne
