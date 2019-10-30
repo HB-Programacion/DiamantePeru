@@ -1344,8 +1344,23 @@ section.input-container label {
     font-size: 1rem;
 }
 
+.left-2 {
+    left: -2rem;
+}
+
+.right-2 {
+    right: -2rem;
+}
+
 .p-right-05 {
     padding-right: .5rem;
+}
+
+.text-decoration,
+.text-decoration:hover,
+.text-decoration:active {
+    color: white !important;
+    text-decoration: none;
 }
 
 @media screen and (max-width:767px) {
