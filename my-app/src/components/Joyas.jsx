@@ -242,7 +242,7 @@ const Joyas = () =>{
               <input checked={stateRadioTonalidad === "Blanco y Amarillo Canario"} onChange={(e)=>{handleOptionChange(e,filterTone,arrayFilter,"Blanco y Amarillo Canario",setStateRadioTonlidad)}} 
                className="form-check-input" type="radio" name="toneradio" id= "Blanco y Amarillo Canario" value="Blanco y Amarillo Canario" />
               <label className="form-check-label raleway-light" htmlFor= "Blanco y Amarillo Canario" >
-              Blanco y Amarillo Canario
+               Amarillo Canario
               </label>
             </div>
          
