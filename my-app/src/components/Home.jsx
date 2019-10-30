@@ -41,7 +41,7 @@ const Home = () => {
 
       <div className="controls-top center">
         <a className="btn-floating" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
-        <label className="">SORTIJAS</label>
+        <label className="raleway-regular lt-space-13 ">SORTIJAS</label>
         <a className="btn-floating" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>
       </div>
 
