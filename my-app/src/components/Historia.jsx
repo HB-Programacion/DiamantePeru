@@ -16,10 +16,10 @@ const Historia = () =>{
             <div className="w50 allCenter wResponsive100">
                 <div className="mt-3">
                     <span className=" text-1-5 mt-0 raleway-light"><b>HISTORIA <br/>DIAMANTE PERÚ</b></span>
-                    <div class="container ">
-                        <div id="carouselContent" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner mb-2" role="listbox">
-                                <div class="interline1 carousel-item active text-center p-2 pl-3 pr-3">
+                    <div className="container ">
+                        <div id="carouselContent" className="carousel slide" data-ride="carousel">
+                            <div className="carousel-inner mb-2" role="listbox">
+                                <div className="interline1 carousel-item active text-center p-2 pl-3 pr-3">
                                     <p  className="geosansLight">DIAMANTE PERÚ E.I.R.L. es un negocio familiar el cual fue fundado por el Sr. Gerardo Zela Salame
                                     Córdova quién en 1982 se Graduó como primer Gemólogo Peruano en el Gemological Institute of
                                     America (GIA). A lo largo de sus 14 años de instituida, la empresa siempre tuvo como objetivo principal
@@ -32,7 +32,7 @@ const Historia = () =>{
                                     cargo en el año 2004 de DIAMANTE PERÚ EIRL.
                                     </p>
                                 </div>
-                                <div class="interline1 carousel-item text-center p-2 pl-3 pr-3">
+                                <div className="interline1 carousel-item text-center p-2 pl-3 pr-3">
                                     <p className="geosansLight">En Julio del 2012 su hijo Adrián Zela Terry se graduó también como Gemólogo en el Gemological
                                     Institute of America (GIA). Acto que los convierte en la primera familia con dos generaciones de
                                     Gemólogos Peruanos.
@@ -47,7 +47,7 @@ const Historia = () =>{
                                     grandes del mundo (De Beers, Al Rosa, Rio Tinto).
                                     </p>
                                 </div>
-                                <div class="interline1 carousel-item text-center p-2 pl-3 pr-3">
+                                <div className="interline1 carousel-item text-center p-2 pl-3 pr-3">
                                     <p className="geosansLight">Luego en el año 2016 y siguiendo con el legado familiar, Gino Zela Terry, primer hijo del Sr. Gerardo Zela
                                     se graduó en el Gemological Institute of America (GIA) como maestro joyero y diseñador de joyas con
                                     tecnología 3D.
@@ -64,13 +64,13 @@ const Historia = () =>{
                                 </div>
                             </div>
                             <div className="mt-1">
-                                <a class="" href="#carouselContent" role="button" data-slide="prev">
-                                    <span class="" aria-hidden="true"><i class="fas fa-chevron-left arrow"></i></span>
-                                    <span class="sr-only">Previous</span>
+                                <a className="" href="#carouselContent" role="button" data-slide="prev">
+                                    <span className="" aria-hidden="true"><i className="fas fa-chevron-left arrow"></i></span>
+                                    <span className="sr-only">Previous</span>
                                 </a>
-                                <a class="" href="#carouselContent" role="button" data-slide="next">
-                                    <span class="" aria-hidden="true"><i class="fas fa-chevron-right arrow"></i></span>
-                                    <span class="sr-only">Next</span>
+                                <a className="" href="#carouselContent" role="button" data-slide="next">
+                                    <span className="" aria-hidden="true"><i className="fas fa-chevron-right arrow"></i></span>
+                                    <span className="sr-only">Next</span>
                                 </a>
                             </div>
                         </div>

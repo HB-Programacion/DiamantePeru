@@ -82,48 +82,48 @@ return (
                     </div>
                 </div>
             </article>
-            <div class="container-another-articles vw40 mt-4 mt-4-xs mr-4 mb-4 p-2">
-                <div class="rel-art m-3 mb-4  ">
+            <div className="container-another-articles vw40 mt-4 mt-4-xs mr-4 mb-4 p-2">
+                <div className="rel-art m-3 mb-4  ">
                     <h3 className="font-size-2em raleway-semibold-italic">ARTÍCULOS RELACIONADOS</h3>
-                    <Link to="/carats" class="each-article-container flex mr-5">
-                        <img src={foto1} alt="" class="img-art-rel"/>
-                        <div class="text-each-rel-art">
-                            <p class="mb0 ml-3">CARAT (UNIDAD DE PESO)</p>
+                    <Link to="/carats" className="each-article-container flex mr-5">
+                        <img src={foto1} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">CARAT (UNIDAD DE PESO)</p>
                         </div>
                     </Link>
-                    <Link to="/color" class="each-article-container  flex mr-5">
-                        <img src={color} alt="" class="img-art-rel"/>
-                        <div class="text-each-rel-art">
-                            <p class="mb0 ml-3">COLOR</p>
+                    <Link to="/color" className="each-article-container  flex mr-5">
+                        <img src={color} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">COLOR</p>
                         </div>
                     </Link>
-                    <Link to="/corte"class="each-article-container  flex mr-5">
-                        <img src={corte} alt="" class="img-art-rel"/>
-                        <div class="text-each-rel-art">
-                            <p class="mb0 ml-3">CORTE (TALLADO)</p>
+                    <Link to="/corte"className="each-article-container  flex mr-5">
+                        <img src={corte} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">CORTE (TALLADO)</p>
                         </div>
                     </Link>
-                    <Link to="/certificacion-y-confianza"class="each-article-container  flex mr-5">
-                        <img src="/static/media/Clip.9b01f968.png" alt="" class="img-art-rel"/>
-                        <div class="text-each-rel-art">
-                            <p class="mb0 ml-3">CERTIFICACIÓN Y CONFIANZA</p>
+                    <Link to="/certificacion-y-confianza"className="each-article-container  flex mr-5">
+                        <img src="/static/media/Clip.9b01f968.png" alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">CERTIFICACIÓN Y CONFIANZA</p>
                         </div>
                     </Link>
                 </div>
-                {/* <div class="popular-art m-3">
+                {/* <div className="popular-art m-3">
                     <h2 className="font-size-2em raleway-semibold-italic">POPULARES</h2>
-                    <ul class="pl-3 pr-5 p-0-xs">
-                        <li class="pt-2 pr-5">
-                            <a class="pr-5 " href="/">El Perú : Nuevo mercado para los Diamantes </a>
+                    <ul className="pl-3 pr-5 p-0-xs">
+                        <li className="pt-2 pr-5">
+                            <a className="pr-5 " href="/">El Perú : Nuevo mercado para los Diamantes </a>
                         </li>
-                        <li class="pt-2 pr-5">
-                            <a class="pr-5 "href="/">Diamantes para Ellas : Sorprendela en San Valetín</a>
+                        <li className="pt-2 pr-5">
+                            <a className="pr-5 "href="/">Diamantes para Ellas : Sorprendela en San Valetín</a>
                         </li>
-                        <li class="pt-2 pr-5"> 
+                        <li className="pt-2 pr-5"> 
                             <a href="/">Se incrementa la vista de Diamantes por San Valentín</a> 
                         </li>
-                        <li class="pt-2 pr-5"> 
-                            <a class="pr-5 " href="/">¿Diamante o Rubí? </a> 
+                        <li className="pt-2 pr-5"> 
+                            <a className="pr-5 " href="/">¿Diamante o Rubí? </a> 
                         </li>
                     </ul>
                 </div> */}

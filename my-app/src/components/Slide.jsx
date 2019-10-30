@@ -7,14 +7,14 @@ const Slide = () => {
     return (
       <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
-          <div class="carousel-item active">
-            <img src={foto1} class="d-block w-100" alt="chica"/>
+          <div className="carousel-item active">
+            <img src={foto1} className="d-block w-100" alt="chica"/>
           </div>
-          <div class="carousel-item">
-            <img src={foto2} class="d-block w-100" alt="..."/>
+          <div className="carousel-item">
+            <img src={foto2} className="d-block w-100" alt="..."/>
           </div>
-          <div class="carousel-item">
-            <img src={foto3} class="d-block w-100" alt="..."/>
+          <div className="carousel-item">
+            <img src={foto3} className="d-block w-100" alt="..."/>
           </div>
         </div>
       </div>

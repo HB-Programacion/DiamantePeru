@@ -180,7 +180,7 @@ const Joyas = () =>{
             <div className="form-check m-2">
               <input 
                 checked={stateOro === 'Oro-Amarillo'} 
-                onChange={(e)=>{handleOptionChange(e,filterColor,product,"Oro-Amarillo",setStateOro)}}   
+                onChange={(e)=>{handleOptionChange(e,filterColor,arrayFilter,"Oro-Amarillo",setStateOro)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="exam" 
@@ -218,7 +218,7 @@ const Joyas = () =>{
             <div className="form-check m-2">
               <input 
                 checked={stateRadioTonalidad ==="Azul"} 
-                onChange={(e)=>{handleOptionChange(e,filterTone,product,"Azul",setStateRadioTonlidad)}}   
+                onChange={(e)=>{handleOptionChange(e,filterTone,arrayFilter,"Azul",setStateRadioTonlidad)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="toneradio" 
@@ -263,7 +263,7 @@ const Joyas = () =>{
             <div className="form-check m-2">
               <input 
                 checked={stateRadio === "Brillante-(Redondo)"} 
-                onChange={(e)=>{handleOptionChange(e,filterShape,product,"Brillante-(Redondo)",setStateRadio)}}   
+                onChange={(e)=>{handleOptionChange(e,filterShape,arrayFilter,"Brillante-(Redondo)",setStateRadio)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="formradio" 
@@ -299,7 +299,7 @@ const Joyas = () =>{
             <div className="form-check m-2">
               <input 
                 checked={stateGems ==="Amatista"} 
-                onChange={(e)=>{handleOptionChange(e,filterMoreGems,product,"Amatista",setStateGems)}}   
+                onChange={(e)=>{handleOptionChange(e,filterMoreGems,arrayFilter,"Amatista",setStateGems)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="gems" 
@@ -316,83 +316,6 @@ const Joyas = () =>{
   
           </div>
 
-
-
-        
-          {/* <div className="container-fluid container-tonalidad">
-            <span  className="title-radio">Tonalidad</span>
-            <div  className="form-check">
-              <input 
-                checked={stateRadioTonalidad === "D-F"} 
-                onChange={(e)=>{handleOptionChange(e,filterTone,product,"d-f",setStateRadioTonlidad)}}  
-                className="form-check-input" 
-                type="radio" 
-                name="exampleRadios" 
-                id="df" 
-                value="D-F" 
-              />
-              <label className="form-check-label raleway-light" for="df" >
-                D - F 
-              </label>
-            </div>
-            <div className="form-check">
-              <input 
-                checked={stateRadioTonalidad === "G-J"} 
-                onChange={(e)=>{handleOptionChange(e,filterTone,product,"g-j",setStateRadioTonlidad)}}  
-                className="form-check-input" 
-                type="radio" 
-                name="exampleRadios" 
-                id="gj" 
-                value="G-J" 
-              />
-              <label className="form-check-label raleway-light" for="gj" >
-                G - J
-              </label>
-            </div>
-            <div className="form-check">
-              <input 
-                checked={stateRadioTonalidad === "K-M"} 
-                onChange={(e)=>{handleOptionChange(e,filterTone,product,"k-m",setStateRadioTonlidad)}}  
-                className="form-check-input" 
-                type="radio" 
-                name="exampleRadios" 
-                id="km" 
-                value="K-M" 
-              />
-              <label className="form-check-label raleway-light" for="km" >
-                K - M 
-              </label>
-            </div>
-            <div className="form-check">
-              <input 
-                checked={stateRadioTonalidad === "N-R"} 
-                onChange={(e)=>{handleOptionChange(e,filterTone,product,"n-r",setStateRadioTonlidad)}}  
-                className="form-check-input" 
-                type="radio" 
-                name="exampleRadios" 
-                id="nr" 
-                value="N-R" 
-              />
-              <label className="form-check-label raleway-light" for="nr" >
-                N - R 
-              </label>
-            </div>
-            <div className="form-check">
-              <input 
-                checked={stateRadioTonalidad === "S-Z"} 
-                onChange={(e)=>{handleOptionChange(e,filterTone,product,"s-z",setStateRadioTonlidad)}}  
-                className="form-check-input" 
-                type="radio" 
-                name="exampleRadios" 
-                id="sz" 
-                value="S-Z" 
-                />
-              <label className="form-check-label raleway-light" for="sz" >
-                S - Z 
-              </label>
-            </div>
-          </div>
-         */}
           <button 
             onClick={()=>{clearFilter()}} 
             className="btn-block black-margin-btn ">

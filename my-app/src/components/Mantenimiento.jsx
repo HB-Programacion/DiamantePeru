@@ -11,7 +11,7 @@ const Mantenimiento = () => {
         </Helmet>
         <div className="w100 pt-5 pt-5-xs animated fadeIn pb-4 fondo-mantenimiento">
             <span className="p-4 flex flexCenter text-size27"><b>MANTENIMIENTO</b></span>
-            <hr class="my-4 w10 m-auto"/>
+            <hr className="my-4 w10 m-auto"/>
             <div className=" allCenter startItem ">
                 <div className="allcenter" >
                     <div id="div-premios"className="w50 w50-xs inline-flex premios-responsive">
