@@ -4,8 +4,8 @@ import {  useParams } from "react-router-dom";
 import arrJoyas from '../data';
 
 const ItemPlus = () =>{
-    let { tipo } = useParams();
-    const elem = arrJoyas.find((e) => e.Categoría === tipo);
+    let { numero } = useParams();
+    const elem = arrJoyas.find(e => e.CÓDIGO === numero);
     console.log(elem)
 
     return(
