@@ -16,7 +16,7 @@ const Blog = () =>{
                 <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5">
                     <span className="card-title">SORTEO APERTURA CLUB DIAMANTE:</span>
                     <p className="mt-3">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
-                    <Link to="/blog-sorteo-club-diamante" className="leer-mas-blog mt-4">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                    <Link to="/blog-sorteo-club-diamante" className="leer-mas-blog mt-4  text-decoration  ">LEER MÁS<i className="fas fa-chevron-right arrow text-decoration"></i></Link>
                 </div>
                 <div className="container p-4 mt-3 mt4-xs">
                     <div className="row">
@@ -29,7 +29,7 @@ const Blog = () =>{
                                         que sean perfectos para ti.
                                     </p>
                                     <hr className="my-3"/>
-                                    <Link to="/blog-club-diamante" className="">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <Link to="/blog-club-diamante" className="option-menu nav-link">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const Blog = () =>{
                                         correctamente
                                     </p>
                                     <hr className="my-3"/>
-                                    <Link to="/blog-evitar-estafa" className="">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <Link to="/blog-evitar-estafa" className="option-menu nav-link">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const Blog = () =>{
                                     <p className="card-text">¿Sabías la historia de cómo se instituyó la tradición del anillo de
                                         compromiso?, aquí te la contamos</p>
                                     <hr className="my-3"/>
-                                    <Link to="/blog-historia-sortija" className="">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <Link to="/blog-historia-sortija" className="option-menu nav-link">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ const Blog = () =>{
                                         factores:
                                     </p>
                                     <hr className="my-3"/>
-                                    <Link to="/color"className="">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <Link to="/color"className="option-menu nav-link">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
                                 </div>
                             </div>
                         </div>

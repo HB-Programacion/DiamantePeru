@@ -117,7 +117,7 @@ const Joyas = () =>{
         <div className="filterAndSearch col">
           <div className=" input-group-lg">
             <label  className="title-radio w100">
-              Buscar por
+              Buscar por Código
               <input 
                 className="form-control inputOfCode mt-1 " 
                 onInputCapture={(e)=>{setInputValue((e.target.value).toUpperCase())}} 
@@ -242,7 +242,7 @@ const Joyas = () =>{
               <input checked={stateRadioTonalidad === "Blanco y Amarillo Canario"} onChange={(e)=>{handleOptionChange(e,filterTone,arrayFilter,"Blanco y Amarillo Canario",setStateRadioTonlidad)}} 
                className="form-check-input" type="radio" name="toneradio" id= "Blanco y Amarillo Canario" value="Blanco y Amarillo Canario" />
               <label className="form-check-label raleway-light" htmlFor= "Blanco y Amarillo Canario" >
-              Blanco y Amarillo Canario
+               Amarillo Canario
               </label>
             </div>
          
