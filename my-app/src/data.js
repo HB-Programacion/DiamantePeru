@@ -18,6 +18,20 @@ import d426 from "./img/D426.png"
 import d428 from "./img/D428.png"
 import d429 from "./img/D429.png"
 import d430 from "./img/D430.png"
+import a1508 from "./img/anillosCompromiso/1508.png"
+import a1801 from "./img/anillosCompromiso/1801.png"
+import a2009 from "./img/anillosCompromiso/2009.png"
+import a2503 from "./img/anillosCompromiso/2503.png"
+import a3009 from "./img/anillosCompromiso/3009.png"
+import a3010 from "./img/anillosCompromiso/3010.png"
+import a3102 from "./img/anillosCompromiso/3102.png"
+import a3107 from "./img/anillosCompromiso/3107.png"
+import a4002 from "./img/anillosCompromiso/4002.png"
+import a4011 from "./img/anillosCompromiso/4011.png"
+import a4012 from "./img/anillosCompromiso/4012.png"
+import a4013 from "./img/anillosCompromiso/4013.png"
+import a4014 from "./img/anillosCompromiso/4014.png"
+import a4021 from "./img/anillosCompromiso/4021.png"
 
 
 
@@ -361,7 +375,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a3009,
     },
     {
         "CÓDIGO": "4021",
@@ -372,7 +386,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4021,
     },
     {
         "CÓDIGO": "2503",
@@ -383,7 +397,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a2503,
     },
     {
         "CÓDIGO": "2009",
@@ -394,7 +408,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a2009,
     },
     {
         "CÓDIGO": "4011",
@@ -405,7 +419,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4011,
     },
     {
         "CÓDIGO": "4023",
@@ -438,7 +452,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4013,
     },
     {
         "CÓDIGO": "3010",
@@ -449,7 +463,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a3010,
     },
     {
         "CÓDIGO": "1508",
@@ -460,7 +474,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a1508,
     },
     {
         "CÓDIGO": "4022",
@@ -482,7 +496,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4014,
     },
     {
         "CÓDIGO": "4002",
@@ -493,7 +507,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4002,
     },
     {
         "CÓDIGO": "4012",
@@ -504,7 +518,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4012,
     },
     {
         "CÓDIGO": "4024",
@@ -581,7 +595,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a3102,
     },
     {
         "CÓDIGO": "4027",
@@ -614,7 +628,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a3107,
     },
     {
         "CÓDIGO": "5007",
@@ -658,7 +672,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a1801,
     },
     {
         "CÓDIGO": "4031",
