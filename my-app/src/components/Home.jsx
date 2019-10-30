@@ -61,7 +61,7 @@ const Home = () => {
                 <img className="card-img-top" src={img1}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S217</p>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Home = () => {
                 <img className="card-img-top" src={img2}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S223/revisar cod</p>
                 </div>
               </div>
             </div>
@@ -81,7 +81,7 @@ const Home = () => {
                 <img className="card-img-top" src={img3}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S221</p>
                 </div>
               </div>
             </div>
@@ -91,7 +91,7 @@ const Home = () => {
                 <img className="card-img-top" src={img4}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S218</p>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Home = () => {
                 <img className="card-img-top" src={img5}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S215</p>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ const Home = () => {
                 <img className="card-img-top" src={img6}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S223/revisar cod</p>
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ const Home = () => {
                 <img className="card-img-top" src={img7}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S226</p>
                 </div>
               </div>
             </div>
@@ -147,7 +147,7 @@ const Home = () => {
                 <img className="card-img-top" src={img8}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S227</p>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@ const Home = () => {
                 <img className="card-img-top" src={img5}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S215</p>
                 </div>
               </div>
             </div>
@@ -177,7 +177,7 @@ const Home = () => {
                 <img className="card-img-top" src={img1}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S217</p>
                 </div>
               </div>
             </div>
@@ -193,7 +193,7 @@ const Home = () => {
                 <img className="card-img-top" src={img2}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S223/revisar cod</p>
                 </div>
               </div>
             </div>
@@ -203,7 +203,7 @@ const Home = () => {
                 <img className="card-img-top" src={img3}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S221</p>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@ const Home = () => {
                 <img className="card-img-top" src={img5}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S215</p>
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@ const Home = () => {
                 <img className="card-img-top" src={img5}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">COD S215</p>
                 </div>
               </div>
             </div>
@@ -243,7 +243,7 @@ const Home = () => {
                 <img className="card-img-top" src={img6}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">Codigo</p>
+                  <p className="card-title">S223/revisar cod</p>
                 </div>
               </div>
             </div>
