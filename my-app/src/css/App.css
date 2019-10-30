@@ -952,6 +952,14 @@
         border-right: 1px solid;
     }
     
+    .right-2 {
+        right: -2em;
+    }
+    
+    .left-2 {
+        left: -2em;
+    }
+    
     .lt-space-13 {
         letter-spacing: 0.13rem;
     }

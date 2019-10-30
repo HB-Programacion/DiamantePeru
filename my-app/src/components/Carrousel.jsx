@@ -16,7 +16,7 @@ const Carrousel = ({arrofJoyas,title}) => {
   const twoTriplets = arrofJoyas.slice(3, 6);
   const threeTriplets = arrofJoyas.slice(6, 9);
   const fourTriplets = arrofJoyas.slice(9,12);
-  const fiveTriplets = arrofJoyas.slice(12,14);
+  const fiveTriplets = arrofJoyas.slice(11,14);
 
   return (
   <div className="w100 animated fadeIn">
@@ -25,8 +25,8 @@ const Carrousel = ({arrofJoyas,title}) => {
     <div className="container my-4 diamantes-xs">
       <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
         <div className="controls-top center position-relative">
-          <a className="btn-floating left-xs" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
-          <a className="btn-floating right-xs" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>
+          <a className="btn-floating left-xs  position-absolute top50vh left-2" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
+          <a className="btn-floating right-xs  position-absolute top50vh right-2" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>
         </div>
       <div className="carousel-inner" role="listbox">
         <div className="carousel-item active">
