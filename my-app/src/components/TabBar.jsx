@@ -64,8 +64,8 @@ const TabBar= () => {
               <Link to="/" className={"nav-link option-menu"}><b>HOME</b><span className={"sr-only"}>(current)</span></Link>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar" } >
-              <a className={"nav-link dropdown-toggle option-menu"} href="#diamantePeru" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   >
-              <b>DIAMANTE PERÚ</b>
+              <a className={"nav-link  option-menu"} href="#diamantePeru" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   >
+              <b>DIAMANTE PERÚ  <span> &#43;</span></b>
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown"
           >
@@ -76,8 +76,8 @@ const TabBar= () => {
             </div>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar"}>
-              <a  className={"nav-link dropdown-toggle option-menu"}  href="#diamantes" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-              <b>DIAMANTES </b>
+              <a  className={"nav-link  option-menu"}  href="#diamantes" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              <b>DIAMANTES <span> &#43;</span></b>
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
               <Link to="/eleccion" className={"dropdown-item "}>Elección</Link>
@@ -87,8 +87,8 @@ const TabBar= () => {
             </div>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar"}>
-              <a   className={"nav-link dropdown-toggle option-menu"} href="#novios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <b>NOVIOS</b>
+              <a   className={"nav-link  option-menu"} href="#novios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <b>NOVIOS <span> &#43;</span></b>
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
               <Link to="/compromiso" className={"dropdown-item"}>Compromiso</Link>
