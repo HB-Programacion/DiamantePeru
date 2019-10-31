@@ -3,6 +3,7 @@ import Slide from "./Slide";
 import Carrousel from "./Carrousel";
 import Convenio from "./Convenio";
 import Footer from "./Footer";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 // import foto1 from "../img/Clip.png";
 import foto1 from "../img/foto01.png";
@@ -17,7 +18,7 @@ import img6 from "../img/6.png"
 import img7 from "../img/7.png"
 import img8 from "../img/8.png"
 import img9 from "../img/9.png"
-
+import ItemPlus from './ItemPlus';
 const Home = () => {
     return(
       <>
@@ -56,7 +57,11 @@ const Home = () => {
         <div className="carousel-item active">
 
           <div className="row allCenter">
-            <div className="col-md-2">
+          <Link 
+        className="item-container-total text-decoration-none text-reset col-12 col-sm-4 col-md-2 mb-2 option-menu nav-link " 
+        to={ `/producto/Sortija-toda-ocasión/S217`}
+      >
+    
               <div className="mb-2">
                 <img className="card-img-top" src={img1}
                   alt="Card image cap"/>
@@ -64,9 +69,9 @@ const Home = () => {
                   <p className="card-title">COD S217</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S223`}>
               <div className="mb-2">
                 <img className="card-img-top" src={img2}
                   alt="Card image cap"/>
@@ -74,9 +79,9 @@ const Home = () => {
                   <p className="card-title">COD S223/revisar cod</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S221`}>
               <div className="mb-2">
                 <img className="card-img-top" src={img3}
                   alt="Card image cap"/>
@@ -84,9 +89,9 @@ const Home = () => {
                   <p className="card-title">COD S221</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S218`}>
               <div className="mb-2">
                 <img className="card-img-top" src={img4}
                   alt="Card image cap"/>
@@ -94,9 +99,10 @@ const Home = () => {
                   <p className="card-title">COD S218</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-             <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S215`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img5}
                   alt="Card image cap"/>
@@ -104,17 +110,9 @@ const Home = () => {
                   <p className="card-title">COD S215</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            {/* <div className="col-md-2 clearfix d-none d-md-block">
-              <div className="mb-2">
-                <img className="card-img-top" src={img5}
-                  alt="Card image cap"/>
-                <div className="card-body center">
-                  <p className="card-title">Codigo</p>
-                </div>
-              </div>
-            </div> */}
+          
 
           </div>
 
@@ -122,7 +120,9 @@ const Home = () => {
         <div className="carousel-item">
 
           <div className="row allCenter">
-            <div className="col-md-2">
+          <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2"   to={ `/producto/Sortija-toda-ocasión/S223`}>
+
+      
               <div className="mb-2">
                 <img className="card-img-top" src={img6}
                   alt="Card image cap"/>
@@ -130,9 +130,10 @@ const Home = () => {
                   <p className="card-title">COD S223/revisar cod</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S226`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img7}
                   alt="Card image cap"/>
@@ -140,9 +141,10 @@ const Home = () => {
                   <p className="card-title">COD S226</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S227`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img8}
                   alt="Card image cap"/>
@@ -150,9 +152,10 @@ const Home = () => {
                   <p className="card-title">COD S227</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S215`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img5}
                   alt="Card image cap"/>
@@ -160,19 +163,11 @@ const Home = () => {
                   <p className="card-title">COD S215</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            {/* <div className="col-md-2 clearfix d-none d-md-block">
-              <div className="mb-2">
-                <img className="card-img-top" src={img9}
-                  alt="Card image cap"/>
-                <div className="card-body center">
-                  <p className="card-title">Codigo</p>
-                </div>
-              </div>
-            </div> */}
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S217`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img1}
                   alt="Card image cap"/>
@@ -180,7 +175,8 @@ const Home = () => {
                   <p className="card-title">COD S217</p>
                 </div>
               </div>
-            </div>
+            </Link>
+         
           </div>
 
         </div>
@@ -188,7 +184,8 @@ const Home = () => {
         <div className="carousel-item">
 
           <div className="row allCenter">
-            <div className="col-md-2">
+          <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2"   to={ `/producto/Sortija-toda-ocasión/S223`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img2}
                   alt="Card image cap"/>
@@ -196,9 +193,10 @@ const Home = () => {
                   <p className="card-title">COD S223/revisar cod</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S221`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img3}
                   alt="Card image cap"/>
@@ -206,19 +204,12 @@ const Home = () => {
                   <p className="card-title">COD S221</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            {/* <div className="col-md-2 clearfix d-none d-md-block">
-              <div className="mb-2">
-                <img className="card-img-top" src={img4}
-                  alt="Card image cap"/>
-                <div className="card-body center">
-                  <p className="card-title">Codigo</p>
-                </div>
-              </div>
-            </div> */}
+      
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S215`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img5}
                   alt="Card image cap"/>
@@ -226,9 +217,10 @@ const Home = () => {
                   <p className="card-title">COD S215</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S215`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img5}
                   alt="Card image cap"/>
@@ -236,9 +228,10 @@ const Home = () => {
                   <p className="card-title">COD S215</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="col-md-2 clearfix d-none d-md-block">
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S223`}>
+
               <div className="mb-2">
                 <img className="card-img-top" src={img6}
                   alt="Card image cap"/>
@@ -246,7 +239,7 @@ const Home = () => {
                   <p className="card-title">S223/revisar cod</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
           </div>
         </div>

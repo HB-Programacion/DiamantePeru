@@ -1039,6 +1039,10 @@ section.input-container label {
     border-right: 1px solid;
 }
 
+.pr-0 {
+    padding-right: 0;
+}
+
 @media screen and (max-width:768px) {
     .w30-xs {
         width: 50%;

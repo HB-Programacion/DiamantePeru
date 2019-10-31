@@ -26,7 +26,7 @@ return (
                             <p className=" raleway-regular font-size-1">En DIAMANTE PERÚ trabajamos con las mejores calidades,elegidas rigurosamente por profesionales de la ciencia</p>
                         </div>
                     </div>
-                    <div className="container-text raleway-regular font-size-1em p-2">
+                    <div className="container-text raleway-regular font-size-1em m-5 p-2">
                         <p>
                             El valor del diamante está determinado por 4 factores, no interesando el orden de éstos; que
                             son: Corte, Color, Claridad, Carat (unidad de peso). A continuación te explicamos sobre estos
@@ -56,25 +56,25 @@ return (
             <div className="container-another-articles vw40 mt-4 mt-4-xs mr-4 mb-4 p-2">
                 <div className="rel-art m-3 mb-4  ">
                     <h3 className="font-size-2em raleway-semibold-italic">ARTÍCULOS RELACIONADOS</h3>
-                    <Link to="/carats" className="each-article-container flex mr-5">
+                    <Link to="/carats" className="each-article-container option-menu flex mr-5">
                         <img src={foto1} alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CARAT (UNIDAD DE PESO)</p>
                         </div>
                     </Link>
-                    <Link to="/corte" className="each-article-container  flex mr-5">
+                    <Link to="/corte" className="each-article-container option-menu flex mr-5">
                         <img src={corte} alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CORTE (TALLADO)</p>
                         </div>
                     </Link>
-                    <Link to="/claridad" className="each-article-container  flex mr-5">
+                    <Link to="/claridad" className="each-article-container option-menu flex mr-5">
                         <img src={claridad} alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CLARIDAD</p>
                         </div>
                     </Link>
-                    <Link to="/certificacion-y-confianza" className="each-article-container  flex mr-5">
+                    <Link to="/certificacion-y-confianza" className="each-article-container option-menu flex mr-5">
                         <img src="/static/media/Clip.9b01f968.png" alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CERTIFICACIÓN Y CONFIANZA</p>
@@ -82,7 +82,7 @@ return (
                     </Link>
                 </div>
                 {/* <div className="popular-art m-3">
-                    <h2 className="font-size-2em raleway-semibold-italic">POPULARES</h2>
+                    <h2 className="font-size-2em raleway-semibold-italic">DESTACADOS</h2>
                     <ul className="pl-3 pr-5 p-0-xs">
                         <li className="pt-2 pr-5">
                             <a className="pr-5 " href="/">El Perú : Nuevo mercado para los Diamantes </a>
