@@ -4,7 +4,7 @@ import facebook from './../img/Facebook.svg';
 import instagram from '../img/Instagram.svg'
 import Footer from "./Footer"
 
-import blog5 from "../img/blog5.png";
+import blog5 from "../img/certificacionYConfianza.png";
 import foto1 from "../img/carats-fondo.png";
 import logoGia from "../img/GIA_logo.png"
 import claridad from "../img/claridad.png"

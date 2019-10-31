@@ -5,7 +5,7 @@ import instagram from '../img/Instagram.svg'
 import Footer from "./Footer"
 
 import foto1 from "../img/carats-fondo.png";
-import blog5 from "../img/blog5.png"
+import blog5 from "../img/certificacionYConfianza.png"
 import color from "../img/color.png"
 import claridad from "../img/claridad.png";
 import corte from "../img/corte.png"
@@ -67,7 +67,7 @@ return (
                         </div>
                     </Link>
                     <Link to="/certificacion-y-confianza" className="each-article-container  option-menu flex mr-5">
-                        <img src="/static/media/Clip.9b01f968.png" alt="" className="img-art-rel"/>
+                        <img src={blog5} alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CERTIFICACIÓN Y CONFIANZA</p>
                         </div>

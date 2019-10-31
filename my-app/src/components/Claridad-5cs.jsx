@@ -8,6 +8,7 @@ import foto1 from "../img/carats-fondo.png";
 import claridad from "../img/claridad.png";
 import color from "../img/color.png";
 import corte from "../img/corte.png"
+import certificacion from "../img/certificacionYConfianza.png"
 
 
 const Clarity= () => { 
@@ -104,7 +105,7 @@ return (
                         </div>
                     </Link>
                     <Link to="/certificacion-y-confianza"className="each-article-container  option-menu  flex mr-5">
-                        <img src="/static/media/Clip.9b01f968.png" alt="" className="img-art-rel"/>
+                        <img src={certificacion} alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CERTIFICACIÓN Y CONFIANZA</p>
                         </div>
