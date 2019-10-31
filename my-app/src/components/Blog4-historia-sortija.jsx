@@ -26,7 +26,7 @@ const Blog4= () => {
                             <p className=" raleway-regular font-size-1">¿Sabías la historia de cómo se instituyó la tradición del anillo de compromiso?, aquí te la contamos</p>
                         </div>
                     </div>
-                    <div className="container-text raleway-regular font-size-1em p-2">
+                    <div className="container-text raleway-regular font-size-1em p-2 m-5">
                         <p>
                             Fue en Inglaterra donde comenzó la tradición de la sortija de compromiso.
                         </p>
@@ -51,25 +51,25 @@ const Blog4= () => {
             <div className="container-another-articles vw40 mt-4 mt-4-xs mr-4 mb-4 p-2">
                 <div className="rel-art m-3 mb-4  ">
                     <h3 className="font-size-2em raleway-semibold-italic">ARTÍCULOS RELACIONADOS</h3>
-                    <Link to="/blog-club-diamante" className="each-article-container flex mr-5">
+                    <Link to="/blog-club-diamante" className="each-article-container flex mr-5  option-menu">
                         <img src={blog2} alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CLUB DIAMANTE</p>
                         </div>
                     </Link>
-                    <Link to="/blog-evitar-estafa"className="each-article-container  flex mr-5">
+                    <Link to="/blog-evitar-estafa"className="each-article-container  flex mr-5  option-menu">
                         <img src={blog3} alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">¿CÓMO EVITAR QUE LO ESTAFEN EN LA COMPRA DE UN DIAMANTE?</p>
                         </div>
                     </Link>
-                    <Link to="blog-historia-sortija"className="each-article-container  flex mr-5">
+                    <Link to="blog-historia-sortija"className="each-article-container  flex mr-5  option-menu">
                         <img src={blog1}  alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">SORTEO APERTURA CLUB DIAMANTE</p>
                         </div>
                     </Link>
-                    <Link to="/carats"className="each-article-container  flex mr-5">
+                    <Link to="/carats"className="each-article-container  flex mr-5  option-menu">
                         <img src={blog5}  alt="" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">LAS 5CS DIAMANTE PERÚ</p>
@@ -77,22 +77,22 @@ const Blog4= () => {
                     </Link>
                 </div>
                 <div className="popular-art m-3">
-                    <h2 className="font-size-2em raleway-semibold-italic">POPULARES</h2>
+                    <h2 className="font-size-2em raleway-semibold-italic">DESTACADOS</h2>
                     <ul className="pl-3 pr-5 p-0-xs">
                         <li className="pt-2 pr-5">
-                            <Link to="/color"className="pr-5 " href="/">COLOR</Link>
+                            <Link to="/color"className="pr-5  option-menu" href="/">COLOR</Link>
                         </li>
                         <li className="pt-2 pr-5">
-                            <Link to="/claridad"className="pr-5 "href="/">CLARIDAD</Link>
+                            <Link to="/claridad" className="pr-5  option-menu "href="/">CLARIDAD</Link>
                         </li>
                         <li className="pt-2 pr-5"> 
-                            <Link to="/certificacion-y-confianza">CERTIFICACIÓN Y CONFIANZA</Link> 
+                            <Link className="pr-5  option-menu " to="/certificacion-y-confianza">CERTIFICACIÓN Y CONFIANZA</Link> 
                         </li>
                         <li className="pt-2 pr-5"> 
-                            <Link to="/corte"className="pr-5 " href="/">CORTE</Link> 
+                            <Link to="/corte"className="  option-menu " href="/">CORTE</Link> 
                         </li>
                         <li className="pt-2 pr-5"> 
-                            <Link to="/carats"className="pr-5 " href="/">CARATS</Link> 
+                            <Link to="/carats"className="pr-5  option-menu" href="/">CARATS</Link> 
                         </li>
                     </ul>
                 </div>
