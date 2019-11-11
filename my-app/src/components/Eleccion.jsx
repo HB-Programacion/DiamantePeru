@@ -9,7 +9,7 @@ import eleccion6 from "../img/06-eleccion.svg";
 
 const Eleccion = () => {
     return (
-        <div className="h100 pt-5 pt-5-xs animated fadeIn vhEleccion geosansLight">
+        <div className="h100 pb-pt-4rem pt-5-xs animated fadeIn vhEleccion geosansLight">
         <span className="p-3 flex flexCenter text-size27 "><b>ELECCIÓN</b></span>
             <div className="w80 mL-R10 font-size-1">
                 <div className="pb-3t interline1 p-eleccion">

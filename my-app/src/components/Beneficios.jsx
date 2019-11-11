@@ -4,7 +4,7 @@ import imgconvenio from "../img/logo-carmenSeminara.png";
 
 const Beneficios = () => {
     return(
-        <div className="w100 pt-5 pt-5-xs animated fadeIn gray fondo-icon">
+        <div className="w100 pb-pt-4rem pt-5-xs animated fadeIn pb-9 gray fondo-icon">
           <div className="flex around position-relative">
               <a className="btn-floating position-absolute top50vh left3" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
               <a className="btn-floating position-absolute top50vh right3" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>

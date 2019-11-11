@@ -20,12 +20,12 @@ const Footer = () => {
                     <div className="form-xs">
                         <input id="inputMail" className="w25 p-1 text-size14 border-gray-3" name="inputOne" type="email" placeholder="Correo Electrónico"/>
                         <input className="black  text-size14 color-white btn-flat border-none raleway-medium-italic" type="submit" value="SUSCRÍBETE"/>
-                        <p className="interline1 pad-txt-19 text-size12 mt-1 mb-1 center justify ">Al suscribirse a nuestro boletín, acepta que le enviemos correos electrónicos de marketing 
+                        <p className="interline1 pad-txt-19 font-size-1rem mt-1 mb-1 center justify ">Al suscribirse a nuestro boletín, acepta que le enviemos correos electrónicos de marketing 
                             según nuestra Política de privacidad.</p>
                     </div>
                 </form>
             </footer>
-            <div className="mt-2 mb-2 center text-size12">
+            <div className="mt-2 mb-2 center font-size-1rem">
             &copy; 2019 DIAMANTE PERU
             </div>
         </div>

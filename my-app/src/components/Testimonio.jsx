@@ -8,7 +8,7 @@ const Testimonio = () => {
     <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
     <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Testimonios,novios" />
   </Helmet>
-        <div className="w100 pt-5 animated fadeIn fondo-testimonios ">
+        <div className="w100 pb-pt-4rem pb-9 pt-5 animated fadeIn fondo-testimonios ">
             <div className="flex around position-relative">
               <a className="btn-floating position-absolute left3" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
               <a className="btn-floating position-absolute  right3" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>

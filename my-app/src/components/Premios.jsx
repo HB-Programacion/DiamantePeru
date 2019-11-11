@@ -3,7 +3,7 @@ import React from "react";
 const Premios = () => {
     return(
         <>
-        <div className="gray w100 pt-5 pt-5-xs animated fadeIn">
+        <div className="gray w100 pb-pt-4rem pb-9 pt-5-xs animated fadeIn">
             <span className="p-4 flex flexCenter text-size27"><b>PREMIOS</b></span>
             <div className=" allCenter flexWrap-xs ">
                 <div className="allcenter ml-3 mr-3" >
