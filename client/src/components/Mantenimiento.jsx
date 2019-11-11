@@ -16,8 +16,7 @@ const Mantenimiento = () => {
                 <div className="allcenter" >
                     <div id="div-premios"className="w50 w50-xs inline-flex premios-responsive">
                     <p className=" m-3 mb-5 interline1 p-eleccion">
-                        Recuerda que cada cierto período de tiempo un diamante siempre necesita un poco de mantenimiento. 
-                        Aquí tienes algunos consejos.
+                    Conoce todo lo necesario  para cuidar y mantener siempre brillante tu diamante.
                     </p>
                     </div>
                 </div>

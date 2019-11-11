@@ -21,6 +21,7 @@
         "cors": "^2.8.5",
         "express": "^4.17.1",
         "google-spreadsheet": "^2.0.8",
+        "helmet": "^3.21.2",
         "react": "^16.11.0"
     }
 }
