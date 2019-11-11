@@ -1218,10 +1218,12 @@ section.input-container label {
         width: 100%;
     }
     .right3 {
-        right: .3em;
+        right: 1rem;
+        top: 10rem;
     }
     .left3 {
-        left: .3em;
+        left: 1rem;
+        top: 10rem;
     }
     .joya {
         width: 60%;
