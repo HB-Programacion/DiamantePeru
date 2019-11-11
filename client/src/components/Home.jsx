@@ -30,13 +30,13 @@ const Home = () => {
             <div id="carouselExampleSlidesOnly" className="carousel slide noPortada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={foto1} className="d-block vw100 vh50" alt="chica"/>
+                        <img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={foto1} className="d-block vw100 vh50" alt="..."/>
+                        <img src={foto1} className="d-block w-100 h-50-rem" alt="..."/>
                     </div>
                     <div className="carousel-item">
-                        <img src={foto1} className="d-block vw100 vh50" alt="..."/>
+                        <img src={foto1} className="d-block w-100 h-50-rem" alt="..."/>
                     </div>
                 </div>
             </div>
