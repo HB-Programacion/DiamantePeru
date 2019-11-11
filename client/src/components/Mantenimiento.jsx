@@ -9,7 +9,7 @@ const Mantenimiento = () => {
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
             <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
         </Helmet>
-        <div className="w100 pt-5 pt-5-xs animated fadeIn pb-4 fondo-mantenimiento">
+        <div className="w100 pb-pt-4rem pb-9 pt-5-xs animated fadeIn pb-4 fondo-mantenimiento">
             <span className="p-4 flex flexCenter text-size27"><b>MANTENIMIENTO</b></span>
             <hr className="my-4 w10 m-auto"/>
             <div className=" allCenter startItem ">

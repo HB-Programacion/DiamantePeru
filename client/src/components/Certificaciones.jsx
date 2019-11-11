@@ -6,7 +6,7 @@ import diamante from '../img/fondo-certificaciones-diamante.png'
 
 const Certificaciones = () => {
     return (
-        <div className="w100 fndo-certificaciones animated fadeIn">
+        <div className="w100 pb-pt-4rem fndo-certificaciones animated fadeIn">
             <div className="flex p-4 responsive-certificacion">
                 <div className="w50 flex flex-column alignSelCenter wResponsive100">
                     <img src={gia} className="w50 ml-15 pb-3 gia-logo-xs"/>

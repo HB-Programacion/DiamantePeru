@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-
-
+var cors = require('cors')
+app.use(cors());
 app.use(bodyParser.json()); // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json()); // to support JSON-encoded bodies
@@ -22,7 +22,6 @@ async function accessSpreadsheet(mailInput) {
         offset: 1
     });
     const row = {
-        nro: '7',
         fecha: new Date(),
         correo: mailInput,
     }
@@ -36,6 +35,7 @@ async function accessSpreadsheet(mailInput) {
 
 
 app.post("/api/customers", async(req, res) => {
+    console.log(req.body);
     res.json(accessSpreadsheet(JSON.stringify(req.body.EmailUser))
         .then(user => {
             res.json(user);

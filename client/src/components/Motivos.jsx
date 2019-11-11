@@ -7,8 +7,8 @@ import verificacion from "../img/verificacion.svg";
 
 const Motivos = () =>{
     return (
-        <div className=" w100 pt-5 pt-5-xs animated fadeIn">
-            <span className="pt-2 pb-2 flex flexCenter text-size27"><b>MOTIVOS PARA ELEGIR DIAMANTE PERÚ</b></span>
+        <div className="gray h100 pb-pt-4rem pb-9 pt-5-xs animated fadeIn geosansLight">
+            <span className="p-3 pb-3 flex flexCenter text-size27"><b>MOTIVOS PARA ELEGIR DIAMANTE PERÚ</b></span>
             <div className="flexWrap pad-lr-8 pb-5 pt-3">
                     <div className="item b-all">
                         <div className="flex w100 flex-Wrap-Responsive">
