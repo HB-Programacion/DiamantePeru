@@ -460,7 +460,14 @@ header {
     background-size: 22rem;
     background-position-y: bottom
 }
-
+.foto-testimonio{
+    background-color: pink;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
 .interline {
     font-size: 1.2em;
     line-height: 1em;
@@ -924,12 +931,14 @@ header {
 }
 
 .right3 {
-    right: 3em;
+    right: 10rem;
+    top: 20rem;
     z-index: 1;
 }
 
 .left3 {
-    left: 3em;
+    left: 10rem;
+    top: 20rem;
     z-index: 1;
 }
 
@@ -1507,7 +1516,7 @@ input[type="radio"]:checked+label::before {
         padding-right: 2em;
     }
     .fondo-testimonios {
-        height: 25rem;
+        height: 40rem;
         background-position-x: center;
     }
     .fondo-mantenimiento {
@@ -1585,9 +1594,7 @@ input[type="radio"]:checked+label::before {
     .div-5cs {
         width: 100%;
     }
-    .p-eleccion {
-        font-size: 95%
-    }
+    
     p {
         font-size: 100%;
         text-align: justify

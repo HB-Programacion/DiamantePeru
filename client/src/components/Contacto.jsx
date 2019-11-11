@@ -2,7 +2,7 @@
 
 const Contacto = () => {
     return (
-    <div className="diamante">
+    <div className="diamante pb-9">
         <div className="white-background-text">
         <form action="enviar.php" className="real-white" method="post">
                 <h1 className="raleway-semibold font-size-2em" >CONTACTO</h1>
