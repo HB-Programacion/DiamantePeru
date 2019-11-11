@@ -460,7 +460,8 @@ header {
     background-size: 22rem;
     background-position-y: bottom
 }
-.foto-testimonio{
+
+.foto-testimonio {
     background-color: pink;
     width: 8rem;
     height: 8rem;
@@ -468,6 +469,7 @@ header {
     margin: 0 auto;
     margin-bottom: 2rem;
 }
+
 .interline {
     font-size: 1.2em;
     line-height: 1em;
@@ -1594,7 +1596,6 @@ input[type="radio"]:checked+label::before {
     .div-5cs {
         width: 100%;
     }
-    
     p {
         font-size: 100%;
         text-align: justify

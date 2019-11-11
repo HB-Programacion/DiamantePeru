@@ -26,7 +26,7 @@ const Contacto = () => {
                 <p className="text-contact"><i className="fas fa-phone-alt  p-right-05"></i>01 242-8536</p>
             </div>
             <div className="center raleway-medium font-size-1em line-heigth-1">
-                <p className="text-contact.horariosAtencio center ">Horarios de Atención: Lun – Vier: 10 am – 7 pm / Sáb: 10 am – 6 pm</p>
+                <p className="text-contact horariosAtencion center ">Horarios de Atención: Lun – Vier: 10 am – 7 pm / Sáb: 10 am – 6 pm</p>
                 <p className="text-contact cierreRefrigerio center">(Cierre por refrigerio de 2pm – 3pm).</p>
             </div>
         </div>  
