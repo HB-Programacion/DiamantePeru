@@ -1,6 +1,7 @@
 .body,
 html {
     height: 100%;
+    font-size: .98vw;
 }
 
 * {
@@ -327,7 +328,9 @@ header {
 .h90 {
     height: 90%;
 }
-
+.h-50-rem{
+    height: 32rem;
+}
 .h100 {
     height: 100%;
 }
@@ -479,7 +482,9 @@ header {
     font-size: 10px;
     margin: 1em;
 }
-
+.font-size-1rem{
+    font-size: 1rem;
+}
 .text-size10 {
     font-size: 10px
 }
@@ -633,7 +638,6 @@ header {
     padding-left: 7em;
     width: 12em;
 }
-
 
 /* MOTIVOS */
 
@@ -1044,6 +1048,7 @@ section.input-container label {
 }
 
 @media screen and (max-width:768px) {
+   
     .w30-xs {
         width: 50%;
         font-size: 70%;
@@ -1395,6 +1400,9 @@ input[type="radio"]:checked+label::before {
 }
 
 @media screen and (max-width:767px) {
+    html{
+        font-size: 4vw;
+    }
     .flexWrap-eleccion-xs {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;

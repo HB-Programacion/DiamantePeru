@@ -7,7 +7,7 @@ const Convenio = () => {
         <>
         <div className="fndo-img1 mb-0">
             <div className="w100 pad-5-xs pad-2">
-                <div className="w45 w100-xs center text-centered"> <label className="spacing4 text-1-5 bolder-xs ">BENEFICIOS</label>
+                <div className="w45 w100-xs center text-centered"> <label className="spacing4 text-1-5 bolder-xs "><b>BENEFICIOS</b></label>
                     <p className="text-centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
                     <Link to="/beneficios" className="text-centered option-menu raleway-medium-italic nav-link" >LEER MÁS <span className="arrow-see-more">></span></Link>
                 </div>
