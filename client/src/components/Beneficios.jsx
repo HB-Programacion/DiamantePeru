@@ -12,17 +12,17 @@ const Beneficios = () => {
           <span className="p-4 flex flexCenter text-size27"><b>BENEFICIOS</b></span>
             <div className="container my-4">
               <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
-                <ol className="carousel-indicators">
+                <ol className="carousel-indicators cind-ben">
                   <li data-target="#multi-item-example" data-slide-to="0" className="active"></li>
                   <li data-target="#multi-item-example" data-slide-to="1"></li>
                 </ol>
                 <div className="carousel-inner" role="listbox">
                   <div className="carousel-item active">
                     <div className="row">
-                      <div className="col-md-12">
+                      <div className="col-md-12 cont-ben">
                         <div className="mb-2 flexWrap">
                           <figure className="w50 allCenter">
-                            <img className=" w70 rounded-circle" src={imgconvenio} alt="Card image cap"/>
+                            <img className=" w70 rounded-circle ben-round" src={imgconvenio} alt="Card image cap"/>
                           </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 className="card-title">CARMEN SEMINARIO ATELIER</h4>
@@ -48,10 +48,10 @@ const Beneficios = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row">
-                      <div className="col-md-12">
+                      <div className="col-md-12  cont-ben">
                         <div className="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle" src={imgconvenio} alt="Card image cap"/>
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio} alt="Card image cap"/>
                           </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 className="card-title">CARMEN SEMINARIO ATELIER</h4>

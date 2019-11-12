@@ -53,13 +53,13 @@ import s223_ from "./img/anillosTodaOcasion/S223_.png"
 import s223 from "./img/anillosTodaOcasion/S223.png"
 import s226 from "./img/anillosTodaOcasion/S226.png"
 import s227 from "./img/anillosTodaOcasion/S227.png"
-
+import d427 from "./img/D427.png"
 
 
 
 
 export default [{
-        "CÓDIGO": "A317",
+        "CÓDIGO": "A318",
         "DESCRIPCIÓN": "Aretes modelo rosetta confeccionados en oro blanco de 18k con un diamante central y cinco pétalos de diamantes, todos de corte excelente.                                                                                                                                   (Todas las joyas se pueden personalizar a tu gusto)",
         "Categoría": "Arete",
         "Sección": "Joyas",
@@ -200,7 +200,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": d427,
     },
     {
         "CÓDIGO": "D428",
