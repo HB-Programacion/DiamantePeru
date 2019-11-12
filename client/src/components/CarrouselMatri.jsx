@@ -14,7 +14,7 @@ const CarrouselMatri = ({arrofJoyas,title}) => {
   return (
   <div className="w100 pt-5 pt-5-xs animated fadeIn">
     <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">{title}</b></span>
-    <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
+    <p className="center">...Un lazo para toda la vida</p>
     <div className="container my-4 diamantes-xs">
       <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
         <div className="controls-top center position-relative">

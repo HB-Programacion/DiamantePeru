@@ -1,7 +1,7 @@
 {
-    "name": "reactexpress",
+    "name": "Diamante-peru",
     "version": "1.0.0",
-    "description": "Starter kit for creating React and Express apps",
+    "description": "Express app with a google drive api",
     "main": "server.js",
     "scripts": {
         "build": "react-scripts build",
