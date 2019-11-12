@@ -75,7 +75,7 @@ onChange={(e)=>{handleChange(e,setMessage)}}
          
           <>
             <form className="real-white afterContact">
-              <h1 className="raleway-semibold font-size-2em">¡Gracias por escribirnos !</h1>
+              <h1 className="raleway-semibold font-size-2em">¡ GRACIAS POR ESCRIBIRNOS !</h1>
               <p className="raleway-regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa molestiae sapiente veritatis molestias temporibus, vel, accusamus eaque aut soluta consequuntur tempora pariatur dignissimos, dolorum eveniet debitis reprehenderit enim nesciunt quae!</p>
          <div className="container-text-inputs"></div>
             </form>

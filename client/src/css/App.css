@@ -1089,7 +1089,32 @@ section.input-container label {
     height: 28rem;
 }
 
+.arrowGoback {
+    font-size: 3rem;
+    color: #727477;
+    position: absolute;
+}
+
+.cont-ben {
+    max-width: 92% !important;
+}
+
+.ben-round {
+    width: 62%;
+}
+
+.cind-ben {
+    bottom: -26px;
+}
+
+.matriArrow {
+    top: 12rem;
+}
+
 @media screen and (max-width:768px) {
+    .itempluss {
+        height: auto !important;
+    }
     .horariosAtencion {
         padding-left: 3.5rem;
         padding-right: 3.5rem;
