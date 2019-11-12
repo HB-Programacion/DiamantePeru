@@ -1081,6 +1081,14 @@ section.input-container label {
     margin-bottom: 0px !important;
 }
 
+.afterContact {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 28rem;
+}
+
 @media screen and (max-width:768px) {
     .horariosAtencion {
         padding-left: 3.5rem;

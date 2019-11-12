@@ -1,7 +1,7 @@
 {
-    "name": "reactexpress",
+    "name": "Diamante-peru",
     "version": "1.0.0",
-    "description": "Starter kit for creating React and Express apps",
+    "description": "Express app with a google drive api",
     "main": "server.js",
     "scripts": {
         "client-install": "cd client && npm install",
@@ -21,7 +21,6 @@
         "cors": "^2.8.5",
         "express": "^4.17.1",
         "google-spreadsheet": "^2.0.8",
-        "helmet": "^3.21.2",
         "react": "^16.11.0"
     }
 }
