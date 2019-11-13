@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { BrowserRouter as   Router, Route, Link  } from "react-router-dom";
-import image from '../img/1.png';
 
 const ItemOfCarrousel = ({nro,tipo,imagen}) =>{
     return(

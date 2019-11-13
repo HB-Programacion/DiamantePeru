@@ -16,8 +16,6 @@ import Matrimonio from './Matrimonio'
 import Testimonio from './Testimonio'
 import Joyas from './Joyas'
 import ItemPlus from './ItemPlus';
-import menu from "../img/menu.svg";
-import buscar from '../img/LupaBuscar.svg'
 import ubicacion from '../img/Ubication.svg';
 import Contacto from './Contacto';
 import Corte from "./Corte-5cs";
@@ -32,11 +30,11 @@ import Blog3 from './Blog3-evitar-estafa'
 import Blog4 from './Blog4-historia-sortija'
 import Blog5 from './Blog5-5cs'
 import BlogMantenimiento from './BlogMantenimiento'
-
 const TabBar= () => { 
     
   return (
  <Router>
+     
     <header className="font-size-1rem">
       <nav className={"navbar navbar-expand-lg p-0 navbar-light d-block style-z-index"}>
       <div className={"d-flex flex-grow-1 bd-bottom"}>

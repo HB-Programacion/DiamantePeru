@@ -1018,8 +1018,8 @@ header {
 
 .cuadro {
     position: absolute;
-    left: 3rem;
-    top: 18rem;
+    left: 3%;
+    top: 20rem;
     z-index: 1;
     background-color: #2C2C2C;
     color: #fff;

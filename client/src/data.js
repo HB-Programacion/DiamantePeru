@@ -1,4 +1,3 @@
-import img from './img/1.png';
 import a308 from "./img/A308.png"
 import a312 from "./img/A312.png"
 import a312p from "./img/A312_.png"
