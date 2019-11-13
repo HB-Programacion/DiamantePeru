@@ -7,7 +7,7 @@ const Varios= ({arrofJoyas})=>{
 
   let contenido;
   if (arrofJoyas.length !==  0 ) {
-    contenido =    <div className="row" >
+    contenido =    <div className="row flexCenter" >
     {arrofJoyas.map(prod => (
    <Item
         // key={prod.id}

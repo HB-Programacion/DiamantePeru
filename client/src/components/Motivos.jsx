@@ -1,8 +1,8 @@
 import React from "react";
-import certificacion from "../img/certificacion.svg";
-import grabado from "../img/grabado.svg";
-import asesoria from "../img/asesoria.svg";
-import verificacion from "../img/verificacion.svg";
+import certificacion from "../img/DIAMANTE_01.png";
+import grabado from "../img/DIAMANTE_02.png";
+import asesoria from "../img/DIAMANTE_03.png";
+import verificacion from "../img/DIAMANTE_04.png";
 
 
 const Motivos = () =>{
@@ -23,7 +23,7 @@ const Motivos = () =>{
                         </div>
                     </div>
                     <div className="item b-all">
-                        <div className="flex w100 flex-Wrap-Responsive">
+                        <div className="flex h100 w100 flex-Wrap-Responsive">
                             <img src={asesoria} className="w30 fndo-motivos-res"/>
                             <p className="p-motivos interline1 allCenter geosansLight">Verificación con microscopio del número de certificado grabado que tiene  el Diamante.</p>
                         </div>
