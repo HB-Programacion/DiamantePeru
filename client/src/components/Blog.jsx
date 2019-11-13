@@ -13,14 +13,14 @@ const Blog = () =>{
         <div className = "w100 animated fadeIn gray fondo-icon">
             <div className="">
                 <img className="w80 img-blog-principal" src={blog1} alt=""/>
-                <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5">
+                <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5 mt-5">
                     <span className="card-title">SORTEO APERTURA CLUB DIAMANTE:</span>
                     <p className="mt-3">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
                     <Link to="/blog-sorteo-club-diamante" className="leer-mas-blog mt-4  text-decoration  ">LEER MÁS<i className="fas fa-chevron-right arrow text-decoration"></i></Link>
                 </div>
                 <div className="container p-4 mt-3 mt4-xs">
                     <div className="row">
-                        <div className="col-sm-6 col-md-6 mb-5">
+                        <Link to="/blog-club-diamante" className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card" style={{width: "18 rem"}}>
                                 <img src={blog2} className="w100" alt="..."/>
                                 <div className="card-body p-3">
@@ -29,11 +29,11 @@ const Blog = () =>{
                                         que sean perfectos para ti.
                                     </p>
                                     <hr className="my-3"/>
-                                    <Link to="/blog-club-diamante" className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <div  className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i> </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 mb-5">
+                       </Link>
+                        <Link to="/blog-evitar-estafa"  className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card" style={{width: "18 rem"}}>
                                 <img src={blog3} className="w100" alt="..."/>
                                 <div className="card-body p-3">
@@ -42,11 +42,11 @@ const Blog = () =>{
                                         correctamente
                                     </p>
                                     <hr className="my-3"/>
-                                    <Link to="/blog-evitar-estafa" className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <div className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 mb-5">
+                        </Link>
+                        <Link to="/blog-historia-sortija"    className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card" style={{width: "18 rem"}}>
                                 <img src={blog4} className="w100" alt="..."/>
                                 <div className="card-body p-3">
@@ -54,11 +54,11 @@ const Blog = () =>{
                                     <p className="card-text">¿Sabías la historia de cómo se instituyó la tradición del anillo de
                                         compromiso?, aquí te la contamos</p>
                                     <hr className="my-3"/>
-                                    <Link to="/blog-historia-sortija" className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <div     className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 mb-5">
+                        </div></Link>
+                        <Link to="/blog-5cs"   className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card" style={{width: "18 rem"}}>
                                 <img src={blog5} className="w100" alt="..."/>
                                 <div className="card-body p-3">
@@ -67,10 +67,10 @@ const Blog = () =>{
                                         factores:
                                     </p>
                                     <hr className="my-3"/>
-                                    <Link to="/blog-5cs"className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                  <div className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i>
                                 </div>
                             </div>
-                        </div>
+                        </div></Link>
                     </div>
                 </div>
             </div>

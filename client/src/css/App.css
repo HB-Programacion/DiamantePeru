@@ -840,9 +840,11 @@ header {
     background-color: #0f0f0f;
     height: 7%;
 }
-.joya span{
+
+.joya span {
     font-size: 1rem;
 }
+
 .btn {
     background-color: black;
     color: white;
@@ -1130,12 +1132,22 @@ section.input-container label {
     width: 40%;
     padding: 1rem;
 }
-.mb-5rem{
+
+.mb-5rem {
     margin-bottom: 8rem
 }
 
+.goBackBlog {
+    margin-top: -6rem;
+    left: 4rem;
+}
+
+.grayEvite {
+    background-color: #E6E6E6;
+}
+
 @media screen and (max-width:768px) {
-    .fondo-icon{
+    .fondo-icon {
         background-size: 15rem;
     }
     .itempluss {
@@ -1507,8 +1519,15 @@ input[type="radio"]:checked+label::before {
     box-shadow: inset 0 0 0 1px white, 0 0 0 1px rgb(83, 82, 82);
 }
 
+.text-dec-black,
+.text-dec-black :hover,
+.text-dec-black :active {
+    color: #272727 !important;
+    text-decoration: none !important;
+}
+
 @media screen and (max-width:767px) {
-    .fondo-icon{
+    .fondo-icon {
         background-size: 9rem;
     }
     .article-content {
