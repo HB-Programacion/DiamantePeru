@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React ,{useState} from "react";
 import { Helmet } from "react-helmet";
 import Varios from './VariosItems';
 import arrJoyas from '../data';
@@ -109,7 +109,7 @@ const Joyas = () =>{
     // }
   return (
     <>
-    <div className="container w100">
+    <div className=" w80 mL-R-10">
     <Helmet>
         <title>Joyas - Diamante Perú</title>
         <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />

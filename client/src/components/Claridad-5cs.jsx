@@ -1,19 +1,21 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import facebook from './../img/Facebook.svg';
-import instagram from '../img/Instagram.svg'
-import Footer from "./Footer"
 
 import foto1 from "../img/carats-fondo.png";
 import claridad from "../img/claridad.png";
 import color from "../img/color.png";
 import corte from "../img/corte.png"
 import certificacion from "../img/certificacionYConfianza.png"
-
+import { Helmet } from "react-helmet";
 
 const Clarity= () => { 
 return (
     <>
+            <Helmet>
+    <title>Claridad - Diamante Perú</title>
+    <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+    <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
+</Helmet>
     <div className=" div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={claridad} alt="" srcSet=""/>

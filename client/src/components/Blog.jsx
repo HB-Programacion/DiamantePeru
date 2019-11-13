@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 import foto1 from "../img/Clip.png";
 import blog1 from "../img/blog1.png";
 import blog2 from "../img/blog2.png"
@@ -11,9 +11,14 @@ import blog5 from "../img/blog5.png"
 const Blog = () =>{
  return (
         <div className = "w100 animated fadeIn gray fondo-icon">
+               <Helmet>
+            <title>Blogs - Diamante Perú</title>
+            <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+            <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
+        </Helmet>
             <div className="">
                 <img className="w80 img-blog-principal" src={blog1} alt=""/>
-                <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5 mt-5">
+                <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5">
                     <span className="card-title">SORTEO APERTURA CLUB DIAMANTE:</span>
                     <p className="mt-3">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
                     <Link to="/blog-sorteo-club-diamante" className="leer-mas-blog mt-4  text-decoration  ">LEER MÁS<i className="fas fa-chevron-right arrow text-decoration"></i></Link>

@@ -1,8 +1,5 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import facebook from './../img/Facebook.svg';
-import instagram from '../img/Instagram.svg'
-import Footer from "./Footer"
 
 import blog5 from "../img/certificacionYConfianza.png";
 import foto1 from "../img/carats-fondo.png";
@@ -14,9 +11,14 @@ import corte from "../img/corte.png"
 const Certificacion5cs= () => { 
 return (
     <>
+       <Helmet>
+            <title>Certificación - Diamante Perú</title>
+            <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+            <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
+        </Helmet>
     <div className="div-5cs animated fadeIn gray fondo-icon">
         <div >
-            <img className="img-min-blog " src={blog5} alt="" srcSet=""/>
+            <img className="img-min-blog " src={blog5} alt="certificacion" srcSet=""/>
         </div>
         <div className="container-title text-white black-blog">
             <div className="title-article">
@@ -50,25 +52,25 @@ return (
                 <div className="rel-art m-3 mb-4  ">
                     <h3 className="font-size-2em raleway-semibold-italic">ARTÍCULOS RELACIONADOS</h3>
                     <Link to="/carats" className="each-article-container option-menu flex mr-5">
-                        <img src={foto1} alt="" className="img-art-rel"/>
+                        <img src={foto1} alt="cart" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CARAT (UNIDAD DE PESO)</p>
                         </div>
                     </Link>
                     <Link to="/corte" className="each-article-container option-menu flex mr-5">
-                        <img src={corte} alt="" className="img-art-rel"/>
+                        <img src={corte} alt="corte" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CORTE (TALLADO)</p>
                         </div>
                     </Link>
                     <Link to="/claridad" className="each-article-container option-menu flex mr-5">
-                        <img src={claridad} alt="" className="img-art-rel"/>
+                        <img src={claridad} alt="claridad" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">CLARIDAD</p>
                         </div>
                     </Link>
                     <Link to="/color" className="each-article-container option-menu flex mr-5 ">
-                        <img src={color} alt="" className="img-art-rel"/>
+                        <img src={color} alt="color" className="img-art-rel"/>
                         <div className="text-each-rel-art">
                             <p className="mb0 ml-3">COLOR</p>
                         </div>

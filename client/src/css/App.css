@@ -1019,7 +1019,7 @@ header {
 .cuadro {
     position: absolute;
     left: 3%;
-    top: 25%;
+    top: 20rem;
     z-index: 1;
     background-color: #2C2C2C;
     color: #fff;

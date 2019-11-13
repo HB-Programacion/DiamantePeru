@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from "react";
+import React  from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Item from './Item'
@@ -10,7 +10,7 @@ const Varios= ({arrofJoyas})=>{
     contenido =    <div className="row flexCenter" >
     {arrofJoyas.map(prod => (
    <Item
-        // key={prod.id}
+       key={prod.CÓDIGO}
         dsc={prod.DESCRIPCIÓN}
         nro={prod.CÓDIGO}
         tipo={prod.Categoría}

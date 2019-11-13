@@ -2,12 +2,14 @@ import  React  from "react";
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+import blog from "../img/blogMantenimiento.png";
 import foto1 from "../img/carats-fondo.png";
 import claridad from "../img/claridad.png"
 import color from "../img/color.png";
 import corte from "../img/corte.png"
 import certificacion from "../img/certificacionYConfianza.png"
 
+import { Helmet } from "react-helmet";
 
 import { useHistory } from "react-router-dom";
 
@@ -15,9 +17,14 @@ const  BlogMantenimiento =() =>{
     let history = useHistory();
     return(
         <>
+         <Helmet>
+    <title>Blog Mantenimiento - Diamante Perú</title>
+    <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+    <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
+</Helmet>
         <div className="div-5cs animated fadeIn">
             <div >
-                <img className="img-min-blog " src={color} alt="" srcSet=""/>
+                <img className="img-min-blog " src={blog} alt="" srcSet=""/>
             </div>
             <div className="container-title text-white black-blog">
                 <div className="title-article">
@@ -59,10 +66,7 @@ Posar la sortija en un lugar plano y con un cepillo de dientes pasar las cerdas 
 
 
 </p>
-  
-
-                        
-                        <div className="title-article grayEvite">
+   <div className="title-article grayEvite">
                         <h1 className="raleway-semibold mb-4 font-size-2em text-centered ">     EVITE </h1>
                    
                         <p className=" raleway-regular font-size-1">
