@@ -14,19 +14,19 @@ import blog5 from "../img/blog5.png";
 const Blog1= () => { 
 return (
     <>
-    <div className="div-5cs animated fadeIn pb-4">
+    <div className="div-5cs animated fadeIn ">
         <div >
             <img className="img-min-blog " src={foto1} alt="" srcSet=""/>
         </div>
-        <div className="div-5cs  flex d-block-xs">
-            <article className="container-article vw60 xs-100">
+        <div className="container-title text-white black-blog">
+            <div className="title-article">
+                <h1 className="raleway-semibold mb-4 font-size-2em">SORTEO APERTURA CLUB DIAMANTE:</h1>
+                <p className=" raleway-regular font-size-1">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
+            </div>
+        </div>
+        <div className="div-5cs article-content flex d-block-xs">
+            <article className="container-article w60rem xs-100">
                 <div className="m-5 m-0-xs">
-                    <div className="container-title mb-5 text-white black">
-                        <div className="title-article">
-                            <h1 className="raleway-semibold mb-4 font-size-2em">SORTEO APERTURA CLUB DIAMANTE:</h1>
-                            <p className=" raleway-regular font-size-1">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
-                        </div>
-                    </div>
                     <div className="container-text raleway-regular font-size-1em p-2 m-5">
                         <p>
                             <b className="font-size-1">DIAMANTE PERÚ:</b> Sorteo de aros de matrimonio.
@@ -58,7 +58,7 @@ return (
                     </div>
                 </div>
             </article>
-            <div className="container-another-articles vw40 mt-4 mt-4-xs mr-4 mb-4 p-2">
+            <div className="container-another-articles w40rem mt-4 mt-4-xs mr-4 mb-4 p-2">
                 <div className="rel-art m-3 mb-4  ">
                     <h3 className="font-size-2em raleway-semibold-italic">ARTÍCULOS RELACIONADOS</h3>
                     <Link to="/blog-club-diamante" className="each-article-container flex mr-5  option-menu">

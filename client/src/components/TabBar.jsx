@@ -30,6 +30,7 @@ import Blog1 from './Blog1-sorteo-club-diamante'
 import Blog2 from './Blog2-club-diamante'
 import Blog3 from './Blog3-evitar-estafa'
 import Blog4 from './Blog4-historia-sortija'
+import Blog5 from './Blog5-5cs'
 
 
 const TabBar= () => { 
@@ -133,6 +134,7 @@ const TabBar= () => {
       <Route path="/blog-club-diamante" exact component={Blog2} />
       <Route path="/blog-evitar-estafa" exact component={Blog3} />
       <Route path="/blog-historia-sortija" exact component={Blog4} />
+      <Route path="/blog-5cs" exact component={Blog5} />
 
       </div>
     </header>

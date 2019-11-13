@@ -352,9 +352,19 @@ header {
 .h300px {
     height: 300px;
 }
-
 .black {
     background-color: #2C2C2C;
+}
+.black-blog {
+    background-color: #2C2C2C;
+    width: 50rem;
+    position: relative;
+    top: -7rem;
+    left: 6rem;
+}
+.article-content{
+    position: relative;
+    top: -7rem;
 }
 
 .white {
@@ -552,7 +562,7 @@ header {
 }
 
 .font-size-2em {
-    font-size: 2em
+    font-size: 1.5rem
 }
 
 .spacing3 {
@@ -602,12 +612,12 @@ header {
     width: 50vw
 }
 
-.vw60 {
-    width: 60vw;
+.w60rem {
+    width: 60rem;
 }
 
-.vw40 {
-    width: 40vw;
+.w40rem{
+    width: 40rem;
 }
 
 .vh50 {
@@ -1059,7 +1069,7 @@ section.input-container label {
 }
 
 .title-article {
-    padding: 3em;
+    padding: 2.5em;
     padding-left: 3em;
     padding-right: 4em;
 }
@@ -1332,7 +1342,6 @@ section.input-container label {
 
 .container-article {
     position: relative;
-    top: -25vh;
 }
 
 .img-min-blog {
