@@ -352,9 +352,11 @@ header {
 .h300px {
     height: 300px;
 }
+
 .black {
     background-color: #2C2C2C;
 }
+
 .black-blog {
     background-color: #2C2C2C;
     width: 50rem;
@@ -362,7 +364,8 @@ header {
     top: -7rem;
     left: 6rem;
 }
-.article-content{
+
+.article-content {
     position: relative;
     top: -7rem;
 }
@@ -616,7 +619,7 @@ header {
     width: 60rem;
 }
 
-.w40rem{
+.w40rem {
     width: 40rem;
 }
 
@@ -1141,7 +1144,7 @@ section.input-container label {
     .container-text {
         padding-bottom: 0px !important;
         padding: .5rem!important;
-        margin: 3rem!important;
+        margin: 1rem!important;
     }
     .w30-xs {
         width: 50%;
@@ -1497,6 +1500,13 @@ input[type="radio"]:checked+label::before {
 }
 
 @media screen and (max-width:767px) {
+    .article-content {
+        position: inherit;
+    }
+    .black-blog {
+        width: 25rem;
+        position: inherit;
+    }
     html {
         font-size: 4vw;
     }
