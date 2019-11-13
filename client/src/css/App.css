@@ -674,7 +674,7 @@ header {
 }
 
 .logoCenter {
-    padding-left: 7rem;
+    padding-left: 6rem;
     width: 13rem;
 }
 
@@ -1018,8 +1018,8 @@ header {
 
 .cuadro {
     position: absolute;
-    left: 3%;
-    top: 25%;
+    left: 3rem;
+    top: 18rem;
     z-index: 1;
     background-color: #2C2C2C;
     color: #fff;
@@ -1204,7 +1204,7 @@ section.input-container label {
     }
     .cuadro {
         width: 80%;
-        top: 42%;
+        top: 39rem;
         margin-left: 7%;
         padding: 1em !important;
         font-size: 1em;
@@ -1875,10 +1875,10 @@ input[type="radio"]:checked+label::before {
     .cuadro {
         width: 80%;
         left: 0;
-        top: 42%;
+        top: 39rem;
         margin-left: 10%;
         padding: 1em !important;
-        font-size: 1em;
+        font-size: 1.5rem;
         text-align: center
     }
 }
