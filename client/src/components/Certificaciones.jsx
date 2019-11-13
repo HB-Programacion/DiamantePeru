@@ -8,7 +8,7 @@ const Certificaciones = () => {
     return (
         <div className="w100 pb-pt-4rem fndo-certificaciones animated fadeIn">
                <Helmet>
-            <title>Certificación - Diamante Perú</title>
+            <title>Certificación - GIA - Diamante Perú</title>
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
             <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
         </Helmet>

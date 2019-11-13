@@ -6,10 +6,15 @@ import color from "../img/color.png"
 import claridad from "../img/claridad.png"
 import corte from "../img/corte.png"
 import certificacion from "../img/certificacionYConfianza.png"
-
+import { Helmet } from "react-helmet";
 const Corte= () => { 
 return (
     <>
+     <Helmet>
+    <title>Corte - Diamante Perú</title>
+    <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+    <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
+</Helmet>
     <div className=" div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={corte} alt="" srcSet=""/>

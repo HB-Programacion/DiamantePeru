@@ -11,6 +11,11 @@ import corte from "../img/corte.png"
 const Certificacion5cs= () => { 
 return (
     <>
+       <Helmet>
+            <title>Certificación - Diamante Perú</title>
+            <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+            <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
+        </Helmet>
     <div className="div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={blog5} alt="certificacion" srcSet=""/>

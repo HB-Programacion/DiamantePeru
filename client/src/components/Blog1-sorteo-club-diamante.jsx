@@ -5,11 +5,15 @@ import blog2 from "../img/blog2.png";
 import blog3 from "../img/blog3.png";
 import blog4 from "../img/blog4.png";
 import blog5 from "../img/blog5.png";
-
+import { Helmet } from "react-helmet";
 
 const Blog1= () => { 
 return (
-    <>
+    <>   <Helmet>
+    <title>Sorteo Club Diamante - Diamante Perú</title>
+    <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+    <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
+</Helmet>
     <div className="div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={foto1} alt="" srcSet=""/>
