@@ -27,16 +27,10 @@ const Home = () => {
       <>
         <div className="w100 animated fadeIn ">
         <div className="portada "></div>
-            <div id="carouselExampleSlidesOnly" className="carousel slide noPortada" data-ride="carousel">
-                <div className="carousel-inner">
+            <div id="" className=" noPortada" data-ride="carousel">
+                <div className="">
                     <div className="carousel-item active">
                         <img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/>
-                    </div>
-                    <div className="carousel-item">
-                        <img src={foto1} className="d-block w-100 h-50-rem" alt="..."/>
-                    </div>
-                    <div className="carousel-item">
-                        <img src={foto1} className="d-block w-100 h-50-rem" alt="..."/>
                     </div>
                 </div>
             </div>
@@ -193,7 +187,7 @@ const Home = () => {
                 <img className="card-img-top" src={img2}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">COD S223/revisar cod</p>
+                  <p className="card-title">COD S223</p>
                 </div>
               </div>
             </Link>
@@ -233,13 +227,13 @@ const Home = () => {
               </div>
             </Link>
 
-            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S223`}>
+            <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S225`}>
 
               <div className="mb-2">
                 <img className="card-img-top" src={img6}
                   alt="Card image cap"/>
                 <div className="card-body center">
-                  <p className="card-title">S223/revisar cod</p>
+                  <p className="card-title">S225</p>
                 </div>
               </div>
             </Link>

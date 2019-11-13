@@ -26,6 +26,8 @@ import a3009 from "./img/anillosCompromiso/3009.png"
 import a3010 from "./img/anillosCompromiso/3010.png"
 import a3102 from "./img/anillosCompromiso/3102.png"
 import a3107 from "./img/anillosCompromiso/3107.png"
+import a320 from "./img/A320.png"
+
 import a4002 from "./img/anillosCompromiso/4002.png"
 import a4011 from "./img/anillosCompromiso/4011.png"
 import a4012 from "./img/anillosCompromiso/4012.png"
@@ -55,7 +57,9 @@ import s226 from "./img/anillosTodaOcasion/S226.png"
 import s227 from "./img/anillosTodaOcasion/S227.png"
 import d427 from "./img/D427.png"
 
-
+import a5011 from "./img/anillosCompromiso/5011.png";
+import a3101 from "./img/anillosCompromiso/3101.png"
+import a4031 from "./img/anillosCompromiso/4031.png"
 
 
 export default [{
@@ -78,7 +82,7 @@ export default [{
         "TonalidadDeDiamante": "X",
         "FormaDeDiamante": "X",
         "Otras Gemas": "X",
-        "imagen": img,
+        "imagen": a320,
     },
     {
         id: 2,
@@ -673,7 +677,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a3101,
     },
     {
         "CÓDIGO": "5011",
@@ -684,7 +688,7 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a5011,
     },
     {
         "CÓDIGO": "1801",
@@ -706,6 +710,6 @@ export default [{
         "TonalidadDeDiamante": "Blanco",
         "FormaDeDiamante": "Brillante-(Redondo)",
         "Otras Gemas": "",
-        "imagen": img,
+        "imagen": a4031,
     }
 ]
