@@ -4,7 +4,7 @@ import facebook from './../img/Facebook.svg';
 import instagram from '../img/Instagram.svg'
 import Footer from "./Footer"
 
-import foto1 from "../img/blog3.png";
+import foto1 from "../img/evitar-estafa.png";
 import blog2 from "../img/blog2.png";
 import blog1 from "../img/blog1.png";
 import blog4 from "../img/blog4.png";
@@ -14,7 +14,7 @@ import blog5 from "../img/blog5.png";
 const Blog3= () => { 
 return (
     <>
-    <div className="div-5cs animated fadeIn">
+    <div className="div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={foto1} alt="" srcSet=""/>
         </div>

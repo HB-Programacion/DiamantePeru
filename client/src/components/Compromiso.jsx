@@ -15,7 +15,7 @@ const Compromiso = () => {
     return (
         <div className="w100 pt-5 pb-5 flex flexCenter animated fadeIn">
             {state === "viewTwo" && (
-                <div className="w90 flex-wrap-xs flex flexCenter">
+                <div className="flex-wrap-xs flex mt-5 mb-5rem flexCenter">
                     <div className="w-auto borderBold m-2 mt-3 mb-3 m4-xs"  
                         onClick={() => {
                         setState("diamante");
@@ -28,7 +28,7 @@ const Compromiso = () => {
                         setState("diamantes");
                         }} >
                         <img src={moreDiamante} className="w100 h100 box"/>
-                        <button className="joya" >+ DIAMANTES</button>
+                        <button className="joya" ><span>+</span> DIAMANTES</button>
                     </div>
                 </div>
             )}

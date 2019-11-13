@@ -14,7 +14,7 @@ import certificacion from "../img/certificacionYConfianza.png"
 const Clarity= () => { 
 return (
     <>
-    <div className=" div-5cs animated fadeIn">
+    <div className=" div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={claridad} alt="" srcSet=""/>
         </div>

@@ -7,7 +7,7 @@ import Footer from "./Footer"
 import blog3 from "../img/blog3.png";
 import blog2 from "../img/blog2.png";
 import blog1 from "../img/blog1.png";
-import blog4 from "../img/blog4.png";
+import blog4 from "../img/certificacionYConfianza.png";
 import blog5 from "../img/blog5.png";
 import color from "../img/color.png"
 import claridad from "../img/claridad.png";
@@ -17,7 +17,7 @@ import corte from "../img/corte.png"
 const Blog3= () => { 
 return (
     <>
-    <div className="div-5cs animated fadeIn">
+    <div className="div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={blog5} alt="" srcSet=""/>
         </div>

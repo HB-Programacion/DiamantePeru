@@ -827,7 +827,7 @@ header {
     transform: translate(-50%, -55%);
     background-color: black;
     color: #fff;
-    font-size: 1em;
+    font-size: 1rem;
     padding: 0.2em 2em;
     cursor: pointer;
     text-align: center;
@@ -840,7 +840,9 @@ header {
     background-color: #0f0f0f;
     height: 7%;
 }
-
+.joya span{
+    font-size: 1rem;
+}
 .btn {
     background-color: black;
     color: white;
@@ -1128,6 +1130,9 @@ section.input-container label {
     width: 40%;
     padding: 1rem;
 }
+.mb-5rem{
+    margin-bottom: 8rem
+}
 
 .goBackBlog {
     margin-top: -6rem;
@@ -1139,6 +1144,9 @@ section.input-container label {
 }
 
 @media screen and (max-width:768px) {
+    .fondo-icon{
+        background-size: 15rem;
+    }
     .itempluss {
         height: auto !important;
     }
@@ -1516,8 +1524,13 @@ input[type="radio"]:checked+label::before {
 }
 
 @media screen and (max-width:767px) {
+<<<<<<< HEAD
     goBackBlog {
         display: none;
+=======
+    .fondo-icon{
+        background-size: 9rem;
+>>>>>>> 40f7f21fb5eb657ed6c0244f1d80c496ad94ca04
     }
     .article-content {
         position: inherit;
@@ -1653,7 +1666,7 @@ input[type="radio"]:checked+label::before {
     .portada {
         background-image: url('../img/PORTADA.png');
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 40rem;
         background-size: 100% 100%, cover;
         background-position-x: center;
     }

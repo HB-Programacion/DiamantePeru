@@ -14,7 +14,7 @@ import blog5 from "../img/blog5.png";
 const Blog1= () => { 
 return (
     <>
-    <div className="div-5cs animated fadeIn ">
+    <div className="div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={foto1} alt="" srcSet=""/>
         </div>
