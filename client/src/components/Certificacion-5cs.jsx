@@ -7,7 +7,7 @@ import logoGia from "../img/GIA_logo.png"
 import claridad from "../img/claridad.png"
 import color from "../img/color.png"
 import corte from "../img/corte.png"
-
+import { Helmet } from "react-helmet";
 const Certificacion5cs= () => { 
 return (
     <>
