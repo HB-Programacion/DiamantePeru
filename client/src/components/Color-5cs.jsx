@@ -13,7 +13,7 @@ import certificacion from "../img/certificacionYConfianza.png"
 const Color= () => { 
 return (
     <>
-    <div className="div-5cs animated fadeIn">
+    <div className="div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={color} alt="" srcSet=""/>
         </div>

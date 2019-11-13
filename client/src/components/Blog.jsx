@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import foto1 from "../img/Clip.png";
 import blog1 from "../img/blog1.png";
 import blog2 from "../img/blog2.png"
-import blog3 from "../img/blog3.png"
+import blog3 from "../img/evitar-estafa.png"
 import blog4 from "../img/blog4.png"
 import blog5 from "../img/blog5.png"
 
 const Blog = () =>{
  return (
-        <div className = "w100 animated fadeIn">
+        <div className = "w100 animated fadeIn gray fondo-icon">
             <div className="">
                 <img className="w80 img-blog-principal" src={blog1} alt=""/>
                 <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5">

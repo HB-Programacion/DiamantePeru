@@ -17,7 +17,7 @@ import corte from "../img/corte.png"
 const MantenimientoBlog= () => { 
 return (
     <>
-    <div className="div-5cs animated fadeIn">
+    <div className="div-5cs animated fadeIn gray fondo-icon">
         <div >
             <img className="img-min-blog " src={blog5} alt="" srcSet=""/>
         </div>
