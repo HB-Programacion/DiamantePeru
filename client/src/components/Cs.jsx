@@ -5,7 +5,7 @@ const Cs = () => {
     return (
         <div className="w100 pb-pt-4rem pt-5-xs fndo-5cs animated fadeIn">
         <span className="p-3 pb-3 flex flexCenter text-size27"><b>5Cs</b></span>
-            <div className=" w80 mL-R10 geosansLight font-size-1">
+            <div className=" w80 mL-R10 geosansLight .font-size-1rem">
                 <div>
                 {/* <span className="mb-2 flex flexCenter text-size27" >5Cs</span> */}
                 {/* <div className="mt-1 mL-R15 interline text-size16 w70 center"> */}
