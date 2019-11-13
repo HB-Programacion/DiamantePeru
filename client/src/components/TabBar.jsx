@@ -136,7 +136,6 @@ const TabBar= () => {
       <Route path="/blog-evitar-estafa" exact component={Blog3} />
       <Route path="/blog-historia-sortija" exact component={Blog4} />
       <Route path="/blog-5cs" exact component={Blog5} />
-      <Route path="/mantenimiento-blog" exact component={mantenimientoBLog} />
 
       </div>
     </header>

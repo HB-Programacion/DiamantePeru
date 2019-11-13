@@ -62,7 +62,7 @@ Posar la sortija en un lugar plano y con un cepillo de dientes pasar las cerdas 
   
 
                         
-                        <div className="title-article grayNav">
+                        <div className="title-article grayEvite">
                         <h1 className="raleway-semibold mb-4 font-size-2em text-centered ">     EVITE </h1>
                    
                         <p className=" raleway-regular font-size-1">

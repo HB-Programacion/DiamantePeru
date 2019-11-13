@@ -13,7 +13,7 @@ const Blog = () =>{
         <div className = "w100 animated fadeIn gray fondo-icon">
             <div className="">
                 <img className="w80 img-blog-principal" src={blog1} alt=""/>
-                <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5">
+                <div className="w40 cuadro pt-4 pb-3 pl-5 pr-5 mt-5">
                     <span className="card-title">SORTEO APERTURA CLUB DIAMANTE:</span>
                     <p className="mt-3">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
                     <Link to="/blog-sorteo-club-diamante" className="leer-mas-blog mt-4  text-decoration  ">LEER MÁS<i className="fas fa-chevron-right arrow text-decoration"></i></Link>

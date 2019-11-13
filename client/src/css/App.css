@@ -840,9 +840,11 @@ header {
     background-color: #0f0f0f;
     height: 7%;
 }
-.joya span{
+
+.joya span {
     font-size: 1rem;
 }
+
 .btn {
     background-color: black;
     color: white;
@@ -1130,7 +1132,8 @@ section.input-container label {
     width: 40%;
     padding: 1rem;
 }
-.mb-5rem{
+
+.mb-5rem {
     margin-bottom: 8rem
 }
 
@@ -1139,12 +1142,12 @@ section.input-container label {
     left: 4rem;
 }
 
-.gray {
+.grayEvite {
     background-color: #E6E6E6;
 }
 
 @media screen and (max-width:768px) {
-    .fondo-icon{
+    .fondo-icon {
         background-size: 15rem;
     }
     .itempluss {
@@ -1524,13 +1527,8 @@ input[type="radio"]:checked+label::before {
 }
 
 @media screen and (max-width:767px) {
-<<<<<<< HEAD
-    goBackBlog {
-        display: none;
-=======
-    .fondo-icon{
+    .fondo-icon {
         background-size: 9rem;
->>>>>>> 40f7f21fb5eb657ed6c0244f1d80c496ad94ca04
     }
     .article-content {
         position: inherit;
