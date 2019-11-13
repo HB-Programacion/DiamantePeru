@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+ 
 const Mantenimiento = () => {
     return(
         <>
@@ -22,7 +23,7 @@ const Mantenimiento = () => {
                 </div>
             </div>
             <div className="flex content-center">
-            <button className="w25 p-1 btn">LEER MÁS ></button>
+                <Link to="/blog-mantenimiento" className="w25 p-1 btn"> LEER MÁS > </Link>
             </div>
         </div>
         </>
