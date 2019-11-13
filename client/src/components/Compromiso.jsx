@@ -13,7 +13,12 @@ const Compromiso = () => {
     const CompromisoSolo = arrJoyas.filter(e => e.Categoría==="Solitario" && e.Sección === "Novios/Anillo de Compromiso");
     const CompromisoVarios = arrJoyas.filter(e => e.Categoría==="Con más Diamantes ó Laterales" && e.Sección === "Novios/Anillo de Compromiso");
     return (
-        <div className="w100 pt-5 pb-5 flex flexCenter animated fadeIn">
+       
+        <div className="w100 pt-5 pb-5 flex flexCenter animated fadeIn"> <Helmet>
+        <title>Compromiso - Diamante Perú</title>
+        <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+        <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
+    </Helmet>
             {state === "viewTwo" && (
                 <div className="flex-wrap-xs flex mt-5 mb-5rem flexCenter">
                     <div className="w-auto borderBold m-2 mt-3 mb-3 m4-xs"  

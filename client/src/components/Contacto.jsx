@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Helmet } from "react-helmet";
 const Contacto = () => {
     const [state,setState]= useState("");
     const [name,setName]=useState("");
@@ -32,6 +32,11 @@ const Contacto = () => {
    };
 return (
     <div className="diamante pb-9">
+      <Helmet>
+    <title>Contacto - Diamante Perú</title>
+    <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+    <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Testimonios,novios" />
+  </Helmet>
         <div className="white-background-text">
        
           {state === "" && (

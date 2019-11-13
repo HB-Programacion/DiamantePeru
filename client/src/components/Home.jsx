@@ -4,7 +4,7 @@ import Carrousel from "./Carrousel";
 import Convenio from "./Convenio";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 // import foto1 from "../img/Clip.png";
 import foto1 from "../img/foto01.png";
 import foto2 from "../img/foto2.png";
@@ -18,13 +18,18 @@ import img6 from "../img/6.png"
 import img7 from "../img/7.png"
 import img8 from "../img/8.png"
 import img9 from "../img/9.png"
-import ItemPlus from './ItemPlus';
 
 
 
 const Home = () => {
     return(
       <>
+          <Helmet>
+            <title>Diamante Perú</title>
+            <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+            <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Home,Perú,anillos,aretes,dijes,oro" />
+        </Helmet>
+        
         <div className="w100 animated fadeIn ">
         <div className="portada "></div>
             <div id="" className=" noPortada" data-ride="carousel">

@@ -1,10 +1,15 @@
 import React from "react";
 
 import imgconvenio from "../img/logo-carmenSeminara.png";
-
+import { Helmet } from "react-helmet";
 const Beneficios = () => {
     return(
         <div className="w100 pb-pt-4rem pt-5-xs animated fadeIn pb-9 gray fondo-icon">
+           <Helmet>
+            <title>Beneficios - Diamante Perú</title>
+            <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
+            <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
+        </Helmet>
           <div className="flex around position-relative">
               <a className="btn-floating position-absolute top50vh left3" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>
               <a className="btn-floating position-absolute top50vh right3" href="#multi-item-example" data-slide="next"><i className="fas fa-chevron-right arrow"></i></a>
@@ -22,7 +27,7 @@ const Beneficios = () => {
                       <div className="col-md-12 cont-ben">
                         <div className="mb-2 flexWrap">
                           <figure className="w50 allCenter">
-                            <img className=" w70 rounded-circle ben-round" src={imgconvenio} alt="Card image cap"/>
+                            <img className=" w70 rounded-circle ben-round" src={imgconvenio} alt="Beneficio 1"/>
                           </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 className="card-title">CARMEN SEMINARIO ATELIER</h4>
@@ -51,7 +56,7 @@ const Beneficios = () => {
                       <div className="col-md-12  cont-ben">
                         <div className="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio} alt="Card image cap"/>
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio} alt="Beneficio 2"/>
                           </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 className="card-title">CARMEN SEMINARIO ATELIER</h4>

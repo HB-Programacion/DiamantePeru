@@ -6,7 +6,7 @@ const Item = ({nro,tipo,color,dsc,img}) =>{
   return (
       <>
       <Link 
-        className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link " 
+        className="item-container-total text-decoration-none text-reset col-6 col-sm-4  mb-2 option-menu nav-link " 
         to={ `/producto/${tipo}/${nro}`}
       >
         <div className="card itemCard" key={nro}>

@@ -2,6 +2,7 @@ import  React  from "react";
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+import blog from "../img/blogMantenimiento.png";
 import foto1 from "../img/carats-fondo.png";
 import claridad from "../img/claridad.png"
 import color from "../img/color.png";
@@ -17,7 +18,7 @@ const  BlogMantenimiento =() =>{
         <>
         <div className="div-5cs animated fadeIn">
             <div >
-                <img className="img-min-blog " src={color} alt="" srcSet=""/>
+                <img className="img-min-blog " src={blog} alt="" srcSet=""/>
             </div>
             <div className="container-title text-white black-blog">
                 <div className="title-article">
@@ -59,10 +60,7 @@ Posar la sortija en un lugar plano y con un cepillo de dientes pasar las cerdas 
 
 
 </p>
-  
-
-                        
-                        <div className="title-article grayEvite">
+   <div className="title-article grayEvite">
                         <h1 className="raleway-semibold mb-4 font-size-2em text-centered ">     EVITE </h1>
                    
                         <p className=" raleway-regular font-size-1">

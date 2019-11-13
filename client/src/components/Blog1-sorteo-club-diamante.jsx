@@ -1,9 +1,5 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import facebook from './../img/Facebook.svg';
-import instagram from '../img/Instagram.svg'
-import Footer from "./Footer"
-
 import foto1 from "../img/blog1.png";
 import blog2 from "../img/blog2.png";
 import blog3 from "../img/blog3.png";

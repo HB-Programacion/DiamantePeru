@@ -2,15 +2,14 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import historia from "../img/foto-historia.png"
-import Footer from "./Footer"
 
 const Historia = () =>{
     return (
         <>
    <Helmet>
-    <title>Testimonios - Diamante Perú</title>
+    <title>Historia - Diamante Perú</title>
     <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
-    <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Testimonios,novios" />
+    <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Testimonios,novios,zela" />
   </Helmet>
         <div className="w100 gray flex responsive-certificacion animated fadeIn pb-pt-4rem">
             <div className="w50 allCenter wResponsive100 border-gray">
@@ -78,7 +77,7 @@ const Historia = () =>{
                 </div>
             </div>
             <div className="w50 allCenter wResponsive100">
-                <img  className="w100" src={historia} />
+                <img  className="w100" src={historia} alt="historia zela" />
             </div>
         </div>
         </>
