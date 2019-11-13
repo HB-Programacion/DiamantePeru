@@ -67,7 +67,7 @@ const Blog = () =>{
                                         factores:
                                     </p>
                                     <hr className="my-3"/>
-                                    <Link to="/color"className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <Link to="/blog-5cs"className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
                                 </div>
                             </div>
                         </div>
