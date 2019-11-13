@@ -1111,6 +1111,11 @@ section.input-container label {
     top: 12rem;
 }
 
+.fndo-motivos-res {
+    width: 40%;
+    padding: 1rem;
+}
+
 @media screen and (max-width:768px) {
     .itempluss {
         height: auto !important;
