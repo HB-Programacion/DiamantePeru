@@ -32,7 +32,7 @@ return (
                 <div className="m-5 m-0-xs">
                     <div className="container-text raleway-regular font-size-1em p-2 m-5">
                     <div className="container p-4 mt-3 mt4-xs">
-                    <div className="row">
+                    <div className="row flexCenter ">
                         <div className="col-sm-6 col-md-6 mb-5">
                             <div className="card" style={{width: "18 rem"}}>
                                 <img src={color} className="w100" alt="..."/>
@@ -73,8 +73,8 @@ return (
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-6 mb-5">
-                            <div className="card" style={{width: "18 rem"}}>
+                        <div className="col-sm-6 col-md-6 mb-5 ">
+                            <div className="card " style={{width: "18 rem"}}>
                                 <img src={blog5} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>CARATS</b></h5>
