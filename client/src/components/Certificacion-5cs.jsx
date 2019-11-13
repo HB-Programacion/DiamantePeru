@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 import blog5 from "../img/certificacionYConfianza.png";
 import foto1 from "../img/carats-fondo.png";
 import logoGia from "../img/GIA_logo.png"

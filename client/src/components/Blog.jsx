@@ -23,7 +23,7 @@ const Blog = () =>{
                     <p className="mt-3">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
                     <Link to="/blog-sorteo-club-diamante" className="leer-mas-blog mt-4  text-decoration  ">LEER MÁS<i className="fas fa-chevron-right arrow text-decoration"></i></Link>
                 </div>
-                <div className="container p-4 mt-3 mt4-xs">
+                <div className="container p-4 mt-5 mt4-xs">
                     <div className="row">
                         <Link to="/blog-club-diamante" className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card" style={{width: "18 rem"}}>

@@ -1207,7 +1207,7 @@ section.input-container label {
         top: 39rem;
         margin-left: 7%;
         padding: 1em !important;
-        font-size: 1em;
+        font-size: 2rem !important;
     }
     .leer-mas-blog {
         margin-left: 50%
@@ -1636,7 +1636,7 @@ input[type="radio"]:checked+label::before {
         flex-wrap: wrap
     }
     .mt4-xs {
-        margin-top: 3em !important
+        margin-top: 11rem !important
     }
     .pt-5-xs {
         padding-top: 1em !important
@@ -1652,7 +1652,7 @@ input[type="radio"]:checked+label::before {
         margin-left: 10%;
         top: 10em !important;
         padding: 1em !important;
-        font-size: 1em;
+        font-size: 1rem;
         text-align: center
     }
     .leer-mas-blog {
@@ -1878,7 +1878,7 @@ input[type="radio"]:checked+label::before {
         top: 39rem;
         margin-left: 10%;
         padding: 1em !important;
-        font-size: 1.5rem;
+        font-size: 1.2rem !important;
         text-align: center
     }
 }
