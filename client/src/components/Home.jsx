@@ -249,7 +249,7 @@ const Home = () => {
     </div>
     <Convenio />
   </div>
-   <C2A></C2A>
+
 
 
 </>

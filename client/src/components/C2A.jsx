@@ -2,7 +2,7 @@ import React from 'react'
 
 const C2A = ()=>{
 return( 
-<a href="https://api.whatsapp.com/send?phone=5198053627&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Joyas%20."
+<a href="https://wa.me/51980536287?text=Me%20gustaría%20tener%20información%20personalizada."
  className="float" target="_blank">
 <i className="fab fa-whatsapp"></i>
 </a>);
