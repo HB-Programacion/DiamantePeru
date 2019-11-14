@@ -106,24 +106,6 @@ const Joyas = () =>{
     };
 
 
-    const handleOptionChange2 =(e,arrayOfProducts,text,txt1,setStatevar)=> {
-      setStatevar( e.target.value  );
-       setProduct([...arrayFilter]);
-     let newArray = [];
-     arrayOfProducts.filter(element => {
-         if (element.FormaDeDiamante === text) {
-           newArray.push(element);
-         }
-         if (element.FormaDeDiamante === txt1) {
-           newArray.push(element);
-         }
-         return newArray;
-       });
-       return setProduct(newArray);
-     };
-    // if(inputValue!==""){
-    //   filterCode = (arrJoyas,inputValue)
-    // }
   return (
     <>
     <div className=" w80 mL-R-10">
