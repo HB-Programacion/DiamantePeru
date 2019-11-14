@@ -50,7 +50,7 @@ const Cs = () => {
                     </div>
                     <div className="w30 p-4 m-1 b-all interline text-size-1 div-5cs text-center position-relative">
                         <span className="text-size27 snell-Roundhand">Cut</span>
-                        <p className="color-p-cs text-center"><b>(Talado)</b></p>
+                        <p className="color-p-cs text-center"><b>(Tallado)</b></p>
                         <hr className="w20 hr-cs"></hr>
                         <div className="pb-2">
                             <p className="text-left">La calidad de la talla hace referencia a las proporciones, la simetría y el pulido de la gema. Si la profundidad del diamante es escasa o excesiva, permitirá que la luz se escape por los lados o la parte inferior de la joya.</p>

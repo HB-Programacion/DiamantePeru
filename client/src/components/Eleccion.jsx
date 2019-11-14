@@ -41,7 +41,7 @@ const Eleccion = () => {
                     {/* <div className="flex flexCenter"> */}
                         <div className="flex w30 w30-xs p-3 pl-4 pr-4">
                             <img className="w15 w15-xs pr-3 bd-right" src={eleccion4}  alt="eleccion4"/>
-                            <p className="raleway-semibold pl-3 allCenter text-left mb-0">DIAMANTE O CIRCÓN</p>
+                            <p className="raleway-semibold pl-3 allCenter text-left mb-0">DIAMANTE O ZIRCÓN</p>
                         </div>
                         <div className="flex w30 w30-xs p-3 pl-4 pr-4">
                             <img className="w15 w15-xs pr-3 bd-right" src={eleccion5}  alt="eleccion5"/>

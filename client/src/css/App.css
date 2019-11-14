@@ -927,8 +927,10 @@ header {
 }
 
 .background-carrousel-ring {
-    background-color: #fafafa;
-    border: solid #A9A9A9 1px;
+    border-radius: 1px;
+    border: none;
+    background-color: #faf9f8;
+    box-shadow: #dae0e5 1px 1px;
 }
 
 .text-centered {
