@@ -20,7 +20,7 @@ const Eleccion = () => {
                 <div className="pb-3t interline1 p-eleccion">
                     {/* <span className="mb-2 flex flexCenter text-size27"><b>ELECCION</b></span> */}
                      {/* <div className="mt-3 interline text-size18"> */}
-                        <p className="">Para protegerse contra las estafas comunes en el comercio de los Diamantes se recomienda hacer lo siguiente:</p>
+                        <p className="text-center">Para protegerse contra las estafas comunes en el comercio de los Diamantes se recomienda hacer lo siguiente:</p>
                         <p className="">En primer lugar siempre pedir que su diamante venga acompañado de un certificado emitido por un laboratorio de reconocimiento mundial. La autoridad máxima en lo que a investigación y certificación de diamantes se refiere es el Gemological Institute of America o GIA. Así como el European Gemological Laboratory (EGL), el World Gemological Laboratory (WGL), el Integrity Diamond Laboratory (IDL), entre otros.</p>
                         <p className="">Los fraudes comunes de los que debe cuidarse al adquirir un Diamante son los siguientes:</p>
                     {/* </div> */}

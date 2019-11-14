@@ -32,7 +32,7 @@ const Beneficios = () => {
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 className="card-title">CARMEN SEMINARIO ATELIER</h4>
                             <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
-                            <ul className="interline1 ml-4 ">
+                            <ul className="interline1 ml-4 font-size-1rem">
                               <li>10% de dscto en vestidos de novia a medida.</li>
                               <li>15% de dscto en vestidos de fiesta a medida.</li>
                               <li>15% de dscto en accesorios a pedido (zapatos, vanites, velo de novia)</li>
