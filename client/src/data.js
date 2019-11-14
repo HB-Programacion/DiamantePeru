@@ -135,7 +135,7 @@ export default [{
         "Sección": "Joyas",
         "Color": "Oro-Amarillo",
         "TonalidadDeDiamante": "Blanco y Amarillo Canario",
-        "FormaDeDiamante": "Brillante-(Redondo)",
+        "FormaDeDiamante": "Brillante(Redondo) y Pera",
         "OtrasGemas": "Amatista",
         "imagen": a327,
     },
