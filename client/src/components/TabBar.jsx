@@ -30,6 +30,7 @@ import Blog3 from './Blog3-evitar-estafa'
 import Blog4 from './Blog4-historia-sortija'
 import Blog5 from './Blog5-5cs'
 import BlogMantenimiento from './BlogMantenimiento'
+import C2A from "./C2A";
 const TabBar= () => { 
     
   return (
@@ -137,6 +138,7 @@ const TabBar= () => {
 
       </div>
     </header>
+    <C2A></C2A>
 </Router>
   );
 }
