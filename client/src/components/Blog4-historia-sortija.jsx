@@ -112,6 +112,10 @@ const Blog4= () => {
                             <p className="mb0 ml-3">CERTIFICACIÓN Y CONFIANZA</p>
                         </div>
                     </Link>
+                    <Link to="/claridad"className="each-article-container  option-menu  flex mr-5" href="/"> <img src={claridad} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">CLARIDAD</p>
+                        </div></Link>
                 </div>
 
      

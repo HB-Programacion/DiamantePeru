@@ -18,7 +18,7 @@ import img6 from "../img/6.png"
 import img7 from "../img/7.png"
 import img8 from "../img/8.png"
 import img9 from "../img/9.png"
-import C2A from "./C2A";
+
 
 
 const Home = () => {
