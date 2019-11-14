@@ -1145,7 +1145,8 @@ section.input-container label {
     background-color: #E6E6E6;
 }
 
-.float {
+.float,
+.float:hover {
     position: fixed;
     width: 3rem;
     height: 3rem;
