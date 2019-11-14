@@ -25,31 +25,33 @@ const Eleccion = () => {
                         <p className="">Los fraudes comunes de los que debe cuidarse al adquirir un Diamante son los siguientes:</p>
                     {/* </div> */}
                     <div className="flexWrap flexWrap-eleccion-xs mt-4 mb-4">
-                        <div className="flex w30 w30-xs p-3 pl-4 pr-4">
+                        <div className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3 ">
                             <img className="w15 w15-xs pr-3 bd-right" src={eleccion1} alt="eleccion1"/>
-                            <p className="raleway-semibold pl-3 allCenter text-left mb-0">PAGAS POR UN DIAMANTE Y TE DAN OTRO</p>
+                            <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">PAGAS POR UN DIAMANTE Y TE DAN OTRO</p>
                         </div>
-                        <div className="flex w30 w30-xs p-3 pl-4 pr-4">
+                        <div className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3">
                             <img className="w15 w15-xs pr-3 bd-right" src={eleccion2}  alt="eleccion2"/>
-                            <p className="raleway-semibold pl-3 allCenter text-left mb-0">CERTIFICACIÓN FRAUDULENTA</p>
+                            <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">CERTIFICACIÓN FRAUDULENTA</p>
                         </div>
-                        <div className="flex w30 w30-xs p-3 pl-4 pr-4">
+                        <div className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3">
                             <img className="w15 w15-xs pr-3 bd-right" src={eleccion3} alt="eleccion3"/>
-                            <p className="raleway-semibold pl-3 allCenter text-left mb-0">PESO TOTAL EN CARATS</p>
+                            <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">PESO TOTAL EN CARATS</p>
                         </div>
                     {/* </div> */}
                     {/* <div className="flex flexCenter"> */}
-                        <div className="flex w30 w30-xs p-3 pl-4 pr-4">
+                        <div className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3">
                             <img className="w15 w15-xs pr-3 bd-right" src={eleccion4}  alt="eleccion4"/>
-                            <p className="raleway-semibold pl-3 allCenter text-left mb-0">DIAMANTE O ZIRCÓN</p>
+
+                            <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">DIAMANTE O ZIRCÓN</p>
+
                         </div>
-                        <div className="flex w30 w30-xs p-3 pl-4 pr-4">
+                        <div className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3">
                             <img className="w15 w15-xs pr-3 bd-right" src={eleccion5}  alt="eleccion5"/>
-                            <p className="raleway-semibold pl-3 allCenter text-left mb-0">CERTIFICADOS EMITIDOS POR LAS MISMAS JOYERIAS</p>
+                            <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">CERTIFICADOS EMITIDOS POR LAS MISMAS JOYERIAS</p>
                         </div>
-                        <div className="flex w30 w30-xs p-3 pl-4 pr-4">
+                        <div className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3">
                             <img className="w15 w15-xs pr-3 bd-right" src={eleccion6}/>
-                            <p className="raleway-semibold pl-3 allCenter text-left mb-0">ESCONDIENDO FALLAS</p>
+                            <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">ESCONDIENDO FALLAS</p>
                         </div>
                     </div>
                     {/* <div className="interline text-size18 mb-5"> */}
