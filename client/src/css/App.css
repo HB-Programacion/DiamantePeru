@@ -9,13 +9,11 @@ html {
     padding: 0
 }
 
-.option-menu {
-    color: #272727 !important;
-}
-
+.option-menu,
 .option-menu :hover {
-    color: #888383;
-    cursor: pointer
+    color: #272727 !important;
+    cursor: pointer;
+    text-decoration: none !important;
 }
 
 .col-2 {
