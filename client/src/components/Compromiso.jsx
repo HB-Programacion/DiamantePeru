@@ -25,14 +25,14 @@ const Compromiso = () => {
                         onClick={() => {
                         setState("diamante");
                         }}>
-                        <img src={oneDiamante} className="w100 h100 box"/>
+                        <img src={oneDiamante} alt="un Diamanate"className="w100 h100 box"/>
                         <button className="joya">DIAMANTE</button>
                     </div>
                     <div className="w-auto borderBold m-2 mt-3 mb-3 m4-xs"  
                         onClick={() => {
                         setState("diamantes");
                         }} >
-                        <img src={moreDiamante} className="w100 h100 box"/>
+                        <img src={moreDiamante}  alt="muchos Diamanates" className="w100 h100 box"/>
                         <button className="joya" ><span>+</span> DIAMANTES</button>
                     </div>
                 </div>
