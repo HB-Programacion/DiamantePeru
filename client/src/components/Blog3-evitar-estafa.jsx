@@ -6,7 +6,11 @@ import blog2 from "../img/blog2.png";
 import blog1 from "../img/blog1.png";
 import blog4 from "../img/blog4.png";
 import blog5 from "../img/blog5.png";
-
+import foto2 from "../img/carats-fondo.png";
+import claridad from "../img/claridad.png";
+import color from "../img/color.png";
+import corte from "../img/corte.png"
+import certificacion from "../img/certificacionYConfianza.png"
 
 import { Helmet } from "react-helmet";
 
@@ -138,27 +142,43 @@ return (
                         </div>
                     </Link>
                 </div>
-                <div className="popular-art m-3">
-                    <h2 className="font-size-2em raleway-semibold-italic">DESTACADOS</h2>
-                    <ul className="pl-3 pr-5 p-0-xs">
-                        <li className="pt-2 pr-5">
-                            <Link to="/color"className="pr-5 option-menu " href="/">COLOR</Link>
-                        </li>
-                        <li className="pt-2 pr-5">
-                            <Link to="/claridad" className="pr-5 option-menu" href="/">CLARIDAD</Link>
-                        </li>
-                        <li className="pt-2 pr-5"> 
-                            <Link className=" option-menu" to="/certificacion-y-confianza">CERTIFICACIÓN Y CONFIANZA</Link> 
-                        </li>
-                        <li className="pt-2 pr-5"> 
-                            <Link to="/corte"className=" option-menu" href="/">CORTE</Link> 
-                        </li>
-                        <li className="pt-2 pr-5"> 
-                            <Link to="/carats"className=" option-menu" href="/">CARATS</Link> 
-                        </li>
-                    </ul>
+                <div className="rel-art m-3 mb-4  ">
+                    <h3 className="font-size-2em raleway-semibold-italic">DESTACADOS</h3>
+                    <Link to="/carats" className="each-article-container flex mr-5  option-menu">
+                        <img src={foto2} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">CARAT (UNIDAD DE PESO)</p>
+                        </div>
+                    </Link>
+                    <Link to="/color" className="each-article-container  option-menu flex mr-5">
+                        <img src={color} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">COLOR</p>
+                        </div>
+                    </Link>
+                    <Link to="/corte"className="each-article-container  option-menu flex mr-5">
+                        <img src={corte} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">CORTE (TALLADO)</p>
+                        </div>
+                    </Link>
+                    <Link to="/certificacion-y-confianza"className="each-article-container  option-menu  flex mr-5">
+                        <img src={certificacion} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">CERTIFICACIÓN Y CONFIANZA</p>
+                        </div>
+                    </Link>
+
+
+                    <Link to="/claridad"className="each-article-container  option-menu  flex mr-5" href="/"> <img src={claridad} alt="" className="img-art-rel"/>
+                        <div className="text-each-rel-art">
+                            <p className="mb0 ml-3">CLARIDAD</p>
+                        </div></Link>
                 </div>
-            </div>
+              
+              
+              
+                  </div>
         </div>
     </div>  
     </>
