@@ -4,12 +4,13 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import blog3 from "../img/blog3.png";
 import blog2 from "../img/blog2.png";
 import blog1 from "../img/blog1.png";
-import blog4 from "../img/certificacionYConfianza.png";
+import blog4 from "../img/blog4.png";
 import blog5 from "../img/blog5.png";
 import color from "../img/color.png"
 import claridad from "../img/claridad.png";
 import corte from "../img/corte.png"
 
+import blog6 from "../img/certificacionYConfianza.png";
 
 import { Helmet } from "react-helmet";
 const Blog3= () => { 
@@ -36,56 +37,62 @@ return (
                     <div className="container-text raleway-regular font-size-1em p-2 m-5">
                     <div className="container p-4 mt-3 mt4-xs">
                     <div className="row flexCenter ">
-                        <div className="col-sm-6 col-md-6 mb-5">
+
+                        <Link to="/color" className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card" style={{width: "18 rem"}}>
                                 <img src={color} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>COLOR</b></h5>
                                     <hr className="my-3"/>
-                                    <Link to="/color" className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <p className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 mb-5">
+                        </Link>
+
+                        <Link to="/claridad" className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card" style={{width: "18 rem"}}>
                                 <img src={claridad} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>CLARIDAD</b></h5>
                                     <hr className="my-3"/>
-                                    <Link to="/claridad" className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <p className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 mb-5">
+                        </Link>
+
+                        <Link to="/certificacion-y-confianza"  className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card" style={{width: "18 rem"}}>
-                                <img src={blog4} className="w100" alt="..."/>
+                                <img src={blog6} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>CERTIFICACIÓN Y CONFIANZA</b></h5>
                                     <hr className="my-3"/>
-                                    <Link to="/certificacion-y-confianza" className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <p to="/certificacion-y-confianza" className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 mb-5">
+                        </Link>
+
+                        <Link to="/corte"  className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card" style={{width: "18 rem"}}>
                                 <img src={corte} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>CORTE</b></h5>
                                     <hr className="my-3"/>
-                                    <Link to="/corte"className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <p to="/corte" className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 mb-5 ">
+                        </Link>
+
+                        <Link to="/carats" className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card " style={{width: "18 rem"}}>
                                 <img src={blog5} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>CARATS</b></h5>
                                     <hr className="my-3"/>
-                                    <Link to="/carats"className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></Link>
+                                    <p className="option-menu ">LEER MÁS<i className="fas fa-chevron-right arrow"></i></p>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
+
                     </div>
                 </div>
                     </div>

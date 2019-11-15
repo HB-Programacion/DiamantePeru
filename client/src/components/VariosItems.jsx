@@ -23,8 +23,11 @@ const Varios= ({arrofJoyas})=>{
   } else {
     contenido = 
     <div className="row allCenter">
-      <h1 className="interline1 p-eleccion" >Para antender su pedido,sírvase a dejar su correo y nos pondremos en contacto a la brevedad</h1>
-      <Link to="/contacto"className="btn-flat border-none btn-contact text-size14 raleway-medium-italic"> IR A CONTACTO</Link>
+   <a href="https://wa.me/51949218855?text=Me%20gustaría%20tener%20información%20personalizada." className="center p-5  text-dec-black itemCard text-dec-black" >Lo sentimos, en este momento no contamos con ninguna joya que responda a tu búsqueda. 
+
+Por favor, póngase en contacto con nosotros a través de 
+     <span className="text-dec-black raleway-semibold"> WhatsApp </span> o déjenos su correo en la sección de contacto para comunicarnos con usted y ayudarlo a diseñar la joya que busca.</a>
+
     </div>;
   }
     return (

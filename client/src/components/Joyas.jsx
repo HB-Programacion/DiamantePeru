@@ -195,7 +195,7 @@ const Joyas = () =>{
             <div className="form-check m-2">
               <input 
                 checked={stateOro === 'Oro-Amarillo'} 
-                onChange={(e)=>{handleOptionChange(e,filterColor,arrayFilter,"Oro-Amarillo",setStateOro)}}   
+                onChange={(e)=>{handleOptionChange(e,filterColor,product,"Oro-Amarillo",setStateOro)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="exam" 
@@ -207,7 +207,7 @@ const Joyas = () =>{
               </label>
             </div>
             <div  className="form-check m-2">
-              <input checked={stateOro ===  "Oro-Blanco"} onChange={(e)=>{handleOptionChange(e,filterColor,arrayFilter, "Oro-Blanco",setStateOro)}} 
+              <input checked={stateOro ===  "Oro-Blanco"} onChange={(e)=>{handleOptionChange(e,filterColor,product, "Oro-Blanco",setStateOro)}} 
                className="form-check-input" type="radio" name="exam" id= "Oro-Blanco" value= "Oro-Blanco" />
               <label className="form-check-label raleway-light" htmlFor= "Oro-Blanco" >
               Oro Blanco
@@ -216,7 +216,7 @@ const Joyas = () =>{
 
 
             <div  className="form-check m-2">
-              <input checked={stateOro === "Oro-Amarillo-y-Oro Blanco"} onChange={(e)=>{handleOptionChange(e,filterColor,arrayFilter, "Oro-Amarillo-y-Oro Blanco",setStateOro)}} 
+              <input checked={stateOro === "Oro-Amarillo-y-Oro Blanco"} onChange={(e)=>{handleOptionChange(e,filterColor,product, "Oro-Amarillo-y-Oro Blanco",setStateOro)}} 
                className="form-check-input" type="radio" name="exam" id= "Oro-Amarillo-y-Oro Blanco" value= "Oro-Amarillo-y-Oro Blanco" />
               <label className="form-check-label raleway-light" htmlFor= "Oro-Amarillo-y-Oro Blanco" >
                Oro Amarillo y Oro Blanco
@@ -230,10 +230,18 @@ const Joyas = () =>{
 {/*TONO DE DIAMANTE */}
           <div className="container-fluid container-color">
             <span className="title-radio m-2">TONALIDAD DEL DIAMANTE</span>
+         
+            <div  className="form-check m-2">
+              <input checked={stateRadioTonalidad === "Blanco"} onChange={(e)=>{handleOptionChange1(e,product,"Blanco","Blanco y  Azul",setStateRadioTonlidad)}}   
+               className="form-check-input" type="radio" name="toneradio" id= "Blanco" value= "Blanco" />
+              <label className="form-check-label raleway-light" htmlFor= "Blanco" >
+         Blanco
+              </label>
+            </div>
             <div className="form-check m-2">
               <input 
                 checked={stateRadioTonalidad ==="Azul"} 
-                onChange={(e)=>{handleOptionChange1(e,arrayFilter,"Azul","Blanco y  Azul",setStateRadioTonlidad)}}   
+                onChange={(e)=>{handleOptionChange1(e,product,"Azul","Blanco y  Azul",setStateRadioTonlidad)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="toneradio" 
@@ -244,17 +252,9 @@ const Joyas = () =>{
                 Azul
               </label>
             </div>
-            <div  className="form-check m-2">
-              <input checked={stateRadioTonalidad === "Blanco"} onChange={(e)=>{handleOptionChange1(e,arrayFilter,"Blanco","Blanco y  Azul",setStateRadioTonlidad)}}   
-               className="form-check-input" type="radio" name="toneradio" id= "Blanco" value= "Blanco" />
-              <label className="form-check-label raleway-light" htmlFor= "Blanco" >
-         Blanco
-              </label>
-            </div>
-
 
             <div  className="form-check m-2">
-              <input checked={stateRadioTonalidad === "Blanco y Amarillo Canario"} onChange={(e)=>{handleOptionChange(e,filterTone,arrayFilter,"Blanco y Amarillo Canario",setStateRadioTonlidad)}} 
+              <input checked={stateRadioTonalidad === "Blanco y Amarillo Canario"} onChange={(e)=>{handleOptionChange(e,filterTone,product,"Blanco y Amarillo Canario",setStateRadioTonlidad)}} 
                className="form-check-input" type="radio" name="toneradio" id= "Blanco y Amarillo Canario" value="Blanco y Amarillo Canario" />
               <label className="form-check-label raleway-light" htmlFor= "Blanco y Amarillo Canario" >
                Amarillo Canario
@@ -270,7 +270,7 @@ const Joyas = () =>{
             <div className="form-check m-2">
               <input 
                 checked={stateRadio === "Brillante-(Redondo)"} 
-                onChange={(e)=>{handleOptionChange(e,filterShape,arrayFilter,"Brillante-(Redondo)",setStateRadio)}}   
+                onChange={(e)=>{handleOptionChange(e,filterShape,product,"Brillante-(Redondo)",setStateRadio)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="formradio" 
@@ -282,7 +282,7 @@ const Joyas = () =>{
               </label>
             </div>
             <div  className="form-check m-2">
-              <input checked={stateRadio ===  "Brillante(Redondo) y Pera"} onChange={(e)=>{handleOptionChange(e,filterShape,arrayFilter, "Brillante(Redondo) y Pera",setStateRadio)}} 
+              <input checked={stateRadio ===  "Brillante(Redondo) y Pera"} onChange={(e)=>{handleOptionChange(e,filterShape,product, "Brillante(Redondo) y Pera",setStateRadio)}} 
                className="form-check-input" type="radio" name="formradio" id=  "Brillante(Redondo) y Pera" value= "Brillante(Redondo) y Pera"/>
               <label className="form-check-label raleway-light" htmlFor= "Brillante(Redondo) y Pera" >
               Pera
@@ -291,7 +291,7 @@ const Joyas = () =>{
 
 
             <div  className="form-check m-2">
-              <input checked={stateRadio === "X"} onChange={(e)=>{handleOptionChange(e,filterShape,arrayFilter, "X",setStateRadio)}} 
+              <input checked={stateRadio === "X"} onChange={(e)=>{handleOptionChange(e,filterShape,product, "X",setStateRadio)}} 
                className="form-check-input" type="radio" name="formradio" id= "X" value= "X" />
               <label className="form-check-label raleway-light" htmlFor= "X" >
               Sin Diamante
@@ -306,7 +306,7 @@ const Joyas = () =>{
             <div className="form-check m-2">
               <input 
                 checked={stateGems ==="Amatista"} 
-                onChange={(e)=>{handleOptionChange(e,filterMoreGems,arrayFilter,"Amatista",setStateGems)}}   
+                onChange={(e)=>{handleOptionChange(e,filterMoreGems,product,"Amatista",setStateGems)}}   
                 className="form-check-input" 
                 type="radio" 
                 name="gems" 
