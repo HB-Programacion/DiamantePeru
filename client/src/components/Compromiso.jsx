@@ -41,11 +41,13 @@ const Compromiso = () => {
             <div className="">
                 
                 <CarrouselOne arrofJoyas={CompromisoSolo}  title={"DIAMANTE"}></CarrouselOne>
+                    <i onClick={()=>{ setState("viewTwo")}} class="fas fa-chevron-left arrowGoback goBackBlog" aria-hidden="true"></i> 
             </div>
             )}
             {state === "diamantes" && (
             <div className="">
                 <Carrousel arrofJoyas={CompromisoVarios}  title={"DIAMANTES"}></Carrousel>
+                <i onClick={()=>{ setState("viewTwo")}} class="fas fa-chevron-left arrowGoback goBackBlog" aria-hidden="true"></i> 
             </div>
             )}
         </div>
