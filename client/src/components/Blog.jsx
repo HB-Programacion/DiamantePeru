@@ -26,7 +26,7 @@ const Blog = () =>{
                 <div className="container p-4 mt-5 mt4-xs">
                     <div className="row">
                         <Link to="/blog-club-diamante" className="col-sm-6 col-md-6 mb-5 text-dec-black">
-                            <div className="card" style={{width: "18 rem"}}>
+                            <div className="card card-blog" style={{width: "18 rem"}}>
                                 <img src={blog2} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>CLUB DIAMANTE</b></h5>
@@ -39,7 +39,7 @@ const Blog = () =>{
                             </div>
                        </Link>
                         <Link to="/blog-evitar-estafa"  className="col-sm-6 col-md-6 mb-5 text-dec-black">
-                            <div className="card" style={{width: "18 rem"}}>
+                            <div className="card card-blog" style={{width: "18 rem"}}>
                                 <img src={blog3} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>¿CÓMO EVITAR QUE LO ESTAFEN EN LA COMPRA DE UN DIAMANTE?:</b></h5>
@@ -52,7 +52,7 @@ const Blog = () =>{
                             </div>
                         </Link>
                         <Link to="/blog-historia-sortija"    className="col-sm-6 col-md-6 mb-5 text-dec-black">
-                            <div className="card" style={{width: "18 rem"}}>
+                            <div className="card card-blog" style={{width: "18 rem"}}>
                                 <img src={blog4} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>HISTORIA DE LA SORTIJA DE COMPROMISO</b></h5>
@@ -64,7 +64,7 @@ const Blog = () =>{
                             </div>
                         </div></Link>
                         <Link to="/blog-5cs"   className="col-sm-6 col-md-6 mb-5 text-dec-black">
-                            <div className="card" style={{width: "18 rem"}}>
+                            <div className="card card-blog" style={{width: "18 rem"}}>
                                 <img src={blog5} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>LAS 5CS DIAMANTE PERÚ</b></h5>

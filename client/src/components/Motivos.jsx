@@ -16,25 +16,25 @@ const Motivos = () =>{
             <span className="p-3 pb-3 flex flexCenter text-size27"><b>MOTIVOS PARA ELEGIR DIAMANTE PERÚ</b></span>
             <div className="flexWrap pad-lr-8 pb-5 pt-3">
                     <div className="item b-all pb-2 pt-2">
-                        <div className="flex w100 flex-Wrap-Responsive">
+                        <div className="flex w100 flex-Wrap-Responsive p-4">
                             <img src={certificacion} className="w30 fndo-motivos-res"  alt="certificacion 1"/>
                             <p className="p-motivos interline1  allCenter geosansLight">Diamantes certificados por el Laboratorio, Gemological Institute of America (GIA).</p>
                         </div>
                     </div>
                     <div className="item b-all allCenter pb-2 pt-2">
-                        <div className="flex w100 flex-Wrap-Responsive">
+                        <div className="flex w100 flex-Wrap-Responsive p-4">
                             <img src={grabado} className="w30 fndo-motivos-res" alt="grabado 2"/>
-                            <p className="p-motivos interline1 allCenter geosansLight">Diamantes con el número de su certificado grabado con láser y con el servicio de verificación en línea.</p>
+                            <p className="p-motivos interline1 allCenter geosansLight">Todos nuestros diamantes cuentan con el número de certificación grabado con láser y con el servicio de verificación online.</p>
                         </div>
                     </div>
                     <div className="item b-all allCenter pb-2 pt-2">
-                        <div className="flex w100 flex-Wrap-Responsive">
+                        <div className="flex w100 flex-Wrap-Responsive p-4">
                             <img src={asesoria} className="w30 fndo-motivos-res"  alt="asesoria 3"/>
                             <p className="p-motivos interline1 allCenter geosansLight">Verificación con microscopio del número de certificado grabado que tiene  el Diamante.</p>
                         </div>
                     </div>
                     <div className="item b-all allCenter pb-2 pt-2">
-                        <div className="flex w100 flex-Wrap-Responsive">
+                        <div className="flex w100 flex-Wrap-Responsive p-4">
                             <img src={verificacion} className="w30 fndo-motivos-res"  alt="verificacion 4"/>
                             <p className="p-motivos interline1  allCenter geosansLight">Asesoria personalizada por nuestros Gemólogos Graduados como por cualquier integrante de nuestro personal calificado.</p>
                         </div>

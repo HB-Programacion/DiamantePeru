@@ -16,10 +16,8 @@ const Cs = () => {
                 <div>
                 {/* <span className="mb-2 flex flexCenter text-size27" >5Cs</span> */}
                 {/* <div className="mt-1 mL-R15 interline text-size16 w70 center"> */}
-                        <p className="interline1 text-center w60 w60-xs m-auto pb-3">En DIAMANTE PERÚ trabajamos con las mejores calidades, elegidas rigurosamente por profesionales en la ciencia.
-                            El valor del diamante está determinado por 4 factores, no interesando el orden de éstos; que
-                            son: Corte, Color, Claridad, Carat (unidad de peso). A continuación te explicamos sobre estos
-                            factores:</p>
+                        <p className="interline1 text-center w60 w60-xs m-auto pb-3">
+                        En DIAMANTE PERÚ trabajamos con las mejores calidades, elegidas rigurosamente por profesionales en la ciencia de la gemología. El valor del diamante está determinado por 4 factores que son: Corte, Color, Claridad y Carat (unidad de peso). A estos factores  le sumamos un quinto valor que es Certificación y Confianza. A continuación te explicamos sobre estos factores: </p>
                         {/* </div> */}
                 <div className="flexWrap mb-5">
                     <div  id="" className="w30 p-4  m-1 b-all interline text-size-1 div-5cs text-center position-relative">
