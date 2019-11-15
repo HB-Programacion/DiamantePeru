@@ -44,7 +44,7 @@ return (
                 
          action="/api/consultsOfCustomers" className="real-white" >
          <h1 className="raleway-semibold font-size-2em" >CONTACTO</h1>
-         <p className="raleway-regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa molestiae sapiente veritatis molestias temporibus, vel, accusamus eaque aut soluta consequuntur tempora pariatur dignissimos, dolorum eveniet debitis reprehenderit enim nesciunt quae!</p>
+         <p className="raleway-regular">Para cualquier consulta sobre alguna de nuestras joyas y diamantes, así como información de ventas y promociones, por favor contacte a uno de nuestros especialistas.</p>
          <div className="container-text-inputs">
              <div className="flex-input raleway-regular">
                  <input type="text" name=""
@@ -80,8 +80,8 @@ onChange={(e)=>{handleChange(e,setMessage)}}
          
           <>
             <form className="real-white afterContact">
-              <h1 className="raleway-semibold font-size-2em">¡ GRACIAS POR ESCRIBIRNOS !</h1>
-              <p className="raleway-regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa molestiae sapiente veritatis molestias temporibus, vel, accusamus eaque aut soluta consequuntur tempora pariatur dignissimos, dolorum eveniet debitis reprehenderit enim nesciunt quae!</p>
+              <h1 className="raleway-semibold font-size-2em">¡Gracias por ponerse en contacto con Diamante Perú!</h1>
+              <p className="raleway-regular">Uno de nuestros ejecutivos se estará poniendo en contacto en la brevedad posible para poder asesorarlo con su compra o ayudarlo a solucionar su consulta.</p>
          <div className="container-text-inputs"></div>
             </form>
 

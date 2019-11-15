@@ -10,7 +10,13 @@ import foto2 from "../img/carats-fondo.png";
 import claridad from "../img/claridad.png";
 import color from "../img/color.png";
 import corte from "../img/corte.png"
-import certificacion from "../img/certificacionYConfianza.png"
+import certificacion from "../img/certificacionYConfianza.png";
+import icon1 from "../img/diamanteIcon/DIAMANTE_icon_01.svg";
+import icon2 from "../img/diamanteIcon/DIAMANTE_icon_02.svg";
+import icon3 from "../img/diamanteIcon/DIAMANTE_icon_03.svg";
+import icon4 from "../img/diamanteIcon/DIAMANTE_icon_04.svg";
+import icon5 from "../img/diamanteIcon/DIAMANTE_icon_05.svg";
+import icon6 from "../img/diamanteIcon/DIAMANTE_icon_06.svg";
 
 import { Helmet } from "react-helmet";
 
@@ -41,7 +47,10 @@ return (
                             Los fraudes comunes de los que debe cuidarse al adquirir un Diamante son los siguientes:
                         </p>
                         <p>
-                            <b className="font-size-1">PESO TOTAL EN CARATS:</b>
+                
+                            <b className="font-size-1"> 
+                            <img src={icon1} alt="" className="img-art-rel-icon"/>
+                            PESO TOTAL EN CARATS:</b>
                         </p>
                         <p>
                             Muchas veces la joyerías solo les mencionan cual es el peso de todos los diamantes juntos, sin embargo no detallan cuánto pesa el diamante central por separado. Esto impide que puedan
@@ -50,7 +59,9 @@ return (
                             deben pedir que les detallen los pesos de los diamantes por separado.
                         </p>
                         <p>
-                            <b className="font-size-1">PAGAS POR UN DIAMANTE Y TE DAN OTRO:</b>
+                            <b className="font-size-1">
+                            <img src={icon2} alt="" className="img-art-rel-icon"/>
+                                PAGAS POR UN DIAMANTE Y TE DAN OTRO:</b>
                         </p>
                         <p>
                             Esta común estafa consta de que vas a una joyería, eliges un diamante que te gusta al precio que te acomoda, pero al momento que van a engastar el diamante en la sortija te lo 
@@ -58,6 +69,7 @@ return (
                             pagando por un diamante pero te lleves uno de menor calidad y valor.
                         </p>
                         <p>
+                        <img src={icon3} alt="" className="img-art-rel-icon"/>
                             <b className="font-size-1">ESCONDIENDO FALLAS:</b>
                         </p>
                         <p>
@@ -65,6 +77,7 @@ return (
                             uñas de la sortija. Entonces te enseñan la sortija con el diamante pero lo que no sabes es que tiene una inclusión escondida. Esto genera que pienses que te estás comprando un diamante de mejor calidad de lo que realmente es.
                         </p>
                         <p>
+                        <img src={icon4} alt="" className="img-art-rel-icon"/>
                             <b className="font-size-1">DIAMANTE O ZIRCÓN:</b>
                         </p>
                         <p>
@@ -72,6 +85,7 @@ return (
                             sin embargo no son más que una imitación. Si uno no es experto en la materia es muy difícil detectar las diferencias entre un diamante y sus imitaciones.
                         </p>
                         <p>
+                        <img src={icon5} alt="" className="img-art-rel-icon"/>
                             <b className="font-size-1">CERTIFICACIÓN FRAUDULENTA:</b>
                         </p>
                         <p>
@@ -81,6 +95,7 @@ return (
                             De igual manera no acepten certificados de supuestos laboratorios con nombres casi idénticos a los institutos de reconocimiento mundial, como sucede en el siguiente ejemplo: Gemological Institutions of America" (en vez de Gemological Institute of America).
                         </p>
                         <p>
+                        <img src={icon6} alt="" className="img-art-rel-icon"/>
                             <b className="font-size-1">CERTIFICADOS EMITIDOS POR LAS MISMAS JOYERÍAS:</b>
                         </p>
                         <p>

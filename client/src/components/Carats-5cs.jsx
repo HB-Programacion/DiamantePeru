@@ -31,9 +31,8 @@ return (
                     
                     <div className="container-text raleway-regular font-size-1em p-2 m-5">
                         <p>
-                            El valor del diamante está determinado por 4 factores, no interesando el orden de éstos; que
-                            son: Corte, Color, Claridad, Carat (unidad de peso). A continuación te explicamos sobre estos
-                            factores:
+                        El valor del diamante está determinado por 4 factores que son: Corte, Color, Claridad y Carat (unidad de peso). A estos factores  le sumamos un quinto valor que es
+                        <span className="raleway-bold"> Certificación y Confianza</span>. A continuación te explicamos sobre estos factores:
                         </p>
                         <h2 className="mb-4 mt-4 font-size-1 raleway-bold">CARAT (UNIDAD DE PESO)</h2>
                         <p>
