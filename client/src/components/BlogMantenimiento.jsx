@@ -176,7 +176,7 @@ termómetros.</li>
                 </div>
              
             </div>
-            {/* <i onClick={()=>{history.goBack()}} class="fas fa-chevron-left arrowGoback goBackBlog" aria-hidden="true"></i>  */}
+        
         </div>  
         </>
         
