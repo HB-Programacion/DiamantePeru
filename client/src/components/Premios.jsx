@@ -1,4 +1,5 @@
 import React from "react";
+import premios from "../img/DIAMANTE_PREMIO.png";
 import { Helmet } from "react-helmet";
 const Premios = () => {
     return(
@@ -13,8 +14,7 @@ const Premios = () => {
             <div className=" allCenter flexWrap-xs ">
                 <div className="allcenter ml-3 mr-3" >
                     <figure className="contCenter mt-3">
-                        <div className="logoPremios ">
-                        </div>
+                       <img className="logoPremios " src={premios} alt="" srcset=""/>
                     </figure>
                     <div id="div-premios"className="m-auto-premios">
                         <p className="mb-5 interline1">Premio 1</p>

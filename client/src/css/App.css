@@ -698,11 +698,9 @@ header {
 }
 
 .logoPremios {
-    background-image: url(/static/media/DIAMANTE_PREMIO-01.c878bede.png);
     background-position: center;
     height: 258px;
     width: 276px;
-    background-size: cover;
 }
 
 .logoCic {
