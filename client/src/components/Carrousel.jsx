@@ -21,7 +21,7 @@ const Carrousel = ({arrofJoyas,title}) => {
   return (
   <div className="w100 animated fadeIn">
     <span className="p-4 flex flexCenter text-size27"><b className="text-size-em">{title}</b></span>
-    <p className="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam </p>
+    <p className="center">Existe un diamante para cada estilo, encuentra el tuyo o escríbenos para confeccionarlo según tus exigencias. </p>
     <div className="container my-4 diamantes-xs">
       <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
         <div className="controls-top center position-relative">
