@@ -10,7 +10,9 @@ import Beneficios from './Beneficios';
 import Eleccion from './Eleccion'
 import Cs from './Cs';
 import Certificaciones from './Certificaciones';
-import Compromiso from './Compromiso'
+import Compromiso from './Compromiso';
+import Compromiso1 from './Compromiso1';
+import Compromiso2 from './Compromiso2';
 import Mantenimiento from './Mantenimiento'
 import Matrimonio from './Matrimonio'
 import Testimonio from './Testimonio'
@@ -118,6 +120,8 @@ const TabBar= () => {
       <Route path="/mantenimiento" exact component={Mantenimiento} />
       <Route path="/blog-mantenimiento" exact component={BlogMantenimiento} />
       <Route path="/compromiso" exact component={Compromiso} />
+      <Route path="/compromiso/diamante" exact component={Compromiso1} />
+      <Route path="/compromiso/diamantes" exact component={Compromiso2} />
       <Route path="/matrimonio" exact component={Matrimonio} />
       <Route path="/joyas" exact component={Joyas} />
       <Route path="/producto/:tipo/:numero"  component={ItemPlus} />

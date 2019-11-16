@@ -681,9 +681,11 @@ header {
 
 /* MOTIVOS */
 
-.box {
+.box,
+.box:hover,
+.box:active {
     margin: 0px;
-    border: 0.1em solid
+    border: 0.1em solid black !important;
 }
 
 .centered {
