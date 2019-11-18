@@ -1706,7 +1706,7 @@ input[type="radio"]:checked+label::before {
         background-image: url('../img/PORTADA.png');
         background-repeat: no-repeat;
         height: 40rem;
-        background-size: 100% 100%, cover;
+        background-size: 112% 107%, cover;
         background-position-x: center;
     }
     .m4-xs {
