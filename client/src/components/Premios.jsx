@@ -17,7 +17,7 @@ const Premios = () => {
                        <img className="logoPremios " src={premios} alt="" srcset=""/>
                     </figure>
                     <div id="div-premios"className="m-auto-premios">
-                        <p className="mb-5 interline1">Premio 1</p>
+                        <p className="mb-5 interline1">Gracias a nuestros altos estándares de calidad y gran servicio, hemos obtenido 3 veces el reconocimiento a Empresa Peruana del Año en el rubro de Distribuidor de Diamante y también en la fabricación de diseño de joyas con diamantes (custom made jewelry)</p>
                     </div>
                 </div>
                 {/* <div className="allcenter ml-3 mr-3" >

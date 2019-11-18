@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import blog5 from "../img/certificacionYConfianza.png";
 import foto1 from "../img/carats-fondo.png";
-import logoGia from "../img/GIA_logo.png"
+
 import claridad from "../img/claridad.png"
 import color from "../img/color.png"
 import corte from "../img/corte.png"
+import certificacion from "../img/certificacion.png"
 const Certificacion5cs= () => { 
 return (
     <>
@@ -42,7 +43,7 @@ return (
                             En Diamante Perú contamos con dos gemólogos graduados en GIA, altamente capacitados que se encargan de realizar la importación del Diamante perfecto para usted.
                         </p>
                         <hr/>
-                        <img src={logoGia} className="w50"></img>
+                        <img src={certificacion} className="w100"></img>
                     </div>
                 </div>
             </article>

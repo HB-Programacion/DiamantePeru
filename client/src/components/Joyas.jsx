@@ -146,7 +146,7 @@ const Joyas = () =>{
           
 {/*TIPO */}
           <div className="container-fluid container-tipo">
-            <span className="title-radio m-2">CATEGORÍA</span>
+            <span className="title-radio mb-2 mt-2">CATEGORÍA</span>
             <div className="form-check m-2">
               <input 
                 checked={stateRadioTipo === "Sortija-toda-ocasión"} 
@@ -191,7 +191,7 @@ const Joyas = () =>{
          
 {/*COLOR DE ORO */}
           <div className="container-fluid container-color">
-            <span className="title-radio m-2">COLOR DE ORO</span>
+            <span className="title-radio mb-2 mt-2">COLOR DE ORO</span>
             <div className="form-check m-2">
               <input 
                 checked={stateOro === 'Oro-Amarillo'} 
@@ -229,7 +229,7 @@ const Joyas = () =>{
 
 {/*TONO DE DIAMANTE */}
           <div className="container-fluid container-color">
-            <span className="title-radio m-2">TONALIDAD DEL DIAMANTE</span>
+            <span className="title-radio mb-2 mt-2">TONALIDAD DEL DIAMANTE</span>
          
             <div  className="form-check m-2">
               <input checked={stateRadioTonalidad === "Blanco"} onChange={(e)=>{handleOptionChange1(e,product,"Blanco","Blanco y  Azul",setStateRadioTonlidad)}}   
@@ -266,7 +266,7 @@ const Joyas = () =>{
 
 {/*FORMA DE DIAMANTE */}
           <div className="container-fluid container-color">
-            <span className="title-radio m-2">FORMA DE DIAMANTE</span>
+            <span className="title-radio mb-2 mt-2">FORMA DE DIAMANTE</span>
             <div className="form-check m-2">
               <input 
                 checked={stateRadio === "Brillante-(Redondo)"} 
@@ -302,7 +302,7 @@ const Joyas = () =>{
           </div>
 
           <div className="container-fluid container-color">
-            <span className="title-radio m-2">GEMAS ADICIONALES</span>
+            <span className="title-radio mb-2 mt-2">GEMAS ADICIONALES</span>
             <div className="form-check m-2">
               <input 
                 checked={stateGems ==="Amatista"} 
@@ -329,7 +329,7 @@ const Joyas = () =>{
             Limpiar
           </button>
           </div>
-          <div className="col-sm-9">
+          <div className="col-sm-12 col-md-9">
         
             <Varios 
               arrofJoyas={product.filter(e => !inputValue || e.CÓDIGO === inputValue )}>
