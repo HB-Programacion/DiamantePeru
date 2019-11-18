@@ -7,6 +7,7 @@ import color from "../img/color.png";
 import corte from "../img/corte.png"
 import certificacion from "../img/certificacionYConfianza.png"
 import { Helmet } from "react-helmet";
+import claridad1 from "../img/DIAMANTE_corte.png";
 
 const Clarity= () => { 
 return (
@@ -81,6 +82,7 @@ return (
                             10x. Las inclusiones de estos diamantes mayormente se podrán ver a simple vista. Estas piedras se encuentran con bastante facilidad, convirtiéndose en las más comunes.
                         </p>
                         <hr/>
+                        <img class="w100"src={claridad1} alt=""/>
                     </div>
                 </div>
             </article>

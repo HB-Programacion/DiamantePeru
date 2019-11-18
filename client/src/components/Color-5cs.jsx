@@ -6,7 +6,7 @@ import claridad from "../img/claridad.png"
 import color from "../img/color.png";
 import corte from "../img/corte.png"
 import certificacion from "../img/certificacionYConfianza.png"
-
+import color1 from "../img/DIAMANTE_color.png"
 import { Helmet } from "react-helmet";
 const Color= () => { 
 return (
@@ -52,6 +52,7 @@ return (
                             considerablemente más económicos ya que son más abundantes y menos atractivos.
                         </p>
                         <hr/>
+                        <img class="w100"src={color1} alt=""/>
                     </div>
                 </div>
             </article>

@@ -1069,7 +1069,7 @@ section.input-container label {
 
 .m-auto-premios {
     margin: 0 auto;
-    width: 80%
+    width: 50%
 }
 
 .black-margin-btn {
@@ -1179,6 +1179,15 @@ section.input-container label {
 }
 
 @media screen and (max-width:768px) {
+    .m-auto-premios {
+        width: 80%
+    }
+    .float,
+    .float:hover {
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
+    }
     .fondo-icon {
         background-size: 15rem;
     }
@@ -1370,7 +1379,7 @@ section.input-container label {
 }
 
 .img-art-rel {
-    width: 6rem;
+    width: 7rem;
     height: 4em;
 }
 

@@ -2,11 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import foto1 from "../img/carats-fondo.png";
-import color from "../img/color.png"
-import claridad from "../img/claridad.png"
-import corte from "../img/corte.png"
-import certificacion from "../img/certificacionYConfianza.png"
+import color from "../img/color.png";
+import claridad from "../img/claridad.png";
+import corte from "../img/corte.png";
+import certificacion from "../img/certificacionYConfianza.png";
 import { Helmet } from "react-helmet";
+import corte1 from "../img/DIAMANTE_escala.png";
 const Corte= () => { 
 return (
     <>
@@ -43,6 +44,7 @@ return (
                             Algunos ejemplos: Princesa, Corazón, Pera, Marquesa, Cojín y Esmeralda.
                         </p>
                         <hr/>
+                        <img class="w100"src={corte1} alt=""/>
                     </div>
                 </div>
             </article>
