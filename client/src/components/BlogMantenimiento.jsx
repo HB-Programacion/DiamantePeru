@@ -28,11 +28,10 @@ const  BlogMantenimiento =() =>{
             </div>
             <div className="container-title text-white black-blog">
                 <div className="title-article">
-                    <h1 className="raleway-semibold mb-4 font-size-2em">Mantenimiento y Términos &amp;
-Condiciones de Compra</h1>
+                    <h1 className="raleway-semibold mb-4 font-size-2em">Mantenimiento y Términos &amp;Condiciones de Compra</h1>
                     <p className=" raleway-regular font-size-1">
-                    Es obligatorio e indispensable para cubrir la garantía traer su joya antes de cumplido los 06 meses desde
-la última entrega. </p>
+                  Es obligatorio e indispensable para cubrir la garantía traer su joya antes de cumplido los 06 meses desde
+                    la última entrega. </p>
                 </div>
             </div>
             <div className="div-5cs article-content flex d-block-xs">
@@ -40,92 +39,93 @@ la última entrega. </p>
                     <div className="m-5 m-0-xs">
                         <div className="container-text raleway-regular font-size-1em m-5 p-2">
                             <p> Consiste en revisar el estado de seguridad del engaste ya sea al bisel o en uñas,
-porque el oro es un metal muy dúctil y maleable. Este servicio lo ofrecemos de manera gratuita a todos
-nuestros clientes.</p>
+                                porque el oro es un metal muy dúctil y maleable. Este servicio lo ofrecemos de manera gratuita a todos
+                                nuestros clientes.</p>
                             <h2 className="mb-4 mt-4 font-size-1 raleway-bold">MANTENIMIENTO DEL ORO AMARILLO / NARANJA / ROJO 18 k</h2>
                             <p>Este no requiere mayor mantenimiento tan solo lustrándolo recuperará su  brillo óptimo. Este servicio lo ofrecemos de manera gratuita a todos nuestros clientes.
                             </p>
                             <h2 className="mb-4 mt-4 font-size-1 raleway-bold">
-MANTENIMIENTO DE ORO BLANCO  18 k
-</h2>
+                            MANTENIMIENTO DE ORO BLANCO  18 k
+                            </h2>
                             <p>
                             El oro blanco no se encuentra en la madre naturaleza, este se logra mediante una aleación obteniendo
-una tonalidad gris o plomiza y es por eso que siempre se le da para el acabado un baño de rodio
-(galvanoplastia) o baño electrolítico y así lograr ese efecto cromado. Su durabilidad es relativa, va de
-acuerdo a la frecuencia de uso, y tipo de actividades manuales que se realicen sobre todo con las
-sortijas. El baño de rodio es indispensable para su brillo por lo que según el uso se recomienda traer
-cada 03-06 meses. Este servicio tiene un costo adicional el cual puede variar de acuerdo a la joya a
-trabajar, también puede variar el precio de acuerdo a la cotización de los metales de la bolsa de
-Londres.  </p>
+                            una tonalidad gris o plomiza y es por eso que siempre se le da para el acabado un baño de rodio
+                            (galvanoplastia) o baño electrolítico y así lograr ese efecto cromado. Su durabilidad es relativa, va de
+                            acuerdo a la frecuencia de uso, y tipo de actividades manuales que se realicen sobre todo con las
+                            sortijas. El baño de rodio es indispensable para su brillo por lo que según el uso se recomienda traer
+                            cada 03-06 meses. Este servicio tiene un costo adicional el cual puede variar de acuerdo a la joya a
+                            trabajar, también puede variar el precio de acuerdo a la cotización de los metales de la bolsa de
+                            Londres.  </p>
                        
 
                            <h2 className="mb-4 mt-4 font-size-1 raleway-bold">CAMBIO DE TALLA</h2>
                            <p>
-                           El servicio que brindamos a nuestros clientes incluye las siguientes adaptaciones de talla sin costo:
-Anillo Solitario (con un solo diamante): Hasta 02 tallas nacionales más o 02 tallas nacionales menos,
-dependiendo del modelo y el tipo de engaste.
-Anillo Con diamantes laterales: Hasta ½ talla nacional más o ½ talla nacional menos, dependiendo del
-modelo y el tipo de engaste.
-Cualquier otro tipo de adaptación o cambio de talla tendrá un costo adicional. </p>
-<hr/>
+                            El servicio que brindamos a nuestros clientes incluye las siguientes adaptaciones de talla sin costo:
+                            Anillo Solitario (con un solo diamante): Hasta 02 tallas nacionales más o 02 tallas nacionales menos,
+                            dependiendo del modelo y el tipo de engaste.
+                            Anillo Con diamantes laterales: Hasta ½ talla nacional más o ½ talla nacional menos, dependiendo del
+                            modelo y el tipo de engaste.
+                            Cualquier otro tipo de adaptación o cambio de talla tendrá un costo adicional. </p>
+                                <hr/>
    
-<h2 className="mb-4 mt-4 font-size-1 raleway-bold">CAMBIO DE MODELO</h2>
-<p>Cualquier modificación o cambio en el modelo posterior a la aceptación de la orden de compra tendrá
-un costo adicional de acuerdo a la nueva especificación solicitada.</p>
-<hr/>
-<h2 className="mb-4 mt-4 font-size-1 raleway-bold">CAMBIO DE COLOR DE ORO</h2>
-<p>
-Cualquier modificación o cambio en el color de oro posterior a la aceptación de la orden de compra
-tendrá un costo adicional de acuerdo a la nueva especificación solicitada
-</p>
-<hr/>
-<h2 className="mb-4 mt-4 font-size-1 raleway-bold">RECOMENDACIONES PARA MANTENIMIENTO DOMÉSTICO DEL DIAMANTE</h2>
-<p>El diamante es muy afín a la grasa es por ello que al usar cremas de manos, acondicionadores, jabón,
-etc. la grasa se adhieren al cono del diamante, esto impedirá que la luz interactúe de la mejor manera
-con el diamante afectando la refracción, la dispersión de la luz y aún más importante su brillo se verá
-afectado, dando una apariencia lechosa. Para evitarlo recomendamos utilizar cualquier tipo de
-disolvente; de preferencia alcohol o agua caliente con detergente.</p>
-<ul><li>
-<h2 className="mb-4 mt-4 font-size-1 raleway-bold">EN CASO DE UTILIZAR ALCHOHOL</h2> 
-    <p> Utilizar en un envase opaco, pequeño y con tapa; poner alcohol de botica suficiente para cubrir la joya y
-dejar remojándola hasta que usted note que haya recuperado su brillo. El tiempo que necesita para
-limpiarse dependerá del grado de suciedad adherida al cono del Diamante. Luego dejarlo orear. A
-mayor frecuencia de realizada esta operación, sus Diamantes deslumbraran como el primer día.</p>
-    </li>
+                        <h2 className="mb-4 mt-4 font-size-1 raleway-bold">CAMBIO DE MODELO</h2>
+                        <p>Cualquier modificación o cambio en el modelo posterior a la aceptación de la orden de compra tendrá
+                        un costo adicional de acuerdo a la nueva especificación solicitada.</p>
+                        <hr/>
+                        <h2 className="mb-4 mt-4 font-size-1 raleway-bold">CAMBIO DE COLOR DE ORO</h2>
+                        <p>
+                        Cualquier modificación o cambio en el color de oro posterior a la aceptación de la orden de compra
+                        tendrá un costo adicional de acuerdo a la nueva especificación solicitada
+                        </p>
+                        <hr/>
+                        <h2 className="mb-4 mt-4 font-size-1 raleway-bold">RECOMENDACIONES PARA MANTENIMIENTO DOMÉSTICO DEL DIAMANTE</h2>
+                        <p>El diamante es muy afín a la grasa es por ello que al usar cremas de manos, acondicionadores, jabón,
+                        etc. la grasa se adhieren al cono del diamante, esto impedirá que la luz interactúe de la mejor manera
+                        con el diamante afectando la refracción, la dispersión de la luz y aún más importante su brillo se verá
+                        afectado, dando una apariencia lechosa. Para evitarlo recomendamos utilizar cualquier tipo de
+                        disolvente; de preferencia alcohol o agua caliente con detergente.</p>
+                        <ul><li>
+                        <h2 className="mb-4 mt-4 font-size-1 raleway-bold">EN CASO DE UTILIZAR ALCHOHOL</h2> 
+                        <p> Utilizar en un envase opaco, pequeño y con tapa; poner alcohol de botica suficiente para cubrir la joya y
+                        dejar remojándola hasta que usted note que haya recuperado su brillo. El tiempo que necesita para
+                        limpiarse dependerá del grado de suciedad adherida al cono del Diamante. Luego dejarlo orear. A
+                        mayor frecuencia de realizada esta operación, sus Diamantes deslumbraran como el primer día.</p>
+                        </li>
   
-    <li>
-<h2 className="mb-4 mt-4 font-size-1 raleway-bold">EN CASO DE UTILIZAR DETERGENTE</h2> 
-    <p> Posar la sortija en un lugar plano y con un cepillo de dientes pasar las cerdas por el cono del Diamante
-hasta que salga completamente la grasa adherida. Luego secar con un pañuelo desechable.</p>
-    </li>
-    </ul>
-    <hr/>
-    <h2 className="font-size-1 ">DEVOLUCIONES</h2>
-<p>
-Aceptamos devoluciones dentro de los primeros 15 días calendarios después de haber recogido la
-sortija, este beneficio aplica exclusivamente para sortijas de compromiso.
-La devolución aplica solo para el o los diamantes con certificación GIA.
-El cliente podrá gozar de este beneficio solo si el estado del diamante se encuentra en perfectas
-condiciones, previa evaluación del personal especializado
-El cliente podrá gozar de este beneficio solo si el estado del certificado se encuentra en perfectas
-condiciones, previa evaluación del personal especializado
-En caso el pago haya sido realizado con tarjeta de crédito o débito se descontarán los respectivos gastos
-operativos
-</p>
-    <hr/>
+                        <li>
+                        <h2 className="mb-4 mt-4 font-size-1 raleway-bold">EN CASO DE UTILIZAR DETERGENTE</h2> 
+                        <p> Posar la sortija en un lugar plano y con un cepillo de dientes pasar las cerdas por el cono del Diamante
+                        hasta que salga completamente la grasa adherida. Luego secar con un pañuelo desechable.</p>
+                        </li>
+                </ul>
+                         <hr/>
+             <h2 className="font-size-1 ">DEVOLUCIONES</h2>
+            <p>
+            Aceptamos devoluciones dentro de los primeros 15 días calendarios después de haber recogido la
+            sortija, este beneficio aplica exclusivamente para sortijas de compromiso.
+            La devolución aplica solo para el o los diamantes con certificación GIA.
+            El cliente podrá gozar de este beneficio solo si el estado del diamante se encuentra en perfectas
+            condiciones, previa evaluación del personal especializado
+            El cliente podrá gozar de este beneficio solo si el estado del certificado se encuentra en perfectas
+            condiciones, previa evaluación del personal especializado
+            En caso el pago haya sido realizado con tarjeta de crédito o débito se descontarán los respectivos gastos
+            operativos
+            </p>
+                          <hr/>
 
-   <h1 className="raleway-semibold mb-4 font-size-2em text-centered ">     EVITE </h1>
+            <h1 className="raleway-semibold mb-4 font-size-2em text-centered ">     EVITE </h1>
                    
           <ul>
-              <li>NUNCA someter al diamante a un cambio de temperatura brusca.</li>
-              <li> No utilizar la sortija al ingresar a aguas frías como el mar, ríos o piscina porque al contacto con
-el agua fría el cuerpo reacciona y se encoge pudiéndose soltar la sortija de sus dedos.</li>
-<li>El contacto del oro con el mercurio es fatal, ya que el mercurio corroe al oro y además hará
-que esté cambie de color, el mercurio es sumamente tóxico. Mantener alejado al oro de los
-termómetros.</li>
+                    <li>NUNCA someter al diamante a un cambio de temperatura brusca.</li>
+                    <li> No utilizar la sortija al ingresar a aguas frías como el mar, ríos o piscina porque al contacto con
+                        el agua fría el cuerpo reacciona y se encoge pudiéndose soltar la sortija de sus dedos.</li>
+                    <li>El contacto del oro con el mercurio es fatal, ya que el mercurio corroe al oro y además hará
+                        que esté cambie de color, el mercurio es sumamente tóxico. Mantener alejado al oro de los
+                        termómetros.</li>
           </ul>
-                           </div>
-                    </div>
+    
+            </div>
+           </div>
                 </article>
                 <div className="container-another-articles w40rem mt-4 mt-4-xs mr-4 mb-4 p-2">
                     <div className="rel-art m-3 mb-4  ">
