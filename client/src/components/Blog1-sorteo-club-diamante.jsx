@@ -26,7 +26,7 @@ return (
         <div className="container-title text-white black-blog">
             <div className="title-article">
                 <h1 className="raleway-semibold mb-4 font-size-2em">SORTEO APERTURA CLUB DIAMANTE:</h1>
-                <p className=" raleway-regular font-size-1">¡Inauguramos Club Diamante, conoce más sobre el sorteo por apertura!</p>
+                <p className=" raleway-regular font-size-1">¡ Inauguramos Club Diamante, conoce más sobre el sorteo por apertura !</p>
             </div>
         </div>
         <div className="div-5cs article-content flex d-block-xs">
