@@ -1705,9 +1705,10 @@ input[type="radio"]:checked+label::before {
     .portada {
         background-image: url('../img/PORTADA.png');
         background-repeat: no-repeat;
-        height: 40rem;
-        background-size: 112% 107%, cover;
+        height: 14rem;
+        background-size: 100% 169%, cover;
         background-position-x: center;
+        background-position-y: 67%;
     }
     .m4-xs {
         margin-left: 2em !important;
