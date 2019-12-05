@@ -173,7 +173,8 @@ header {
 
 .card-title {
     font-family: 'Raleway-Medium';
-    font-size: 1em
+    font-size: 1em;
+    padding-bottom: .8rem;
 }
 
 .flex {
@@ -332,7 +333,7 @@ header {
 }
 
 .h-50-rem {
-    height: 32rem;
+    height: 25rem;
 }
 
 .h100 {
@@ -466,7 +467,7 @@ header {
     background-image: url("../img/fondo-item.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 38rem;
+    height: 43rem;
 }
 
 .fondo-icon {
@@ -698,9 +699,9 @@ header {
 }
 
 .logoPremios {
-    background-position: center;
-    height: 258px;
-    width: 276px;
+    width: 30rem;
+    position: relative;
+    left: 2rem;
 }
 
 .logoCic {
@@ -1179,6 +1180,10 @@ section.input-container label {
 }
 
 @media screen and (max-width:768px) {
+    .logoPremios{
+        width: 18rem;
+        left: 1.5rem;
+    }
     .m-auto-premios {
         width: 80%
     }
