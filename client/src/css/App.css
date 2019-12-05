@@ -332,9 +332,10 @@ header {
     height: 90%;
 }
 
-.h-50-rem {
+
+/* .h-50-rem {
     height: 90vh;
-}
+} */
 
 .h100 {
     height: 100%;
