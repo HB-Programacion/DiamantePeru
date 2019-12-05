@@ -15,7 +15,9 @@ html {
     cursor: pointer;
     text-decoration: none !important;
 }
-
+.w-3rem{
+    width: 3rem
+}
 .col-2 {
     width: 16.666;
 }
@@ -270,6 +272,7 @@ header {
 
 .w15 {
     width: 15%;
+    height: auto;
 }
 
 .w40 {
@@ -1595,6 +1598,7 @@ input[type="radio"]:checked+label::before {
     }
     .w15-xs {
         width: 100%;
+        height: auto;
     }
     .w30-xs {
         width: 40% !important;
