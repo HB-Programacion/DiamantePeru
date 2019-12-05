@@ -93,8 +93,8 @@ const TabBar= () => {
               <b>NOVIOS <span> &#43;</span></b>
             </a>
             <div className="dropdown-menu center grayNav border-0 rounded-0 "  aria-labelledby="navbarDropdown">
-              <Link to="/compromiso" className={"dropdown-item"}>Compromiso</Link>
-              <Link to="/matrimonio" className={"dropdown-item"}>Matrimonio</Link>
+              <Link to="/compromiso" className={"dropdown-item"}>Anillos de Compromiso</Link>
+              <Link to="/matrimonio" className={"dropdown-item"}>Aros Matrimonio</Link>
             </div>
             </li>
             <li className={"nav-item mb-4 pl-3 pr-3 principal-text-navbar"}>

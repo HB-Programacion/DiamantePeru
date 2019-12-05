@@ -16,7 +16,7 @@ const Eleccion = () => {
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
             <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
         </Helmet>
-        <span className="p-3 flex flexCenter text-size27 "><b>ELECCIÓN</b></span>
+        <h1 className="p-3 flex flexCenter text-size27 "><b>ELECCIÓN</b></h1>
             <div className="w80 mL-R10 font-size-1rem">
                 <div className="pb-3t interline1 p-eleccion">
                     {/* <span className="mb-2 flex flexCenter text-size27"><b>ELECCION</b></span> */}

@@ -113,7 +113,7 @@ const Blog2= () => {
                                 <p className="mb0 ml-3">HISTORIA DE LA SORTIJA DE COMPROMISO</p>
                             </div>
                         </Link>
-                        <Link to="/carats"className="each-article-container  flex mr-5 option-menu">
+                        <Link to="/blog-5cs"className="each-article-container  flex mr-5 option-menu">
                             <img src={blog5}  alt="" className="img-art-rel"/>
                             <div className="text-each-rel-art">
                                 <p className="mb0 ml-3">LAS 5CS DIAMANTE PERÚ</p>

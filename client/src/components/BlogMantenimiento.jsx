@@ -2,7 +2,7 @@ import  React  from "react";
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import blog from "../img/blogMantenimiento.png";
+import blog from "../img/MANTENIMIENTO/2.jpg";
 import foto1 from "../img/carats-fondo.png";
 import claridad from "../img/claridad.png"
 import color from "../img/color.png";

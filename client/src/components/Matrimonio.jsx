@@ -24,7 +24,7 @@ const Matrimonio = () => {
   </Helmet>
     <CarrouselMatri 
       arrofJoyas={arrJoyas.filter(e =>  e .Sección === "Novios / Matrimonio")}  
-      title={"MATRIMONIO"}>
+      title={"AROS DE MATRIMONIO"}>
     </CarrouselMatri>
     </div>
   )
