@@ -971,7 +971,17 @@ header {
     top: 20rem;
     z-index: 1;
 }
+.left3-premios {
+    left: 10rem;
+    top: 15rem;
+    z-index: 1;
+}
 
+.right3-premios {
+    right: 10rem;
+    top: 15rem;
+    z-index: 1;
+}
 .pad-2 {
     padding: 2em;
 }
@@ -1182,6 +1192,16 @@ section.input-container label {
 }
 
 @media screen and (max-width:768px) {
+    .left3-premios{
+        left: 6rem;
+        top: -2.8rem;
+        z-index: 1;
+    }
+    .right3-premios {
+        right: 6rem;
+        top: -2.8rem;
+        z-index: 1;
+    }
     .fndo-motivos-res{
         width: 50%;
     }
