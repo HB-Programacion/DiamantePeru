@@ -1711,7 +1711,7 @@ input[type="radio"]:checked+label::before {
     .portada {
         background-image: url('../img/PORTADA.png');
         background-repeat: no-repeat;
-        height: 83vh;
+        height: 26rem;
         background-size: 100% 200%, cover;
         background-position-x: center;
         background-position-y: 67%;
