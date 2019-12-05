@@ -16,7 +16,11 @@ const Certificaciones = () => {
                 <div className="w50 flex flex-column alignSelCenter wResponsive100">
                     <img src={gia} className="w50 ml-15 pb-3 gia-logo-xs"  alt="gia"/>
                     <div className='interline1 pb-2 ml-15 pad-l-responsive'>
-                        <p>Institución dedicada a la investigación y formación en el campo de la gemología y joyería. Fundada en 1931, su misión es proteger a los vendedores y compradores de gemas, estableciendo y manteniendo los estándares para evaluar la calidad de una gema.</p>
+                        <p>Diamante Perú trabaja con las mejores calidades de diamantes, estos son certificados por el
+prestigioso instituto GIA, con inscripción láser de seguridad y verificación en línea.
+<br/>
+Contamos con profesionales altamente calificados Graduados también en este mismo Instituto
+GIA, ellos nos respaldan.</p>
                     </div>
                 </div>
                 <figure className="w50 flex flexCenter wResponsive100">

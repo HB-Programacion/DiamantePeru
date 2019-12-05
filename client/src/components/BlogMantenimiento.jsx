@@ -49,10 +49,10 @@ const  BlogMantenimiento =() =>{
                             </h2>
                             <p>
                             El oro blanco no se encuentra en la madre naturaleza, este se logra mediante una aleación obteniendo
-                            una tonalidad gris o plomiza y es por eso que siempre se le da para el acabado un baño de rodio
+                            una tonalidad gris o plomiza y es por eso que siempre se le da para el acabado un baño de rodhio
                             (galvanoplastia) o baño electrolítico y así lograr ese efecto cromado. Su durabilidad es relativa, va de
                             acuerdo a la frecuencia de uso, y tipo de actividades manuales que se realicen sobre todo con las
-                            sortijas. El baño de rodio es indispensable para su brillo por lo que según el uso se recomienda traer
+                            sortijas. El baño de rodhio es indispensable para su brillo por lo que según el uso se recomienda traer
                             cada 03-06 meses. Este servicio tiene un costo adicional el cual puede variar de acuerdo a la joya a
                             trabajar, también puede variar el precio de acuerdo a la cotización de los metales de la bolsa de
                             Londres.  </p>
