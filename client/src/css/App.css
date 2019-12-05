@@ -333,7 +333,7 @@ header {
 }
 
 .h-50-rem {
-    height: 25rem;
+    height: 90vh;
 }
 
 .h100 {
@@ -1180,7 +1180,7 @@ section.input-container label {
 }
 
 @media screen and (max-width:768px) {
-    .logoPremios{
+    .logoPremios {
         width: 18rem;
         left: 1.5rem;
     }
@@ -1710,7 +1710,7 @@ input[type="radio"]:checked+label::before {
     .portada {
         background-image: url('../img/PORTADA.png');
         background-repeat: no-repeat;
-        height: 30vh;
+        height: 83vh;
         background-size: 100% 200%, cover;
         background-position-x: center;
         background-position-y: 67%;
