@@ -15,7 +15,9 @@ html {
     cursor: pointer;
     text-decoration: none !important;
 }
-
+.w-3rem{
+    width: 3rem
+}
 .col-2 {
     width: 16.666;
 }
@@ -270,6 +272,7 @@ header {
 
 .w15 {
     width: 15%;
+    height: auto;
 }
 
 .w40 {
@@ -1140,10 +1143,8 @@ section.input-container label {
 .matriArrow {
     top: 12rem;
 }
-
-.fndo-motivos-res {
-    width: 50%;
-    padding: 1rem;
+.fndo-motivos-res{
+    width: 100%;
 }
 
 .mb-5rem {
@@ -1186,6 +1187,9 @@ section.input-container label {
 }
 
 @media screen and (max-width:768px) {
+    .fndo-motivos-res{
+        width: 50%;
+    }
     .logoPremios {
         width: 18rem;
         left: 1.5rem;
@@ -1600,6 +1604,7 @@ input[type="radio"]:checked+label::before {
     }
     .w15-xs {
         width: 100%;
+        height: auto;
     }
     .w30-xs {
         width: 40% !important;
@@ -1716,7 +1721,7 @@ input[type="radio"]:checked+label::before {
     .portada {
         background-image: url('../img/PORTADA.png');
         background-repeat: no-repeat;
-        height: 83vh;
+        height: 26rem;
         background-size: 100% 200%, cover;
         background-position-x: center;
         background-position-y: 67%;

@@ -11,7 +11,7 @@ import { Helmet } from "react-helmet";
 const Eleccion = () => {
     return (
         <div className="h100 pb-pt-4rem pt-5-xs animated fadeIn vhEleccion geosansLight">
-             <Helmet>
+        <Helmet>
             <title>Elección - Diamante Perú</title>
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
             <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
@@ -26,36 +26,34 @@ const Eleccion = () => {
                         {/* <p className="">Los fraudes comunes de los que debe cuidarse al adquirir un Diamante son los siguientes:</p> */}
                     {/* </div> */}
                     <div className="flexWrap flexWrap-eleccion-xs mt-4 mb-4">
-                       
                         <Link to="/carats" className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3 text-dec-black">
-                            <img className="w15 w15-xs pr-3 bd-right" src={eleccion1} alt="eleccion1"/>
+                            <div className="bd-right"><img className="w-3rem pr-3" src={eleccion1} alt="eleccion1"/></div>
                             <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">PAGAS POR UN DIAMANTE Y TE DAN OTRO</p>
                         </Link>
 
                         <Link to="/certificacion-y-confianza" className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3 text-dec-black">
-                            <img className="w15 w15-xs pr-3 bd-right" src={eleccion2}  alt="eleccion2"/>
+                            <div className="bd-right"><img className="w-3rem pr-3" src={eleccion2}  alt="eleccion2"/></div>
                             <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">CERTIFICACIÓN FRAUDULENTA</p>
                         </Link>
 
                         <Link to="/carats"  className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3 text-dec-black ">
-                            <img className="w15 w15-xs pr-3 bd-right" src={eleccion3} alt="eleccion3 text-dec-black"/>
+                            <div className="bd-right"><img className="w-3rem pr-3" src={eleccion3} alt="eleccion3 text-dec-black"/></div>
                             <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">PESO TOTAL EN CARATS</p>
                         </Link>
 
                     {/* </div> */}
                     {/* <div className="flex flexCenter"> */}
-                    <Link to="/certificacion-y-confianza"  className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3 text-dec-black">
-                            <img className="w15 w15-xs pr-3 bd-right" src={eleccion4}  alt="eleccion4"/>
-
+                        <Link to="/certificacion-y-confianza"  className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3 text-dec-black">
+                            <div className="bd-right"><img className="w-3rem pr-3" src={eleccion4}  alt="eleccion4"/></div>
                             <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">DIAMANTE O ZIRCÓN</p>
 
                         </Link>
                         <Link to="/certificacion-y-confianza" className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3 text-dec-black">
-                            <img className="w15 w15-xs pr-3 bd-right" src={eleccion5}  alt="eleccion5"/>
+                            <div className="bd-right"><img className="w-3rem pr-3" src={eleccion5}  alt="eleccion5"/></div>
                             <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">CERTIFICADOS EMITIDOS POR LAS MISMAS JOYERIAS</p>
                         </Link>
                         <Link to="/claridad"  className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3 text-dec-black">
-                            <img className="w15 w15-xs pr-3 bd-right" src={eleccion6}/>
+                            <div className="bd-right"><img className="w-3rem pr-3" src={eleccion6}/></div>
                             <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">ESCONDIENDO INCLUSIONES</p>
                         </Link>
                     </div>

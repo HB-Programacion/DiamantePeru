@@ -34,13 +34,13 @@ const Home = () => {
             <div id="carouselExampleSlidesOnly" className="carousel slide noPortada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/>
+                       <Link to="/compromiso"><img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/></Link>
                     </div>
                     <div className="carousel-item">
-                        <img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/>
+                      <Link to="/joyas"><img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/></Link>
                     </div>
                     <div className="carousel-item">
-                        <img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/>
+                      <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/></Link>
                     </div>
                 </div>
             </div>
