@@ -1138,10 +1138,8 @@ section.input-container label {
 .matriArrow {
     top: 12rem;
 }
-
-.fndo-motivos-res {
-    width: 50%;
-    padding: 1rem;
+.fndo-motivos-res{
+    width: 100%;
 }
 
 .mb-5rem {
@@ -1184,6 +1182,9 @@ section.input-container label {
 }
 
 @media screen and (max-width:768px) {
+    .fndo-motivos-res{
+        width: 50%;
+    }
     .logoPremios {
         width: 18rem;
         left: 1.5rem;
