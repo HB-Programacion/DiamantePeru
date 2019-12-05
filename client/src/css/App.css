@@ -481,6 +481,10 @@ header {
     background-position-y: bottom
 }
 
+.fondoCompromiso {
+    background-image: url("../img/fondo-contacto1.png");
+}
+
 .foto-testimonio {
     width: 8rem;
     height: 8rem;
@@ -821,7 +825,8 @@ header {
 }
 
 .borderBold {
-    border: 1em solid #d2cbbd;
+    border: 1em solid #e3e7e8;
+    /*#d2cbbd #e6e6e6*/
     position: relative;
 }
 
@@ -939,7 +944,7 @@ header {
 .background-carrousel-ring {
     border-radius: 1px;
     border: none;
-    background-color: #faf9f8;
+    background-color: #fdfeffba;
     box-shadow: #dae0e5 1px 1px;
 }
 
