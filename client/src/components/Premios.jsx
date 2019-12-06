@@ -1,5 +1,6 @@
 import React from "react";
-import premios from "../img/DIAMANTE_PREMIO.png";
+import premios from "../img/DIAMANTE_premios-02.png";
+import premios2 from "../img/DIAMANTE_premios-01.png";
 import { Helmet } from "react-helmet";
 const Premios = () => {
     return(
@@ -53,7 +54,7 @@ const Premios = () => {
                                         </div>
                                     </div>   
                                     <figure className="w50 allCenter convenioResImg">
-                                        <img src={premios} className='w80' alt="diamante"/>
+                                        <img src={premios2} className='w80' alt="diamante"/>
                                     </figure>
                                 </div>
                             </div>

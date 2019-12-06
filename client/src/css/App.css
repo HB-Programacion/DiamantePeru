@@ -15,9 +15,11 @@ html {
     cursor: pointer;
     text-decoration: none !important;
 }
-.w-3rem{
+
+.w-3rem {
     width: 3rem
 }
+
 .col-2 {
     width: 16.666;
 }
@@ -976,6 +978,7 @@ header {
     top: 20rem;
     z-index: 1;
 }
+
 .left3-premios {
     left: 10rem;
     top: 15rem;
@@ -987,6 +990,7 @@ header {
     top: 15rem;
     z-index: 1;
 }
+
 .pad-2 {
     padding: 2em;
 }
@@ -1153,8 +1157,9 @@ section.input-container label {
 .matriArrow {
     top: 12rem;
 }
-.fndo-motivos-res{
-    width: 100%;
+
+.fndo-motivos-res {
+    width: 13rem;
 }
 
 .mb-5rem {
@@ -1197,7 +1202,7 @@ section.input-container label {
 }
 
 @media screen and (max-width:768px) {
-    .left3-premios{
+    .left3-premios {
         left: 6rem;
         top: -2.8rem;
         z-index: 1;
@@ -1207,7 +1212,7 @@ section.input-container label {
         top: -2.8rem;
         z-index: 1;
     }
-    .fndo-motivos-res{
+    .fndo-motivos-res {
         width: 50%;
     }
     .logoPremios {
