@@ -5,6 +5,7 @@ import blog3 from "../img/blog3.png";
 import blog2 from "../img/blog2.png";
 import blog1 from "../img/blog1.png";
 import blog4 from "../img/blog4.png";
+import blog7 from "../img/carats-fondo.png";
 import blog5 from "../img/5C-cover/COVER.png";
 import color from "../img/color.png"
 import claridad from "../img/claridad.png";
@@ -84,7 +85,7 @@ return (
 
                         <Link to="/carats" className="col-sm-6 col-md-6 mb-5 text-dec-black">
                             <div className="card " style={{width: "18 rem"}}>
-                                <img src={blog5} className="w100" alt="..."/>
+                                <img src={blog7} className="w100" alt="..."/>
                                 <div className="card-body p-3">
                                     <h5 className="card-title"><b>CARATS</b></h5>
                                     <hr className="my-3"/>

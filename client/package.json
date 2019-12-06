@@ -3,6 +3,8 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "cross-env": "^6.0.3",
+        "dotenv": "^8.2.0",
         "fontello-cli": "^0.4.0",
         "google-spreadsheet": "^2.0.8",
         "jquery-react": "^1.0.0",

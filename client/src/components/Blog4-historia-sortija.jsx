@@ -6,7 +6,7 @@ import foto1 from "../img/blog4.png";
 import blog2 from "../img/blog2.png";
 import blog3 from "../img/blog3.png";
 import blog1 from "../img/blog1.png";
-import blog5 from "../img/blog5.png";
+import blog5 from "../img/5C-cover/COVER.png";
 
 import { Helmet } from "react-helmet";
 import foto2 from "../img/carats-fondo.png";
