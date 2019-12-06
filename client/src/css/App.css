@@ -1256,6 +1256,7 @@ section.input-container label {
     }
     .text-each-rel-art {
         margin: 0px !important;
+        font-family: "Raleway-Regular";
     }
     .each-article-container {
         padding: .5em;
@@ -1424,6 +1425,7 @@ section.input-container label {
 }
 
 .text-each-rel-art {
+    font-family: "Raleway-Regular";
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -43,7 +43,7 @@ return (
                             En Diamante Perú contamos con dos gemólogos graduados en GIA, altamente capacitados que se encargan de realizar la importación del Diamante perfecto para usted.
                         </p>
                         <hr/>
-                        <img src={certificacion} className="w100"></img>
+                        <img src={certificacion} alt="gia" className="w100"></img>
                     </div>
                 </div>
             </article>

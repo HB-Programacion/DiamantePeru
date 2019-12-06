@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import facebook from './../img/Facebook.svg';
-import instagram from '../img/Instagram.svg'
+import instagram from '../img/Instagram.svg';
+import dotenv from "dotenv";
+dotenv.config();
+// import BACKEND_URL from '../../src/.env.produccion'
+//require('dotenv').config()
 
 const Footer = () => {
     const [email,setEmail]=useState("");
@@ -11,7 +15,8 @@ const Footer = () => {
      };
    async function fetchdata(e){ 
        e.preventDefault();
-      const res =await fetch('http://localhost:5000/api/customers', {
+    //    const res =await fetch(`${BACKEND_URL}/api/customers`, {
+      const res =await fetch(`http://localhost:5000/api/customers`, {
        method: 'POST',
        body: JSON.stringify({ EmailUser: email }),
        headers: new Headers({ "Content-Type": "application/json" }) 
