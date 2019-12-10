@@ -36,7 +36,7 @@ const Premios = () => {
                                         </div>
                                     </div>   
                                     <figure className="w50 allCenter convenioResImg">
-                                        <img src={premios} className='w80' alt="diamante"/>
+                                        <img src={premios} className='w100' alt="diamante"/>
                                     </figure>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ const Premios = () => {
                                         </div>
                                     </div>   
                                     <figure className="w50 allCenter convenioResImg">
-                                        <img src={premios2} className='w80' alt="diamante"/>
+                                        <img src={premios2} className='w100' alt="diamante"/>
                                     </figure>
                                 </div>
                             </div>

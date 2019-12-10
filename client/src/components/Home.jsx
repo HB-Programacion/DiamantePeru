@@ -6,8 +6,8 @@ import Footer from "./Footer";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 // import foto1 from "../img/Clip.png";
-import foto1 from "../img/foto01.png";
-import foto2 from "../img/foto2.png";
+import foto1 from "../img/diamante_cover-01.png";
+import foto2 from "../img/foto01.png";
 import foto3 from "../img/foto3.png";
 import img1 from "../img/1.png"
 import img2 from "../img/2.png"
@@ -34,13 +34,13 @@ const Home = () => {
             <div id="carouselExampleSlidesOnly" className="carousel slide noPortada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                       <Link to="/compromiso"><img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/></Link>
+                       <Link to="/compromiso"><img src={foto1} className="d-block w-100 h-50-rem" alt="Bodegon joyas"/></Link>
                     </div>
                     <div className="carousel-item">
-                      <Link to="/joyas"><img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/></Link>
+                      <Link to="/joyas"><img src={foto2} className="d-block w-100 h-50-rem" alt="chica"/></Link>
                     </div>
                     <div className="carousel-item">
-                      <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem" alt="chica"/></Link>
+                      <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem" alt="Promocion del mes"/></Link>
                     </div>
                 </div>
             </div>
