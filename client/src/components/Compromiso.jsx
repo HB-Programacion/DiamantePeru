@@ -3,8 +3,8 @@ import React  from "react";
 import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import oneDiamante from '../img/diamante.png'
-import moreDiamante from '../img/diamantes.png'
+import oneDiamante from '../img/one-diamante.png'
+import moreDiamante from '../img/more-diamante.png'
 
 const Compromiso = () => {
     return (
@@ -14,7 +14,7 @@ const Compromiso = () => {
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
             <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
         </Helmet>   <div>    <h1 className="p-3 flex flexCenter text-size27 "><b>ANILLOS DE COMPROMISO</b></h1>
-        <p className="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p className="center">Comienza tu historia de amor </p>
     </div>
             <div className="flex-wrap-xs flex mt-5 mb-5rem flexCenter ">
                     
