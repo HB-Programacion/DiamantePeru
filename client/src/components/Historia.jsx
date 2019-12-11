@@ -2,6 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import historia from "../img/foto-historia.png"
+import adrian from "../img/adrian.JPG"
+import gino from "../img/gino.JPG"
 
 const Historia = () =>{
     return (
@@ -100,7 +102,7 @@ const Historia = () =>{
                             </p>
                           </div>
                           <figure className="w50 w50-xs">
-                            <img className="w100" src={historia} alt="Beneficio 1"/>
+                            <img className="w100" src={adrian} alt="Beneficio 1"/>
                           </figure>
                         </div>
                       </div>
@@ -120,7 +122,7 @@ const Historia = () =>{
                             </p>
                           </div>
                           <figure className="w50 w50-xs">
-                            <img className="w100" src={historia} alt="Beneficio 1"/>
+                            <img className="w100" src={gino} alt="Beneficio 1"/>
                           </figure>
                         </div>
                       </div>

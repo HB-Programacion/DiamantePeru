@@ -10,8 +10,8 @@ const Convenio = () => {
             <div className="w100 pad-5-xs pad-2">
                 <div className="w45 w100-xs center text-centered"> <label className="spacing4 text-1-5 bolder-xs "><b>BENEFICIOS</b></label>
                     <p className="text-centered">
-                    Diamante Perú te acompaña en los momentos más importantes de tu vida. 
-Buscando tu felicidad creamos las alianzas estrategicas para poder brindarte los mejores beneficios. </p>
+                        Diamante Perú te acompaña en los momentos más importantes de tu vida. 
+                        Buscando tu felicidad creamos las alianzas estrategicas para poder brindarte los mejores beneficios. </p>
                     <Link to="/beneficios" className="text-centered option-menu raleway-medium-italic nav-link" >LEER MÁS <span className="arrow-see-more">></span></Link>
                 </div>
             </div>
