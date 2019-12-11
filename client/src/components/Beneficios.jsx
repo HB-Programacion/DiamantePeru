@@ -1,6 +1,10 @@
 import React from "react";
 
-import imgconvenio from "../img/logo-carmenSeminara.png";
+import imgconvenio1 from "../img/beneficios/D01.png";
+
+import imgconvenio2 from "../img/beneficios/D02.png";
+import imgconvenio3 from "../img/beneficios/D03.png";
+import imgconvenio4 from "../img/beneficios/D04.png";
 import { Helmet } from "react-helmet";
 const Beneficios = () => {
     return(
@@ -30,11 +34,10 @@ const Beneficios = () => {
                       <div className="col-md-12  cont-ben">
                         <div className="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio} alt="Beneficio 2"/>
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio1} alt="Beneficio 2"/>
                           </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
-                          <h4 className="card-title"> ALIANZA COMERCIAL - CARMEN SEMINARIO y CLUB DIAMOND DE DIAMANTE PERU
-                            CAMBIOS:</h4>
+                          <h4 className="card-title"> ALIANZA COMERCIAL - CARMEN SEMINARIO y CLUB DIAMOND DE DIAMANTE PERÚ:</h4>
 
                             <h3 className="card-title">VIGENCIA: DEL 30 DE ABRIL 2019 AL 30 DE ABRIL 2020</h3>
                             <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
@@ -90,10 +93,10 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
                       <div className="col-md-12  cont-ben">
                         <div className="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio} alt="Beneficio 2"/>
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio1} alt="Beneficio 2"/>
                           </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
-                            <h4 className="card-title">SOCIO</h4>
+                            <h4 className="card-title">CARMEN SEMINARIO LA ATELIER</h4>
                             <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
                             <ul className="interline1 ml-4 font-size-1rem">
                               <li>10% de dscto en vestidos de novia a medida.</li>
@@ -106,7 +109,7 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
                             <p className="interline1 text-size12 justify">
                                 Términos y Condiciones:
                                 Descuentos exclusivos para clientes de DIAMANTE PERÚ,
-                                La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERU. Promoción no acumulable con otros descuentos, vales, cupones y/o promociones vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta promoción es válida con pago en efectivo o depósito en cuenta. Local ubicado en: Av. Javier Prado Este 2456, 3er. Piso - San Borja. Horario de atención*: De Lunes a Viernes de 10am a 7pm / Sábados: 10am a 1pm. Teléfono de contacto: 2268364 / PÁGINA WEB: www.carmenseminario.com
+                                La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERÚ. Promoción no acumulable con otros descuentos, vales, cupones y/o promociones vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta promoción es válida con pago en efectivo o depósito en cuenta. Local ubicado en: Av. Javier Prado Este 2456, 3er. Piso - San Borja. Horario de atención*: De Lunes a Viernes de 10am a 7pm / Sábados: 10am a 1pm. Teléfono de contacto: 2268364 / PÁGINA WEB: www.carmenseminario.com
                                 contacto: atelier@carmenseminario.com
                             </p>
                           </div>
@@ -119,10 +122,10 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
                       <div className="col-md-12  cont-ben">
                         <div className="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio} alt="Beneficio 2"/>
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio3} alt="Beneficio 2"/>
                           </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
-                            <h4 className="card-title">CARMEN SEMINARIO ATELIER</h4>
+                            <h4 className="card-title">EL TALLER BY CARMEN SEMINARIO </h4>
                             <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
                             <ul className="interline1 ml-4 font-size-1rem">
                               <li>10% de dscto en vestidos de novia a medida.</li>
@@ -135,7 +138,7 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
                             <p className="interline1 text-size12 justify">
                                 Términos y Condiciones:
                                 Descuentos exclusivos para clientes de DIAMANTE PERÚ,
-                                La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERU. Promoción no acumulable con otros descuentos, vales, cupones y/o promociones vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta promoción es válida con pago en efectivo o depósito en cuenta. Local ubicado en: Av. Javier Prado Este 2456, 3er. Piso - San Borja. Horario de atención*: De Lunes a Viernes de 10am a 7pm / Sábados: 10am a 1pm. Teléfono de contacto: 2268364 / PÁGINA WEB: www.carmenseminario.com
+                                La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERÚ. Promoción no acumulable con otros descuentos, vales, cupones y/o promociones vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta promoción es válida con pago en efectivo o depósito en cuenta. Local ubicado en: Av. Javier Prado Este 2456, 3er. Piso - San Borja. Horario de atención*: De Lunes a Viernes de 10am a 7pm / Sábados: 10am a 1pm. Teléfono de contacto: 2268364 / PÁGINA WEB: www.carmenseminario.com
                                 contacto: atelier@carmenseminario.com
                             </p>
                           </div>
@@ -148,10 +151,10 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
                       <div className="col-md-12  cont-ben">
                         <div className="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio} alt="Beneficio 2"/>
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio2} alt="Beneficio 2"/>
                           </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
-                            <h4 className="card-title">VIAJES</h4>
+                            <h4 className="card-title">AGENCIA DE VIAJES GLOBAL NET</h4>
                             <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
                             <ul className="interline1 ml-4 font-size-1rem">
   
@@ -162,19 +165,19 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
                             <hr className="my-4"/>
                             <p className="interline1 text-size12 justify">
                                                         Términos y Condiciones:
-                            Descuentos exclusivos para clientes de DIAMANTE PERU, válido del viernes 30 de
+                            Descuentos exclusivos para clientes de DIAMANTE PERÚ, válido del viernes 30 de
                             agosto 2019 al martes 31 de diciembre del 2019.
                             La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá
-                            y mamá), solo presentando el voucher de compra en DIAMANTE PERU. Para acceder
+                            y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder
                             al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando
-                            en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERU.
+                            en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERÚ.
                             Promoción no acumulable con otros descuentos, vales, cupones y/o promociones
                             vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta
                             promoción es válida con pago en efectivo o depósito en cuenta. Horario de atención*:
                             De Lunes a Viernes de 09:30am a 6pm / Sábados: 09:30am a 12:30pm. <br></br> Teléfono de
                             contacto: 981396725 <br></br>
-                            <a class="option-menu" href=" https://facebook.com/viajesglobalnet">FAN PAGE: www.facebook.com/viajesglobalnet</a><br></br>
-                            <a  class="option-menu" href=" www.viajesglobalnet.com">PÁGINA WEB: www.viajesglobalnet.com</a>   <br></br>
+                            <a className="option-menu" href=" https://facebook.com/viajesglobalnet">FAN PAGE: www.facebook.com/viajesglobalnet</a><br></br>
+                            <a  className="option-menu" href=" www.viajesglobalnet.com">PÁGINA WEB: www.viajesglobalnet.com</a>   <br></br>
                             contacto: asesor@viajesglobalnet.com
                             </p>
                           </div>
@@ -192,7 +195,7 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
                       <div className="col-md-12  cont-ben">
                         <div className="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio} alt="Beneficio 2"/>
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio4} alt="Beneficio 2"/>
                           </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 className="card-title">PAGOS SIN INTERESES</h4>
@@ -203,8 +206,8 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
                             Beneficio aplicable con todas las tarjetas de crédito del Banco BBVA. Aplica para realizar compras de
                             piezas listas y por confección. Horario de atención*: De Lunes a Viernes de 10:00am a 7pm / Sábados:
                             10:00am a 05:00pm. (Refrigerio 2:00 – 3:00pm)  <br></br>Teléfonos de contacto: 241-8536 ó 445-6139  <br></br>
-                            <a  class="option-menu" href="http:///facebook.com/DiamantePeruOficial">  FANPAGE: www.facebook.com/DiamantePeruOficial</a>
-                            <br></br> <a  class="option-menu" href="http://diamanteperu.com">WEB: www.diamanteperu.com</a>  <br></br>
+                            <a  className="option-menu" href="http:///facebook.com/DiamantePeruOficial">  FANPAGE: www.facebook.com/DiamantePeruOficial</a>
+                            <br></br> <a  className="option-menu" href="http://diamanteperu.com">WEB: www.diamanteperu.com</a>  <br></br>
                             Contacto: info@diamanteperu.com
                             </p>
                       
@@ -220,8 +223,8 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
                             Beneficio aplicable con todas las tarjetas de crédito Diners Club. Aplica para realizar compras de
                             piezas listas y por confección. Horario de atención*: De Lunes a Viernes de 10:00am a 7pm / Sábados:
                             10:00am a 05:00pm. (Refrigerio 2:00 – 3:00pm)  <br></br>Teléfonos de contacto: 241-8536 ó 445-6139  <br></br>
-                            <a  class="option-menu" href="http:///facebook.com/DiamantePeruOficial">  FANPAGE: www.facebook.com/DiamantePeruOficial</a>
-                            <br></br> <a  class="option-menu" href="http://diamanteperu.com">WEB: www.diamanteperu.com</a>  <br></br>
+                            <a  className="option-menu" href="http:///facebook.com/DiamantePeruOficial">  FANPAGE: www.facebook.com/DiamantePeruOficial</a>
+                            <br></br> <a  className="option-menu" href="http://diamanteperu.com">WEB: www.diamanteperu.com</a>  <br></br>
                             Contacto: info@diamanteperu.com
                             </p>
                            </div>

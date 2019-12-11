@@ -60,9 +60,17 @@ const Blog2= () => {
                                 <b className="font-size-1">GLOBALNET TRAVEL:</b>
                             </p>
                             <ul className="pl-3">
-                                <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmt, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</li>
+                                <li> Descuentos exclusivos para clientes de DIAMANTE PERÚ, válido del viernes 30 de
+                            agosto 2019 al martes 31 de diciembre del 2019.
+                          </li>
                             </ul>
-                            <p>exercitut atur aut odit aut  dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            <p>  La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá
+                            y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder
+                            al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando
+                            en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERÚ.
+                            Promoción no acumulable con otros descuentos, vales, cupones y/o promociones
+                            vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta
+                            promoción es válida con pago en efectivo o depósito en cuenta.</p>
                             <p>
                                 TÉRMINOS Y CODICIONES CLUB DIAMANTE:<br/>
                                 *Al realizar una compra ya accedes a formar parte del Club Diamante, para ello deberá llenar un formulario con tus datos y así poder actualizarte sobre todos los beneficios y descuentos con los que contarás.
