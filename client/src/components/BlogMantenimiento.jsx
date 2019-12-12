@@ -85,7 +85,7 @@ const  BlogMantenimiento =() =>{
                         afectado, dando una apariencia lechosa. Para evitarlo recomendamos utilizar cualquier tipo de
                         disolvente; de preferencia alcohol o agua caliente con detergente.</p>
                         <ul><li>
-                        <h2 className="mb-4 mt-4 font-size-1 raleway-bold">EN CASO DE UTILIZAR ALCHOHOL</h2> 
+                        <h2 className="mb-4 mt-4 font-size-1 raleway-bold">EN CASO DE UTILIZAR AL ALCOHOL</h2> 
                         <p> Utilizar en un envase opaco, pequeño y con tapa; poner alcohol de botica suficiente para cubrir la joya y
                         dejar remojándola hasta que usted note que haya recuperado su brillo. El tiempo que necesita para
                         limpiarse dependerá del grado de suciedad adherida al cono del Diamante. Luego dejarlo orear. A
