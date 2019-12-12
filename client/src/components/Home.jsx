@@ -18,7 +18,7 @@ import img6 from "../img/6.png"
 import img7 from "../img/7.png"
 import img8 from "../img/8.png"
 import img9 from "../img/9.png"
-
+import foto4 from "../img/diamante_cover-2.png";
 
 
 const Home = () => {
@@ -30,8 +30,24 @@ const Home = () => {
         <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Home,Perú,anillos,aretes,dijes,oro" />
       </Helmet>
         <div className="w100 animated fadeIn ">
-          <div className="portada "></div>
-            <div id="carouselExampleSlidesOnly" className="carousel slide noPortada" data-ride="carousel">
+         
+
+          <div className="carousel slide portada" data-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                       <Link to="/compromiso"><img src={foto4} className="d-block w-100 h-50-rem viewP" alt="Bodegon joyas"/></Link>
+                    </div>
+                    <div className="carousel-item">
+                      <Link to="/joyas"><img src={foto2} className="d-block w-100 h-50-rem viewP" alt="chica"/></Link>
+                    </div>
+                    <div className="carousel-item">
+                      <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem viewP" alt="Promocion del mes"/></Link>
+                    </div>
+                </div>
+            </div>
+
+
+            <div  className="carousel slide noPortada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                        <Link to="/compromiso"><img src={foto1} className="d-block w-100 h-50-rem" alt="Bodegon joyas"/></Link>
@@ -44,6 +60,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
             <div id="multi-item-example" className="carousel slide carousel-multi-item mt-4 mb-4" data-ride="carousel">
               <div className="controls-top center">
                 <a className="btn-floating" href="#multi-item-example" data-slide="prev"><i className="fas fa-chevron-left arrow"></i></a>

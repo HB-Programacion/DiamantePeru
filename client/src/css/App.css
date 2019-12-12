@@ -439,7 +439,7 @@ header {
 }
 
 .fndo-img2 {
-    background-image: url("../img/INTERIOR01.jpg");
+    background-image: url("../img/INTERIOR01.png");
     background-repeat: no-repeat;
     height: auto;
     background-size: 58% 100%;
@@ -1746,13 +1746,13 @@ input[type="radio"]:checked+label::before {
         margin-left: 50%
     }
     .noPortada {
-        display: none
+        display: none;
     }
     .portada {
-        background-image: url('../img/PORTADA.png');
         background-repeat: no-repeat;
-        height: 26rem;
-        background-size: 100% 200%, cover;
+        height: 90vh;
+        height: calc(100vh - 6rem);
+        background-size: 100% 100%, cover;
         background-position-x: center;
         background-position-y: 67%;
     }
@@ -1977,6 +1977,14 @@ input[type="radio"]:checked+label::before {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
     }
+}
+
+.noPortada {
+    display: block;
+}
+
+.portada {
+    display: none;
 }
 
 
