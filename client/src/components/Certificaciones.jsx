@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 import gia from "../img/GIA_logo.png"
 import diamante from '../img/fondo-certificaciones-diamante.png'
-
+import diamante1 from '../img/diplomas/CERTIFICACIONES_zela.png'
 const Certificaciones = () => {
     return (
         <div className="w100 pb-pt-4rem fndo-certificaciones animated fadeIn">
@@ -65,7 +65,7 @@ GIA, ellos nos respaldan.</p>
     </div>
            
             </div>   <figure className="w50 allCenter convenioResImg">
-            <img src={diamante} className='w100' alt="diamante"/>
+            <img src={diamante1} className='w100' alt="diamante"/>
             </figure>
           
           </div>
