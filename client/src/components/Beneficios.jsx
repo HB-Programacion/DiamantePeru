@@ -36,8 +36,70 @@ const Beneficios = () => {
                           <figure className="w50 allCenter convenioResImg">
                             <img className=" w70 rounded-circle  ben-round" src={imgconvenio1} alt="Beneficio 2"/>
                           </figure>
+                       <div className="card-body w50 pl-3 convenioRes geosansLight">
+                            <h4 className="card-title">SOCIOS </h4>
+                            <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
+                            <ul className="interline1 ml-4 font-size-1rem">
+                              <li>10% de dscto en vestidos de novia a medida.</li>
+                              <li>15% de dscto en vestidos de fiesta a medida.</li>
+                              <li>15% de dscto en accesorios a pedido (zapatos, vanites, velo de novia)</li>
+                              <li>15% de dscto en vestidos de stock seleccionados</li>
+                              <li>15% de dscto en ternos a medida para caballeros</li>
+                            </ul>
+                            <hr className="my-4"/>
+                            <p className="interline1 text-size12 justify">
+                                Términos y Condiciones:
+                                Descuentos exclusivos para clientes de DIAMANTE PERÚ,
+                                La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERÚ. Promoción no acumulable con otros descuentos, vales, cupones y/o promociones vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta promoción es válida con pago en efectivo o depósito en cuenta. Local ubicado en: Av. Javier Prado Este 2456, 3er. Piso - San Borja. Horario de atención*: De Lunes a Viernes de 10am a 7pm / Sábados: 10am a 1pm. Teléfono de contacto: 2268364 / PÁGINA WEB: www.carmenseminario.com
+                                contacto: atelier@carmenseminario.com
+                            </p>
+                          </div>
+                      
+                    
+                     </div>
+                      </div>
+                    </div>
+                  </div>
+                   <div className="carousel-item">
+                    <div className="row">
+                      <div className="col-md-12  cont-ben">
+                        <div className="mb-2  flex flexWrap">
+                          <figure className="w50 allCenter convenioResImg">
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio1} alt="Beneficio 2"/>
+                          </figure>
                           <div className="card-body w50 pl-3 convenioRes geosansLight">
-                          <h4 className="card-title"> ALIANZA COMERCIAL - CARMEN SEMINARIO y CLUB DIAMOND DE DIAMANTE PERÚ:</h4>
+                            <h4 className="card-title">CARMEN SEMINARIO LA ATELIER</h4>
+                            <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
+                            <ul className="interline1 ml-4 font-size-1rem">
+                              <li>10% de dscto en vestidos de novia a medida.</li>
+                              <li>15% de dscto en vestidos de fiesta a medida.</li>
+                              <li>15% de dscto en accesorios a pedido (zapatos, vanites, velo de novia)</li>
+                              <li>15% de dscto en vestidos de stock seleccionados</li>
+                              <li>15% de dscto en ternos a medida para caballeros</li>
+                            </ul>
+                            <hr className="my-4"/>
+                            <p className="interline1 text-size12 justify">
+                                Términos y Condiciones:
+                                Descuentos exclusivos para clientes de DIAMANTE PERÚ,
+                                La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERÚ. Promoción no acumulable con otros descuentos, vales, cupones y/o promociones vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta promoción es válida con pago en efectivo o depósito en cuenta. Local ubicado en: Av. Javier Prado Este 2456, 3er. Piso - San Borja. Horario de atención*: De Lunes a Viernes de 10am a 7pm / Sábados: 10am a 1pm. Teléfono de contacto: 2268364 / PÁGINA WEB: www.carmenseminario.com
+                                contacto: atelier@carmenseminario.com
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+ <div className="carousel-item">
+                    <div className="row">
+                      <div className="col-md-12  cont-ben">
+                        <div className="mb-2  flex flexWrap">
+                          <figure className="w50 allCenter convenioResImg">
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio3} alt="Beneficio 2"/>
+                          </figure>
+                          <div className="card-body w50 pl-3 convenioRes geosansLight">
+                          <h4 className="card-title"> 
+                          EL TALLER BY CARMEN SEMINARIO <br/>
+                          ALIANZA COMERCIAL - CARMEN SEMINARIO y CLUB DIAMOND DE DIAMANTE PERÚ:</h4>
 
                             <h3 className="card-title">VIGENCIA: DEL 30 DE ABRIL 2019 AL 30 DE ABRIL 2020</h3>
                             <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
@@ -84,65 +146,8 @@ AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
 
 
 
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                   <div className="carousel-item">
-                    <div className="row">
-                      <div className="col-md-12  cont-ben">
-                        <div className="mb-2  flex flexWrap">
-                          <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio1} alt="Beneficio 2"/>
-                          </figure>
-                          <div className="card-body w50 pl-3 convenioRes geosansLight">
-                            <h4 className="card-title">CARMEN SEMINARIO LA ATELIER</h4>
-                            <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
-                            <ul className="interline1 ml-4 font-size-1rem">
-                              <li>10% de dscto en vestidos de novia a medida.</li>
-                              <li>15% de dscto en vestidos de fiesta a medida.</li>
-                              <li>15% de dscto en accesorios a pedido (zapatos, vanites, velo de novia)</li>
-                              <li>15% de dscto en vestidos de stock seleccionados</li>
-                              <li>15% de dscto en ternos a medida para caballeros</li>
-                            </ul>
-                            <hr className="my-4"/>
-                            <p className="interline1 text-size12 justify">
-                                Términos y Condiciones:
-                                Descuentos exclusivos para clientes de DIAMANTE PERÚ,
-                                La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERÚ. Promoción no acumulable con otros descuentos, vales, cupones y/o promociones vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta promoción es válida con pago en efectivo o depósito en cuenta. Local ubicado en: Av. Javier Prado Este 2456, 3er. Piso - San Borja. Horario de atención*: De Lunes a Viernes de 10am a 7pm / Sábados: 10am a 1pm. Teléfono de contacto: 2268364 / PÁGINA WEB: www.carmenseminario.com
-                                contacto: atelier@carmenseminario.com
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
- <div className="carousel-item">
-                    <div className="row">
-                      <div className="col-md-12  cont-ben">
-                        <div className="mb-2  flex flexWrap">
-                          <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio3} alt="Beneficio 2"/>
-                          </figure>
-                          <div className="card-body w50 pl-3 convenioRes geosansLight">
-                            <h4 className="card-title">EL TALLER BY CARMEN SEMINARIO </h4>
-                            <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
-                            <ul className="interline1 ml-4 font-size-1rem">
-                              <li>10% de dscto en vestidos de novia a medida.</li>
-                              <li>15% de dscto en vestidos de fiesta a medida.</li>
-                              <li>15% de dscto en accesorios a pedido (zapatos, vanites, velo de novia)</li>
-                              <li>15% de dscto en vestidos de stock seleccionados</li>
-                              <li>15% de dscto en ternos a medida para caballeros</li>
-                            </ul>
-                            <hr className="my-4"/>
-                            <p className="interline1 text-size12 justify">
-                                Términos y Condiciones:
-                                Descuentos exclusivos para clientes de DIAMANTE PERÚ,
-                                La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder al beneficio, el cliente y/o beneficiario debe llamar antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERÚ. Promoción no acumulable con otros descuentos, vales, cupones y/o promociones vigentes. Máximo 2 compras por cliente durante la vigencia de la promoción. Esta promoción es válida con pago en efectivo o depósito en cuenta. Local ubicado en: Av. Javier Prado Este 2456, 3er. Piso - San Borja. Horario de atención*: De Lunes a Viernes de 10am a 7pm / Sábados: 10am a 1pm. Teléfono de contacto: 2268364 / PÁGINA WEB: www.carmenseminario.com
-                                contacto: atelier@carmenseminario.com
-                            </p>
-                          </div>
-                        </div>
+                       
+                         </div>
                       </div>
                     </div>
                   </div>
