@@ -696,7 +696,6 @@ header {
 .box:hover,
 .box:active {
     margin: 0px;
-    border: 0.1em solid black !important;
 }
 
 .centered {
@@ -827,7 +826,7 @@ header {
 }
 
 .borderBold {
-    border: 1em solid #e3e7e8;
+    /* border: 1em solid #e3e7e8; */
     /*#d2cbbd #e6e6e6*/
     position: relative;
 }
