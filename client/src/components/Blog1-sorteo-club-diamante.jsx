@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import foto1 from "../img/blog1.png";
 import blog2 from "../img/blog2.png";
-import blog3 from "../img/blog3.png";
+import blog3 from "../img/evitar-estafa.png";
 import blog4 from "../img/blog4.png";
 
 import blog5 from "../img/5C-cover/COVER.png";
@@ -10,8 +10,8 @@ import { Helmet } from "react-helmet";
 import foto2 from "../img/carats-fondo.png";
 import claridad from "../img/claridad.png";
 import color from "../img/color.png";
-import corte from "../img/corte.png"
-import certificacion from "../img/certificacionYConfianza.png"
+import corte from "../img/corte.png";
+import certificacion from "../img/certificacionYConfianza.png";
 
 const Blog1= () => { 
 return (

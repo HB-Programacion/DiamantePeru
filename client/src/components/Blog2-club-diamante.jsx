@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import foto1 from "../img/blog2.png";
 import blog1 from "../img/blog1.png";
-import blog3 from "../img/blog3.png";
+import blog3 from "../img/evitar-estafa.png";
 import blog4 from "../img/blog4.png";
 import blog5 from "../img/5C-cover/COVER.png";
 import foto2 from "../img/carats-fondo.png";
