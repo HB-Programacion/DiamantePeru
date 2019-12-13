@@ -37,7 +37,7 @@ const Beneficios = () => {
                           <figure className="w50 allCenter convenioResImg">
                             <img className=" w70 rounded-circle  ben-round" src={imgconvenio5} alt="Beneficio 2"/>
                           </figure>
-                       <div className="card-body w50 pl-3 convenioRes geosansLight">
+                       <div className="card-body w50 p-3 convenioRes geosansLight">
                             <h4 className="card-title">SOCIOS </h4>
                             <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
                             <ul className="interline1 ml-4 font-size-1rem">
@@ -68,7 +68,7 @@ const Beneficios = () => {
                           <figure className="w50 allCenter convenioResImg">
                             <img className=" w70 rounded-circle  ben-round" src={imgconvenio1} alt="Beneficio 2"/>
                           </figure>
-                          <div className="card-body w50 pl-3 convenioRes geosansLight">
+                          <div className="card-body w50 p-3 convenioRes geosansLight">
                             <h4 className="card-title">CARMEN SEMINARIO LA ATELIER</h4>
                             <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
                             <ul className="interline1 ml-4 font-size-1rem">
@@ -97,7 +97,7 @@ const Beneficios = () => {
                           <figure className="w50 allCenter convenioResImg">
                             <img className=" w70 rounded-circle  ben-round" src={imgconvenio3} alt="Beneficio 2"/>
                           </figure>
-                          <div className="card-body w50 pl-3 convenioRes geosansLight">
+                          <div className="card-body w50 p-3 convenioRes geosansLight">
                           <h4 className="card-title"> 
                           EL TALLER BY CARMEN SEMINARIO <br/>
                           ALIANZA COMERCIAL - CARMEN SEMINARIO y CLUB DIAMOND DE DIAMANTE PERÚ:</h4>
@@ -156,7 +156,7 @@ const Beneficios = () => {
                           <figure className="w50 allCenter convenioResImg">
                             <img className=" w70 rounded-circle  ben-round" src={imgconvenio2} alt="Beneficio 2"/>
                           </figure>
-                          <div className="card-body w50 pl-3 convenioRes geosansLight">
+                          <div className="card-body w50 p-3 convenioRes geosansLight">
                             <h4 className="card-title">AGENCIA DE VIAJES GLOBAL NET</h4>
                             <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
                             <ul className="interline1 ml-4 font-size-1rem">
@@ -200,7 +200,7 @@ const Beneficios = () => {
                           <figure className="w50 allCenter convenioResImg">
                             <img className=" w70 rounded-circle  ben-round" src={imgconvenio4} alt="Beneficio 2"/>
                           </figure>
-                          <div className="card-body w50 pl-3 convenioRes geosansLight">
+                          <div className="card-body w50 p-3 convenioRes geosansLight">
                             <h4 className="card-title">PAGOS SIN INTERESES</h4>
                             <p className="card-text font-size-1"> BBVA: Compra la joya perfecta hasta en 03 meses sin intereses.</p>
                             
