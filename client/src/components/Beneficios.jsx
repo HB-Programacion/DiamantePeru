@@ -5,6 +5,7 @@ import imgconvenio1 from "../img/beneficios/D01.png";
 import imgconvenio2 from "../img/beneficios/D02.png";
 import imgconvenio3 from "../img/beneficios/D03.png";
 import imgconvenio4 from "../img/beneficios/D04.png";
+import imgconvenio5 from "../img/beneficios/D05.png";
 import { Helmet } from "react-helmet";
 const Beneficios = () => {
     return(
@@ -34,7 +35,7 @@ const Beneficios = () => {
                       <div className="col-md-12  cont-ben">
                         <div className="mb-2  flex flexWrap">
                           <figure className="w50 allCenter convenioResImg">
-                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio1} alt="Beneficio 2"/>
+                            <img className=" w70 rounded-circle  ben-round" src={imgconvenio5} alt="Beneficio 2"/>
                           </figure>
                        <div className="card-body w50 pl-3 convenioRes geosansLight">
                             <h4 className="card-title">SOCIOS </h4>

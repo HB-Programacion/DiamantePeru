@@ -20,11 +20,11 @@ const Compromiso = () => {
                     
                 <Link to="/compromiso/diamante" className="w-auto borderBold m-2 mt-3 mb-3 m4-xs"  >
                     <img src={oneDiamante} alt="un Diamanate"className="w100 h100 box"/>
-                    <button className="joya">SOLITARIO</button>
+                    <button className="joya"><span className="">+</span>SOLITARIO</button>
                 </Link>
                 <Link to="/compromiso/diamantes" className="w-auto borderBold m-2 mt-3 mb-3 m4-xs" >
                     <img src={moreDiamante}  alt="muchos Diamantes" className="w100 h100 box"/>
-                    <button className="joya" ><span>+</span> DIAMANTES</button>
+                    <button className="joya" ><span className="" >+</span> DIAMANTES</button>
                 </Link>
             </div>
         </div>

@@ -99,8 +99,8 @@ const  BlogMantenimiento =() =>{
                         </li>
                 </ul>
                          <hr/>
-             <h2 className="font-size-1 ">DEVOLUCIONES</h2>
-            <p>
+             <h2 className="font-size-1 raleway-semibold">DEVOLUCIONES</h2>
+            <p class="raleway-semibold">
             Aceptamos devoluciones dentro de los primeros 15 días calendarios después de haber recogido la
             sortija, este beneficio aplica exclusivamente para sortijas de compromiso.
             La devolución aplica solo para el o los diamantes con certificación GIA.
