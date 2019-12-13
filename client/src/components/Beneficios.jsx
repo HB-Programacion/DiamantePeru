@@ -90,7 +90,7 @@ const Beneficios = () => {
                       </div>
                     </div>
                   </div>
- <div className="carousel-item">
+                  <div className="carousel-item">
                     <div className="row">
                       <div className="col-md-12  cont-ben">
                         <div className="mb-2  flex flexWrap">
@@ -107,37 +107,34 @@ const Beneficios = () => {
                             <ul className="interline1 ml-4 font-size-1rem">
                               <li>vale por S/. 500 de descuento en vestidos de novia a medida *</li>
                               <li>vale por S/. 300 de descuento en vestidos de novia a medida **</li>
-                              <li>vale por S/. 200 de descuento en vestidos de fiesta a medida ***
-</li>
+                              <li>vale por S/. 200 de descuento en vestidos de fiesta a medida ***</li>
                               <li>15% de descuento en accesorios a pedido (zapatos, vanite,velo de novia).</li>
-                              <li>15% de descuento en vestidos de stock seleccionados.
-</li>
-<li>
-15% de descuento en ternos amedida para caballeros. ****</li>
+                              <li>15% de descuento en vestidos de stock seleccionados.</li>
+                              <li>15% de descuento en ternos amedida para caballeros. ****</li>
                             </ul>
                             <hr className="my-4"/>
                             <p className="interline1 text-size12 justify">
-                             
-CONDICIONES LEGALES:<br></br>
-Descuento exclusivamente a clientes del CLUB DIAMOND, valido del 30 de abril 2019
-al 30 de abril 2020.
-El descuento no es acumulable o valido con otras promociones.
-Los descuentos son en efectivo o en tarjeta de crédito (+ 5%).
-No hay un límite de compras por el cliente.<br></br>
-* Los S/.500 de descuento en vestidos de novia serán para los vestidos que tengan un
-valor entre S/.6000 a S/10000<br></br>
-** Los S/300 de descuento en vestidos de novia serán para los vestidos que tengan un
-valor entre S/.3200 a S/. 5999<br></br>
-*** Los S/.200 de descuento en vestidos de fiesta serán para aquellos que su valor sea
-de S/1900 en adelante<br></br>
-**** El descuento del 15% en ternos, aplica solo para las telas italianas y para los
-sacos y pantalones.<br></br>
-DATOS<br></br>
-EL ATELIER DE CARMEN SEMINARIO<br></br>
-CAISEM EIRL.<br></br>
-RUC: 20492756173<br></br>
-AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA
+                             <b>CONDICIONES LEGALES:</b> 
                             </p>
+                              <p>Descuento exclusivamente a clientes del CLUB DIAMOND, valido del 30 de abril 2019
+                              al 30 de abril 2020.</p>
+                              <p>El descuento no es acumulable o valido con otras promociones.
+                              Los descuentos son en efectivo o en tarjeta de crédito (+ 5%).
+                              No hay un límite de compras por el cliente.</p>
+                              <p>* Los S/.500 de descuento en vestidos de novia serán para los vestidos que tengan un
+                              valor entre S/.6000 a S/10000.</p>
+                              <p>** Los S/300 de descuento en vestidos de novia serán para los vestidos que tengan un
+                              valor entre S/.3200 a S/. 5999.</p>
+                              de S/1900 en adelante.
+                              <p></p>
+                              <p>**** El descuento del 15% en ternos, aplica solo para las telas italianas y para los
+                              sacos y pantalones</p>
+                              <p>DATOS <br/>
+                              EL ATELIER DE CARMEN SEMINARIO<br/>
+                              CAISEM EIRL.<br/>
+                              RUC: 20492756173<br/>
+                              AV. JAVIER PRADO ESTE 2456 - 3ER. PISO - SAN BORJA</p>
+                              
                           </div>
 
 

@@ -370,13 +370,13 @@ header {
     background-color: #2C2C2C;
     width: 50rem;
     position: relative;
-    top: -7rem;
+    top: 0rem;
     left: 6rem;
 }
 
 .article-content {
     position: relative;
-    top: -7rem;
+    top: -1rem;
 }
 
 .white {
@@ -430,7 +430,7 @@ header {
 }
 
 .fndo-img1 {
-    background-image: url(/static/media/fondo1-convenios.1da1a2c9.png);
+    background-image: url("../img/fondo1-convenios.png");
     background-repeat: no-repeat;
     height: auto;
     /* background-position: center; */
@@ -541,7 +541,7 @@ header {
 }
 
 .text-size12 {
-    font-size: 12px
+    font-size: .9rem
 }
 
 .text-size13 {
@@ -1200,227 +1200,12 @@ section.input-container label {
     height: 2em;
     margin-right: 1rem;
 }
+.container-another-articles {
+    position: relative;
+    top: -9rem;
 
-@media screen and (max-width:768px) {
-    .left3-premios {
-        left: 6rem;
-        top: -2.8rem;
-        z-index: 1;
-    }
-    .right3-premios {
-        right: 6rem;
-        top: -2.8rem;
-        z-index: 1;
-    }
-    .fndo-motivos-res {
-        width: 50%;
-    }
-    .logoPremios {
-        width: 18rem;
-        left: 1.5rem;
-    }
-    .m-auto-premios {
-        width: 80%
-    }
-    .float,
-    .float:hover {
-        width: 3rem;
-        height: 3rem;
-        font-size: 2rem;
-    }
-    .fondo-icon {
-        background-size: 15rem;
-    }
-    .itempluss {
-        height: auto !important;
-    }
-    .horariosAtencion {
-        padding-left: 3.5rem;
-        padding-right: 3.5rem;
-    }
-    .cierreRefrigerio {
-        padding-left: .5rem;
-        padding-right: .5rem;
-    }
-    .container-text {
-        padding-bottom: 0px !important;
-        padding: .5rem!important;
-        margin: 1rem!important;
-    }
-    .w30-xs {
-        width: 50%;
-        font-size: 70%;
-    }
-    .p-0-xs {
-        padding: 0px !important;
-    }
-    .text-each-rel-art {
-        margin: 0px !important;
-        font-family: "Raleway-Regular";
-    }
-    .each-article-container {
-        padding: .5em;
-        margin: 0px !important;
-    }
-    .container-another-articles {
-        width: 100vw;
-    }
-    .d-block-xs {
-        display: block;
-    }
-    .xs-100 {
-        width: 100vw;
-    }
-    .m-0-xs {
-        margin: 0rem!important;
-        padding: 2em 2em 0 2em;
-    }
-    .flexWrap-xs {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap
-    }
-    .img-blog-principal {
-        position: relative;
-        width: 100%;
-        margin-left: 0;
-    }
-    .cuadro {
-        width: 80%;
-        top: 39rem;
-        margin-left: 7%;
-        padding: 1em !important;
-        font-size: 2rem !important;
-    }
-    .leer-mas-blog {
-        margin-left: 50%
-    }
-    .dropdown-item {
-        text-align: left;
-    }
-    .vh20 {
-        height: 20vh;
-    }
-    .vh80 {
-        height: 80vh;
-    }
-    .bolder-xs {
-        font-weight: bolder;
-    }
-    .flex-wrap-xs {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    }
-    .cel {
-        display: none
-    }
-    .dest {
-        display: block
-    }
-    .grayNav {
-        text-align: left;
-        background-color: rgba(255, 255, 255, 0.9)
-    }
-    .navbar-horizontal1 {
-        display: block;
-        width: 100%;
-        left: 0;
-        top: 0
-    }
-    .flex-column-reverse1 {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-    }
-    .w100-xs {
-        width: 100%;
-    }
-    .btn-flat {
-        padding: 3.5%;
-    }
-    .border-gray-3 {
-        border: 0.1px solid;
-        margin-bottom: 0.5em;
-        padding: 0.63rem !important;
-        width: 100%;
-        text-align: center;
-    }
-    .form-xs {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-        flex-flow: column;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-    .pad-txt-19 {
-        padding-left: 0%;
-        padding-right: 0%;
-        text-align: center;
-    }
-    .blue-background {
-        background-color: #435b76;
-    }
-    .text-centered {
-        text-align: center;
-    }
-    .gray-xs {
-        background-color: #F1F1F1;
-    }
-    .w87-xs {
-        width: 87%;
-    }
-    .fndo-img1 {
-        background-size: 200% 100%;
-        padding: 5em;
-        background-position-x: left;
-        padding: 0
-    }
-    .pad-5-xs {
-        padding: 5em;
-    }
-    .fndo-img2 {
-        padding: 5em;
-        background-size: cover;
-        background-position: center;
-        padding-right: 0;
-    }
-    .pad-3 {
-        padding: 3%;
-    }
-    .gray-text-centered {
-        text-align: center;
-    }
-    .pad-14 {
-        padding: 8%;
-        padding-right: 7%;
-    }
-    .convenioRes {
-        width: 100%;
-    }
-    .right3 {
-        right: 1rem;
-        top: 10rem;
-    }
-    .left3 {
-        left: 1rem;
-        top: 10rem;
-    }
-    .joya {
-        width: 60%;
-        height: 10%;
-    }
-    .diamantes-xs {
-        width: 80%
-    }
-    .dropdown-menu.show {
-        display: block;
-        background-color: #fff0;
-    }
 }
+
 
 .img-art-rel {
     width: 7rem;
@@ -1451,6 +1236,7 @@ section.input-container label {
 
 .container-article {
     position: relative;
+    text-align: justify
 }
 
 .img-min-blog {
@@ -1611,8 +1397,232 @@ input[type="radio"]:checked+label::before {
     color: #272727 !important;
     text-decoration: none !important;
 }
-
+@media screen and (max-width:768px) {
+    .left3-premios {
+        left: 6rem;
+        top: -2.8rem;
+        z-index: 1;
+    }
+    .right3-premios {
+        right: 6rem;
+        top: -2.8rem;
+        z-index: 1;
+    }
+    .fndo-motivos-res {
+        width: 50%;
+    }
+    .logoPremios {
+        width: 18rem;
+        left: 1.5rem;
+    }
+    .m-auto-premios {
+        width: 80%
+    }
+    .float,
+    .float:hover {
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
+    }
+    .fondo-icon {
+        background-size: 15rem;
+    }
+    .itempluss {
+        height: auto !important;
+    }
+    .horariosAtencion {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+    .cierreRefrigerio {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+    .container-text {
+        padding-bottom: 0px !important;
+        padding: .5rem!important;
+        margin: 1rem!important;
+    }
+    .w30-xs {
+        width: 50%;
+        font-size: 70%;
+    }
+    .p-0-xs {
+        padding: 0px !important;
+    }
+    .text-each-rel-art {
+        margin: 0px !important;
+        font-family: "Raleway-Regular";
+    }
+    .each-article-container {
+        padding: .5em;
+        margin: 0px !important;
+    }
+    .container-another-articles {
+        width: 100vw;
+        top: -3rem;
+    }
+    .d-block-xs {
+        display: block;
+    }
+    .xs-100 {
+        width: 100vw;
+    }
+    .m-0-xs {
+        margin: 0rem!important;
+        padding: 2em 2em 0 2em;
+    }
+    .flexWrap-xs {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    .img-blog-principal {
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+    }
+    .cuadro {
+        width: 80%;
+        top: 39rem;
+        margin-left: 7%;
+        padding: 1em !important;
+        font-size: 2rem !important;
+    }
+    .leer-mas-blog {
+        margin-left: 50%
+    }
+    .dropdown-item {
+        text-align: left;
+    }
+    .vh20 {
+        height: 20vh;
+    }
+    .vh80 {
+        height: 80vh;
+    }
+    .bolder-xs {
+        font-weight: bolder;
+    }
+    .flex-wrap-xs {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .cel {
+        display: none
+    }
+    .dest {
+        display: block
+    }
+    .grayNav {
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.9)
+    }
+    .navbar-horizontal1 {
+        display: block;
+        width: 100%;
+        left: 0;
+        top: 0
+    }
+    .flex-column-reverse1 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .w100-xs {
+        width: 100%;
+    }
+    .btn-flat {
+        padding: 3.5%;
+    }
+    .border-gray-3 {
+        border: 0.1px solid;
+        margin-bottom: 0.5em;
+        padding: 0.63rem !important;
+        width: 100%;
+        text-align: center;
+    }
+    .form-xs {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .pad-txt-19 {
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
+    }
+    .blue-background {
+        background-color: #435b76;
+    }
+    .text-centered {
+        text-align: center;
+    }
+    .gray-xs {
+        background-color: #F1F1F1;
+    }
+    .w87-xs {
+        width: 87%;
+    }
+    .fndo-img1 {
+        background-size: 200% 100%;
+        padding: 5em;
+        background-position-x: left;
+        padding: 0
+    }
+    .pad-5-xs {
+        padding: 5em;
+    }
+    .fndo-img2 {
+        padding: 5em;
+        background-size: cover;
+        background-position: center;
+        padding-right: 0;
+    }
+    .pad-3 {
+        padding: 3%;
+    }
+    .gray-text-centered {
+        text-align: center;
+    }
+    .pad-14 {
+        padding: 8%;
+        padding-right: 7%;
+    }
+    .convenioRes {
+        width: 100%;
+    }
+    .right3 {
+        right: 1rem;
+        top: 10rem;
+    }
+    .left3 {
+        left: 1rem;
+        top: 10rem;
+    }
+    .joya {
+        width: 60%;
+        height: 10%;
+    }
+    .diamantes-xs {
+        width: 80%
+    }
+    .dropdown-menu.show {
+        display: block;
+        background-color: #fff0;
+    }
+}
 @media screen and (max-width:767px) {
+    .container-another-articles {
+        width: 100vw;
+        top: -3rem;
+    }
     .fondo-icon {
         background-size: 9rem;
     }
