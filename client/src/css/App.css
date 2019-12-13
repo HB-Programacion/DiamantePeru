@@ -430,12 +430,12 @@ header {
 }
 
 .fndo-img1 {
-    background-image: url("../img/fondo1-convenios.png");
+    background-image: url(/static/media/fondo1-convenios.1da1a2c9.png);
     background-repeat: no-repeat;
     height: auto;
-    background-position: center;
-    background-size: 100% 100%;
-    padding: 5em;
+    /* background-position: center; */
+    padding: 8.8rem;
+    background-size: cover;
 }
 
 .fndo-img2 {
