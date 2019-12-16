@@ -4,7 +4,9 @@ import { Helmet } from "react-helmet";
 import gia from "../img/GIA_logo.png"
 import giaInst from "../img/GIA_PNG.png"
 import diamante from '../img/fondo-certificaciones-diamante.png'
-import diamante1 from '../img/diplomas/CERTIFICACIONES_zela.png'
+import diamante1 from '../img/diplomas/CERTIFICACIONES_gerardo.png'
+import diamante2 from '../img/diplomas/CERTIFICACIONES_gino.png'
+import diamante3 from '../img/diplomas/CERTIFICACIONES_adrian.png'
 const Certificaciones = () => {
     return (
         <div className="w100 pb-pt-4rem fndo-certificaciones animated fadeIn">
@@ -100,7 +102,7 @@ const Certificaciones = () => {
            </div>
            
             </div>   <figure className="w50 allCenter convenioResImg">
-            <img src={diamante1} className='w100' alt="diamante"/>
+            <img src={diamante2} className='w100' alt="diamante"/>
             </figure>
           
           </div>
@@ -127,7 +129,7 @@ const Certificaciones = () => {
             </div>
                   
             </div>   <figure className="w50 allCenter convenioResImg">
-            <img src={diamante1} className='w100' alt="diamante"/>
+            <img src={diamante3} className='w100' alt="diamante"/>
             </figure>
           
           </div>
