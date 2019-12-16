@@ -9,6 +9,7 @@ import TabBar from './TabBar';
 const App = () => {
   return (
     <Router>
+      
     <div className="">
       <div className="App vh100"  >
         <TabBar/>

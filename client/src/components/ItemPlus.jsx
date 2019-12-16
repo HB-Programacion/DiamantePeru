@@ -27,7 +27,7 @@ const ItemPlus = () =>{
                         </div>
                     </div>
                 </div>
-             <i onClick={()=>{history.goBack()}} class="fas fa-chevron-left arrowGoback" aria-hidden="true"></i> 
+             <i onClick={()=>{history.goBack()}} className="fas fa-chevron-left arrowGoback" aria-hidden="true"></i> 
             </div>
         </div>
         </div>
