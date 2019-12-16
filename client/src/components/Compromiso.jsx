@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import oneDiamante from '../img/one-diamante.png'
-import moreDiamante from '../img/more-diamante.png'
+import moreDiamante from '../img/more-diamante1.png'
 
 const Compromiso = () => {
     return (

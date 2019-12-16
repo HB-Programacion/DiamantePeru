@@ -44,7 +44,7 @@ return (
                             Algunos ejemplos: Princesa, Corazón, Pera, Marquesa, Cojín y Esmeralda.
                         </p>
                         <hr/>
-                        <img class="w100"src={corte1} alt=""/>
+                        <img className="w100"src={corte1} alt=""/>
                     </div>
                 </div>
             </article>
