@@ -45,7 +45,7 @@ return (
                             Carat es la unidad de un diamante; 1 carat tiene 100 puntos, un diamante de 3⁄4 de carat tiene 0.75 puntos, uno de 1⁄2 carat tiene 0.50 puntos, el de 1⁄4 de carat tiene 0.25 puntos y así sucesivamente.
                         </p>
                         <hr/>
-                        <img class="w100"src={carats1} alt=""/>
+                        <img className="w100"src={carats1} alt=""/>
                     </div>
                 </div>
             </article>

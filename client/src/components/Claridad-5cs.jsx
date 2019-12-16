@@ -82,7 +82,7 @@ return (
                             10x. Las inclusiones de estos diamantes mayormente se podrán ver a simple vista. Estas piedras se encuentran con bastante facilidad, convirtiéndose en las más comunes.
                         </p>
                         <hr/>
-                        <img class="w100"src={claridad1} alt=""/>
+                        <img className="w100"src={claridad1} alt=""/>
                     </div>
                 </div>
             </article>

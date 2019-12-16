@@ -52,7 +52,7 @@ return (
                             considerablemente más económicos ya que son más abundantes y menos atractivos.
                         </p>
                         <hr/>
-                        <img class="w100"src={color1} alt=""/>
+                        <img className="w100"src={color1} alt=""/>
                     </div>
                 </div>
             </article>
