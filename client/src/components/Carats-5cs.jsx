@@ -42,7 +42,7 @@ return (
                             En 1913, el peso se estandarizo internacionalmente y fue adaptado al sistema métrico. Siendo un Carat la quinta parte de un  gramo en otras palabras 1 carat equivale a 0.20 décimas de gramo.
                         </p>
                         <p>
-                            Carat es la unidad de un diamante; 1 carat tiene 100 puntos, un diamante de 3⁄4 de carat tiene 0.75 puntos, uno de 1⁄2 carat tiene 0.50 puntos, el de 1⁄4 de carat tiene 0.25 puntos y así sucesivamente.
+                            Carat es la unidad de un diamante; 1 carat tiene 100 puntos, un diamante de 3/4 de carat tiene 0.75 puntos, uno de 1/2 carat tiene 0.50 puntos, el de 1/4 de carat tiene 0.25 puntos y así sucesivamente.
                         </p>
                         <hr/>
                         <img className="w100"src={carats1} alt=""/>
