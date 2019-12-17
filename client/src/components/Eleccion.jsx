@@ -53,7 +53,7 @@ const Eleccion = () => {
                             <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">CERTIFICADOS EMITIDOS POR LAS MISMAS JOYERIAS</p>
                         </Link>
                         <Link to="/claridad"  className="flex w30 w30-xs p-3 pl-4 pr-4 mb-3 text-dec-black">
-                            <div className="bd-right"><img className="w-3rem pr-3" src={eleccion6}/></div>
+                            <div className="bd-right"><img className="w-3rem pr-3" src={eleccion6} alt="eleccion6"/></div>
                             <p className="raleway-semibold pl-3 allCenter text-left mb-0 font-size-1rem">ESCONDIENDO INCLUSIONES</p>
                         </Link>
                     </div>
@@ -63,7 +63,7 @@ const Eleccion = () => {
                         </p>
                         <p className="">
                         Por último, lo más recomendable es ir a un lugar donde le ofrezcan todo lo que se menciona en la parte superior y que sea un lugar en el que usted confíe. Lo principal es que se sienta cómodo, que sean transparentes y que se muestren voluntariosos ante todas las preguntas que usted tenga. Si en algún momento siente que se le está ocultando algo, sospeche que algo no anda bien y retírese. 
-Al fin y al cabo comprar un diamante para esa persona especial debe ser una experiencia cautivante e inolvidable.
+                        Al fin y al cabo comprar un diamante para esa persona especial debe ser una experiencia cautivante e inolvidable.
 
                         </p>
                         {/* <p className="">Por último lo más recomendable es ir a un lugar donde le ofrezcan todo lo que menciono en la parte superior y que sea un lugar en el que usted confíe. Lo principal es que se sienta cómodo, que sean transparentes y que se muestren voluntariosos ante todas las preguntas que usted tenga. Si en algún momento siente que se le está ocultando algo sospeche que algo no anda bien y retírese. Al fin y al cabo comprar un diamante para esa persona especial debe ser una experiencia cautivante e inolvidable.</p>
