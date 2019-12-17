@@ -35,10 +35,10 @@ const Home = () => {
           <div className="carousel slide portada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                       <Link to="/joyas"><img src={foto4} className="d-block w-100 h-50-rem viewP" alt="Bodegon joyas"/></Link>
+                       <Link to="/novios"><img src={foto4} className="d-block w-100 h-50-rem viewP" alt="Bodegon joyas"/></Link>
                     </div>
                     <div className="carousel-item">
-                      <Link to="/novios"><img src={foto2} className="d-block w-100 h-50-rem viewP" alt="chica"/></Link>
+                      <Link to="/joyas" ><img src={foto2} className="d-block w-100 h-50-rem viewP" alt="chica"/></Link>
                     </div>
                     <div className="carousel-item">
                       <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem viewP" alt="Promocion del mes"/></Link>
@@ -50,10 +50,10 @@ const Home = () => {
             <div  className="carousel slide noPortada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                       <Link to="/compromiso"><img src={foto1} className="d-block w-100 h-50-rem" alt="Bodegon joyas"/></Link>
+                       <Link to="/joyas"><img src={foto1} className="d-block w-100 h-50-rem" alt="Bodegon joyas"/></Link>
                     </div>
                     <div className="carousel-item">
-                      <Link to="/joyas"><img src={foto2} className="d-block w-100 h-50-rem" alt="chica"/></Link>
+                      <Link  to="/compromiso"><img src={foto2} className="d-block w-100 h-50-rem" alt="chica"/></Link>
                     </div>
                     <div className="carousel-item">
                       <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem" alt="Promocion del mes"/></Link>
