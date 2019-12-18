@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Cs = () => {
     return (
-        <div className="w100 pb-pt-4rem pt-5-xs gray fndo-5cs fondo-shine animated fadeIn">
+        <div className="w100 pb-pt-4rem pt-5-xs gray fondo-shine-5cs animated fadeIn">
 
 <Helmet>
             <title>5CS - Diamante Perú</title>
