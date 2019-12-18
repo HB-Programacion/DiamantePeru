@@ -35,7 +35,7 @@ const Home = () => {
         <div className="w100 animated fadeIn ">
          
 
-          <div className="carousel slide portada" data-ride="carousel">
+          {/* <div className="carousel slide portada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                        <Link to="/novios"><img src={foto4} className="d-block w-100 h-50-rem viewP" alt="Bodegon joyas"/></Link>
@@ -47,9 +47,9 @@ const Home = () => {
                       <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem viewP" alt="Promocion del mes"/></Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-
+{/* 
             <div  className="carousel slide noPortada" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -62,7 +62,40 @@ const Home = () => {
                       <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem" alt="Promocion del mes"/></Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
+
+<div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+  <ol className="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+    <Link  to="/compromiso"><img src={foto2} className="d-block w-100 h-50-rem" alt="chica"/>
+    <div class="carousel-caption d-none d-md-block">
+    <h5>lorem ipsum</h5>
+    <p>Corrupti minus omnis suscipit</p>
+  </div></Link>
+    </div>
+    <div className="carousel-item">
+    <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem" alt="Promocion del mes"/></Link>
+    </div>
+    <div className="carousel-item">
+    <Link to="/joyas"><img src={foto1} className="d-block w-100 h-50-rem" alt="Bodegon joyas"/></Link>
+    </div>
+ 
+  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="sr-only">Previous</span>
+  </a>
+  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="sr-only">Next</span>
+  </a>
+</div></div>
+
+
 
             <div id="multi-item-example" className="carousel slide carousel-multi-item mt-4 mb-4" data-ride="carousel">
               <div className="controls-top center">

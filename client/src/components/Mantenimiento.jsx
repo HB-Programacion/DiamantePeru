@@ -25,7 +25,7 @@ const Mantenimiento = () => {
                 </div>
             </div>
             <div className="flex content-center">
-                <Link to="/blog-mantenimiento" className="w25 p-1 w25 p-1 text-center option-menu raleway-medium-italic nav-link "> LEER MÁS > </Link>
+                <Link to="/blog-mantenimiento" className="w30 p-1  p-1 text-center btn  raleway-medium-italic nav-link "> LEER MÁS > </Link>
             </div>
         </div>
         </>

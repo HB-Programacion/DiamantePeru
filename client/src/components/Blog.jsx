@@ -6,7 +6,7 @@ import blog1 from "../img/blog1.png";
 import blog2 from "../img/DIAMANTE_WEB-portada.png";
 import blog3 from "../img/evitar-estafa.png";
 import blog4 from "../img/blog4.png";
-import blog5 from "../img/5C-cover/COVER.png";
+import blog5 from "../img/MANTENIMIENTO/1.png";
 
 
 const Blog = () =>{

@@ -3,13 +3,15 @@ import { Helmet } from "react-helmet";
 
 import gia from "../img/GIA_logo.png"
 import giaInst from "../img/GIA_PNG.png"
+import giaInstSpace from "../img/DIAMANTE_GIA-img1.png"
+
 import diamante from '../img/fondo-certificaciones-diamante.png'
 import diamante1 from '../img/diplomas/CERTIFICACIONES_gerardo.png'
 import diamante2 from '../img/diplomas/CERTIFICACIONES_gino.png'
 import diamante3 from '../img/diplomas/CERTIFICACIONES_adrian.png'
 const Certificaciones = () => {
     return (
-        <div className="w100 pb-pt-4rem fndo-certificaciones animated fadeIn">
+        <div className="w100 pb-pt-4rem fndo-certificaciones  fondo-shine animated fadeIn">
                <Helmet>
             <title>Certificación - GIA - Diamante Perú</title>
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
@@ -67,7 +69,7 @@ const Certificaciones = () => {
         <div className="col-md-12  cont-ben">
           <div className="mb-2  flex flexWrap">
            <div className="card-body w50 pl-3 convenioRes geosansLight w50 flex flex-column alignSelCenter wResponsive100">
-            <img src={gia} className="w50 ml-15 pb-3 gia-logo-xs"  alt="gia"/>
+         
             <div className='interline1 pb-2 ml-15 pad-l-responsive'>
                 
                 <p>Contamos con profesionales altamente calificados Graduados también en este mismo Instituto
@@ -75,7 +77,7 @@ const Certificaciones = () => {
             </div>
                   
             </div>   <figure className="w50 allCenter convenioResImg">
-            <img src={diamante} className='w100' alt="diamante"/>
+            <img src={giaInstSpace} className='w100' alt="diamante"/>
             </figure>
           
           </div>
