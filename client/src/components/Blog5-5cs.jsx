@@ -6,7 +6,7 @@ import blog2 from "../img/blog2.png";
 import blog1 from "../img/blog1.png";
 import blog4 from "../img/blog4.png";
 import blog7 from "../img/carats-fondo.png";
-import blog5 from "../img/5C-cover/COVER.png";
+import blog5 from "../img/MANTENIMIENTO/1.png";
 import color from "../img/color.png";
 import claridad from "../img/claridad.png";
 import corte from "../img/corte.png";

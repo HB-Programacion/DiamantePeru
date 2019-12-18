@@ -100,6 +100,7 @@ onChange={(e)=>{handleChange(e,setMessage)}}
                 <p className="text-contact horariosAtencion center ">Horarios de Atención: Lun – Vier: 10 am – 7 pm / Sáb: 10 am – 6 pm</p>
                 <p className="text-contact cierreRefrigerio center">(Cierre por refrigerio de 2pm – 3pm).</p>
             </div>
+            <iframe  className="real-white real-white1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8265.380387696912!2d-77.0284936346057!3d-12.129933107913866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81a3a30dcf1%3A0x1894d43c6604fdf8!2sDiamante%20Per%C3%BA!5e0!3m2!1ses-419!2spe!4v1576696806510!5m2!1ses-419!2spe" width="600" height="400" frameBorder="0" style={{border:0}} allowFullScreen=""></iframe>
         </div>  
     </div>
     )
