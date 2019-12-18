@@ -17,7 +17,7 @@ const Historia = () =>{
             <meta name="author" content="diamanteperu.com"/>
                 <meta name="distribution" content="global"/>
   </Helmet>
-        <div className="w100 gray responsive-certificacion animated fadeIn pt-3 pb-5">
+        <div className="w100 gray responsive-certificacion animated fadeIn fondo-shine pt-3 pb-5">
             {/* <div className="w50 allCenter wResponsive100 border-gray">
                 <div className="mt-3">
                     <span className=" text-1-5 mt-0 raleway-light"><b>HISTORIA <br/>DIAMANTE PERÚ</b></span>

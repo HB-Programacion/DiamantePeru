@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 const Eleccion = () => {
     return (
-        <div className="h100 pb-pt-4rem pt-5-xs animated fadeIn vhEleccion geosansLight">
+        <div className="h100 pb-pt-4rem pt-5-xs animated fadeIn vhEleccion  fondo-shine geosansLight">
         <Helmet>
             <title>Elección - Diamante Perú</title>
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />

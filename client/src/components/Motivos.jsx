@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 
 const Motivos = () =>{
     return (
-        <div className="gray h100 pb-pt-4rem pb-9 pt-5-xs animated fadeIn geosansLight">
+        <div className="gray h100 pb-pt-4rem pb-9 pt-5-xs animated fondo-shine fadeIn geosansLight">
         <Helmet>
             <title>Motivos - Diamante Perú</title>
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />

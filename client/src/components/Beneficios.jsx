@@ -9,7 +9,7 @@ import imgconvenio5 from "../img/beneficios/D05.png";
 import { Helmet } from "react-helmet";
 const Beneficios = () => {
     return(
-        <div className="w100 pb-pt-4rem pt-5-xs animated fadeIn pb-9 gray fondo-icon">
+        <div className="w100 pb-pt-4rem pt-5-xs animated fadeIn pb-9 gray fondo-shine">
           <Helmet>
             <title>Beneficios - Diamante Perú</title>
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />

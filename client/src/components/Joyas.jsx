@@ -107,7 +107,7 @@ const Joyas = () =>{
 
 
   return (
-    <>
+    < >
     <div className=" w80 mL-R-10">
     <Helmet>
         <title>Joyas - Diamante Perú</title>
