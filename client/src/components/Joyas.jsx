@@ -108,7 +108,8 @@ const Joyas = () =>{
 
   return (
     < >
-    <div className=" w80 mL-R-10">
+    <div className="w100 fondo-shine">
+       <div className=" w80 mL-R-10">
     <Helmet>
         <title>Joyas - Diamante Perú</title>
         <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
@@ -342,6 +343,8 @@ const Joyas = () =>{
           </div>
         </div>
       </div>
+   
+    </div>
     </>
   )};
 
