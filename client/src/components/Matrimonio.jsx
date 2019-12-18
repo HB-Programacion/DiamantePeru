@@ -21,7 +21,9 @@ const Matrimonio = () => {
     <title>Matrimonio - Diamante Perú</title>
     <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
     <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Bodas,Matrimonio,novios" />
-  </Helmet>
+    <meta name="URL" content="http://www.diamanteperu.com"/>
+            <meta name="author" content="diamanteperu.com"/>
+                <meta name="distribution" content="global"/>  </Helmet>
     <CarrouselMatri 
       arrofJoyas={arrJoyas.filter(e =>  e .Sección === "Novios / Matrimonio")}  
       title={"AROS DE MATRIMONIO"}>

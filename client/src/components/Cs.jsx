@@ -4,13 +4,15 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Cs = () => {
     return (
-        <div className="w100 pb-pt-4rem pt-5-xs gray fndo-5cs animated fadeIn">
+        <div className="w100 pb-pt-4rem pt-5-xs gray fndo-5cs fondo-shine animated fadeIn">
 
 <Helmet>
             <title>5CS - Diamante Perú</title>
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
             <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
-        </Helmet>
+            <meta name="URL" content="http://www.diamanteperu.com"/>
+            <meta name="author" content="diamanteperu.com"/>
+                <meta name="distribution" content="global"/>  </Helmet>
         <span className="p-3 pb-3 flex flexCenter text-size27"><b>5Cs</b></span>
             <div className=" w80 mL-R10 geosansLight .font-size-1rem">
                 <div>

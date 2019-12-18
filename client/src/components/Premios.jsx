@@ -10,7 +10,7 @@ const Premios = () => {
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
             <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
         </Helmet>
-        <div className=" w100 pb-pt-4rem pb-9 pt-5-xs animated fadeIn gray fondo-icon"> 
+        <div className=" w100 pb-pt-4rem pb-9 pt-5-xs animated fadeIn gray fondo-shine"> 
         <span className="p-3 pb-3 flex flexCenter text-size27"><b>PREMIOS</b></span>
 
             <div className="flex around position-relative">

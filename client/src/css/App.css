@@ -481,6 +481,14 @@
         background-position-y: bottom
     }
     
+    .fondo-shine {
+        background-image: url("../img/diamante-bgs_01.png");
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+    
     .fondoCompromiso {
         background-image: url("../img/fondo-contacto1.png");
     }
@@ -540,6 +548,10 @@
     
     .text-size12 {
         font-size: .9rem
+    }
+    
+    .text-size07 {
+        font-size: .7em
     }
     
     .text-size13 {
@@ -849,8 +861,13 @@
     }
     
     .joya span {
+        font-size: 1rem;
+        padding: 0.9rem;
+    }
+    
+    .joya .plusspan {
         font-size: 1.5rem;
-        padding: 0.2rem;
+        padding: 0.5rem;
     }
     
     .btn,
