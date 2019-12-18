@@ -32,10 +32,10 @@ const Footer = () => {
         <div className="mt-4">
             <footer className=" bd-top bd-bottom flex flex-column-reverse1">
                 <div className="container-contact flex w20 w100-xs mb-2">
-                    <a href="" className="pad-l-t-3">
+                    <a href="https://es-la.facebook.com/DiamantePeruOficial/" className="pad-l-t-3">
                        <img className="contact-us" src={facebook}></img>
                     </a>
-                    <a href=""  className="pad-l-t-3">
+                    <a href="https://www.instagram.com/diamanteperu/?hl=es-la"  className="pad-l-t-3">
                         
                        <img  className="contact-us" src={instagram}></img>
                     </a>
