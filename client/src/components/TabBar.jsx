@@ -85,7 +85,7 @@ const TabBar= () => {
               <Link to="/eleccion" className={"dropdown-item "}>Elección</Link>
               <Link to="/5cs" className={"dropdown-item"}>5CS</Link>
               <Link to="/certificación" className={"dropdown-item"}>Certificación</Link>
-              <Link to="/mantenimiento" className={"dropdown-item"}>Mantenimiento y T	&#38;C</Link>
+              <Link to="/mantenimiento" className={"dropdown-item"}>Mantenimiento y T	&#38; C</Link>
             </div>
             </li>
             <li className={"nav-item dropdown pl-3 pr-3 principal-text-navbar"}>

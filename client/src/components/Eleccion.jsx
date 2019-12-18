@@ -15,7 +15,9 @@ const Eleccion = () => {
             <title>Elección - Diamante Perú</title>
             <meta name="description" content="Diamantes certificados por el Laboratorio mas prestigioso y famoso del mundo, Gemological Institute of America (GIA)" />
             <meta name="keywords" content="Diamante,diamante,joyas,diamante peru,diamante perú,Mantenimiento" />
-        </Helmet>
+            <meta name="URL" content="http://www.diamanteperu.com"/>
+            <meta name="author" content="diamanteperu.com"/>
+                <meta name="distribution" content="global"/>   </Helmet>
         <h1 className="p-3 flex flexCenter text-size27 "><b>ELECCIÓN</b></h1>
             <div className="w80 mL-R10 font-size-1rem">
                 <div className="pb-3t interline1 p-eleccion">
