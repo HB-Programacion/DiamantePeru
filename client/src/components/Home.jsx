@@ -1,8 +1,6 @@
 import React from "react";
 
-import Carrousel from "./Carrousel";
 import Convenio from "./Convenio";
-import Footer from "./Footer";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 // import foto1 from "../img/Clip.png";
