@@ -33,11 +33,11 @@ const Footer = () => {
             <footer className=" bd-top bd-bottom flex flex-column-reverse1">
                 <div className="container-contact flex w20 w100-xs mb-2">
                     <a href="https://es-la.facebook.com/DiamantePeruOficial/" className="pad-l-t-3">
-                       <img className="contact-us" src={facebook}></img>
+                       <img className="contact-us" alt="facebook" src={facebook}></img>
                     </a>
                     <a href="https://www.instagram.com/diamanteperu/?hl=es-la"  className="pad-l-t-3">
                         
-                       <img  className="contact-us" src={instagram}></img>
+                       <img  className="contact-us" alt="instagram" src={instagram}></img>
                     </a>
                 </div>
                 <form  onSubmit={fetchdata}   method="post"

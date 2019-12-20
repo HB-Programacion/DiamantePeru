@@ -13,6 +13,7 @@ const ItemOfCarrousel = ({nro,tipo,imagen}) =>{
           />
           <div className="card-body center">
             <p className="card-title">COD {nro}</p>
+        
           </div>
         </div>
       </Link>
