@@ -3,10 +3,12 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "animate.css": "^3.7.2",
         "cross-env": "^6.0.3",
         "dotenv": "^8.2.0",
         "fontello-cli": "^0.4.0",
         "google-spreadsheet": "^2.0.8",
+        "jquery": "^3.4.1",
         "jquery-react": "^1.0.0",
         "mdbreact": "^4.21.0",
         "react": "^16.9.0",
