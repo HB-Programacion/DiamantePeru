@@ -44,9 +44,9 @@ const Home = () => {
     <div className="carousel-item active">
     <Link  to="/compromiso"><img src={foto2} className="d-block w-100 h-50-rem" alt="chica"/>
     <div className="carousel-caption d-none d-md-block">
-    <h5 className="fontsz-5 snell-Roundhand">
+    <h5 className="animated fadeInLeft fontsz-5  snell-Roundhand">
 Tu lo  sueñas, </h5>
-    <p className="fontsz-5 snell-Roundhand ">Nosotros lo creamos</p>
+    <p className="animated fadeInLeft  fontsz-5 snell-Roundhand ">Nosotros lo creamos</p>
   </div></Link>
     </div>
     <div className="carousel-item">
