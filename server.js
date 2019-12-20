@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 const GoogleSpreadsheet = require('google-spreadsheet');
 const { promisify } = require('util');
 
-const creds = require('./Correos-Nodejs-00d39113028a.json');
+const creds = require('./Correos-Nodejs-00d39113028a');
 const customers = [];
 async function accessSpreadsheet(mailInput) {
     const doc = new GoogleSpreadsheet('1umR_uDTvPGqcjMI-5pfdRVqr5DfYwFhVTEx5O5Xzndk');
