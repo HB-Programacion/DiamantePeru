@@ -1,5 +1,5 @@
 import React from "react";
-import Slide from "./Slide";
+
 import Carrousel from "./Carrousel";
 import Convenio from "./Convenio";
 import Footer from "./Footer";
@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 // import foto1 from "../img/Clip.png";
 import foto1 from "../img/diamante_cover-01.png";
 import foto2 from "../img/foto01.png";
-import foto3 from "../img/foto3.png";
+
 import img1 from "../img/1.png"
 import img2 from "../img/2.png"
 import img3 from "../img/3.png"
@@ -18,7 +18,7 @@ import img6 from "../img/6.png"
 import img7 from "../img/7.png"
 import img8 from "../img/8.png"
 import img9 from "../img/9.png"
-import foto4 from "../img/diamante_cover-2.png";
+
 
 
 const Home = () => {

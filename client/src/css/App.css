@@ -417,7 +417,7 @@
     }
     
     .fondo-mantenimiento {
-        background-image: url("../img/mantenimiento.png");
+        background-image: url("../img/mantenimiento.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 50rem;
@@ -607,7 +607,7 @@
         margin-bottom: 0 !important;
         text-align: left;
         line-height: 1 !important;
-        font-size: 5rem;
+        font-size: 4rem;
     }
     
     .allCenter {
@@ -897,7 +897,7 @@
         color: white;
         font-size: 1em;
         border-radius: 0;
-        box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+        box-shadow: none !important;
     }
     
     .navbar-horizontal {
@@ -1334,7 +1334,6 @@
     
     .real-white1 {
         padding-bottom: 4rem;
-        height: 50rem;
     }
     
     .contact-input-size {
