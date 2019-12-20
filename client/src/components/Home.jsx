@@ -33,36 +33,6 @@ const Home = () => {
         <meta name="distribution" content="global"/>
       </Helmet>
         <div className="w100 animated fadeIn ">
-         
-
-          {/* <div className="carousel slide portada" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                       <Link to="/novios"><img src={foto4} className="d-block w-100 h-50-rem viewP" alt="Bodegon joyas"/></Link>
-                    </div>
-                    <div className="carousel-item">
-                      <Link to="/joyas" ><img src={foto2} className="d-block w-100 h-50-rem viewP" alt="chica"/></Link>
-                    </div>
-                    <div className="carousel-item">
-                      <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem viewP" alt="Promocion del mes"/></Link>
-                    </div>
-                </div>
-            </div> */}
-
-{/* 
-            <div  className="carousel slide noPortada" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                       <Link to="/joyas"><img src={foto1} className="d-block w-100 h-50-rem" alt="Bodegon joyas"/></Link>
-                    </div>
-                    <div className="carousel-item">
-                      <Link  to="/compromiso"><img src={foto2} className="d-block w-100 h-50-rem" alt="chica"/></Link>
-                    </div>
-                    <div className="carousel-item">
-                      <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem" alt="Promocion del mes"/></Link>
-                    </div>
-                </div>
-            </div> */}
 
 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
@@ -73,9 +43,10 @@ const Home = () => {
   <div className="carousel-inner">
     <div className="carousel-item active">
     <Link  to="/compromiso"><img src={foto2} className="d-block w-100 h-50-rem" alt="chica"/>
-    <div class="carousel-caption d-none d-md-block">
-    <h5>lorem ipsum</h5>
-    <p>Corrupti minus omnis suscipit</p>
+    <div className="carousel-caption d-none d-md-block">
+    <h5 className="fontsz-5 snell-Roundhand">
+Tu lo  sueñas, </h5>
+    <p className="fontsz-5 snell-Roundhand ">Nosotros lo creamos</p>
   </div></Link>
     </div>
     <div className="carousel-item">

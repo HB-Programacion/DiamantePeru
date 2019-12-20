@@ -10,7 +10,7 @@ const Item = ({nro,tipo,color,dsc,img}) =>{
         to={ `/producto/${tipo}/${nro}`}
       >
         <div className="card background-carrousel-ring" key={nro}>
-          <img src={img} className="card-img-top cardImgItem" alt="..."/>
+          <img src={img} className="card-img-top cardImgItem" alt={` joya ${nro}`}/>
           <div className="card-body">
             <h5 className="card-title text-center p-2">COD : {nro}</h5>
          

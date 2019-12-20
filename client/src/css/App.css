@@ -602,6 +602,14 @@
         letter-spacing: 3px
     }
     
+    .fontsz-5 {
+        color: #8a7974;
+        margin-bottom: 0 !important;
+        text-align: left;
+        line-height: 1 !important;
+        font-size: 5rem;
+    }
+    
     .allCenter {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -880,7 +888,7 @@
     }
     
     .carousel-caption {
-        bottom: 50%;
+        bottom: 25%;
     }
     
     .btn,
@@ -967,7 +975,7 @@
         text-align: center;
     }
     
-    .background-carrousel-ring {
+    .background-ring {
         border-radius: 1px;
         border: none;
         background-color: #fdfeffba;

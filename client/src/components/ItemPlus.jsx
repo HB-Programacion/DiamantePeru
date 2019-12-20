@@ -23,7 +23,9 @@ const ItemPlus = () =>{
                         <h1> MODELO {elem.CÓDIGO} </h1>
                         <div className="container-text-jewerly">
                             <p className="text-center">{elem.DESCRIPCIÓN}</p> 
-                              
+                        <a href="http://" className="nav-link option-menu raleway-medium-italic">Asesoría Aquí ></a>
+                         
+                        
                         </div>
                     </div>
                 </div>
