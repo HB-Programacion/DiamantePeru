@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet";
 // import foto1 from "../img/Clip.png";
 import foto1 from "../img/diamante_cover-01.png";
 import foto2 from "../img/foto01.png";
+import foto3 from "../img/DIAMANTE_giftcards.png";
 
 import img1 from "../img/1.png"
 import img2 from "../img/2.png"
@@ -48,7 +49,7 @@ const Home = () => {
   </div></Link>
     </div>
     <div className="carousel-item">
-    <Link to="/blog"><img src={foto1} className="d-block w-100 h-50-rem" alt="Promocion del mes"/></Link>
+    <Link to="/blog"><img src={foto3} className="d-block w-100 h-50-rem" alt="Promocion del mes"/></Link>
     </div>
     <div className="carousel-item">
     <Link to="/joyas"><img src={foto1} className="d-block w-100 h-50-rem" alt="Bodegon joyas"/></Link>
