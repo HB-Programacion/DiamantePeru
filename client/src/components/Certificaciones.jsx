@@ -57,13 +57,6 @@ const Certificaciones = () => {
         </div>
       </div>
     </div>
-
-
-
-
- 
- 
-
     <div className="carousel-item ">
       <div className="row">
         <div className="col-md-12  cont-ben">
@@ -84,10 +77,6 @@ const Certificaciones = () => {
         </div>
       </div>
     </div>
- 
-
- 
-
     <div className="carousel-item ">
       <div className="row">
         <div className="col-md-12  cont-ben">
@@ -97,7 +86,7 @@ const Certificaciones = () => {
             <div className='interline1 pb-2 ml-15 pad-l-responsive'>
         
               <p>Gerardo Zela Gerente General y Fundador de Diamante Perú</p>
-              <p>Es el Primer Gemólogo peruano especialista en Diamantes</p>
+              <p>Es el Primer Gemólogo peruano especialista en diamantes</p>
               <p>Graduado en el prestigioso Instituto GIA (Gemological Institute of America).</p>
           </div>
            

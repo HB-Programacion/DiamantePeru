@@ -40,20 +40,19 @@ const Beneficios = () => {
                           <figure className="w50 allCenter align-items-baseline  convenioResImg">
                             <img className=" w70 rounded-circle  ben-round" src={imgconvenio5} alt="Beneficio 2"/>
                           </figure>
-                       <div className="card-body w50 p-3  convenioRes geosansLight">
+                          <div className="card-body w50 p-3  convenioRes geosansLight">
                             <h4 className="card-title">SOCIOS CLUB DIAMANTE </h4>
-                            <p className="card-text font-size-1">Por tu compra en Diamante Perú obtienes:</p>
+                            <p className="card-text font-size-1rem">Por tu compra en Diamante Perú obtienes:</p>
                             <p className="interline1 font-size-1rem justify">
                               Forma parte del Club Diamante y descubre todos
                               los beneficios, sólo debes realizar una compra en Diamante Perú e inscribirte en nuestro
-                              formulario web con tu DNI en el siguiente link : <a className="text-center option-menu raleway-medium-italic nav-link " href=" http://bit.ly/2XxDMLA">Click Aqui</a>
+                              formulario web con tu DNI en el siguiente link : <a className="text-center option-menu nav-link raleway-medium-italic" href=" http://bit.ly/2XxDMLA">Click Aquí</a>
                             </p>
                             <hr className="my-4"/>
-                            <p className="interline1 text-size07  raleway-medium justify">
+                            <p className="interline1 text-size07 geosansLight justify">
                                 Términos y Condiciones:<br></br>
                                 Descuentos exclusivos para clientes de DIAMANTE PERÚ,
                                 La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ. Para acceder al beneficio, el cliente y/o beneficiario debe registrarse en el formulario antes para solicitar la cita dando en referencia su nombre para poder corroborar que son clientes de DIAMANTE PERÚ. Esta promoción es válida con pago en efectivo o depósito en cuenta.
-                            
                             </p>
                           </div> 
                      </div>
@@ -78,7 +77,7 @@ const Beneficios = () => {
                               <li>15% de dscto en ternos a medida para caballeros</li>
                             </ul>
                             <hr className="my-4"/>
-                            <p className="interline1 text-size07 raleway-medium justify">
+                            <p className="interline1 text-size07 geosansLight justify">
                                 Términos y Condiciones:<br></br>
                                 Descuentos exclusivos para clientes de DIAMANTE PERÚ,
                                 La promoción puede ser transferible a un familiar directo (hijo, hija, hermana, papá y mamá), solo presentando el voucher de compra en DIAMANTE PERÚ.<br></br>
@@ -115,21 +114,21 @@ const Beneficios = () => {
                               <li>15% de descuento en ternos amedida para caballeros. **</li>
                             </ul>
                             <hr className="my-4"/>
-                            <p className="interline1 text-size12 raleway-medium justify">
+                            <p className="interline1 text-size12 geosansLight justify">
                             
                             </p>
-                              <p className="mb-0 interline1 text-size07 raleway-medium justify" >
+                              <p className="mb-0 interline1 text-size07 geosansLight justify" >
                               Términos y Condiciones:<br></br>
                                 Descuento exclusivamente a clientes del CLUB DIAMOND, valido del 30 de abril 2019
                               al 30 de abril 2020.</p>
-                              <p className="mb-0 interline1 text-size07 raleway-medium justify" >El descuento no es acumulable o valido con otras promociones.
+                              <p className="mb-0 interline1 text-size07 geosansLight justify" >El descuento no es acumulable o valido con otras promociones.
                               Los descuentos son en efectivo o en tarjeta de crédito (+ 5%).
                               No hay un límite de compras por el cliente.</p>
                               
                        
-                              <p className="mb-0 interline1 text-size07 raleway-medium justify" >** El descuento del 15% en ternos, aplica solo para las telas italianas y para los sacos y pantalones.
+                              <p className="mb-0 interline1 text-size07 geosansLight justify" >** El descuento del 15% en ternos, aplica solo para las telas italianas y para los sacos y pantalones.
 </p>
-                              <p className="mb-0 interline1 text-size07 raleway-medium justify" >DATOS <br/>
+                              <p className="mb-0 interline1 text-size07 geosansLight justify" >DATOS <br/>
                               EL ATELIER DE CARMEN SEMINARIO<br/>
                               CAISEM EIRL.<br/>
                               RUC: 20492756173<br/>
@@ -157,7 +156,7 @@ const Beneficios = () => {
                              
                             </ul>
                             <hr className="my-4"/>
-                            <p className="interline1 text-size07 justify raleway-medium">
+                            <p className="interline1 text-size07 justify geosansLight">
                                                         Términos y Condiciones:<br></br>
                             Descuentos exclusivos para clientes de DIAMANTE PERÚ, válido del viernes 30 de
                             agosto 2019 al martes 31 de diciembre del 2019.
@@ -197,7 +196,7 @@ const Beneficios = () => {
                               <li> Beneficio aplicable con todas las tarjetas de crédito del Banco BBVA. Aplica para realizar compras de
                                                         piezas listas y por confección.</li>
                             </ul>
-                           <span class="raleway-medium text-size07">  <br></br>Horario de atención*: De Lunes a Viernes de 10:00am a 7pm / Sábados:
+                           <span class="geosansLight text-size07">  <br></br>Horario de atención*: De Lunes a Viernes de 10:00am a 7pm / Sábados:
                             10:00am a 05:00pm. (Refrigerio 2:00 – 3:00pm)  <br></br>Teléfonos de contacto: 241-8536 ó 445-6139  <br></br>
                             <a  className="option-menu" href="http:///facebook.com/DiamantePeruOficial">  FANPAGE: www.facebook.com/DiamantePeruOficial</a>
                             <br></br> <a  className="option-menu" href="http://diamanteperu.com">WEB: www.diamanteperu.com</a>  <br></br>
@@ -218,7 +217,7 @@ const Beneficios = () => {
                                                           piezas listas y por confección.</li>
                               </ul>
                             Beneficio aplicable con todas las tarjetas de crédito Diners Club. Aplica para realizar compras de
-                            piezas listas y por confección.<br></br> .<span class="raleway-medium text-size07">  Horario de atención*: De Lunes a Viernes de 10:00am a 7pm / Sábados:
+                            piezas listas y por confección.<br></br> .<span class="geosansLight text-size07">  Horario de atención*: De Lunes a Viernes de 10:00am a 7pm / Sábados:
                             10:00am a 05:00pm. (Refrigerio 2:00 – 3:00pm)  <br></br>Teléfonos de contacto: 241-8536 ó 445-6139  <br></br>
                             <a  className="option-menu " href="http:///facebook.com/DiamantePeruOficial">  FANPAGE: www.facebook.com/DiamantePeruOficial</a>
                             <br></br> <a  className="option-menu" href="http://diamanteperu.com">WEB: www.diamanteperu.com</a>  <br></br>

@@ -172,9 +172,10 @@
     /* FONTS */
     
     .card-title {
-        font-family: 'Raleway-Medium';
+        font-family: 'GeosansLight';
         font-size: 1em;
         padding-bottom: .8rem;
+        font-weight: bold
     }
     
     .flex {
@@ -1873,6 +1874,7 @@
         .card-title {
             text-align: center
         }
+        
         .vhEleccion {
             height: 100%
         }

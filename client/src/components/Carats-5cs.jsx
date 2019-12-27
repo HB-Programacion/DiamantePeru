@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import foto1 from "../img/carats-fondo.png";
+import foto1 from "../img/5C-cover/COVER.png";
 import blog5 from "../img/certificacionYConfianza.png"
 import color from "../img/color.png"
 import claridad from "../img/claridad.png";
