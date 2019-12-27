@@ -46,7 +46,7 @@ const Beneficios = () => {
                             <p className="interline1 font-size-1rem justify">
                               Forma parte del Club Diamante y descubre todos
                               los beneficios, sólo debes realizar una compra en Diamante Perú e inscribirte en nuestro
-                              formulario web con tu DNI en el siguiente link : <a className="text-center option-menu raleway-medium-italic nav-link " href=" http://bit.ly/2XxDMLA">CLick Aqui</a>
+                              formulario web con tu DNI en el siguiente link : <a className="text-center option-menu raleway-medium-italic nav-link " href=" http://bit.ly/2XxDMLA">Click Aqui</a>
                             </p>
                             <hr className="my-4"/>
                             <p className="interline1 text-size07  raleway-medium justify">
