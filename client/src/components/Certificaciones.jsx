@@ -5,7 +5,7 @@ import gia from "../img/GIA_logo.png"
 import giaInst from "../img/GIA_PNG.png"
 import giaInstSpace from "../img/DIAMANTE_GIA-img1.png"
 
-import diamante from '../img/fondo-certificaciones-diamante.png'
+import diamante from '../img/CERTIFICACIONES_gia.png'
 import diamante1 from '../img/diplomas/CERTIFICACIONES_gerardo.png'
 import diamante2 from '../img/diplomas/CERTIFICACIONES_gino.png'
 import diamante3 from '../img/diplomas/CERTIFICACIONES_adrian.png'
