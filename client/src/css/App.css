@@ -2045,7 +2045,12 @@
             width: 90%
         }
     }
+    @media screen and (max-width:1280px) {
     
+        .adap-width{
+            width: 90%
+        }
+    }
     @media screen and (min-width:2120px) {
         .carousel-inner1 {
             width: 100% !important;
