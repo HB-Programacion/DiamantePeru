@@ -691,7 +691,9 @@
         justify-content: center;
         width: 100%;
     }
-    
+    .adap-width{
+        width: 100%
+    }
     .flexWrap .item {
         -webkit-box-flex: 1;
         -ms-flex: 1 0 50%;
@@ -1655,6 +1657,9 @@
     }
     
     @media screen and (max-width:767px) {
+        .adap-width{
+            width: 100% !important
+        }
         .container-another-articles {
             width: 100vw;
             top: -3rem;
@@ -1967,9 +1972,15 @@
             -ms-flex-pack: right;
             justify-content: right;
         }
+        .adap-width{
+            width: 90%
+        }
     }
     
     @media screen and (max-width:991px) {
+        .adap-width{
+            width: 90%
+        }
         .w30-xs {
             width: 50%;
             font-size: 80%;
@@ -2029,6 +2040,9 @@
         .flexWrap-xs {
             -ms-flex-wrap: wrap;
             flex-wrap: wrap
+        }
+        .adap-width{
+            width: 90%
         }
     }
     
