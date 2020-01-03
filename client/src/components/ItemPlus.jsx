@@ -15,17 +15,15 @@ const ItemPlus = () =>{
         <div className="fondo-item-plus">
         <div className="container  text-left vh80 vh80-xs">
             <div className="row align-items-center h100 ">
-                <div className="col-md-6 col-sm-12">
-                    <img className=" itempluss  img-fluid p-4 h-sm-50 w-100" src={elem.imagen} alt="joyas"/>
+                <div className="col-md-6 col-sm-12 h-100 h-sm-50 p-3 container-each-jewerly allCenter">
+                    <img className=" itempluss  img-fluid p-3 h-sm-50 w-100" src={elem.imagen} alt="joyas"/>
                 </div>
-                <div className="col-md-6  col-sm-12  h-100 h-sm-50 p-4 container-each-jewerly  allCenter">
+                <div className="col-md-6  col-sm-12  h-100 h-sm-50 p-4 container-each-jewerly allCenter">
                     <div className="container container-fluid flex flex-column geosansLight">
                         <h1> MODELO {elem.CÓDIGO} </h1>
                         <div className="container-text-jewerly">
                             <p className="text-center">{elem.DESCRIPCIÓN}</p> 
-                        <a href="http://" className="nav-link option-menu raleway-medium-italic">Asesoría Aquí ></a>
-                         
-                        
+                            <a href="https://wa.me/51949218855?text=Me%20gustaría%20tener%20información%20personalizada." className="nav-link option-menu raleway-medium-italic">Asesoría Aquí ></a>
                         </div>
                     </div>
                 </div>

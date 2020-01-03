@@ -6,6 +6,8 @@ import imgconvenio2 from "../img/beneficios/D02.png";
 import imgconvenio3 from "../img/beneficios/D03.png";
 import imgconvenio4 from "../img/beneficios/D04.png";
 import imgconvenio5 from "../img/beneficios/D05.png";
+import imgconvenio6 from "../img/beneficios/D06.png";
+
 import { Helmet } from "react-helmet";
 const Beneficios = () => {
     return(
@@ -188,16 +190,31 @@ const Beneficios = () => {
                               						<li> Beneficio aplicable con todas las tarjetas de crédito del Banco BBVA. Aplica para realizar compras de
                               						piezas listas y por confección.</li>
                             					</ul>
-                           						{/* <span class="interline1 text-size07 geosansLight justify">  
-											   		<br></br>Horario de atención*: De Lunes a Viernes de 10:00am a 7pm / Sábados:10:00am a 05:00pm. (Refrigerio 2:00 – 3:00pm)  
+												<hr className="my-4"/>
+                           						<p class="mb-0 interline1 text-size07 geosansLight justify">  
+											   		Horario de atención*: De Lunes a Viernes de 10:00am a 7pm / Sábados:10:00am a 05:00pm. (Refrigerio 2:00 – 3:00pm)  
 													<br></br>Teléfonos de contacto: 241-8536 ó 445-6139  
 													<br></br>
                             						<a className="option-menu" href="http:///facebook.com/DiamantePeruOficial">  FANPAGE: www.facebook.com/DiamantePeruOficial</a>
                             						<br></br> <a  className="option-menu" href="http://diamanteperu.com">WEB: www.diamanteperu.com</a>  
 													<br></br>Contacto: info@diamanteperu.com
-                            					</span>    */}
+                            					</p>   
                               				</p>
-                              				<p className="card-text font-size-1rem">BBVA: Compra la joya perfecta hasta en 06 meses sin intereses.</p>
+                           				</div>
+                        			</div>
+                      			</div>
+                    		</div>
+                  		</div>
+						<div className="carousel-item">
+                    		<div className="row">
+                      			<div className="col-md-12  cont-ben">
+                        			<div className="mb-2  flex flexWrap adap-width">
+                          				<figure className="w50 allCenter align-items-baseline  convenioResImg">
+                            				<img className=" w70 rounded-circle  ben-round" src={imgconvenio6} alt="Beneficio 2"/>
+                          				</figure>
+                          				<div className="card-body w50 p-3  convenioRes geosansLight">
+                            				<h4 className="card-title">PAGOS SIN INTERESES - DINERS CLUB</h4>
+                              				<p className="card-text font-size-1rem">Compra la joya perfecta hasta en 06 meses sin intereses.</p>
                             				<p className="interline1 text-size12 justify ">
                                                 <ul className="interline1 ml-4 font-size-1rem">
                               						<li>Beneficio aplicable con todas las tarjetas de crédito Diners Club. Aplica para realizar compras de
