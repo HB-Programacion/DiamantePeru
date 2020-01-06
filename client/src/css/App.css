@@ -418,10 +418,10 @@
     }
     
     .fondo-mantenimiento {
-        background-image: url("../img/mantenimiento.jpeg");
+        background-image: url("../img/DIAMANTE_mantenimiento-gino.png");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 50rem;
+        height: 45rem;
         animation-name: fadeIn;
         padding-right: 26% !important;
         padding-top: 12% !important;
