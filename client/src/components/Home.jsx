@@ -4,7 +4,7 @@ import Convenio from "./Convenio";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 // import foto1 from "../img/Clip.png";
-import foto1 from "../img/diamante_cover-01.png";
+import foto1 from "../img/DIAMANTE_bodegon-03.png";
 import foto2 from "../img/diamante_home-01.png";
 import foto3 from "../img/DIAMANTE_giftcards.png";
 
