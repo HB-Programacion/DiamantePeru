@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 // import foto1 from "../img/Clip.png";
 import foto1 from "../img/DIAMANTE_bodegon-03.png";
-import foto2 from "../img/diamante_home-01.png";
+import foto2 from "../img/DIAMANTE_portada-modelo.png";
 import foto3 from "../img/DIAMANTE_giftcards.png";
 
 import img1 from "../img/1.png"
