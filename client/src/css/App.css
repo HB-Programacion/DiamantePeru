@@ -610,7 +610,7 @@
         line-height: 1 !important;
         font-size: 4rem;
     }
-    
+
     .allCenter {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1433,7 +1433,13 @@
         color: #272727 !important;
         text-decoration: none !important;
     }
-    
+    .mt-testimonio{
+        margin-top: 12rem;
+    }
+    .testimonio-center-foto{
+        width: 80%;
+        margin: 0 auto
+    }
     @media screen and (max-width:768px) {
         .left3-premios {
             left: 6rem;
@@ -1657,6 +1663,10 @@
     }
     
     @media screen and (max-width:767px) {
+        .mt-testimonio{
+            margin-top: 3rem;
+        }
+    
         .adap-width{
             width: 100% !important
         }
