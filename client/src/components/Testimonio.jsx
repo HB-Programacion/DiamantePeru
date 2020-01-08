@@ -32,7 +32,7 @@ const Testimonio = () => {
                         
                             {/* <img src={personM1}  alt="persona"className="foto-testimonio"/> */}
 
-                            <p className="card-text interline1">"Tienen  una atención  de primera, la explicación  es completísima, me encantó  su pág. Web "</p>
+                            <p className="card-text interline1">"Tienen una atención de primera, la explicación es completísima, me encantó su página web".</p>
                             <p className="interline1 ">
                               Carlos
                             </p>
@@ -49,7 +49,7 @@ const Testimonio = () => {
 
                             {/* <img src={personM2} alt="persona" className="foto-testimonio"/> */}
 
-                            <p className="card-text interline1">"Muy  buen trabajo, el modelo  es tal cual lo solicite en el tiempo  justo, dedicándole toda la atención  necesaria, Gracias."</p>
+                            <p className="card-text interline1">"Muy buen trabajo, el modelo  es tal cual lo solicite en el tiempo justo, dedicándole toda la atención necesaria, Gracias".</p>
                             <p className="interline1">
                                 Felipe
                             </p>
@@ -64,7 +64,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img src={personM3} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Excelente trabajo  y  atención considero  que es una empresa de calidad y   garantía, que tanto  yo  como   cualquier otra persona estaría complacido   de adquirir la sortija de compromiso  en DIAMANTE PERÚ."</p>
+                            <p className="card-text interline1">"Excelente trabajo y atención considero que es una empresa de calidad y garantía, que tanto  yo  como cualquier otra persona estaría complacido de adquirir la sortija de compromiso en DIAMANTE PERÚ".</p>
                             <p className="interline1 ">
                               Ricardo
                             </p>
@@ -79,7 +79,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img src={personM1} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Estoy  contento  con el servicio  brindado, puntualidad y  directo en el trato, provoca una garantía y confianza única. Nos hace saber  que estamos hablando con  profesionales en el tema de diamantes."</p>
+                            <p className="card-text interline1">"Estoy contento con el servicio brindado, puntualidad y directo en el trato, provoca una garantía y confianza única. Nos hace saber que estamos hablando con profesionales en el tema de diamantes".</p>
                             <p className="interline1 ">
                               José Antonio
                             </p>
@@ -94,7 +94,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img src={personM2}  alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Tienen sin lugar  a dudas productos de calidad, un excelente servicio  y asesoría, me encanto su  presentación  me dejo  sin palabras, estoy seguro que a mi  novia le va a encantar!"</p>
+                            <p className="card-text interline1">"Tienen sin lugar a dudas productos de calidad, un excelente servicio y asesoría, me encanto su presentación me dejo sin palabras, estoy seguro que a mi novia le va a encantar!".</p>
                             <p className="interline1 ">
                               German
                             </p>
@@ -109,7 +109,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img  src={personF1} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Vine un poco  preocupada porque no  hice el mantenimiento  correspondiente a mi  sortija  tal como indican , no sabía cómo indican , no sabía cómo iba a quedar pero  cuando me la entregaron  estaba más que perfecta."</p>
+                            <p className="card-text interline1">"Vine un poco preocupada porque no hice el mantenimiento correspondiente a mi sortija tal como indican,no sabía cómo iba a quedar pero cuando me la entregaron estaba más que perfecta".</p>
                             <p className="interline1 ">
                               Antonella
                             </p>
@@ -124,7 +124,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio ">
                             {/* <img src={personM3} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Vi los modelos en facebook, me encantaron e hice el trato vía correo electrónico, y todo quedo  mejor de lo que  pensaba, Muchas Gracias."</p>
+                            <p className="card-text interline1">"Ví los modelos en facebook, me encantaron e hice el trato vía correo electrónico, y todo quedo mejor de lo que  pensaba, muchas gracias".</p>
                             <p className="interline1 ">
                               Augusto
                             </p>
@@ -139,7 +139,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img  src={personM1}  alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"A mi  esposa le encanto  su página de facebook  y me etiquetó en varios modelos así  que  fui a la oficina y  le compre unos aretes por nuestro aniversario, ni  se lo  espera, muchas gracias, la atención y presentación es de primera."</p>
+                            <p className="card-text interline1">"A mi esposa le encanto su página de facebook y me etiquetó en varios modelos así que fui a la oficina y le compre unos aretes por nuestro aniversario, ni se lo espera, muchas gracias, la atención y presentación es de primera".</p>
                             <p className="interline1 ">
                               Julio
                             </p>
@@ -154,7 +154,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img  src={personM2} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Averigüé en varias casas joyeras y  me gustó  mucho  DIAMANTE PERÚ, sentí más confianza. Los modelos me gustaron mucho  son más finos y delicados, me gustó  mucho  su trabajo, los felicito."</p>
+                            <p className="card-text interline1">"Averigüé en varias casas joyeras y me gustó mucho DIAMANTE PERÚ, sentí más confianza. Los modelos me gustaron mucho son más finos y delicados, me gustó mucho su trabajo, los felicito".</p>
                             <p className="interline1 ">
                               Roberto
                             </p>
@@ -169,7 +169,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img src={personM3} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Mi anillo es perfecto! La experiencia  se refleja en los detalles  y  acabaos de sus piezas,  Muchas Gracias."</p>
+                            <p className="card-text interline1">"Mi anillo es perfecto! La experiencia se refleja en los detalles y acabaos de sus piezas,  Muchas Gracias".</p>
                             <p className="interline1 ">
                               José Manuel
                             </p>
@@ -184,7 +184,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img  src={personF2} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Buena descripción  de las  joyas y  excelente  trato personalizado. Gracias DIAMANTE  PERÚ, el dije que escogí  para mi  mama quedo  precioso."</p>
+                            <p className="card-text interline1">"Buena descripción de las joyas y excelente trato personalizado. Gracias DIAMANTE PERÚ, el dije que escogí para mi mamá quedo precioso".</p>
                             <p className="interline1 ">
                               Lucia
                             </p>
@@ -199,7 +199,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img src={personM3} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Nunca pensé  que el proceso  de tener un anillo  de compromiso  fuera tan especial, escoger la piedra, el modelo  del anillo, me han atendido muy  bien, Muchas Gracias."</p>
+                            <p className="card-text interline1">"Nunca pensé que el proceso de tener un anillo de compromiso fuera tan especial, escoger la piedra, el modelo  del anillo, me han atendido muy  bien, Muchas Gracias".</p>
                             <p className="interline1 ">
                               Renato
                             </p>
@@ -214,7 +214,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img src={personM1} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Quiero  agradecer por la paciencia  que tuvieron  ante mi  desconocimiento  sobre el  tema y  ante  mi  indecisión , hicieron  que me sintiera muy  bien atendido  y  cuando   me decidí  por el modelo   de mi agrado  fueron muy  profesionales y  puntuales."</p>
+                            <p className="card-text interline1">"Quiero  agradecer por la paciencia que tuvieron ante mi desconocimiento sobre el tema y ante mi indecisión , hicieron que me sintiera muy bien atendid y cuando me decidí por el modelo de mi agrado fueron muy profesionales y puntuales".</p>
                             <p className="interline1 ">
                               Juan Pablo
                             </p>
@@ -229,7 +229,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img src={personM2} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Los elegí  porque demostraron  credibilidad y confianza al momento  de la compra  y al orientarme  al escoger el  brillante  en base al presupuesto  indicado , estoy muy  contento."</p>
+                            <p className="card-text interline1">"Los elegí porque demostraron credibilidad y confianza al momento de la compra y al orientarme al escoger el brillante en base al presupuesto indicado, estoy muy contento".</p>
                             <p className="interline1 ">
                               Oscar
                             </p>
@@ -244,7 +244,7 @@ const Testimonio = () => {
                         <div className="mb-2 flexWrap testimonio-center-foto">
                           <div className="card-body pl-3 center mt-testimonio">
                             {/* <img src={personM3} alt="persona" className="foto-testimonio"/> */}
-                            <p className="card-text interline1">"Buen servicio, buen trato, todo  es muy  transparente y buenos precios. El anillo  esta precioso, la presentación  impecable, todo  perfecto."</p>
+                            <p className="card-text interline1">"Buen servicio, buen trato, todo es muy transparente y buenos precios. El anillo esta precioso, la presentación impecable, todo perfecto".</p>
                             <p className="interline1 ">
                               Ramón
                             </p>
