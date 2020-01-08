@@ -34,10 +34,8 @@ import Blog5 from './Blog5-5cs'
 import BlogMantenimiento from './BlogMantenimiento'
 import C2A from "./C2A";
 const TabBar= () => { 
-    
   return (
  <Router>
-     
     <header className="font-size-1rem">
       <nav className={"navbar navbar-expand-lg p-0 navbar-light d-block style-z-index"}>
       <div className={"d-flex flex-grow-1 bd-bottom"}>
@@ -69,8 +67,7 @@ const TabBar= () => {
               <a className={"nav-link  option-menu"} href="#diamantePeru" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"   >
               <b>DIAMANTE PERÚ  <span> &#43;</span></b>
             </a>
-            <div className="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown"
-          >
+            <div className="dropdown-menu center grayNav border-0 rounded-0" aria-labelledby="navbarDropdown">
               <Link to="/historia" className={"dropdown-item"}>Historia</Link>
               <Link to="/motivos" className={"dropdown-item"}>Motivos</Link>
               <Link to="/premios" className={"dropdown-item"}>Premios</Link>
