@@ -50,7 +50,7 @@ const Testimonio = () => {
                             {/* <img src={personM2} alt="persona" className="foto-testimonio"/> */}
 
                             <p className="card-text interline1">"Muy  buen trabajo, el modelo  es tal cual lo solicite en el tiempo  justo, dedicándole toda la atención  necesaria, Gracias."</p>
-                            <p className="interline1 text-size12">
+                            <p className="interline1">
                                 Felipe
                             </p>
                           </div>
