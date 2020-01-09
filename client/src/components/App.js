@@ -10,7 +10,7 @@ const App = () => {
   return (
     <Router>
       
-    <div className="" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
+    <div className="" >
       <div className="App vh100"  >
         <TabBar/>
         <Footer/>
