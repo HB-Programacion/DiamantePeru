@@ -58,7 +58,7 @@ const TabBar= () => {
         </button>
       </div>
       </div>
-        <div className={"collapse navbar-collapse justify-content-center  bd-bottom"} id="navbarSupportedContent">
+        <div className={"collapse navbar-collapse justify-content-center  bd-bottom"} id="navbarSupportedContent" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
           <ul className={"navbar-nav burger-rigth menuRigth raleway-light "}>
             <li className={"nav-item pl-3 pr-3 principal-text-navbar"}>
               <Link to="/" className={"nav-link option-menu"}><b>HOME</b><span className={"sr-only"}>(current)</span></Link>
