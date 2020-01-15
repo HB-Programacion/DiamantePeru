@@ -1675,6 +1675,18 @@
             display: block;
             background-color: #fff0;
         }
+        .one-diamante{
+            justify-content: center;
+        }
+        .more-diamante{
+            justify-content: center;
+        }
+        .btn-solitario{
+           right: auto;
+        }
+        .btn-diamantes{
+            left: auto;
+        }
     }
     
     @media screen and (max-width:767px) {
@@ -1682,7 +1694,6 @@
             justify-content: center;
         }
         .more-diamante{
-            display: flex;
             justify-content: center;
         }
         .left-rigth-10{
