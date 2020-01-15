@@ -860,8 +860,6 @@
         position: absolute;
         display: flex;
         top: 70%;
-        left: 50%;
-        transform: translate(-50%, -55%);
         background-color: black;
         color: #fff;
         font-size: 1rem;
@@ -878,16 +876,33 @@
         justify-content: center;
         align-items: center;
     }
-    
+    .one-diamante{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .more-diamante{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .left-rigth-10{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
     .joya span {
         font-size: 1rem;
-        padding: 0.9rem;
+        padding: 0.83rem;
     }
     
     .joya .plusspan {
         font-size: 2rem;
         padding: 0rem;
         padding-right: .5rem;
+    }
+    .btn-solitario{
+        right: 4rem;
+    }
+    .btn-diamantes{
+        left: 4rem;
     }
     
     .carousel-caption {
@@ -1663,6 +1678,20 @@
     }
     
     @media screen and (max-width:767px) {
+        .one-diamante{
+            justify-content: center;
+        }
+        .more-diamante{
+            display: flex;
+            justify-content: center;
+        }
+        .left-rigth-10{
+            padding-left: 0rem;
+            padding-right: 0rem;
+        }
+        .solitario{
+            padding: 0rem!important;
+        }
         .mt-testimonio{
             margin-top: 3rem;
         }

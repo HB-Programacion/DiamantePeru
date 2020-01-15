@@ -3,8 +3,8 @@ import React  from "react";
 import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import oneDiamante from '../img/one-diamante.png'
-import moreDiamante from '../img/more-diamante1.png'
+import oneDiamante from '../img/novios/one-diamante.png'
+import moreDiamante from '../img/novios/more-diamante1.png'
 
 const Compromiso = () => {
     return (
@@ -19,15 +19,15 @@ const Compromiso = () => {
         </Helmet>   <div>    <h1 className="p-3 flex flexCenter text-size27 "><b>ANILLOS DE COMPROMISO</b></h1>
         <p className="center">Comienza tu historia de amor </p>
     </div>
-            <div className="flex-wrap-xs flex mt-5 mb-5rem flexCenter ">
+            <div className="flex-wrap-xs flex flexCenter left-rigth-10">
                     
-                <Link to="/compromiso/diamante" className="w-auto borderBold m-2 mt-3 mb-3 m4-xs"  >
-                    <img src={oneDiamante} alt="un Diamanate"className="w100 h100 box"/>
-                    <button className="joya"><span className="">SOLITARIO</span></button>
+                <Link to="/compromiso/diamante" className="w-auto borderBold m-2 mt-3 mb-3 m4-xs one-diamante"  >
+                    <img src={oneDiamante} alt="un Diamanate"className="box w70"/>
+                    <button className="joya btn-solitario"><span className="solitario">SOLITARIO</span></button>
                 </Link>
-                <Link to="/compromiso/diamantes" className="w-auto borderBold m-2 mt-3 mb-3 m4-xs" >
-                    <img src={moreDiamante}  alt="muchos Diamantes" className="w100 h100 box"/>
-                    <button className="joya" ><span className="plusspan" >+</span> DIAMANTES</button>
+                <Link to="/compromiso/diamantes" className="w-auto borderBold m-2 mt-3 mb-3 m4-xs more-diamante" >
+                    <img src={moreDiamante}  alt="muchos Diamantes" className="box w70"/>
+                    <button className="joya btn-diamantes" ><span className="plusspan" >+</span> DIAMANTES</button>
                 </Link>
             </div>
         </div>
