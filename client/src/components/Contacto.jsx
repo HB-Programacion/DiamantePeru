@@ -96,7 +96,8 @@ onChange={(e)=>{handleChange(e,setMessage)}}
             <div className="container-more-contact raleway-medium">
                 <p className="text-contact">Av. reducto 1135 - Miraflores-Lima,Perú</p>
                 <p className="text-contact consultas"><i className="fas fa-envelope p-right-05 "></i>consultas@diamanteperu.com</p>
-                <p className="text-contact"><i className="fas fa-phone-alt  p-right-05"></i>01 242-8536</p>
+                <p className="text-contact"><i className="fas fa-phone-alt  p-right-05"></i>01 241-8536</p>
+                <p className="text-contact p-left-2"><i className="fas fa-phone-alt p-right-05"></i>01 445-6139</p>
             </div>
             <div className="center raleway-medium font-size-1em line-heigth-1">
                 <p className="text-contact horariosAtencion center ">Horarios de Atención: Lun – Vier: 10 am – 7 pm / Sáb: 10 am – 6 pm</p>

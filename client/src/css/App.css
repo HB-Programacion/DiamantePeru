@@ -1392,8 +1392,8 @@
     }
     
     .consultas {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     
     .left-2 {
@@ -1407,7 +1407,9 @@
     .p-right-05 {
         padding-right: .5rem;
     }
-    
+    .p-left-2{
+        padding-left: 2rem;
+    }
     .text-decoration,
     .text-decoration:hover,
     .text-decoration:active {
@@ -2028,6 +2030,9 @@
     }
     
     @media screen and (max-width:991px) {
+        .p-left-2{
+            padding-left: 0rem
+        }
         .adap-width{
             width: 90%
         }
