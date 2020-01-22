@@ -36,7 +36,7 @@ const Historia = () =>{
                                 DIAMANTE PERÚ E.I.R.L  es un negocio familiar el cual fue fundado por el Sr. Gerardo Zela Salame Córdova quién en 1982 se Graduó como primer Gemólogo Peruano en el Gemological Institute of America (GIA). <br></br> 
                                 A lo largo de sus 14 años de instituida, la empresa siempre tuvo como objetivo principal el educar a las personas sobre este fascinante mundo de los diamantes para de esta forma evitar que pasen experiencias negativas. <br></br> 
                                 El Sr. Zela se inició en el mundo de la joyería influenciado por la relación comercial que tuvo su padre por muchos años con una joyería muy importante en nuestro país.<br></br> 
-                                Junto con su padre en el año 1976 inició un negocio familiar donde se desempeñó como gerente general y gemólogo hasta 1992.<br></br>Posteriormente fue fundador de la escuela de joyería Asociación Cultural Benvenuto Cellini 
+                                Junto con su padre en el año 1976 inició un negocio familiar donde se desempeñó como gerente general y gemólogo hasta 1992.Posteriormente fue fundador de la escuela de joyería Asociación Cultural Benvenuto Cellini 
                                 Haciéndose cargo en el año 2004 de DIAMANTE PERÚ EIRL.
                             </p>
                           </div>
