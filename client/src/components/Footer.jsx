@@ -16,7 +16,7 @@ const Footer = () => {
    async function fetchdata(e){ 
        e.preventDefault();
     //    const res =await fetch(`${BACKEND_URL}/api/customers`, {
-      const res =await fetch(`http://localhost:5000/api/customers`, {
+      const res =await fetch(`http://www.diamanteperu.com/api/customers`, {
        method: 'POST',
        body: JSON.stringify({ EmailUser: email }),
        headers: new Headers({ "Content-Type": "application/json" }) 

@@ -73,26 +73,20 @@ class Customers extends Component {
     }
 
     render() {
-        return ( <
-            div >
-            <
-            h2 > Customers < /h2> <
-            form action = "/api/customers"
-            method = "get"
-            id = "form1" >
-            <
-            input type = 'text'
-            name = 'email'
-            value = { this.state.email }
-            onChange = { this.handleChange }
-            /> <
-            button type = "submit" > < /button> <
-            /form> <
-            ul >
-
-            <
-            /ul> <
-            /div>
+        return ( 
+        <div>
+            <h2> Customers </h2> 
+            <form action = "/api/customers"
+                    method = "get"
+                    id = "form1" >
+                <input type = 'text'
+                name = 'email'
+                value = { this.state.email }
+                onChange = { this.handleChange }/><button type = "submit" > </button> 
+            </form> 
+            <ul>
+            </ul> 
+        </div>
         );
     }
 }

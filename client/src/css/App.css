@@ -177,9 +177,7 @@
         padding-bottom: .8rem;
         font-weight: bold
     }
-    .rotate-90{
-        transform: rotate(90deg)
-    }
+   
     .flex {
         display: -webkit-box;
         display: -ms-flexbox;

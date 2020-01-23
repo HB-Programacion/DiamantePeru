@@ -76,48 +76,48 @@ const Home = () => {
               <div className="carousel-inner" role="listbox">
                 <div className="carousel-item active">
                   <div className="row allCenter">
-                    <Link className="item-container-total text-decoration-none text-reset col-12 col-sm-4 col-md-2 mb-2 option-menu nav-link " to={ `/producto/Sortija-toda-ocasión/S217`}>
+                    <Link className="item-container-total text-decoration-none text-reset col-12 col-sm-4 col-md-2 mb-2 option-menu nav-link " to={ `/novios/Solitario/3009`}>
                     <div className="mb-2">
                       <img className="card-img-top rotate-90" src={img1}
                             alt="Card image cap"/>
                       <div className="card-body center">
-                        <p className="card-title">COD S217</p>
+                        <p className="card-title">COD 3009</p>
                       </div>
                     </div>
                   </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S223`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/novios/Solitario/4002`}>
                     <div className="mb-2">
                       <img className="card-img-top rotate-90" src={img2}
                             alt="Card image cap"/>
                       <div className="card-body center">
-                        <p className="card-title">COD S223</p>
+                        <p className="card-title">COD 4002</p>
                       </div>
                     </div>
                   </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S221`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/novios/Solitario/4023`}>
                     <div className="mb-2">
                       <img className="card-img-top rotate-90" src={img3}
                           alt="Card image cap"/>
                       <div className="card-body center">
-                        <p className="card-title">COD S221</p>
+                        <p className="card-title">COD 4023</p>
                       </div>
                     </div>
                   </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S218`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/novios/Solitario/1508`}>
                     <div className="mb-2">
                       <img className="card-img-top rotate-90" src={img4}
                             alt="Card image cap"/>
                       <div className="card-body center">
-                        <p className="card-title">COD S218</p>
+                        <p className="card-title">COD 1508</p>
                       </div>
                     </div>
                   </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S205`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/novios/Solitario/4013`}>
                     <div className="mb-2">
                       <img className="card-img-top rotate-90" src={img5}
                           alt="Card image cap"/>
                       <div className="card-body center">
-                        <p className="card-title">COD S205</p>
+                        <p className="card-title">COD 4013</p>
                       </div>
                     </div>
                   </Link>
@@ -125,48 +125,48 @@ const Home = () => {
                 </div>
                 <div className="carousel-item">
                   <div className="row allCenter">
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2"   to={ `/producto/Sortija-toda-ocasión/S225`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2"   to={ `/novios/Con%20más%20Diamantes%20ó%20Laterales/4031`}>
                       <div className="mb-2">
                         <img className="card-img-top rotate-90" src={img6}
                             alt="Card image cap"/>
                         <div className="card-body center">
-                          <p className="card-title">COD S225</p>
+                          <p className="card-title">COD 4031</p>
                         </div>
                       </div>
                     </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S226`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/novios/Con%20más%20Diamantes%20ó%20Laterales/3102`}>
                       <div className="mb-2">
                         <img className="card-img-top rotate-90" src={img7}
                           alt="Card image cap"/>
                         <div className="card-body center">
-                          <p className="card-title">COD S226</p>
+                          <p className="card-title">COD 3102</p>
                         </div>
                       </div>
                     </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S227`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/novios/Con%20más%20Diamantes%20ó%20Laterales/3107`}>
                       <div className="mb-2">
                         <img className="card-img-top rotate-90" src={img8}
                             alt="Card image cap"/>
                         <div className="card-body center">
-                          <p className="card-title">COD S227</p>
+                          <p className="card-title">COD 3107</p>
                         </div>
                       </div>
                     </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S205`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/novios/Con%20más%20Diamantes%20ó%20Laterales/4028`}>
                       <div className="mb-2">
                         <img className="card-img-top rotate-90" src={img9}
                             alt="Card image cap"/>
                           <div className="card-body center">
-                            <p className="card-title">COD S205</p>
+                            <p className="card-title">COD 4028</p>
                           </div>
                       </div>
                     </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S217`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/novios/Con%20más%20Diamantes%20ó%20Laterales/4027`}>
                       <div className="mb-2">
                         <img className="card-img-top rotate-90" src={img10}
                               alt="Card image cap"/>
                         <div className="card-body center">
-                          <p className="card-title">COD S217</p>
+                          <p className="card-title">COD 4027</p>
                         </div>
                       </div>
                     </Link>
@@ -183,30 +183,30 @@ const Home = () => {
                         </div>
                       </div>
                     </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S221`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S226`}>
                       <div className="mb-2">
                         <img className="card-img-top" src={img12}
                             alt="Card image cap"/>
                         <div className="card-body center">
-                          <p className="card-title">COD S221</p>
+                          <p className="card-title">COD S226</p>
                         </div>
                       </div>
                     </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S205`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S217`}>
                       <div className="mb-2">
                         <img className="card-img-top" src={img13}
                               alt="Card image cap"/>
                         <div className="card-body center">
-                          <p className="card-title">COD S205</p>
+                          <p className="card-title">COD S217</p>
                         </div>
                       </div>
                     </Link>
-                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S205`}>
+                    <Link  className="item-container-total text-decoration-none text-reset col-12 col-sm-4  mb-2 option-menu nav-link col-md-2 clearfix d-none d-md-block"   to={ `/producto/Sortija-toda-ocasión/S221`}>
                       <div className="mb-2">
                         <img className="card-img-top" src={img14}
                               alt="Card image cap"/>
                         <div className="card-body center">
-                          <p className="card-title">COD S205</p>
+                          <p className="card-title">COD S221</p>
                         </div>
                       </div>
                     </Link>

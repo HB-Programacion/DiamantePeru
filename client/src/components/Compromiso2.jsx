@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import Carrousel from './Carrousel'
 import arrJoyas from '../data';
 const Compromiso2 =()=>{
-    const CompromisoVarios = arrJoyas.filter(e => e.Categoría==="Con más Diamantes ó Laterales" && e.Sección === "Novios/Anillo de Compromiso");
+    const CompromisoVarios = arrJoyas.filter(e => e.novios==="diamantes" && e.Sección === "Novios/Anillo de Compromiso");
  
 return (
     <div className="w100 pt-5 pb-5 flex flexCenter animated fadeIn fondoCompromiso"> 

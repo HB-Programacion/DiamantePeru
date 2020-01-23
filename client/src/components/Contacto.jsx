@@ -16,7 +16,7 @@ const Contacto = () => {
      };
    async function fetchdata(e){ 
        e.preventDefault();
-      const res =await fetch('http://localhost:5000/api/consultsOfCustomers', {
+      const res =await fetch('http://www.diamanteperu.com/api/consultsOfCustomers', {
        method: 'POST',
        body: JSON.stringify({
         NombreUser:name,
